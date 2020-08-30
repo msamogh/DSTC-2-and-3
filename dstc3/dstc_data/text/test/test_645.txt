@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cafe food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Downing College, or Saint John's College.|request
+USR|no|negate
+SYS|Carringtons is an outstanding cafe and a great restaurant.|offer
+SYS|It serves cafe food and english food.|offer
+USR|what is|null
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|the phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|what is the address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|thank you good bye|bye

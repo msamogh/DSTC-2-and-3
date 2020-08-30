@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|be right there|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|im looking for a moderatly priced traditional restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, the Regency Gallery, or the Ruskin Gallery.|request
+USR|im looking a traditional restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Holy Trinity Church, or the Ruskin Gallery.|request
+USR|im looking a traditional restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, Corpus Christi, or Great Saint Mary's Church.|request
+USR|it doesnt matter|inform
+SYS|The Eagle is an outstanding restaurant, it serves traditional food and it's in the moderate price range.|offer
+USR|it doesnt matter|inform
+SYS|The Eagle is an outstanding restaurant and it serves traditional food.|offer
+SYS|It's in the moderate price range.|offer
+USR|<unk> what is the phone number|request
+SYS|The phone number of The Eagle is 01223505020.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Eagle is 01223505020.|offer
+USR|what is the post code|request
+SYS|The Eagle is in the area with the postcode CB2 3QN.|offer
+USR|what is the post code|request
+SYS|The Eagle is in the area with the postcode CB2 3QN.|offer
+USR|thank you good bye|bye

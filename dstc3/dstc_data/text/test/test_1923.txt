@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need an east asian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Girton.|request
+USR|central|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or central area.|request
+USR|central|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Jesus College, or Sidney Sussex College.|request
+USR|sidney sussex college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Trumpington area.|request
+USR|trumpington|inform
+SYS|There is no restaurant in the Trumpington area and serving east asian food.|canthelp
+USR|any part of town|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|thank you goodbye|bye

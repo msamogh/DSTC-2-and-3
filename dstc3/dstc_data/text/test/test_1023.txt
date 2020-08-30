@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh can i get an expensive retaurant around castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, French, or Seafood.|request
+USR|uh seafood|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|uh can i get a phone number please|request
+SYS|The phone number of Loch Fyne is 01223902103.|offer
+USR|<unk> ok thank you goodbye|thankyou

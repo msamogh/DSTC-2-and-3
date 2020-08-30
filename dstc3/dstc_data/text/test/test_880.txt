@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ya hi ah i am trying to find a moderately priced restaurant and it should be in the <unk> area|hello
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Contemporary, or International.|request
+USR|mexican food|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|ah international food|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|contemporary food|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|ya ah i would like it to be in the moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or riverside area.|request
+USR|and it should be located in downtown area|inform
+SYS|There is no restaurant in the Girton area and serving contemporary food in the moderate price range.|canthelp
+USR|ok and uh <unk> international food in girton area|ack
+SYS|Would you like a contemporary food, or you don't care?|select
+USR|ah international food in girton area|inform
+SYS|Would you like a contemporary food, or you don't care?|select
+USR|ah i want to find a moderately prices restaurant and it should be in the girton area|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|ya it should be in the moderate price range|inform
+SYS|Would you like a contemporary food, or you don't care?|select
+USR|ya contemporary food|inform
+SYS|Would you like a contemporary food, or you don't care?|select
+USR|comtemporary food|inform
+SYS|There is no restaurant in the Girton area and serving contemporary food in the moderate price range.|canthelp
+USR|ok thank you good bye|ack

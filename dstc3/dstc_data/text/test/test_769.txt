@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Castle Galleries, or Hughes Hall.|request
+USR|city center|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Indian, or International.|request
+USR|it doesnt matter if city center|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Folk Museum, or the Scott Polar Museum.|request
+USR|it doesnt matter|inform
+SYS|La Raza is a great restaurant.|offer
+SYS|It's in the central part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|it dunt uh city center|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|La Raza is a great restaurant, it's in the central part of town and it's in the cheap price range.|offer
+USR|ok what is the address phone number|ack
+SYS|La Raza is on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|um what is the price|request
+SYS|La Raza is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|thank you goodbye|bye

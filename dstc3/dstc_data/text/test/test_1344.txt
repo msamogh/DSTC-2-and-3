@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um im looking for a coffee shop in griton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Greek, or Middleeastern.|request
+USR|um a coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, International, or Middleeastern.|request
+USR|international|inform
+SYS|There is no cafe serving international food.|canthelp
+USR|uh|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or King's Hedges area.|request
+USR|im looking for a coffee shop|inform
+SYS|There is no cafe serving international food.|canthelp
+USR|thank you good bye|bye

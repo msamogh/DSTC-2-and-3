@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an american restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, Clare Hall, or Milton Country Park.|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an american venue.|expl-conf
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Girton area.|request
+USR|it doesnt matter|inform
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+USR|what is the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|what is the price|request
+SYS|Gourmet Burger  is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|thank you good bye|bye

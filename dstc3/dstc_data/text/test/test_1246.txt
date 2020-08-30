@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes id like a traditional restaurant in the expensive price range|affirm
+SYS|The Granta Bar is an outstanding restaurant and it serves traditional food.|offer
+SYS|It's in the expensive price range.|offer
+USR|ok can i have the address and price|ack
+SYS|The Riverside Restaurant is located on University Centre, Granta Place.|offer
+SYS|The price for main courses ranges from 14 pounds 95 to 16 pounds 95.|offer
+USR|thank you goodbye|bye

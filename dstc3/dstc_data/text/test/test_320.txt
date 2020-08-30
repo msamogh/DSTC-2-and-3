@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Newnham area.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|northern european restaurant|inform
+SYS|Polonia is an outstanding restaurant and it serves northern european food.|offer
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or Romsey area.|request
+USR|i dont care about the price range|inform
+SYS|Polonia is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 7 pounds 50.|offer
+USR|romsey area|inform
+SYS|Polonia is in the riverside part of town.|offer
+USR|thank you and good bye|bye

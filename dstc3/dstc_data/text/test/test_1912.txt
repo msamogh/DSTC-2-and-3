@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a greek restaurant and it should be in the city centre area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i want to know the available price ranges|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|cheap|inform
+SYS|There is no restaurant serving greek food in the cheap price range.|canthelp
+USR|moderate|inform
+SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|tell me the address|request
+SYS|The Eraina Taverna is on 2 Free School Lane.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 13 pounds 95.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|thank you goodbye|bye

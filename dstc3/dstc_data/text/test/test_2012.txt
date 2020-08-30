@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant and it should be in the city centre area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Girton.|request
+USR|central|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Newnham, or Trumpington area.|request
+USR|trumpington|inform
+SYS|There is no restaurant in the Trumpington area that is providing services for free.|canthelp
+USR|in the city centre area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, or Vegetarian.|request
+USR|vegetarian|inform
+SYS|There is no restaurant serving vegetarian food that is providing services for free.|canthelp
+SYS|Would you like a free price range, or you don't care?|select
+USR|im looking for a free restaurant and it should be|inform
+SYS|There is no restaurant in the central area and serving vegetarian food.|canthelp
+USR|yes|affirm
+SYS|Would you like a vegetarian food, or you don't care?|select
+USR|what about city centre|reqalts
+SYS|Would you like a vegetarian food, or you don't care?|select
+USR|i dont care|inform
+SYS|The Michaelhouse Centre, which is in the central part of town, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|i dont care|inform
+SYS|The Michaelhouse Centre, which is in the central part of town, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|okay|ack
+SYS|Can I help you with anything else?|reqmore
+USR|can i have the ad|null
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+USR|phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|thank you and goodbye|bye

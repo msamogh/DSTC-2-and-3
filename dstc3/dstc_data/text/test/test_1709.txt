@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Mediterranean, or Traditional.|request
+USR|traditional|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Fen Ditton area.|request
+USR|cherryhinton|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving traditional food.|canthelp
+USR|cherryhinton|inform
+SYS|Would you like a traditional food, or you don't care?|select
+USR|i dont care|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address and post code|request
+SYS|Sitar Tandoori, which is in the area with the postcode CB1 9HX, is located on 43 High Street, Cherry Hinton.|offer
+USR|thank you goodbye|bye

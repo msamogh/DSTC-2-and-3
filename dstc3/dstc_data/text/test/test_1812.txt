@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Museum of Archaelogy and Anthropology, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|is there something in the girton area|inform
+SYS|La Raza is in the central part of town.|offer
+USR|what is the area|request
+SYS|La Raza is in the central part of town.|offer
+USR|can i <unk>|null
+SYS|La Raza is a great restaurant.|offer
+USR|im looking for a cheap restaurant in the girton area|inform
+SYS|The Dojo Noodle Bar is a great restaurant and it's in the Girton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|could i get the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|what is the postcode|request
+SYS|The Dojo Noodle Bar is in the area with the postcode CB2 1RQ.|offer
+USR|thank you good bye|bye

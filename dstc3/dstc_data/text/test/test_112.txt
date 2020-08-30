@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Michaelhouse Centre, or the Regency Gallery.|request
+USR|a restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or New Chesterton area.|request
+USR|north european|inform
+SYS|Polonia, which serves northern european food, is an outstanding restaurant.|offer
+USR|barnwell|inform
+SYS|The Wheatsheaf is an outstanding restaurant and it's in the Barnwell part of town.|offer
+USR|cheap price range|inform
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
+SYS|The price for main courses ranges from 4 pounds to 13 pounds and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|is it in the cheap price range|confirm
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer
+SYS|The price for main courses ranges from 4 pounds to 13 pounds and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|what is the address|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|the phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|thank you goodbye|bye

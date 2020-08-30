@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ah looking for a contemporary restaurant in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or King's Hedges area.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or Trumpington area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Castle Hill.|request
+USR|castle hill|inform
+SYS|Cotto is an outstanding restaurant and it serves contemporary food.|offer
+USR|ah whats the address phone number and post code|request
+SYS|Cotto, which is in the area with the postcode CB1 1BG, is on 183 East Road.|offer
+SYS|Its phone number is 01223302010.|offer
+USR|thank you good bye|bye

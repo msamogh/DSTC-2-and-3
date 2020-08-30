@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|chinese|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Trumpington area.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Newnham area.|request
+USR|the city center area|inform
+SYS|Charlie Chan, which is in the central part of town, is a great restaurant.|offer
+SYS|This place, which serves chinese food, is in the moderate price range.|offer
+USR|city center area|inform
+SYS|Charlie Chan is a great restaurant, it's in the central part of town, it serves chinese food and it's in the moderate price range.|offer
+USR|what is the address of charlie chan|request
+SYS|Charlie Chan is located on 14 Regent Street.|offer
+USR|what is the address|request
+SYS|Charlie Chan is located on 14 Regent Street.|offer
+USR|waht is the post code|request
+SYS|Charlie Chan is in the area with the postcode CB2 1DB.|offer
+USR|post code|request
+SYS|Charlie Chan is in the area with the postcode CB2 1DB.|offer
+USR|thank you and goodbye|bye

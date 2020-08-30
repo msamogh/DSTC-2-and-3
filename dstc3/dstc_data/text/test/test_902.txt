@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|mexican tex mex restaurant any area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Newnham area.|request
+USR|i dont care|inform
+SYS|Chiquito, which serves mexican and tex mex food, is a great restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of Chiquito is 01223400170.|offer
+USR|whats the price|request
+SYS|Chiquito is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 15 pounds 95.|offer
+USR|thank you goodbye|bye

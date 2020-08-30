@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|yeah im looking for a pub food restaurant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Gallery at twelve A High Street, or the Regency Gallery.|request
+SYS|The Fountain Inn, which serves pub food, is a great restaurant.|offer
+USR|yeah hi uh im looking for|affirm
+SYS|The Fountain Inn is a great restaurant.|offer
+SYS|It serves pub food.|offer
+USR|ok can i have address|ack
+SYS|The Fountain Inn is located on 12 Regent Street.|offer
+USR|ok the address please|ack
+SYS|The Fountain Inn is located on 12 Regent Street.|offer
+USR|ok and the price range|ack
+SYS|The Fountain Inn is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|the price range|request
+SYS|The Fountain Inn is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|ah thank you have a nice day|thankyou
+SYS|The Fountain Inn is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+SYS|The Fountain Inn is a great restaurant.|offer
+USR|ah thank you good bye|thankyou

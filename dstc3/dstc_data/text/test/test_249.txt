@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Indian, or Turkish.|request
+USR|indian|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Greek, or Indian.|request
+USR|greek|inform
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|kings hedges area|inform
+SYS|There is no restaurant in the King's Hedges area and serving greek food.|canthelp
+USR|turkish food|inform
+SYS|There is no restaurant in the King's Hedges area and serving turkish food.|canthelp
+USR|traditional food|inform
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|kingss hedges area|inform
+SYS|There is no restaurant in the King's Hedges area and serving traditional food.|canthelp
+USR|thank you good bye|bye

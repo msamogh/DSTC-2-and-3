@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a continenta|null
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant and it should be in the riverside area|inform
+SYS|The Galleria, which is in the riverside part of town, is a great restaurant.|offer
+SYS|It serves continental food.|offer
+USR|can i get the phone number and the price|request
+SYS|The phone number of the Galleria is 01223362054.|offer
+SYS|The price for main courses ranges from 9 pounds 95 to 16 pounds 95.|offer
+USR|thank you goodbye|bye

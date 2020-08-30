@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Bakers is an outstanding pub.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|The Bakers is on 176 East Road.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, Magdalene College, or the Whipple Museum of the History of Science.|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|moderately priced|inform
+SYS|The Anchor, which is in the moderate price range, is an outstanding pub.|offer
+USR|in what area|request
+SYS|The Anchor is in the Castle Hill part of town.|offer
+SYS|The Anchor is a great pub.|offer
+SYS|The Anchor, which is in the moderate price range, is a great pub.|offer
+USR|<unk> do you have anything in newnham area|reqalts
+SYS|There is no pub in the Newnham area.|canthelp
+USR|do you have anything in newnham|reqalts
+SYS|There is no pub in the Newnham area.|canthelp
+USR|do you have a restaurant in newnham|inform
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|a restaurant|inform
+SYS|The Red Bull is a great restaurant.|offer
+SYS|It's in the Newnham part of town.|offer
+SYS|It's in the moderate price range.|offer
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, French, or Turkish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or East asian.|request
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|french|inform
+SYS|The Red Bull is an outstanding restaurant, it's in the Newnham part of town and it's in the moderate price range.|offer
+SYS|The Red Bull is a great restaurant and it's in the Newnham part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+SYS|The Red Bull is a great restaurant.|offer
+SYS|The Red Bull is a great restaurant.|offer
+USR|address|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+USR|address|request
+SYS|The Red Bull is on 11 Barton Road, Newnham.|offer
+USR|thank you goodbye|bye

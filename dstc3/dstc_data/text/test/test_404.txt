@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|japanese restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, the Museum of Archaelogy and Anthropology, or Trinity College.|request
+USR|no particular venue|negate
+SYS|Yippee Noodle Bar, which serves chinese take away, is an outstanding restaurant.|offer
+SYS|It serves japanese food.|offer
+USR|japanese restaurant moderate price range|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Yippee Noodle Bar is a great restaurant, it serves chinese take away and japanese food and it's in the moderate price range.|offer
+USR|a address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|address|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+USR|phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|repeat phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|area|null
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|area of venue|request
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|location|null
+SYS|Yippee Noodle Bar is an outstanding restaurant.|offer
+USR|area of venue|request
+SYS|Yippee Noodle Bar is an outstanding restaurant, it serves chinese take away and japanese food and it's in the moderate price range.|offer
+USR|japanese restaurant|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|location|null
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you goodbye|bye

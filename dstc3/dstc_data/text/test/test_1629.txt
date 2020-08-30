@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a traditional restaurant in the medium price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or Romsey area.|request
+USR|any part of town|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Regency Gallery, or Sidney Sussex College.|request
+USR|regency gallery|inform
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Gallery at twelve A High Street, or The Fitzwilliam Museum.|request
+USR|fitzwilliam museum|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Old Schools, or the Scott Polar Museum.|request
+USR|fitzwilliam museum|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Christ's College, or Wandlebury Country Park.|request
+USR|christs college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Archaelogy and Anthropology, Queens' College, or Primavera.|request
+USR|christs college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Holy Trinity Church, or Trinity College.|request
+USR|christs college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, the Folk Museum, or Gonville and Caius College.|request
+USR|christs college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Corpus Christi, or the Regency Gallery.|request
+USR|thank you and goodbye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|anything|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate <unk>|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|chesterton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Trumpington.|request
+USR|moderate|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|chinese|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|chinese food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, the Saint Barnabas Press Gallery, or Wandlebury Country Park.|request

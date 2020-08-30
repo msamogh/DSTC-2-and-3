@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a moderately priced restaurant in the barnwell area|inform
+SYS|The Wheatsheaf is an outstanding restaurant, it's in the Barnwell part of town and it's in the moderate price range.|offer
+USR|may i have the address and phone number|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy and its phone number is 01223812196.|offer
+USR|and one more thing what is the postcode|request
+SYS|The Wheatsheaf is in the area with the postcode CB5 9AD.|offer
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+SYS|The Wheatsheaf is a great restaurant, it's in the Barnwell part of town and it's in the moderate price range.|offer
+SYS|The Wheatsheaf is an outstanding restaurant and it's in the Barnwell part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the postcode|request
+SYS|The Wheatsheaf is in the area with the postcode CB5 9AD.|offer
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|The Wheatsheaf is an outstanding restaurant, it's in the Barnwell part of town and it's in the moderate price range.|offer
+USR|what is the postcode|request
+SYS|The Wheatsheaf is in the area with the postcode CB5 9AD.|offer
+SYS|The Wheatsheaf is a great restaurant.|offer
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|thank you good bye|bye

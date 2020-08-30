@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Trumpington area.|request
+USR|romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Mediterranean, or Traditional.|request
+USR|mediterranean|inform
+SYS|There is no restaurant serving mediterranean food in the cheap price range.|canthelp
+USR|traditional|inform
+SYS|There is no restaurant serving traditional food in the cheap price range.|canthelp
+USR|pub|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap price range|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Seafood, or Vegetarian.|request
+USR|east asian|inform
+SYS|There is no restaurant in the Romsey area and serving east asian food.|canthelp
+USR|i dont care|inform
+SYS|There is no restaurant in the Romsey area and serving east asian food.|canthelp
+USR|cheap food|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|romsey area|inform
+SYS|Would you like an east asian food, or you don't care?|select
+USR|i dont care|inform
+SYS|The Royal Standard, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|phone number|request
+SYS|The phone number of the Royal Standard is 01223902175.|offer
+SYS|The price for main courses ranges from 4 pounds 75 to 7 pounds 50.|offer
+USR|post code|request
+SYS|The Royal Standard is in the area with the postcode CB1 3NL.|offer
+USR|thank you good bye|bye

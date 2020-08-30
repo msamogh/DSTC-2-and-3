@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|moderately priced restaurant in the girton a|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, or the Museum of Archaelogy and Anthropology.|request
+USR|moderately priced restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Milton Country Park, or the Ruskin Gallery.|request
+USR|it doesnt matter|inform
+SYS|The Rainbow Cafe is an outstanding restaurant, it's in the Girton part of town and it's in the moderate price range.|offer
+USR|gir|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or Newnham area.|request
+USR|girton area|inform
+SYS|The Rainbow Cafe is a great restaurant, it's in the Girton part of town and it's in the moderate price range.|offer
+USR|chesterton|inform
+SYS|Twenty-four is an outstanding restaurant, it's in the Chesterton part of town and it's in the moderate price range.|offer
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|a pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|whats the address please|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|may i have the address|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|what is the price range|request
+SYS|The Rainbow Cafe is in the moderate price range.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|the price range|request
+SYS|The Rainbow Cafe is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|thank you good bye|bye

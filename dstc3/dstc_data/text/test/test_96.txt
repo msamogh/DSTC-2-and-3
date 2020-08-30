@@ -1,0 +1,45 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|im looking for a rest|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or International.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|american|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, Little Saint Mary's, or The Fitzwilliam Museum.|request
+USR|american|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Romsey area.|request
+USR|city center|inform
+SYS|Gourmet Burger , which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves american food.|offer
+USR|address|request
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+USR|three two four five begent|null
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|and the price|request
+SYS|Gourmet Burger  is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|ok thank you|ack
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|is it burger gourmet|confirm
+SYS|Gourmet Burger  is a great restaurant.|offer
+SYS|Gourmet Burger , which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves american food.|offer
+USR|thank you|thankyou
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i need a pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Fen Ditton, or New Chesterton area.|request
+USR|it doesnt matter|inform
+SYS|The Bakers is a great pub.|offer
+USR|does it have internet|request
+SYS|Yes.|affirm
+SYS|The Bakers has an internet connection.|affirm
+USR|does it have television|request
+SYS|The Bakers is in the riverside part of town.|offer
+USR|ok does it have television|ack
+SYS|The Bakers is a great pub.|offer
+USR|does the bakers have television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|something else|reqalts
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|does it have television|request
+SYS|The Bakers is a great pub.|offer
+USR|um can you look do you have anything else|reqalts
+SYS|The Bakers is an outstanding pub.|offer
+USR|do you have anything else|reqalts
+SYS|The Bakers is an outstanding pub.|offer
+USR|do you have anything else|reqalts
+SYS|The Bakers is an outstanding pub.|offer
+USR|i need a pub not bakers|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|what other pubs do you have|reqalts
+SYS|The Bakers is a great pub.|offer
+USR|what else do you have|reqalts
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|something else please|reqalts
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a turkish restaurant in the expensive price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or Fen Ditton.|request
+USR|it doesnt matter|inform
+SYS|The Agora, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|whats the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Agora is 01223308448.|offer
+USR|whats the post code|request
+SYS|The Agora is in the area with the postcode CB2 1SJ.|offer
+USR|thank you goodbye|bye

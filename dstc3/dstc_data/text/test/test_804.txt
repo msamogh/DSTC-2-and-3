@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a cheap restaurant in|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, pub, or Traditional.|request
+USR|im looking for a cheap restaurant and it should be in the castle ill harea|inform
+SYS|What type of food would you like?|request
+SYS|For example, Middleeastern, Turkish, or Vegetarian.|request
+USR|traditional|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, the Book and Print Gallery, or the Museum of Classical Archaeology.|request
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|beeping|null
+SYS|There is no restaurant serving middleeastern food in the cheap price range.|canthelp
+USR|beeping any one|null
+SYS|La Raza, which is in the central part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you good bye|bye

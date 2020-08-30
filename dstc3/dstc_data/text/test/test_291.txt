@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a pub in castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, the Book and Print Gallery, or the Folk Museum.|request
+USR|um castle hill|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|The Anchor, which is in the moderate price range, is an outstanding pub.|offer
+USR|the address|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Old Schools, or the Scott Polar Museum.|request
+USR|churchill|inform
+SYS|The Anchor is an outstanding pub.|offer
+USR|phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|internet|inform
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|thank you good bye|bye

@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes|affirm
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a moderately pri|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|moderately priced restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Chinese, or Indian.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the King's Hedges, New Chesterton, or Romsey area.|request
+USR|dont care|inform
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|moderate price|inform
+SYS|Caffe Uno is an outstanding restaurant and it's in the moderate price range.|offer
+USR|kings hedges|inform
+SYS|The Ranch is a great restaurant, it's in the King's Hedges part of town and it's in the moderate price range.|offer
+USR|and phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|price|request
+SYS|The Ranch is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|thank you good bye|bye
+SYS|The Ranch, which is in the King's Hedges part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye|bye

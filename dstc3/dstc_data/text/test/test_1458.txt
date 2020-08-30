@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a continental restaurant in any price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Girton area.|request
+USR|any price range any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, or Queens' College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Romsey area.|request
+USR|any part of town|inform
+SYS|Blue Spice is a great restaurant.|offer
+USR|i need the address and price|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|The price for main courses ranges from 12 pounds 50 to 12 pounds 50.|offer
+USR|thank you good bye|bye

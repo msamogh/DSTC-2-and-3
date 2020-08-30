@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant in cherry hinton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Pembroke College, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+USR|can you please give me the address|request
+SYS|Spice Merchants is on 60 Trumpington Road.|offer
+USR|and the price|request
+SYS|Spice Merchants is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95.|offer
+USR|the address please|request
+SYS|Spice Merchants is on 60 Trumpington Road.|offer
+USR|and the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|thank you good bye|bye

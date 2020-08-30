@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the newnham area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese take away, or Drinks and snacks only.|request
+USR|area|null
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Mexican and Tex Mex, or Fusion.|request
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|ok um lets see how about a diner|null
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a moderately priced diner in the newnham area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|yes|affirm
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|want mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|ok well thank you good bye|ack

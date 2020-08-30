@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i m looking for a thai restaurant <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Fastfood, or Turkish.|request
+USR|im looking for thai food|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|im looking for thai food|inform
+SYS|The Wrestlers is an outstanding restaurant and it serves thai food.|offer
+USR|thai food in fen|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|fen fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or New Chesterton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or Romsey area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or New Chesterton area.|request
+USR|thai food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Castle Hill area.|request
+USR|thai food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Girton area.|request
+USR|central|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or New Chesterton area.|request
+USR|thank you good bye|bye

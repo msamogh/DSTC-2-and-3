@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Byard Art, or Old Schools.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or riverside area.|request
+USR|fen ditton area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|fen ditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|yawn yes|affirm
+SYS|Blue Spice is a great restaurant, it's in the Girton part of town and it serves indian food.|offer
+USR|fen d in fen ditton|inform
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|thank you good bye|bye

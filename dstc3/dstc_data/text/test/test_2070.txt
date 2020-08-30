@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a chinese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Saint Barnabas Press Gallery, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|The Peking Restaurant is a great restaurant, it serves chinese food and it's in the cheap price range.|offer
+USR|does it serve take out|confirm
+SYS|The Peking Restaurant, which is in the cheap price range, is a great restaurant.|offer
+SYS|The Peking Restaurant is a great restaurant.|offer
+USR|is it to go|null
+SYS|The Peking Restaurant is a great restaurant.|offer
+USR|does it serve take away|confirm
+SYS|The Peking Restaurant is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|in the cheap price range|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|yes|affirm
+SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
+SYS|The price for main courses ranges from 3 pounds to 9 pounds.|offer
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+SYS|The Peking Restaurant is an outstanding restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|what area is it in|request
+SYS|The Peking Restaurant is in the Addenbrooke's part of town.|offer
+USR|thank you good bye|bye

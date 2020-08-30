@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a drink and snacks|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|cafe|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|cafe|inform
+SYS|There is no cafe serving drinks and snacks.|canthelp
+USR|a restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|a cafe|inform
+SYS|There is no cafe serving drinks and snacks.|canthelp
+USR|ok|ack
+SYS|Would you like a drinks and snacks, or you don't care?|select
+USR|i would like drinks and snacks|inform
+SYS|There is no cafe serving drinks and snacks.|canthelp
+USR|have a restaurant with drinks and snacks|inform
+SYS|The Fleur, which serves drinks and snacks, is an outstanding restaurant.|offer
+USR|is it in the riverside area|confirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the riverside area.|expl-conf
+USR|correct|affirm
+SYS|The Fleur, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves drinks and snacks.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Fleur is 01223902183.|offer
+USR|what is the address|request
+SYS|The Fleur is on 73 Humberstone Road.|offer
+USR|thank you goodbye|bye

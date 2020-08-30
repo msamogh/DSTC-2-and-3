@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a turkish restaurant with a moderate price range|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or New Chesterton area.|request
+USR|dont care|inform
+SYS|196 Meze Bar, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+USR|whats the post code|request
+SYS|196 Meze Bar is in the area with the postcode CB1 3NF.|offer
+USR|thank you good bye|bye

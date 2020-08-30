@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for a continental restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or Newnham area.|request
+USR|i dont care|inform
+SYS|Alimentum is an outstanding restaurant and it serves continental and french food.|offer
+USR|whats the price range the address and the phone number|request
+SYS|Alimentum, which is in the expensive price range, is on 152-154 Hills Road.|offer
+SYS|Its phone number is 01223413000.|offer
+USR|thank you goodbye|bye

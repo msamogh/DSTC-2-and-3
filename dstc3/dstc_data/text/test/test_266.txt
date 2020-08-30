@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|contemporary restaurant it should have <unk>|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Folk Museum, or Trinity College.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, pub, or Indian.|request
+USR|contemporary|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Chinese, or International.|request
+USR|international|inform
+SYS|There is no restaurant serving international food in the cheap price range.|canthelp
+USR|what about contemporary restaurant|reqalts
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|uhm lets lets go for a contemporary restaurant|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Chinese, or Indian.|request
+SYS|There is no restaurant serving drinks and snacks in the cheap price range.|canthelp
+USR|what about indian|reqalts
+SYS|Would you like a cheap price range, or you don't care?|select
+SYS|What type of food would you like?|request
+SYS|For example, American, Fastfood, or Turkish.|request
+USR|american fast food|inform
+SYS|Would you like fastfood or X food?|select
+USR|fast food|inform
+SYS|Burger King, which serves fastfood, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|<unk> the address|request
+SYS|Burger King is on The Grafton Centre.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|what about the phone number|request
+SYS|The phone number of Burger King is 01223322666.|offer
+USR|and post code please|request
+SYS|Burger King is in the area with the postcode CB1 1PS.|offer
+USR|alright thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|good bye|bye

@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant and should be in the girton area|inform
+SYS|The Rainbow Cafe is a great restaurant, it's in the Girton part of town and it's in the moderate price range.|offer
+USR|address phone number and price|request
+SYS|The Rainbow Cafe is on 9a King's Parade and its phone number is 01223321551.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|thank you goodbye|bye

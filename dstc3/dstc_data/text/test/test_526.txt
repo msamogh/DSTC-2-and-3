@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a spanish restaurant|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care|inform
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can i get the address the phone number and the area please|request
+SYS|La Raza is in the central part of town and its phone number is 01223464550.|offer
+USR|thank you good bye|bye

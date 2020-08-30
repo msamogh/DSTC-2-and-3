@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub it should be in moderate price range|inform
+SYS|The Anchor, which is in the moderate price range, is an outstanding pub.|offer
+USR|ok can you tell me the phone number and the postal code|ack
+SYS|The phone number of The Anchor is 01223353554.|offer
+SYS|It's in the area with the postcode CB3 9EL.|offer
+USR|thank you good bye|bye

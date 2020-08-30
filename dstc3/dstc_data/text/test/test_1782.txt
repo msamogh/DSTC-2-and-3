@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, or Wandlebury Country Park.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|church hill college|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|ya|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|oh|null
+SYS|Are you looking for a pub or a restaurant?|select
+USR|pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yeah|affirm
+SYS|Are you looking for a venue that allows children?|request
+USR|yes|affirm
+SYS|The Baron of Beef allows children and it's in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|i dont care|inform
+SYS|The Baron of Beef allows children, it's in the cheap price range and it's an outstanding pub.|offer
+USR|would you shut the fuck up oh my god im looking for a pub|inform
+SYS|The Baron of Beef, which allows children, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+SYS|The Baron of Beef allows children, it's in the cheap price range and it's a great pub.|offer
+SYS|The Baron of Beef allows children and it's in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|thank you goodbye|bye

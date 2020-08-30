@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|im looking for an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|moderate|inform
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|moderate|inform
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and english food and it's in the moderate price range.|offer
+USR|what is the address and phone number|request
+SYS|Carringtons is on 23 Market Street and its phone number is 01223361792.|offer
+USR|what is the price range|request
+SYS|Carringtons is in the moderate price range.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|thank you goodbye|bye

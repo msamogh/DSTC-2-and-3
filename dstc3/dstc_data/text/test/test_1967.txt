@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Churchill College, or Sidney Sussex College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or King's Hedges area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or King's Hedges area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Chesterton.|request
+USR|any part of town|inform
+SYS|The Cambridge Blue is an outstanding cafe and it's in the cheap price range.|offer
+USR|what is the address|request
+SYS|The Cambridge Blue is located on 24 Regent Street.|offer
+USR|what are the prices|request
+SYS|The Cambridge Blue is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 20 to 2 pounds 50 and the price for a cappuccino is 1 pound 35.|offer
+USR|thank you goodbye|bye

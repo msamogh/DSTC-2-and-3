@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a chinese restaurant in girton|inform
+SYS|The Phoenix is an outstanding restaurant, it's in the Girton part of town and it serves chinese food.|offer
+USR|what is the address|request
+SYS|The Phoenix is located on 20 Green Street, Histon.|offer
+USR|what is the postcode|request
+SYS|The Phoenix is in the area with the postcode CB4 9JA.|offer
+USR|thank you good bye|bye

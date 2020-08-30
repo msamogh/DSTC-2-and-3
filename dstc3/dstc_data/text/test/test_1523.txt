@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a continental restaurant in the riverside area|inform
+SYS|The Galleria, which is in the riverside part of town, is a great restaurant.|offer
+SYS|It serves continental food.|offer
+USR|may i have the address and phone number|request
+SYS|The Galleria is located on 33 Bridge Street and its phone number is 01223362054.|offer
+USR|what is the postcode|request
+SYS|The Galleria is in the area with the postcode CB2 1UW.|offer
+USR|thank you goodbye|bye

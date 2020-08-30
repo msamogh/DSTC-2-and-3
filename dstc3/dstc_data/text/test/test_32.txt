@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Castle Hill area.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Turkish, or Vegetarian.|request
+USR|chinese|inform
+SYS|Wok n Grill, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|what is the phone number|request
+SYS|The phone number of Wok n Grill is 01223506248.|offer
+USR|what is the price range|request
+SYS|Wok n Grill is in the expensive price range.|offer
+SYS|The price for main courses ranges from 12 pounds 80 to 12 pounds 80.|offer
+USR|thank you good bye|bye

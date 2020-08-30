@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a restaurant in the trumpington area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Book and Print Gallery, or Williams Art and Antiques.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Christ's College, or the Museum of Classical Archaeology.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Chinese, or Greek.|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, or Turkish.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Greek, or Seafood.|request
+USR|i dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|i dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Jesus College, or the Whipple Museum.|request
+USR|yes|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the People's Portraits Exhibition, Saint Catharine's College, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|The Oak Bistro is an outstanding restaurant, it's in the Trumpington part of town and it's in the expensive price range.|offer
+USR|no|negate
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|thank you goodbye|bye

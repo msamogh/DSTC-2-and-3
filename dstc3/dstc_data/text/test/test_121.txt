@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|answer the phone|null
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+SYS|The Bakers is an outstanding pub.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Bakers is a great pub and it's in the cheap price range.|offer
+USR|<unk> it should have a television|inform
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|price range make sure to get the address|request
+SYS|The Bakers is an outstanding pub and it's in the cheap price range.|offer
+USR|does it have a television|request
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|<unk> do they have television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you good bye|bye

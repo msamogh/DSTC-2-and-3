@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a mediterranean restaurant moderate price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Kettle's Yard, or the Museum of Classical Archaeology.|request
+USR|no|negate
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|is it a mediterranean restaurant|confirm
+SYS|Caffe Uno is an outstanding restaurant and it serves italian food.|offer
+USR|whats the address|request
+SYS|Caffe Uno is on 32 Bridge Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of Caffe Uno is 01223314954.|offer
+USR|whats the postcode|request
+SYS|Caffe Uno is in the area with the postcode CB2 1UJ.|offer
+USR|thank you good bye|bye

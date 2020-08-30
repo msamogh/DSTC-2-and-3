@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a traditional restaurant in the moderate price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Botanical Garden* Botanical Gardens, or King's College.|request
+USR|um lets look in the central area|inform
+SYS|The Eagle, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|This place, which serves traditional food, is in the moderate price range.|offer
+USR|excellent uh could you tell me the phone number and its postcode|request
+SYS|The phone number of The Eagle is 01223505020 and it's in the area with the postcode CB2 3QN.|offer
+USR|very good thank you goodbye|bye

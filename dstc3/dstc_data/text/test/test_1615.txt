@@ -1,0 +1,55 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|what the automatic response code please|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|im looking for a food restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|no|negate
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a pub venue.|expl-conf
+USR|no i m looking for <unk>|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|yes|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|ah cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Mediterranean, or Thai.|request
+USR|ah expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Japanese, or Thai.|request
+USR|fastfood|inform
+SYS|There is no restaurant serving fastfood in the expensive price range.|canthelp
+USR|japanese|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|ok ah|ack
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|<unk> <unk> price range|request
+SYS|What type of food would you like?|request
+SYS|For example, Seafood, Spanish, or Turkish.|request
+USR|greek food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Japanese, or Spanish.|request
+USR|sea food|inform
+SYS|Loch Fyne is a great restaurant, it serves seafood and it's in the expensive price range.|offer
+USR|can i have the address please|request
+SYS|Loch Fyne is located on 37 Trumpington Street and it's in the riverside part of town.|offer
+SYS|The price for main courses ranges from 9 pounds to 20 pounds.|offer
+USR|can i have the phone number please|request
+SYS|The phone number of Loch Fyne is 01223902103.|offer
+USR|uhm ok thank you good bye|bye
+SYS|Can I help you with anything else?|reqmore
+USR|no thank you good bye|negate
+SYS|Loch Fyne is a great restaurant.|offer
+USR|no thanks good bye|negate
+SYS|Loch Fyne is a great restaurant.|offer
+USR|thank you good bye|bye

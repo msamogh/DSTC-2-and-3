@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in kings hedges|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care about the price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Mexican and Tex Mex, or American.|request
+USR|doesnt matter|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is a great restaurant.|offer
+USR|what is the address|request
+SYS|The Ranch is on 100 Histon Road.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|thank you good bye|bye

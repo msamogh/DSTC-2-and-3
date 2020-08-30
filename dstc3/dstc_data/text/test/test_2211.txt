@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|expensive price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, Little Saint Mary's, or Wandlebury Country Park.|request
+USR|no no special price|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Thai.|request
+USR|italian|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or Trumpington.|request
+USR|it doesnt matter|inform
+SYS|Ask is a great restaurant and it serves italian food.|offer
+SYS|It's in the expensive price range.|offer
+SYS|Ask is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 25 to 11 pounds 95 and the price for a glass of wine ranges from 4 pounds 85 to 6 pounds 5.|offer
+USR|is this an italian restaurant|confirm
+SYS|Ask is an outstanding restaurant and it serves italian food.|offer
+USR|do you have any others in the expensive price range|reqalts
+SYS|Ask is located on 12 Bridge Street.|offer
+SYS|The price for main courses ranges from 6 pounds 25 to 11 pounds 95 and the price for a glass of wine ranges from 4 pounds 85 to 6 pounds 5.|offer
+USR|do you have any others|reqalts
+SYS|The Sorrento is a great restaurant.|offer
+SYS|It serves italian food.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address|request
+SYS|The Sorrento is on 196 Cherry Hinton Road.|offer
+USR|an what is the post code|request
+SYS|The Sorrento is in the area with the postcode CB1 7AN.|offer
+USR|do you have any other italian restaurants in the expensive price range|reqalts
+SYS|The Sorrento is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 16 pounds 95.|offer
+USR|do you have any others|reqalts
+SYS|The Sorrento is located on 196 Cherry Hinton Road.|offer
+SYS|The Sorrento is a great restaurant.|offer
+SYS|The Sorrento is a great restaurant.|offer
+USR|thank you good bye|bye

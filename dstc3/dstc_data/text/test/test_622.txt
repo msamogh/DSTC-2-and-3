@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a thai restaurant in the expensive price range|inform
+SYS|The Wrestlers is a great restaurant, it serves thai food and it's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Wrestlers is 01223566554.|offer
+USR|and what is the post code|request
+SYS|The Wrestlers is in the area with the postcode CB5 8JE.|offer
+USR|thank you goodbye|bye

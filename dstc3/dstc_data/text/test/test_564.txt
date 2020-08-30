@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Holy Trinity Church, or Saint Catharine's College.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Newnham, or riverside.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Saint Barnabas Press Gallery, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Greek, or Seafood.|request
+USR|it doesnt matter|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|can i get the phone number and the price|request
+SYS|The phone number of La Raza is 01223464550.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|thank you goodbye|bye

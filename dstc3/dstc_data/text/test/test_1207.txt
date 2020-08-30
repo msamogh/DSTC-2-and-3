@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Seafood, or Thai.|request
+USR|pub food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, riverside, or Romsey area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, the Gallery at twelve A High Street, or Old Schools.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or Girton area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Girton area.|request
+USR|central|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Churchill College, or the Museum of Archaelogy and Anthropology.|request
+USR|central|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or Newnham area.|request
+USR|expensive|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|city center|inform
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or Newnham area.|request
+SYS|There is no pub in the expensive price range.|canthelp
+USR|thank you good bye|bye

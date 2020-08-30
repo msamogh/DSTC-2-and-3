@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap restaurant|inform
+SYS|Can I help you with anything else?|reqmore
+USR|in the girton area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Mexican and Tex Mex, or Traditional.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Museum Of Technology, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|Blue Spice, which is in the Girton part of town, is an outstanding restaurant.|offer
+USR|what is the phone number and address|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|thank you goodbye|bye

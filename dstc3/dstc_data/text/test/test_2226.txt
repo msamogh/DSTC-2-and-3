@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or English.|request
+USR|i really dont care|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|in the addenbrookes area|inform
+SYS|The Peking Restaurant, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|food type|request
+SYS|There is no restaurant in the Addenbrooke's area and serving thai food.|canthelp
+USR|type of food|request
+SYS|Can I help you with anything else?|reqmore
+USR|what kind of food|request
+SYS|The Peking Restaurant is a great restaurant.|offer
+USR|phone number and type of food|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|food|inform
+SYS|The Peking Restaurant is an outstanding restaurant.|offer
+USR|what kind of food|request
+SYS|The Peking Restaurant serves chinese food.|offer
+USR|thank you and good bye|bye

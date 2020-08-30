@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cafe food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|doesnt matter|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant.|offer
+SYS|It serves cafe food and english food.|offer
+USR|what is the address and area|request
+SYS|Carringtons is on 23 Market Street.|offer
+SYS|Carringtons is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|in what area is herrington|request
+SYS|Carringtons is in the central part of town.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um im looking for an east asian restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Corpus Christi, or Downing College.|request
+USR|no just anything east asian|negate
+SYS|Little Seoul, which serves east asian food, is an outstanding restaurant.|offer
+USR|is little fill um what whats the price range for little fill|request
+SYS|Little Seoul is in the moderate price range.|offer
+USR|thats um exactly what im looking for so ill go to little fill um wha whats the address and whats the phone number|request
+SYS|Shiraz, which serves east asian food, is a great restaurant.|offer
+USR|no i wanted to go to little fill|negate
+SYS|Thanh Binh, which serves east asian food, is a great restaurant.|offer
+USR|but i need the|null
+SYS|Little Seoul, Thanh Binh and Shiraz are the only restaurants that serve east asian food.|canthelp
+USR|i need the phone number for little fill|request
+SYS|Thanh Binh is located on 17 Magdalene Street and its phone number is 01223362456.|offer
+USR|whats the phone number of little fill|request
+SYS|The phone number of Thanh Binh is 01223362456.|offer
+USR|and what about little fill|null
+SYS|Little Seoul, which serves east asian food, is an outstanding restaurant.|offer
+USR|i want to go to little fill|null
+SYS|Little Seoul is a great restaurant.|offer
+USR|what is its phone number and address|request
+SYS|Little Seoul is on 108 Regent Street and its phone number is 01223308681.|offer
+USR|whats its phone number|request
+SYS|The phone number of Little Seoul is 01223308681.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> international|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Girton area.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|um thinking the cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, American, or Mediterranean.|request
+USR|expensive|inform
+SYS|There is no restaurant in the Cherry Hinton area in the expensive price range.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|i dont care ab|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|<unk> i do nt care about the price range i j|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|do nt care about the price range <unk>|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|i do nt care <unk>|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|i m going to slap you in a minute <unk>|null
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|<unk> no i do nt care about the price i m lo <unk>|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yes <unk>|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Newnham, or Romsey area.|request
+USR|<unk> let me try something thank you good bye|bye
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, International, or Thai.|request
+USR|thank you good bye|bye

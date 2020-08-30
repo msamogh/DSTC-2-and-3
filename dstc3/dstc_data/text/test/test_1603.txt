@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find an english restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Girton area.|request
+USR|i dont care|inform
+SYS|Carringtons, which serves cafe food, is a great cafe.|offer
+SYS|It serves english food and it's an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|whats the price|request
+SYS|Carringtons is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|thank you good bye|bye

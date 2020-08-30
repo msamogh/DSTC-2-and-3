@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|hi i am looking for a moderately priced restaurant and it should be i|hello
+SYS|What type of food would you like?|request
+SYS|For example, Japanese, Seafood, or Thai.|request
+USR|trumpington area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Trumpington area.|expl-conf
+USR|yes i am looking for a moderately priced restaruant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Scott Polar Museum, the Lammas Land Park, or Sidney Sussex College.|request
+USR|in the trumpington area|inform
+SYS|There is no restaurant in the Trumpington area and serving indian food.|canthelp
+USR|ya is there moderately priced restaurant|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|id like the trumpington area|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|<unk> a moderately priced restaurant|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|id like trumpington area|inform
+SYS|Are you looking for a venue in the Romsey or Trumpington area?|select
+SYS|Are you looking for a venue in the Romsey or Trumpington area?|select
+USR|im looking for a moderately priced restaurant in the trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Kettle's Yard, or Wandlebury Country Park.|request
+USR|ya in the trumpington area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, English, or Turkish.|request
+USR|turkish|inform
+SYS|196 Meze Bar is a great restaurant, it's in the Romsey part of town and it serves turkish food.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok can i get the phone number please|ack
+SYS|196 Meze Bar is on 196 Mill Road and its phone number is 01223410519.|offer
+USR|thank you good bye|bye

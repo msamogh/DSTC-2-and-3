@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese take away restaurant in the romsey area|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|im looking for a chinese take away restaurant in the romsey area|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+SYS|Would you like a romsey area, or you don't care?|select
+USR|thank you good bye|bye

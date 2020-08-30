@@ -1,0 +1,69 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Pembroke College, or the Regency Gallery.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Romsey area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or Romsey.|request
+USR|fenditton|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Romsey area.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Japanese, or Traditional.|request
+USR|dont care|inform
+SYS|Blue Spice is an outstanding restaurant and it's in the Girton part of town.|offer
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or riverside area.|request
+USR|fenditton|inform
+SYS|Blue Spice, which is in the Girton part of town, is an outstanding restaurant.|offer
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Romsey area.|request
+USR|fenditton|inform
+SYS|Blue Spice, which is in the Girton part of town, is a great restaurant.|offer
+USR|fenditton|inform
+SYS|Blue Spice, which is in the Girton part of town, is a great restaurant.|offer
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Newnham, or Romsey area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Newnham area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or King's Hedges area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Chesterton area.|request
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|list areas|null
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|fenditton|inform

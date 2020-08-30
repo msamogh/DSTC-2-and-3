@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a seafood restaurant and i dont care about the area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or Romsey area.|request
+USR|i dont care|inform
+SYS|Loch Fyne is an outstanding restaurant and it serves seafood.|offer
+USR|whats the address|request
+SYS|Loch Fyne is located on 37 Trumpington Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of Loch Fyne is 01223902103.|offer
+USR|whats the postcode|request
+SYS|Loch Fyne is in the area with the postcode CB2 1QY.|offer
+USR|thank you goodbye|bye

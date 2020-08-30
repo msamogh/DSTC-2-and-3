@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|i am looking for a cheap restaurant in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Newnham.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, riverside, or Trumpington area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, Romsey, or Trumpington area.|request
+USR|fenditt fenditton|inform
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|how about the fenditton area|reqalts
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|what is the address and phone number|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|thank you goodbye|bye

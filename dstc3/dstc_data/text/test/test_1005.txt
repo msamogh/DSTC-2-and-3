@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|hello im looking for a fast food restaurant|hello
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Michaelhouse Centre, or The Fitzwilliam Museum.|request
+USR|fast food|inform
+SYS|Burger King, which serves fastfood, is a great restaurant.|offer
+USR|fast food restaurant|inform
+SYS|Burger King, which serves fastfood, is an outstanding restaurant.|offer
+USR|can i have the address phone number and price range|request
+SYS|Burger King is located on The Grafton Centre.|offer
+SYS|Its phone number is 01223322666.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|no|negate
+SYS|Burger King is a great restaurant.|offer
+USR|thank you goodbye|bye
+SYS|Burger King is a great restaurant.|offer
+USR|thank you goodbye|bye
+SYS|Burger King is a great restaurant.|offer
+USR|thank you goodbye|bye
+SYS|Burger King is a great restaurant.|offer
+USR|thank you goodbye|bye

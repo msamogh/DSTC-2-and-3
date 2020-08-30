@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> looking for a japanese restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Fen Ditton area.|request
+SYS|I can't hear you.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Fen Ditton area.|request
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or King's Hedges area.|request
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or New Chesterton.|request
+USR|chesterton|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+USR|address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+SYS|I can't hear you.|offer
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+USR|price range|request
+SYS|Twenty-four is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+SYS|I can't hear you.|offer
+SYS|Twenty-four is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|good bye|bye

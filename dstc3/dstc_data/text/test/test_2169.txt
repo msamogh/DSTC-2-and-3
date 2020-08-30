@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese take away restaurant and it should have a moderate price|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok what areas is it in|request
+SYS|Yippee Noodle Bar is in the central part of town.|offer
+USR|ok whats the address|ack
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|ok thank you goodbye|ack

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|i want a moderately priced restaurant in the fenditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Italian, or Mediterranean.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or Romsey area.|request
+USR|fenditton area|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is what do you have in the fenditton area|inform
+SYS|The Lion and Lamb is a great restaurant.|offer
+SYS|It's in the Fen Ditton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|The Lion and Lamb is on High Street, Milton.|offer
+USR|what price range|request
+SYS|The Lion and Lamb is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|thank you goodbye|bye

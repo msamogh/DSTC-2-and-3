@@ -1,0 +1,54 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|contemporary restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, or the Whipple Museum.|request
+USR|castlehill|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|castlehill|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|castlehill area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|restaurant castlehill|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Hughes Hall, or the Saint Barnabas Press Gallery.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Girton.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, Old Schools, or Trinity College.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or King's Hedges area.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Museum of Classical Archaeology, or Trinity College.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, King's Hedges, or Romsey area.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Kettle's Yard, or the Museum of Classical Archaeology.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or Newnham area.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, or King's College.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Trinity College, or Wandlebury Country Park.|request
+USR|thank you goodbye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um i want to find a vegetarian|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Chesterton area.|request
+USR|in cherry hinton|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving vegetarian food.|canthelp
+SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer
+USR|area|null
+SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer
+USR|does it serve vegetarian food|confirm
+SYS|Twenty-four serves contemporary food.|offer
+USR|i want a vegetarian restaurant|inform
+SYS|There is no restaurant in the Chesterton area and serving vegetarian food.|canthelp
+USR|what about any other area|reqalts
+SYS|Can I help you with anything else?|reqmore
+USR|i want a vegetarian restaurant|inform
+SYS|The Rainbow Cafe is a great restaurant and it serves traditional and vegetarian food.|offer
+USR|whats the address|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|and whats the price for the venue|request
+SYS|The Rainbow Cafe is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|thank you good bye|bye

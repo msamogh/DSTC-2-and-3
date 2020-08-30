@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a chinese takeaway restaurant|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese take away venue.|expl-conf
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Cherry Hinton area.|request
+USR|it doesnt matter|inform
+SYS|Yippee Noodle Bar is a great restaurant and it serves chinese take away and japanese food.|offer
+USR|whats the address phone number and area of the venue|request
+SYS|Yippee Noodle Bar is on 7-9 King Street and its phone number is 01223518111.|offer
+USR|whats the area of the venue|request
+SYS|Yippee Noodle Bar is in the central part of town.|offer
+USR|thank you goodbye|bye

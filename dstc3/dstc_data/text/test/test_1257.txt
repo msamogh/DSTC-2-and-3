@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a moderately priced coffee shop|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the University Botanic Gardens, or Hughes Hall.|request
+USR|yes girton area|affirm
+SYS|The Auntie's Tea Shop, which is in the Girton part of town, is a great cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|the girton area|inform
+SYS|The Auntie's Tea Shop, which is in the Girton part of town, is a great cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|uh that sounds good can i get the address|request
+SYS|The Auntie's Tea Shop is a great cafe.|offer
+USR|yes can i get the address phone number and post code|request
+SYS|The Auntie's Tea Shop, which is in the area with the postcode CB2 3PQ, is located on 1 Saint Mary's Passage.|offer
+SYS|Its phone number is 01223315641.|offer
+USR|i want the address phone number and post code please|request
+SYS|The Auntie's Tea Shop, which is in the area with the postcode CB2 3PQ, is on 1 Saint Mary's Passage.|offer
+SYS|Its phone number is 01223315641.|offer
+USR|thank you goodbye|bye

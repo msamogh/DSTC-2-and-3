@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for a moderately priced restaurant and it should be in the fen ditton area make sure you get the address and the type of food of the venue|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, or the Museum of Classical Archaeology.|request
+USR|i need it in the fen ditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Greek, or Indian.|request
+USR|a moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Continental, or Greek.|request
+USR|chinese|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Vegetarian.|request
+USR|vegetarian|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Mexican and Tex Mex, or American.|request
+USR|american|inform
+SYS|There is no restaurant in the Fen Ditton area and serving american food.|canthelp
+SYS|There is no restaurant in the Fen Ditton area and serving american food.|canthelp
+USR|alright thank you good bye|thankyou
+SYS|Would you like an american food, or you don't care?|select
+USR|thank you good bye|bye

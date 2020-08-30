@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderate price restaurant in barnwell|inform
+SYS|The Wheatsheaf is an outstanding restaurant and it's in the Barnwell part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what type of food does it serve|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|what is the address|request
+SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|contemporary restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|im looking for a contemporary restaurant in the girton area|inform
+SYS|Graffiti is an outstanding restaurant, it's in the Girton part of town and it serves contemporary food.|offer
+USR|baby|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or Trumpington area.|request
+USR|baby|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or New Chesterton.|request
+USR|girton area|inform
+SYS|Graffiti, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves contemporary food.|offer
+USR|girton|inform
+SYS|Graffiti, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves contemporary food.|offer
+USR|whats the address|request
+SYS|Graffiti is located on Hotel Felix, Whitehouse Lane, Huntingdon Road.|offer
+USR|what the address|request
+SYS|Graffiti is on Hotel Felix, Whitehouse Lane, Huntingdon Road.|offer
+USR|whats the post code|request
+SYS|Graffiti is in the area with the postcode CB3 0LX.|offer
+USR|whats the post code|request
+SYS|Graffiti is in the area with the postcode CB3 0LX.|offer
+USR|thank you goodbye|bye

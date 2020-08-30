@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|american restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or central area.|request
+USR|dont care|inform
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|price range|request
+SYS|Gourmet Burger  is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|Can I help you with anything else?|reqmore
+SYS|Are you looking for a pub or a restaurant?|select
+USR|<unk> a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Indian, or Japanese.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Fen Ditton area.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Fen Ditton.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, New Chesterton, or Romsey area.|request
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|The Red Bull serves italian food.|offer
+USR|whats the address|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+SYS|The Red Bull is a great restaurant.|offer
+SYS|The Red Bull is an outstanding restaurant.|offer
+SYS|The Red Bull is a great restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+USR|<unk> thank you good bye|bye

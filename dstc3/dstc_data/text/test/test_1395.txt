@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a fusion restaurant in the girton area|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves fusion food.|offer
+USR|what is the adddress|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|what is the price range|request
+SYS|The Dojo Noodle Bar is in the cheap price range.|offer
+USR|thank you good bye|bye

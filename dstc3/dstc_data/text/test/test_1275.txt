@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cheap restaurant and it should be in the romsey area|inform
+SYS|The Royal Standard is a great restaurant, it's in the Romsey part of town and it's in the cheap price range.|offer
+USR|what is the address phone number and type of food at the venue|request
+SYS|The Royal Standard is located on 292 Mill Road and its phone number is 01223902175.|offer
+USR|and the type of food at the venue|request
+SYS|The Royal Standard serves indian food.|offer
+USR|thank you good bye|bye

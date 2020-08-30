@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Kettle's Yard, or the Museum of Classical Archaeology.|request
+USR|<unk> area|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or New Chesterton area.|request
+USR|girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Jesus College, or the Scott Polar Museum.|request
+USR|girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, Old Schools, or Saint Catharine's College.|request
+USR|girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Queens' College, or Saint John's College.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, the Lynne Strover Gallery, or Primavera.|request
+USR|no|negate
+SYS|The Rainbow Cafe is an outstanding restaurant, it's in the Girton part of town and it's in the moderate price range.|offer
+USR|may i have the address and postcode|request
+SYS|The Rainbow Cafe, which is in the area with the postcode CB2 1SJ, is located on 9a King's Parade.|offer
+USR|thank you good bye|bye

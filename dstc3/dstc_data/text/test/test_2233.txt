@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find an american restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Girton area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Regency Gallery, or The Fitzwilliam Museum.|request
+USR|no it doesnt matter|negate
+SYS|Gourmet Burger  is a great restaurant and it serves american food.|offer
+USR|what is the price range of the venue|request
+SYS|Gourmet Burger  is in the cheap price range.|offer
+USR|and what is the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Holy Trinity Church, or Wandlebury Country Park.|request
+USR|restaurant in kings hedges|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, International, or Spanish.|request
+USR|spanish|inform
+SYS|There is no restaurant in the King's Hedges area and serving spanish food.|canthelp
+USR|english|inform
+SYS|There is no restaurant in the King's Hedges area and serving english food.|canthelp
+USR|asian|inform
+SYS|There is no restaurant in the King's Hedges area and serving english food.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|american|inform
+SYS|The Ranch is a great restaurant, it's in the King's Hedges part of town and it serves american food.|offer
+SYS|What type of food would you like?|request
+SYS|For example, French, Fusion, or Turkish.|request
+USR|id like a|null
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Contemporary, or Middleeastern.|request
+USR|in kings hedges|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is a great restaurant.|offer
+SYS|It serves american food.|offer
+USR|contemporary|inform
+SYS|There is no restaurant in the King's Hedges area and serving contemporary food.|canthelp
+USR|what is the address|request
+SYS|The Ranch is located on 100 Histon Road.|offer
+SYS|The Ranch is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+SYS|The Ranch is an outstanding restaurant.|offer
+USR|thank you and good bye|bye

@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|i dont i want to find a chinese take away restaurant i dont care where it is|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|i dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|expensive|inform
+SYS|There is no pub in the expensive price range.|canthelp
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about children and you are looking for a venue.|expl-conf
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, Gonville and Caius College, or Wandlebury Country Park.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Trumpington area.|request
+USR|i dont care|inform
+SYS|Blue Spice is an outstanding restaurant and it's in the expensive price range.|offer
+USR|what is the address|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|what area is that in|request
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|thank you good bye|bye

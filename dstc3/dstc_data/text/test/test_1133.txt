@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant in newnham|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Greek, or Traditional.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|Blue Spice is a great restaurant.|offer
+USR|what type of food does it serve|request
+SYS|Blue Spice serves indian food.|offer
+USR|what is the address and phone number|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way and its phone number is 01223413337.|offer
+USR|thank you goodbye|bye

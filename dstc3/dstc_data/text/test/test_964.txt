@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im ready|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|The Bakers is a great pub.|offer
+USR|a pub moderately priced pub|inform
+SYS|The Bakers is located on 176 East Road.|offer
+USR|with a television|inform
+SYS|The Anchor, which is in the moderate price range, is an outstanding pub.|offer
+USR|ok phone number|ack
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|perfect|null
+SYS|Can I help you with anything else?|reqmore
+USR|does it have a television|request
+SYS|Can I help you with anything else?|reqmore
+USR|phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|alright thank you good bye|thankyou

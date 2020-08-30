@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a turkish restaurant in the moderate price range|inform
+SYS|196 Meze Bar is an outstanding restaurant, it serves turkish food and it's in the moderate price range.|offer
+USR|what is the address|request
+SYS|196 Meze Bar is on 196 Mill Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+USR|what is the area|request
+SYS|196 Meze Bar is in the Romsey part of town.|offer
+USR|thank you goodbye|bye

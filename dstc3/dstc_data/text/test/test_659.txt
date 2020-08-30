@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in the fen ditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Contemporary, or Seafood.|request
+USR|i would like ec an expensive restaurant|inform
+SYS|The Riverside Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|whats the address and the price|request
+SYS|The Riverside Restaurant is located on Cambridge Regional College, Newmarket Road.|offer
+SYS|The price for main courses ranges from 21 pounds 95 to 25 pounds 95.|offer
+USR|thank you good bye|bye

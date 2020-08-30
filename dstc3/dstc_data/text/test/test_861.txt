@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cafe food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Fen Ditton area.|request
+SYS|Carringtons is a great cafe, it serves cafe food, it serves english food and it's an outstanding restaurant.|offer
+USR|does it have a cheap price range|confirm
+SYS|Carringtons is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|what is the phone number and area|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|in what area|request
+SYS|Carringtons is in the central part of town.|offer
+USR|thank you good bye|bye

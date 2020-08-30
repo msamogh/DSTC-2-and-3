@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|uh i need a cheap pub uh with an internet connection please|inform
+SYS|The Bakers, which has an internet connection, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|could you please tell me the phone number and uh do they allow children|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|do they allow children|request
+SYS|The Bakers allows children.|offer
+USR|ok thank you and good bye|ack

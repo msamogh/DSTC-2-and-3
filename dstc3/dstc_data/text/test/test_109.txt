@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Newnham area.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Spanish, or Turkish.|request
+USR|trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Great Saint Mary's Church, or Jesus College.|request
+USR|trumpington|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|trumpington|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Kettle's Yard, or Williams Art and Antiques.|request
+USR|i want the restaurant in trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, or American.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Saint John's College, Williams Art and Antiques, or Primavera.|request
+USR|a restaurant in trumpington|inform
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|price range|request
+SYS|The Oak Bistro is an outstanding venue.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|what is the address|request
+SYS|The Oak Bistro is located on 6 Lensfield Road.|offer
+USR|um what is the phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|thank you goodbye|bye

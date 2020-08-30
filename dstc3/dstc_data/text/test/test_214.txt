@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|drinks and snacks in the riverside area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|drinks and snacks|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|drinks and snacks|inform
+SYS|The Bakers, which has an internet connection, is in the riverside part of town.|offer
+SYS|It's an outstanding pub.|offer
+USR|venue|null
+SYS|There is no pub in the Newnham area.|canthelp
+USR|riverside area|inform
+SYS|Can I help you with anything else?|reqmore
+USR|pub in riverside area|inform
+SYS|The Avery is a great pub and it's in the riverside part of town.|offer
+USR|venue|null
+SYS|The Avery is a great pub.|offer
+USR|address|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+USR|phone number|request
+SYS|The Avery is an outstanding pub.|offer
+USR|phone number of avery|request
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|price range of avery|request
+SYS|The Avery is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+USR|thank you goodbye|bye

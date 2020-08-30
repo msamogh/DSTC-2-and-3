@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like a thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or Newnham area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Trumpington.|request
+USR|i dont care|inform
+SYS|The Wrestlers is an outstanding restaurant, it serves thai food and it's in the expensive price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Wrestlers is 01223566554.|offer
+USR|whats the area|request
+SYS|The Wrestlers is in the riverside part of town.|offer
+USR|thank you good bye|bye

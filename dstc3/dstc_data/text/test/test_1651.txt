@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|coffee shop serving italian food|inform
+SYS|There is no cafe that is providing services for free.|canthelp
+USR|no a coffee shop serving italian food|negate
+SYS|There is no cafe that is providing services for free.|canthelp
+USR|im looking for a coffee shop|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Sidney Sussex College, or the Whipple Museum of the History of Science.|request
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Chesterton.|request
+USR|the area doesnt matter|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|yes a coffee shop|affirm
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|is it a coffee shop|confirm
+SYS|Clowns, which is a great cafe and an outstanding restaurant, is in the central part of town.|offer
+USR|im looking for a coffee shop|inform
+SYS|Clowns, which serves italian food, is a great cafe.|offer
+SYS|It's an outstanding restaurant.|offer
+USR|im looking for a coffee shop|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|is there a coffee shop|confirm
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|where else serves italian food|reqalts
+SYS|Clowns is an outstanding cafe and a great restaurant and it serves italian food.|offer
+USR|is there another restaurant that serves italian food|reqalts
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|a coffee shop|inform
+SYS|Clowns is an outstanding cafe, it serves italian food and it's a great restaurant.|offer
+USR|ok thank you good bye|ack

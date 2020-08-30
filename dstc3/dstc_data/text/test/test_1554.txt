@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub in the romsey area|inform
+SYS|There is no pub in the Romsey area.|canthelp
+USR|uh is there any restaurants in the romsey area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|uh cheap and does it have pub food|confirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|uh cheap or moderate|deny
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|uh yes uh im looking for something with pub food|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|im looking for a pub food restaurant|inform
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|thank you goodbye|bye

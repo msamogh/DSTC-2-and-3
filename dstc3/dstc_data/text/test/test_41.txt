@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh im looking for a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Churchill College, or the People's Portraits Exhibition.|request
+USR|churchill college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Newnham, or Romsey.|request
+SYS|I can't hear you.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Newnham, or Romsey.|request
+USR|newnham <unk>|inform
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> can i have a phone number of this place|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Great Saint Mary's Church, or Jesus College.|request
+USR|church|null
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Italian, or Seafood.|request
+USR|mexican or tex mex|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|can i have that in expensive price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, or Kettle's Yard.|request
+USR|john|null
+SYS|Chiquito is a great restaurant, it serves mexican and tex mex food and it's in the expensive price range.|offer
+USR|what is the phone number of <unk>|request
+SYS|The phone number of Chiquito is 01223400170.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 15 pounds 95.|offer
+USR|whats the address|request
+SYS|Chiquito is located on Cambridge Leisure Park.|offer
+USR|thank you good bye|bye

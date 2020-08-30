@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|middle eastern restaurant|inform
+SYS|Al Casbah, which serves mediterranean and middleeastern food, is a great restaurant.|offer
+USR|moderate price range|inform
+SYS|Al Casbah is a great venue.|offer
+SYS|The price for main courses ranges from 8 pounds 95 to 12 pounds 95.|offer
+USR|address phone number and postcode|request
+SYS|Al Casbah is located on 62 Mill Road.|offer
+SYS|Its phone number is 01223579500.|offer
+SYS|It's in the area with the postcode CB1 2AS.|offer
+USR|thank you goodbye|bye

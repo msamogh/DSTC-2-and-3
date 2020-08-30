@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop serving english food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|cheap|inform
+SYS|The Cambridge Blue, which serves english food, is an outstanding cafe.|offer
+SYS|It's in the cheap price range.|offer
+USR|cheap|inform
+SYS|The Cambridge Blue, which serves english food, is an outstanding cafe.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Cambridge Blue is an outstanding cafe, it serves english food and it's in the cheap price range.|offer
+USR|could i have the address|request
+SYS|The Cambridge Blue is located on 24 Regent Street.|offer
+USR|phone number|request
+SYS|The phone number of the Cambridge Blue is 01223369222.|offer
+SYS|The Cambridge Blue is an outstanding cafe.|offer
+SYS|The Cambridge Blue is a great cafe.|offer
+USR|the postcode|request
+SYS|The Cambridge Blue is in the area with the postcode CB2 1DB.|offer
+USR|the postcode|request
+SYS|The Cambridge Blue is in the area with the postcode CB2 1DB.|offer
+USR|okay thank you goodbye|ack

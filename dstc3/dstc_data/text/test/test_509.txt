@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|hi i want to find a coffee shop serving italian food|hello
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Artworks, or Saint Catharine's College.|request
+USR|i dont care about the area|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|is it can i know the m the the price range please|request
+SYS|There is no cafe serving italian food in the moderate price range.|canthelp
+USR|ah okay|ack
+SYS|Clowns is an outstanding restaurant.|offer
+USR|so whats the address of this one|request
+SYS|Clowns is on 54 King Street.|offer
+USR|a and the phone number please|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|okay thank you goodbye|ack

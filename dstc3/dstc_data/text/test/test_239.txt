@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Girton, or Trumpington area.|request
+USR|central|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Kettle's Yard, or the Michaelhouse Centre.|request
+USR|kettles yard|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Emmanuel College, or the Gallery at twelve A High Street.|request
+USR|corpus christi|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the King's Hedges, riverside, or Trumpington area.|request
+USR|riverside|inform
+SYS|There is no cafe in the riverside area.|canthelp
+USR|thank you goodbye|bye

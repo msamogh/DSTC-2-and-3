@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an italian restaurant in the castle hill area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Trumpington area.|request
+USR|italian|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Girton area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or New Chesterton area.|request
+USR|castle hill|inform
+SYS|Caffe Uno is a great restaurant and it serves italian food.|offer
+USR|what is the address|request
+SYS|Caffe Uno is located on 32 Bridge Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Caffe Uno is 01223314954.|offer
+USR|what is the price|request
+SYS|Caffe Uno is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

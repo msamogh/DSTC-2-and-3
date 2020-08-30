@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a contemporary restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, the University Botanic Gardens, or Primavera.|request
+USR|with a cheap price range|inform
+SYS|All Bar One, which serves contemporary food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number and price of the venue|request
+SYS|The phone number of All Bar One is 01223371081.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 12 pounds 95 and the price for a glass of wine ranges from 2 pounds 85 to 6 pounds 95.|offer
+SYS|All Bar One is an outstanding restaurant.|offer
+USR|what is the <unk> of the venue|null
+SYS|The phone number of All Bar One is 01223371081.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a coffee shop that serves english food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Sidney Sussex College, or Primavera.|request
+USR|no as long as it has cheap food|negate
+SYS|The Cambridge Blue, which serves english food, is a great cafe.|offer
+SYS|It's in the cheap price range.|offer
+USR|ok can i get the address and the phone number and the postcode|ack
+SYS|The Cambridge Blue is on 24 Regent Street.|offer
+SYS|Its phone number is 01223369222.|offer
+SYS|It's in the area with the postcode CB2 1DB.|offer
+USR|ok thank you good bye|ack

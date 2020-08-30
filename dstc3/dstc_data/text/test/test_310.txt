@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|cheap|inform
+SYS|The Milton Park English and Thai Restaurant is an outstanding restaurant.|offer
+SYS|It serves thai food.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes riverside area|affirm
+SYS|There is no restaurant in the riverside area and serving thai food in the cheap price range.|canthelp
+USR|riverside area|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|a thai|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap|inform
+SYS|There is no restaurant in the riverside area and serving thai food in the cheap price range.|canthelp
+USR|the phone number|request
+SYS|Would you like a riverside area, or you don't care?|select
+USR|riverside area phone number|request
+SYS|Would you like a thai food, or you don't care?|select
+USR|thai food|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|i dont care|inform
+SYS|The phone number of the Milton Park English and Thai Restaurant is 01223864602.|offer
+USR|thank you good bye|bye

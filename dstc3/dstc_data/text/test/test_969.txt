@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|<unk> restaurant restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|<unk> any price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Indian.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or central.|request
+USR|indian|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Newnham, or riverside area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, the Lynne Strover Gallery, or the Museum of Classical Archaeology.|request
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area and serving indian food.|canthelp
+USR|the museum of classical archeology address|request
+SYS|Would you like an indian food, or you don't care?|select
+SYS|Would you like an indian food, or you don't care?|select
+USR|well then|null
+SYS|Would you like an indian food, or you don't care?|select
+USR|thank you good bye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|every money <unk>|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|moderate moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, English, or Greek.|request
+USR|im looking in the new chesterton area|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|chinese takeaway|inform
+SYS|Would you like chinese or X food?|select
+SYS|Would you like chinese or X food?|select
+USR|chinese chinese|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese food and it's in the moderate price range.|offer
+USR|perfect can i have the phone number|request
+SYS|The phone number of Hakka is 01223568988.|offer
+USR|thank you goodbye|bye

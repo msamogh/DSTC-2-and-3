@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need an expensive restaurant in the addenbrookes area|inform
+SYS|Would you like a venue with a cheap or expensive price range?|select
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Fusion.|request
+USR|fusion|inform
+SYS|Would you like a venue with an expensive pricerange or with no entrance fee?|select
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Fusion, or Spanish.|request
+USR|fusion|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Spanish, or Turkish.|request
+USR|international|inform
+SYS|There is no restaurant in the Addenbrooke's area and serving international food.|canthelp
+USR|fusion|inform
+SYS|Would you like an addenbrooke's area, or you don't care?|select
+USR|addenbrookes|null
+SYS|Would you like an international food, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Romsey, or Trumpington area.|request
+USR|addenbrookes|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Newnham, or Trumpington area.|request
+USR|central|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

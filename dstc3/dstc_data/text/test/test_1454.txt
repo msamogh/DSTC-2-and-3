@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with an internet connection and i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|im looking for a pub with an internet connection|inform
+SYS|The Bakers is a great pub with an internet connection.|offer
+USR|what is the address and post code|request
+SYS|The Bakers, which is in the area with the postcode CB1 1BG, is located on 176 East Road.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|thank you good bye|bye

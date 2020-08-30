@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Greek, or Turkish.|request
+USR|tex mex|inform
+SYS|There is no restaurant serving mexican and tex mex food that is providing services for free.|canthelp
+USR|turkish|inform
+SYS|The Agora is a great restaurant and it serves turkish food.|offer
+USR|what is the address|request
+SYS|The Agora is on 4 King's Parade.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Agora is 01223308448.|offer
+USR|thank you and good bye|bye

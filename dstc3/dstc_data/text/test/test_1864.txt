@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a japanese restaurant|inform
+SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
+USR|i need to find a japanese restaurant|inform
+SYS|Yippee Noodle Bar is an outstanding restaurant, it serves chinese take away and it serves japanese food.|offer
+USR|is there a japanese restaurant in the high price range|inform
+SYS|Teri-Aki, which serves japanese food, is an outstanding restaurant.|offer
+USR|what is the price|request
+SYS|Teri-Aki is a great venue.|offer
+SYS|The price for main courses ranges from 2 pounds 80 to 11 pounds 80 and the price for a glass of wine ranges from 3 pounds 80 to 5 pounds 80.|offer
+USR|what is the phone number|request
+SYS|The phone number of Teri-Aki is 01223882288.|offer
+USR|thank you goodbye|bye

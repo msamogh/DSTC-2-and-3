@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|locate continental restaurant in the expensive price range|inform
+SYS|Alimentum is an outstanding restaurant and it serves continental food.|offer
+SYS|This place, which serves french food, is in the expensive price range.|offer
+USR|may i have the phone number and area|request
+SYS|The phone number of Alimentum is 01223413000.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|what area is it in|request
+SYS|Alimentum is in the Addenbrooke's part of town.|offer
+USR|thank you good bye|bye

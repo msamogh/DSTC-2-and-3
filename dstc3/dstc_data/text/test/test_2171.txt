@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a pub that allows children and has television|inform
+SYS|Would you like other or true children?|expl-conf
+SYS|I can't hear you.|expl-conf
+SYS|Would you like other or true children?|expl-conf
+USR|im looking for a pub that allows children|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|<unk> no with television|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|any price range|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes|affirm
+SYS|The Bakers, which allows children, is a great pub.|offer
+USR|ok and whats the phone number|ack
+SYS|The Bakers is located on 176 East Road and its phone number is 01223304121.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|ok thank you good bye|ack

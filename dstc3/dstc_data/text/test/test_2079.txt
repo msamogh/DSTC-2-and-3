@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|hello|hello
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|ah just a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Indian, or Turkish.|request
+USR|ah a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Indian, or International.|request
+USR|any kind|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Clare College, or the Gallery at twelve A High Street.|request
+USR|ah i just want cheap food in the romsey area|inform
+SYS|The Kohinoor is an outstanding restaurant, it's in the Romsey part of town and it's in the cheap price range.|offer
+USR|no anywhere in romsey is fine|negate
+SYS|The Kohinoor is a great restaurant and it's in the Romsey part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|what was the name|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Castle Galleries, or Kettle's Yard.|request
+USR|um whats its uh|null
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, Seafood, or Thai.|request
+USR|phone number|request
+SYS|The phone number of The Kohinoor is 01223361435.|offer
+USR|could you repeat that please|repeat
+SYS|The Kohinoor is a great restaurant.|offer
+USR|please repeat the phone number|request
+SYS|The phone number of The Kohinoor is 01223361435.|offer
+USR|ok what kind of food do they serve|ack
+SYS|The Kohinoor serves indian food.|offer
+USR|thank you good bye|bye

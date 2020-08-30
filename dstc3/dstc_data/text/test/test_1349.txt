@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> hi i am looking for a moderately priced restaurant in the barnwell area|hello
+SYS|The Wheatsheaf is a great restaurant.|offer
+SYS|It's in the Barnwell part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok and whats the phone number at the wheatsheaf|ack
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|what sort of stuff do they serve|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton.|request
+USR|no i am asking about the wheatsheaf|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Newnham, or Trumpington area.|request
+USR|what|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, New Chesterton, or Romsey area.|request
+USR|what kind of food does the wheatsheaf serve|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|what kind of food|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|thank you good bye|bye

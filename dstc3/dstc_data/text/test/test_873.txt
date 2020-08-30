@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|ah hi ah im looking for a cheap restaurant|hello
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, the Ruskin Gallery, or the Scott Polar Museum.|request
+USR|a restaurant and it should be cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Fusion, or Indian.|request
+USR|ya it should be in the city center area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, the Museum of Archaelogy and Anthropology, or the Museum of Classical Archaeology.|request
+USR|ya india|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or riverside area.|request
+USR|city center area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, French, or Japanese.|request
+USR|it should be in the city center area city center|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, the Botanical Garden* Botanical Gardens, or Saint Catharine's College.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Fastfood.|request
+USR|fast food|inform
+SYS|There is no restaurant in the central area and serving fastfood.|canthelp
+USR|cafe food|inform
+SYS|Would you like a central area, or you don't care?|select
+USR|ok and a|ack
+SYS|Would you like a central area, or you don't care?|select
+USR|ah french food|inform
+SYS|Would you like a central area, or you don't care?|select
+USR|center area|inform
+SYS|Are you looking for a venue in the central or Girton area?|select
+USR|city center area|inform
+SYS|There is no restaurant serving french food in the cheap price range.|canthelp
+USR|ok thank you good bye|ack

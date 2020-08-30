@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an english restaurant with a moderate price range|inform
+SYS|Carringtons, which serves cafe food, is an outstanding cafe.|offer
+SYS|This place, which serves english food, is in the moderate price range.|offer
+SYS|It's a great restaurant.|offer
+USR|what is the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|what is the postcode|request
+SYS|Carringtons is in the area with the postcode CB2 3NZ.|offer
+USR|<unk> thank you good bye|bye

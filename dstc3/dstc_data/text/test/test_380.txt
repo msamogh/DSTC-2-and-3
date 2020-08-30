@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|oh can i find a free restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Thai, or Vegetarian.|request
+USR|any food i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or New Chesterton area.|request
+USR|i dont care any location|inform
+SYS|Ta Bouche, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|can i know the address and the postcode of the venue|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Ta Bouche is on 10-15 Market Passage and it's in the area with the postcode CB2 3PF.|offer
+USR|thank you good bye|bye

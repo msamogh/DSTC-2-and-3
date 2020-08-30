@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like find an italian restaurant with a cheap price range|inform
+SYS|Clowns is an outstanding cafe and a great restaurant, it serves italian food and it's in the cheap price range.|offer
+USR|how much is the average entree|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|what is the phone number|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|an italian restaurant with a cheap price range|inform
+SYS|The phone number of Clowns is 01223355711.|offer
+SYS|The price for main courses ranges from 5 pounds to 11 pounds and the price for a cappuccino is 1 pound 50.|offer
+USR|what is the post code <unk>|request
+SYS|Clowns is in the area with the postcode CB1 1LN.|offer
+USR|thanks good bye|bye

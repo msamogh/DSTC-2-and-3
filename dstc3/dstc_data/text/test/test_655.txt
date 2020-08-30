@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a moderately priced restaurant in the cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Kettle's Yard, or the Scott Polar Museum.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Newnham, or Romsey area.|request
+USR|i dont care|inform
+SYS|Caffe Uno, which is in the moderate price range, is a great restaurant.|offer
+USR|what is the address|request
+SYS|Caffe Uno is on 32 Bridge Street.|offer
+USR|of the venue|null
+SYS|Caffe Uno is a great restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of Caffe Uno is 01223314954.|offer
+USR|what is the address|request
+SYS|Caffe Uno is on 32 Bridge Street.|offer
+USR|and what is the price of the venue|request
+SYS|Caffe Uno is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

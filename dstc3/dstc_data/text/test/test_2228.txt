@@ -1,0 +1,69 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a cheap restaurant in the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or riverside area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Romsey area.|request
+USR|fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, New Chesterton, or Trumpington area.|request
+USR|fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or riverside area.|request
+USR|fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or New Chesterton area.|request
+USR|fen ditton|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or New Chesterton.|request
+USR|fen ditton|inform
+SYS|The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town and it's in the cheap price range.|offer
+USR|cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or Trumpington area.|request
+USR|fen ditton|inform
+SYS|There is no restaurant in the Trumpington area in the cheap price range.|canthelp
+USR|fen ditton|inform
+SYS|Are you looking for a venue in the Cherry Hinton or Trumpington area?|select
+USR|fen ditton|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap|inform
+SYS|The Dojo Noodle Bar is an outstanding restaurant and it's in the Girton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|fen ditton area|inform
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|fen ditton area|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, International, or Seafood.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Newnham.|request
+USR|in the girton area|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|girton|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Newnham area.|request
+USR|phone number and address|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|phone number|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|phone number and address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard and its phone number is 01223363471.|offer
+USR|thank you and good bye|bye

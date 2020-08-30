@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> indian re|inform
+SYS|Can I help you with anything else?|reqmore
+USR|indian restaurant|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|phone ringing|request
+SYS|Carringtons, which serves cafe food, is a great cafe.|offer
+SYS|It serves english food and it's an outstanding restaurant.|offer
+SYS|Can I help you with anything else?|reqmore
+SYS|Carringtons is an outstanding cafe and a great restaurant and it serves cafe food and english food.|offer
+USR|in indian restaurant|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+USR|indian restaurant <unk>|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+USR|romsey area|inform
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|romsey area|inform
+SYS|The Royal Standard, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves indian food.|offer
+USR|romsey area|inform
+SYS|The Royal Standard, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves indian food.|offer
+USR|thank you goodbye|bye

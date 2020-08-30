@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> is a japanese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Yippee Noodle Bar is a great restaurant, it serves chinese take away and it serves japanese food.|offer
+USR|whats the price|request
+SYS|Yippee Noodle Bar is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|what is the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Chesterton area.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, Seafood, or Vegetarian.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Michaelhouse Centre, or the Museum of Classical Archaeology.|request
+USR|addonbrookes|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, the People's Portraits Exhibition, or The Fitzwilliam Museum.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Girton area.|request
+USR|<unk> addonbrookes <unk>|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, the Saint Barnabas Press Gallery, or Sidney Sussex College.|request
+USR|<unk> addonbookes i would like to get the address and price for a cheap restaurant|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or Newnham area.|request
+USR|thank you good bye|bye

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant cheap restaurant in the cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, the Regency Gallery, or the Scott Polar Museum.|request
+SYS|Spice Merchants is a great restaurant and it's in the Cherry Hinton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|cheap restaurant in the cherry hinton area|inform
+SYS|Spice Merchants is a great restaurant, it's in the Cherry Hinton part of town and it's in the cheap price range.|offer
+USR|<unk> address|request
+SYS|Spice Merchants is located on 60 Trumpington Road.|offer
+SYS|Spice Merchants is a great restaurant.|offer
+USR|address|request
+SYS|Spice Merchants is located on 60 Trumpington Road.|offer
+USR|post code|request
+SYS|Spice Merchants is in the area with the postcode CB2 8EX.|offer
+SYS|Spice Merchants is an outstanding restaurant.|offer
+USR|post code|request
+SYS|Spice Merchants is in the area with the postcode CB2 8EX.|offer
+SYS|Spice Merchants is a great restaurant.|offer
+USR|address and post code for that restaurant|request
+SYS|Spice Merchants is on 60 Trumpington Road and it's in the area with the postcode CB2 8EX.|offer
+USR|thank you good bye|bye

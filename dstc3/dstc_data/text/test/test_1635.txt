@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for a pub or a restaurant?|select
+USR|<unk> i m loo|null
+SYS|Are you looking for a pub or a restaurant?|select
+USR|<unk> i am looking for a drinks and snacks|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for a drinks and snacks restaurant|inform
+SYS|The Fleur is a great restaurant and it serves drinks and snacks.|offer
+USR|im looking for a drinks and snacks restaurant|inform
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+SYS|The Fleur is a great restaurant and it serves drinks and snacks.|offer
+SYS|The Fleur, which serves drinks and snacks, is an outstanding restaurant.|offer
+USR|what area|request
+SYS|The Fleur is in the riverside part of town.|offer
+USR|thank you and good bye|bye

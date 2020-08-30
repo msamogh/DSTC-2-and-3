@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Contemporary, or Indian.|request
+USR|northern european|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or Trumpington area.|request
+USR|northern european|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|cheap|inform
+SYS|Polonia, which serves northern european food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|address|request
+SYS|Polonia is located on 231 Chesterton Road.|offer
+USR|phone number|request
+SYS|The phone number of Polonia is 01223902138.|offer
+USR|price|request
+SYS|Polonia is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 7 pounds 50.|offer
+USR|thank you good bye|bye

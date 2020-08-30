@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|need to find a japanese restaurant|inform
+SYS|Would you like japanese or X food?|select
+USR|japanese|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, King's College, or Sidney Sussex College.|request
+USR|no|negate
+SYS|Yippee Noodle Bar is an outstanding restaurant, it serves chinese take away and it serves japanese food.|offer
+USR|no|negate
+SYS|Yippee Noodle Bar is a great restaurant.|offer
+SYS|It serves chinese take away and japanese food.|offer
+USR|what is the address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|what is the address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|and the price range|request
+SYS|Yippee Noodle Bar is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|what is the price range the price of the venue|request
+SYS|Yippee Noodle Bar is in the moderate price range.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|ok thank you goodbye|ack

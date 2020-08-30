@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|free <unk>|inform
+SYS|Would you like greek or X food?|select
+USR|chinese food|inform
+SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
+SYS|Would you like a chinese food, or you don't care?|select
+USR|im looking for a ch|null
+SYS|Would you like a chinese food, or you don't care?|select
+USR|chinese food|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|im looking for a chinese take away restaurant|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or riverside area.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or New Chesterton area.|request
+USR|any part of the town <unk>|inform
+SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+USR|chesterton area|inform
+SYS|The J Restaurant is in the riverside part of town.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds.|offer
+SYS|The phone number of the J Restaurant is 01223307273.|offer
+SYS|It's in the area with the postcode CB2 1DP.|offer
+SYS|The J Restaurant is an outstanding restaurant.|offer
+USR|thank you good bye|bye

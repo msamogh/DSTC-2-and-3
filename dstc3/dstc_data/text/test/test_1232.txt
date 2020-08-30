@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, New Chesterton, or Trumpington area.|request
+USR|<unk> italian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Romsey area.|request
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|cherry hinton central|inform
+SYS|Are you looking for a venue in the Cherry Hinton or central area?|select
+USR|whats the address|request
+SYS|Caffe Uno is located on 32 Bridge Street.|offer
+USR|the phone number|request
+SYS|The phone number of Caffe Uno is 01223314954.|offer
+USR|thank you and good bye|bye

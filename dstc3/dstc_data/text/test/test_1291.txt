@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|<unk> pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+SYS|The Alma is a great pub.|offer
+USR|<unk> no|negate
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|restart pub|inform
+SYS|The Alma is a great pub.|offer
+USR|pub|inform
+SYS|The Alma is an outstanding pub.|offer
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+SYS|The Alma is a great pub.|offer
+USR|<unk> yes|affirm
+SYS|The Alma is a great pub.|offer
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+SYS|Can I help you with anything else?|reqmore
+SYS|The Alma is an outstanding pub.|offer
+SYS|Can I help you with anything else?|reqmore
+SYS|The Alma is an outstanding pub.|offer
+USR|does it allow children|request
+SYS|The Alma allows children.|offer
+USR|does it allow children|request
+SYS|The Alma allows children.|offer
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The phone number of The Alma is 01223316722.|offer
+SYS|The Alma is a great pub.|offer
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Alma is in the area with the postcode CB2 1HW.|offer
+SYS|The Alma is an outstanding pub.|offer

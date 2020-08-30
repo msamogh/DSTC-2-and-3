@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um i want a continental restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Old Schools, or Lamma's Land.|request
+USR|um <unk>|null
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|ok|ack
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way and I am sorry but there is no information on its location.|canthelp.missing_slot_value
+USR|alright thank you good bye|thankyou

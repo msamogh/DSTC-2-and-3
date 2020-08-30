@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|expensive english restaurant|inform
+SYS|Would you like turkish or X food?|select
+USR|english|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|expensive|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive|inform
+SYS|The Backstreet Bistro, which serves contemporary and english food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i have the address|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street.|offer
+USR|can i have the phone number|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|can i have the post code|request
+SYS|The Backstreet Bistro is in the area with the postcode CB1 2QA.|offer
+USR|thank you good bye|bye

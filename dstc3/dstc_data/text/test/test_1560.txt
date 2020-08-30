@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Romsey area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Romsey, or Trumpington area.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, the Botanic Garden, or Old Schools.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, or Japanese.|request
+USR|ah doesnt matter|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|ah whats the phone number and post code|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|thats right|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|ah restaurant expensive restaurant|inform
+SYS|The phone number of Blue Spice is 01223413337 and it's in the area with the postcode CB1 7DY.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, the Lammas Land Park, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, pub, Continental, or Greek.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Fen Ditton, or Trumpington area.|request
+USR|do not care|inform
+SYS|Are you looking for a venue in the Girton or Newnham area?|select
+USR|dont care|inform
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
+USR|what is the postal code|request
+SYS|The Michaelhouse Centre is in the area with the postcode CB2 1SU.|offer
+USR|thank you good bye|bye

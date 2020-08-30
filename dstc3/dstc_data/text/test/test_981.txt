@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i would like to find a mexican tex restaurant in the expensive|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, the Scott Polar Museum, or Trinity College.|request
+USR|price range|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, the Lynne Strover Gallery, or Old Schools.|request
+USR|it does not matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or New Chesterton area.|request
+USR|castlehill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, the Lynne Strover Gallery, or Magdalene College.|request
+USR|holy trinity church|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Holy Trinity Church, or Trinity College.|request
+USR|holy trinity vhurch|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Corpus Christi, or Great Saint Mary's Church.|request
+USR|it does not matter|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|mexican texmex|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, Old Schools, or the Regency Gallery.|request
+USR|i am looking for a mexican texmex restaurant in the expensive price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, Pembroke College, or Sidney Sussex College.|request
+USR|thank you goodbye|bye

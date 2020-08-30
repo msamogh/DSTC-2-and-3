@@ -1,0 +1,51 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|<unk> restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|moderately priced|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Newnham area.|request
+USR|moderately price|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Little Saint Mary's, or Primavera.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, American, or Fastfood.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Indian, or Turkish.|request
+USR|any|inform
+SYS|Carringtons serves cafe food and english food.|offer
+SYS|This place, which is an outstanding cafe and a great restaurant, is in the moderate price range.|offer
+USR|international|inform
+SYS|Giraffe is a great restaurant, it serves international food and it's in the moderate price range.|offer
+USR|area|null
+SYS|Giraffe is an outstanding restaurant, it serves international food and it's in the moderate price range.|offer
+USR|location|null
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|Giraffe is on Christ's Lane.|offer
+USR|address|request
+SYS|Giraffe is located on Christ's Lane.|offer
+SYS|Giraffe is a great restaurant.|offer
+USR|district|null
+SYS|Giraffe is in the moderate price range.|offer
+USR|<unk> price|request
+SYS|Giraffe is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|<unk> thank you good bye|thankyou

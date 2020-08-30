@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|cheap pub|inform
+SYS|Are you looking for a venue that allows children?|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or central.|request
+USR|with internet|inform
+SYS|The Bakers, which has an internet connection, is in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|central|inform
+SYS|The Bakers has an internet connection, it's in the cheap price range and it's an outstanding pub.|offer
+USR|are children allowed|inform
+SYS|The Bakers, which allows children, is in the cheap price range.|offer
+SYS|This place, which has an internet connection, is a great pub.|offer
+USR|address|request
+SYS|The Bakers is on 176 East Road and its phone number is 01223304121.|offer
+USR|thank you good bye|bye

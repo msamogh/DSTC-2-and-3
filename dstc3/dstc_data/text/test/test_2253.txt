@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to know a pub that allows children|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Milton Country Park, or the Regency Gallery.|request
+USR|no|negate
+SYS|The Baron of Beef allows children.|offer
+SYS|It's an outstanding pub.|offer
+USR|no|negate
+SYS|The Alma, which allows children, is a great pub.|offer
+USR|okay what is the|ack
+SYS|The Alma is located on Russell Court.|offer
+USR|does it whats the address|request
+SYS|The Alma is on Russell Court.|offer
+USR|and do they have internet|request
+SYS|The Alma doesn't have any internet connection.|offer
+USR|okay bye|ack

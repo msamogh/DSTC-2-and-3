@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i m looking expensive <unk>|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|im looking for expensive ah|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|an expensive restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Fastfood, or Turkish.|request
+USR|im looking for a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Hughes Hall, or Kettle's Yard.|request
+USR|oh i dont care|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, English, or Fastfood.|request
+USR|i dont care|inform
+SYS|Blue Spice is an outstanding restaurant and it's in the expensive price range.|offer
+USR|is it in the romsey area|confirm
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|exellent can i get the address phone number and type of food please|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street and its phone number is 01223306306.|offer
+USR|and the type of food it serves please|request
+SYS|The Backstreet Bistro is an outstanding restaurant.|offer
+USR|what type of food to they serve|request
+SYS|The Backstreet Bistro serves contemporary food.|offer
+SYS|It serves english food.|offer
+USR|ok thank you good bye|ack

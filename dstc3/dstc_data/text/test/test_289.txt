@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Mediterranean, or Spanish.|request
+USR|greek|inform
+SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|and|null
+SYS|There is no restaurant in the Newnham area and serving greek food.|canthelp
+USR|new chesterton area|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes|affirm
+SYS|Would you like a greek food, or you don't care?|select
+USR|greek food|inform
+SYS|Are you looking for a venue in the New Chesterton or Newnham area?|select
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the moderate price range.|expl-conf
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the moderate price range.|expl-conf
+USR|thank you good bye|bye

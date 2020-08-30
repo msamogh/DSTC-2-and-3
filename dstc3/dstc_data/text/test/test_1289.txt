@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, King's Hedges, or New Chesterton area.|request
+USR|<unk> chinese take|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|chinese takeaway restaurant cheap price|inform
+SYS|Would you like chinese or X food?|select
+USR|cheap price range|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese takeaway restaurant|inform
+SYS|Saigon City, which serves chinese take away, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|ill need the address and the postcode of the venue|request
+SYS|Saigon City, which is in the area with the postcode CB4 1NL, is located on 169 High Street, Chesterton.|offer
+SYS|The price for main courses ranges from 4 pounds 60 to 5 pounds 10.|offer
+SYS|Saigon City, which serves chinese take away, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|Saigon City, which serves chinese take away, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|Saigon City, which serves chinese take away, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|i need the address and the postcode of the venue|request
+SYS|Saigon City is on 169 High Street, Chesterton and it's in the area with the postcode CB4 1NL.|offer
+USR|thank you goodbye|bye

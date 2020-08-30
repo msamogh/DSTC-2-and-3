@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a pub that allows children and has a tv|inform
+SYS|The Baron of Beef allows children, it has a television and it's an outstanding pub.|offer
+USR|whats the address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|whats the postcode|request
+SYS|The Baron of Beef is in the area with the postcode CB2 1UF.|offer
+USR|thank you good bye|bye

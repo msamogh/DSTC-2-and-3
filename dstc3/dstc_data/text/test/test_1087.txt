@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in fen ditton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Little Saint Mary's, or the Michaelhouse Centre.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Romsey area.|request
+USR|romsey area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or New Chesterton area.|request
+USR|any area|inform
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|i want to know the address and the phone number and the price|request
+SYS|Caffe Uno is located on 32 Bridge Street and its phone number is 01223314954.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you goodbye|bye
+SYS|Caffe Uno is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you goodbye|bye

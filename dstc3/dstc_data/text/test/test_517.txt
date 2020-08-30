@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a pub and it should have an internet connection|hello
+SYS|The Bakers is an outstanding pub with an internet connection.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or central area.|request
+USR|the central area|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|okay|ack
+SYS|The Bakers is a great pub.|offer
+USR|is there|null
+SYS|Are you looking for a venue that allows children?|request
+USR|tv|inform
+SYS|The Bakers, which has an internet connection and a television, is an outstanding pub.|offer
+USR|no i dont care|negate
+SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
+USR|<unk> does it have|null
+SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
+USR|okay does it have tv|request
+SYS|The Bakers has a television.|offer
+USR|okay whats the address please|ack
+SYS|The Bakers is on 176 East Road.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you goodbye|bye

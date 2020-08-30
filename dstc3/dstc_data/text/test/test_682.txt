@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello|hello
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|uh can you please find me a japanese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|can you please find me a japanese restaurant in a moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, riverside, or Trumpington area.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or riverside area.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Fen Ditton area.|request
+USR|i dont care|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|okay uh what is the address and phone number of the restaurant|ack
+SYS|Yippee Noodle Bar is on 7-9 King Street and its phone number is 01223518111.|offer
+USR|uhum what is the postcode of the restaurant|request
+SYS|Yippee Noodle Bar is in the area with the postcode CB1 1LH.|offer
+USR|okay thank you goodbye|ack

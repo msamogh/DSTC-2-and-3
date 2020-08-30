@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a greek restaurant i dont care about the price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, New Chesterton, or riverside area.|request
+USR|riverside|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Continental, or Turkish.|request
+USR|greek restaurant|inform
+SYS|There is no restaurant in the riverside area and serving greek food.|canthelp
+USR|find me a greek restaurant|inform
+SYS|There is no restaurant in the riverside area and serving greek food.|canthelp
+USR|find me a greek restaurant i dont care where is|inform
+SYS|The Eraina Taverna is a great restaurant and it serves greek food.|offer
+SYS|It's in the moderate price range.|offer
+USR|address and phone number and price please|request
+SYS|The Eraina Taverna is located on 2 Free School Lane and its phone number is 01223902126.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 13 pounds 95.|offer
+USR|thank you and goodbye|bye

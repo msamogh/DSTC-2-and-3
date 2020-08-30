@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub food restaurant in the cherryhinton area|inform
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Six Bells, High Saint is 01223880244.|offer
+USR|what is the price of the venue|request
+SYS|The Six Bells, High Saint is a great venue.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds and the price for a cheapest pint of beer is 2 pounds 90.|offer
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It serves pub food.|offer
+USR|what is the price of the venue|request
+SYS|The Six Bells, High Saint is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds and the price for a cheapest pint of beer is 2 pounds 90.|offer
+USR|thank you goodbye|bye

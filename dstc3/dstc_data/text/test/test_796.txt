@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for any kind of food and i would like it to be free|inform
+SYS|There is no pub that is providing services for free.|canthelp
+USR|is there any sort of food for free|inform
+SYS|There is no pub that is providing services for free.|canthelp
+USR|can i start over|restart
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, the Michaelhouse Centre, or the Museum of Archaelogy and Anthropology.|request
+USR|no nowhere in particular|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Museum of Classical Archaeology, or Old Schools.|request
+USR|no|negate
+SYS|There is no pub that is providing services for free.|canthelp
+USR|um no thats too bad|negate
+SYS|Would you like a free price range, or you don't care?|select
+SYS|Would you like a free price range, or you don't care?|select
+SYS|There is no pub that is providing services for free.|canthelp
+USR|yes please|affirm
+SYS|The Baron of Beef is an outstanding pub.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Ruskin Gallery, or The Fitzwilliam Museum.|request
+USR|how much does it cost|request
+SYS|The Baron of Beef is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+USR|thank you goodbye|bye

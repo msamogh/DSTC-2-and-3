@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|<unk> texmex restaurant|inform
+SYS|Nanna Mexico is a great restaurant and it serves mexican and tex mex food.|offer
+USR|<unk> restaurant|inform
+SYS|Nanna Mexico, which serves mexican and tex mex food, is an outstanding restaurant.|offer
+USR|in the addonbrookes area|inform
+SYS|Chiquito, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It serves mexican and tex mex food.|offer
+USR|<unk> is it in the addonbrookes area|confirm
+SYS|Chiquito is in the Addenbrooke's part of town.|offer
+USR|i need the address and post code|request
+SYS|Chiquito, which is in the area with the postcode CB1 7DY, is on Cambridge Leisure Park.|offer
+SYS|Chiquito is a great restaurant.|offer
+USR|thank you good bye|bye

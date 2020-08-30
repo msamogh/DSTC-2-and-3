@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castle hi hill area|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Newnham, or riverside area.|request
+USR|castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, International, or Mediterranean.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, or Greek.|request
+USR|do you have anything else im looking for a cheap restaurant|reqalts
+SYS|The Dojo Noodle Bar is an outstanding restaurant and it's in the Girton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|okay give me the address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+USR|and the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|thank you goodbye|bye

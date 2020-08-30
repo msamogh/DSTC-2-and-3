@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i m looking for|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|<unk> i m looking for a fast food restaurant w|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|im looking for a fast food|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|pub food restaurant|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|pub food restaurant|inform
+SYS|The Bakers allows children and it's a great pub.|offer
+SYS|Are you looking for a venue that allows children?|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|i need <unk>|null
+SYS|The Bakers is a great pub.|offer
+USR|i need it with a moderate price range|inform
+SYS|The Alma is an outstanding pub.|offer
+SYS|It's in the moderate price range.|offer
+USR|moderate price range|inform
+SYS|The Alma is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 75 to 8 pounds 95 and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|ill need the telephone number and the post code|request
+SYS|The phone number of The Alma is 01223316722 and it's in the area with the postcode CB2 1HW.|offer
+USR|i need the the telephone number and the post code|request
+SYS|The phone number of The Alma is 01223316722 and it's in the area with the postcode CB2 1HW.|offer
+USR|thank you good bye|bye

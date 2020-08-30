@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|italian restaurants|inform
+SYS|Would you like thai or X food?|select
+USR|italian restaurants|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|italian restaurants|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|cheap cheap cheap cheap|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe.|offer
+SYS|It's in the cheap price range and it's a great restaurant.|offer
+USR|cheap|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|Clowns is an outstanding cafe and a great restaurant, it serves italian food and it's in the cheap price range.|offer
+SYS|Clowns is an outstanding cafe and a great restaurant, it serves italian food and it's in the cheap price range.|offer
+SYS|Clowns is a great cafe and an outstanding restaurant, it serves italian food and it's in the cheap price range.|offer
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you goodbye|bye

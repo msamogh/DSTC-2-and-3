@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to know the pub with a internet connection and a tv i just want to know the addresses phone number and the price range|request
+SYS|The Bakers is a great pub with an internet connection and a television.|offer
+USR|uh i want the address the phone number and the price range|request
+SYS|The Bakers is located on 176 East Road and its phone number is 01223304121.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|yeah thanks a lot i got the information thank you goodbye|affirm

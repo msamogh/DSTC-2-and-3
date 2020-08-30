@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a mediterranean restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|price range doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|price range does not matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care about the price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or New Chesterton.|request
+USR|the area doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or riverside area.|request
+USR|the location doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Downing College, or Jesus College.|request
+USR|venue doesnt matter|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or King's Hedges area.|request
+USR|kings hedges|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or Fen Ditton.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, riverside, or Romsey area.|request
+USR|riverside|inform
+SYS|There is no restaurant in the riverside area and serving mediterranean food.|canthelp
+USR|thank you good bye|bye

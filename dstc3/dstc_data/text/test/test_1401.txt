@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for thai restaurant with a moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or New Chesterton area.|request
+USR|i dont care|inform
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Bangkok City is on 24 Green Street.|offer
+USR|what is the price|request
+SYS|Bangkok City is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 50 to 13 pounds 90.|offer
+USR|thank you good bye|bye

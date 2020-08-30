@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a pub food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Fen Ditton area.|request
+USR|fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Kettle's Yard, or Little Saint Mary's.|request
+USR|no|negate
+SYS|The Fountain Inn, which serves pub food, is a great restaurant.|offer
+USR|what area is it in|request
+SYS|The Fountain Inn is in the central part of town.|offer
+USR|do you have a pub food restaurant in the fen ditton area|inform
+SYS|The Fountain Inn, which serves pub food, is a great restaurant.|offer
+USR|do you have any others in the fen ditton area|reqalts
+SYS|The Lion and Lamb is an outstanding restaurant and it serves pub food.|offer
+USR|what area is it in|request
+SYS|The Lion and Lamb is in the Fen Ditton part of town.|offer
+USR|what is the address|request
+SYS|The Lion and Lamb is located on High Street, Milton.|offer
+USR|what is the postcode|request
+SYS|The Lion and Lamb is in the area with the postcode CB4 6DF.|offer
+USR|do you have any others in that area|reqalts
+SYS|The Tram Depot, which serves pub food, is an outstanding restaurant.|offer
+USR|what area is it in|request
+SYS|The Tram Depot is in the riverside part of town.|offer
+USR|do you have any other pub food restaurants in the fen ditton area|reqalts
+SYS|The Lion and Lamb is the only restaurant in the Fen Ditton area that serves pub food.|canthelp
+USR|thank you goodbye|bye

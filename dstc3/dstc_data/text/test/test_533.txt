@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a moderately priced restaurant and it should be in the unintelligibletoo far|inform
+SYS|The Anchor is an outstanding pub.|offer
+USR|unintelligibletoo far from speaker|null
+SYS|Can I help you with anything else?|reqmore
+USR|i want the phone number and post code of the venue|request
+SYS|The Anchor is a great pub.|offer
+SYS|The Anchor is a great pub.|offer
+USR|unintelligbletoo far from speaker|null
+SYS|The Anchor is an outstanding pub.|offer
+SYS|The Anchor is an outstanding pub.|offer
+USR|phone number of the <unk>|request
+SYS|I am sorry but there is no information on The Anchor's food.|canthelp.missing_slot_value
+SYS|The Anchor is an outstanding pub.|offer
+USR|thank you do i get a postcode of the venue|request
+SYS|The Anchor is an outstanding pub.|offer
+SYS|The Anchor is a great pub.|offer
+USR|untelligible and it should be in the new chesterton area|inform
+SYS|The Anchor is a great pub.|offer
+SYS|The Anchor is a great pub.|offer
+SYS|The Anchor is an outstanding pub.|offer
+USR|good bye|bye

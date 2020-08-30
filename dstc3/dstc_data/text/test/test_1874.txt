@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Fen Ditton area.|request
+USR|barnwell|inform
+SYS|There is no pub in the Barnwell area.|canthelp
+USR|any area|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes im looking for a pub|affirm
+SYS|Would you like a barnwell area, or you don't care?|select
+USR|dont care|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|does it have internet|request
+SYS|The Alma doesn't have any internet connection.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Alma is 01223316722.|offer
+USR|thank you goodbye|bye

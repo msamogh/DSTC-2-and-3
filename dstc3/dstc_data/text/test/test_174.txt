@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a cheap pub|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes i am|affirm
+SYS|Are you looking for a venue with an internet connection?|request
+USR|it doesnt matter|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|is it in the riverside area|confirm
+SYS|I am sorry but there is no information on The Baron of Beef's area.|canthelp.missing_slot_value
+USR|i would like a pub in the riverside area please|inform
+SYS|The Avery is a great pub.|offer
+SYS|It's in the riverside part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|and it has a television|inform
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|does it have a tv|request
+SYS|The Avery has a television.|offer
+USR|what is the address|request
+SYS|The Avery is on 69-73 Regent Street.|offer
+USR|thank you goodbye|bye

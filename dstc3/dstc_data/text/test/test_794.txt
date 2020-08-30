@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a tv wouldnt even bother me i never asked you to|inform
+SYS|There is no pub in the Romsey area.|canthelp
+USR|im looking for a restaurant in kings hedges|inform
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a restaurant in kings hedges|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, French, or Indian.|request
+USR|um i dont care|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is an outstanding restaurant.|offer
+USR|can i have the address|request
+SYS|The Ranch is located on 100 Histon Road.|offer
+USR|and the phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|what kind of food is that|request
+SYS|The Ranch is an outstanding restaurant.|offer
+USR|what kind of food|request
+SYS|The Ranch serves american food.|offer
+USR|thank you goodbye|bye

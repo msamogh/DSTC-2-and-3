@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a middle eastern restaurant i dont care about the price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Fusion, or International.|request
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|i dont care about the um area|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|ok|ack
+SYS|What type of food would you like?|request
+SYS|For example, Seafood, or Vegetarian.|request
+USR|<unk> eastern|null
+SYS|What type of food would you like?|request
+SYS|For example, Japanese, Mediterranean, or Spanish.|request
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|i m <unk>|null

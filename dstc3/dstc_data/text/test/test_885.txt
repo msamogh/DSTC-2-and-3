@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am trying to find a chinese take away restaurant and it should be in the cheap price range|inform
+SYS|Saigon City, which serves chinese take away, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can i have the address and the area of the venue|request
+SYS|Saigon City is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 60 to 5 pounds 10.|offer
+USR|the address|request
+SYS|Saigon City is on 169 High Street, Chesterton.|offer
+USR|ok thank you good bye|ack

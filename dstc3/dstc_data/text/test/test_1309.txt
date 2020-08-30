@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a pub in the riverside area and it should have a tv make sure i get the address phone number and whether it has internet|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a pub|inform
+SYS|There is no pub in the Girton area.|canthelp
+USR|a pub|inform
+SYS|Would you like a girton area, or you don't care?|select
+USR|i want it in the riverside area|inform
+SYS|The Bakers, which is in the riverside part of town, is a great pub.|offer
+USR|riverside|inform
+SYS|The Bakers is on 176 East Road.|offer
+USR|does it have tv|request
+SYS|The Bakers is in the cheap price range.|offer
+USR|tv|inform
+SYS|The Bakers, which is in the riverside part of town, is a great pub.|offer
+SYS|It's in the cheap price range.|offer
+USR|does it have internet and tv|request
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|does it have tv and in|request
+SYS|The Bakers has a television.|offer
+USR|thank|thankyou
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|does it have internet|request
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|thank you good bye|bye

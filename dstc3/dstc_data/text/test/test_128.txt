@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|straunt|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, the Michaelhouse Centre, or Queens' College.|request
+USR|fusion|inform
+SYS|Aki Teri, which serves fusion food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|Aki Teri is located on 3-5 Quayside.|offer
+USR|area|null
+SYS|Aki Teri is a great restaurant.|offer
+USR|area|null
+SYS|Aki Teri is an outstanding restaurant.|offer
+USR|good bye|bye
+SYS|Aki Teri, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|good bye|bye

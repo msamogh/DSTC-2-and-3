@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|a food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Fen Ditton area.|request
+USR|and it should be in the city center area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Fusion, or Italian.|request
+USR|i know|null
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Fusion, or Thai.|request
+USR|i dont care|inform
+SYS|La Raza, which is in the central part of town, is a great restaurant.|offer
+USR|make sure you get the address and postcode|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent and it's in the area with the postcode CB2 3LL.|offer
+USR|now the phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|sweet|null
+SYS|The Michaelhouse Centre, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|thank you and good bye|bye

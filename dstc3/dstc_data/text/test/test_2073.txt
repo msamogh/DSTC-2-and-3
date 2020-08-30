@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a cheap restaurant in the addonbrookes area|inform
+SYS|The Peking Restaurant, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Middleeastern, or Traditional.|request
+USR|what is the address|request
+SYS|The Peking Restaurant is on Unit 3, The Belvedere, Homerton Street.|offer
+USR|what is the address|request
+SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
+USR|what is the price|request
+SYS|The Peking Restaurant is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds to 9 pounds.|offer
+USR|thank you good bye <unk>|bye

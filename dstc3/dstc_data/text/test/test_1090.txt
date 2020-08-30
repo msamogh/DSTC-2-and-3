@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant in fen ditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, The Fitzwilliam Museum, or Williams Art and Antiques.|request
+USR|museum|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Queens' College, or the Ruskin Gallery.|request
+USR|queens college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, Great Saint Mary's Church, or Magdalene College.|request
+SYS|The Lion and Lamb is an outstanding restaurant and it's in the Fen Ditton part of town.|offer
+USR|saint marys church|inform
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can i have the address|request
+SYS|The Milton Park English and Thai Restaurant is on Milton Park Golf Course, Ely Road, Milton.|offer
+USR|and the phone number|request
+SYS|The phone number of the Milton Park English and Thai Restaurant is 01223864602.|offer
+USR|thank you goodbye|bye

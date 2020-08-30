@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Clare College, or The Fitzwilliam Museum.|request
+USR|the river side area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Old Schools, Queens' College, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|Caffe Uno is an outstanding restaurant and it's in the riverside part of town.|offer
+USR|im looking for east asian food|inform
+SYS|Little Seoul is a great restaurant.|offer
+SYS|It's in the riverside part of town.|offer
+SYS|It serves east asian food.|offer
+USR|what is the phone number|request
+SYS|The phone number of Little Seoul is 01223308681.|offer
+USR|what is the post code|request
+SYS|Little Seoul is in the area with the postcode CB2 1DP.|offer
+USR|thank you good bye|bye

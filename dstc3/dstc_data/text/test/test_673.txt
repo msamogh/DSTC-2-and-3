@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a pub and it should have a tv i dont care what price range|inform
+SYS|Would you like an other or true television?|expl-conf
+USR|i am looking for a pub and it should have a tv|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or King's Hedges area.|request
+USR|i dont care|inform
+SYS|The Baron of Beef has a television and it's an outstanding pub.|offer
+USR|ok uh does it have internet|ack
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|ok uh can you please tell me what the address of the pub|ack
+SYS|The Baron of Beef is located on Bridge Street.|offer
+SYS|The Baron of Beef has a television and it's an outstanding pub.|offer
+USR|ok thank you good bye|ack

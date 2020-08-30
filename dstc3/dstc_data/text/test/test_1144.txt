@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want chinese take way in the moderate price range|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|take away restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Great Saint Mary's Church, or the Museum of Archaelogy and Anthropology.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Fen Ditton.|request
+USR|i dont care|inform
+SYS|The J Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|i dont care|inform
+SYS|The J Restaurant is an outstanding restaurant, it serves chinese food and it's in the moderate price range.|offer
+USR|what is the address and area|request
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+USR|what is the area and phone number|request
+SYS|The J Restaurant is in the riverside part of town and its phone number is 01223307273.|offer
+USR|thank you good bye|bye

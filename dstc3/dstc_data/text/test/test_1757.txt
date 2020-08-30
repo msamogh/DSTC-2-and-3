@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a moderately priced restaurant uh in the cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Little Saint Mary's, or Trinity College.|request
+USR|cherry hinton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Hughes Hall, or Williams Art and Antiques.|request
+USR|cherry hinton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or English.|request
+USR|uh chinese|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving chinese food in the moderate price range.|canthelp
+USR|english|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|cherry hinton|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|moderately priced|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving english food.|canthelp
+USR|thank you goodbye|bye

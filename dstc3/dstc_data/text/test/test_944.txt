@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|in a expensive price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Regency Gallery, Wandlebury Country Park, or Primavera.|request
+USR|can i have the address to that address and price|request
+SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|yes sounds good let me have the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|<unk> thank you goodbye|bye
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or New Chesterton area.|request
+USR|thank you goodbye|bye

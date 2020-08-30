@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castle hill area|inform
+SYS|Cocum, which is in the Castle Hill part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|ok and whats the address|ack
+SYS|Cocum is on 71 Castle Street.|offer
+USR|and the phone number|request
+SYS|The phone number of Cocum is 01223312569.|offer
+USR|and the price|request
+SYS|Cocum is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds 95 to 7 pounds 95.|offer
+USR|ok thank you good bye|ack

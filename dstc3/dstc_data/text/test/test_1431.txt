@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant in the romsey area|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Newnham area.|request
+USR|the romsey area|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|i need the phone number and postcode|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+SYS|It's in the area with the postcode CB1 2QA.|offer
+USR|thank you good bye|bye

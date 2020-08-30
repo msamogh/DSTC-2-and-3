@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant and it should be in the castlehill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, the Michaelhouse Centre, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, pub, or Fastfood.|request
+USR|drinks and snacks|inform
+SYS|There is no restaurant serving drinks and snacks in the cheap price range.|canthelp
+USR|anything then|inform
+SYS|There is no restaurant serving drinks and snacks in the cheap price range.|canthelp
+USR|im looking for a cheap restaurant that should be in the castlehill area|inform
+SYS|Would you like a drinks and snacks, or you don't care?|select
+USR|i dont care|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|what is the address|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|and whats the post code|request
+SYS|La Raza is in the area with the postcode CB2 3LL.|offer
+USR|thank you goodbuy|bye

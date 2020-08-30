@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant in kings hedges area|inform
+SYS|The Ranch is a great restaurant, it's in the King's Hedges part of town and it's in the moderate price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Newnham area.|request
+USR|whats the address|request
+SYS|The Ranch is located on 100 Histon Road.|offer
+USR|kings hedges area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Kettle's Yard, or Pembroke College.|request
+USR|no|negate
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or New Chesterton area.|request
+USR|whats the address|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|kings hedges area|inform
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|whats the phone num|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|whats the postcode|request
+SYS|The Rainbow Cafe is in the area with the postcode CB2 1SJ.|offer
+USR|whats the postcode|request
+SYS|The Rainbow Cafe is in the area with the postcode CB2 1SJ.|offer
+USR|thanks good bye|bye

@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Girton, or Romsey area.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Middleeastern.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Emmanuel College, or the Whipple Museum.|request
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|fenditton|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|any restaurant in fenditton|inform
+SYS|Can I help you with anything else?|reqmore
+USR|any restaurant|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|in fenditton|inform
+SYS|Would you like a middleeastern food, or you don't care?|select
+USR|<unk> a restaurant in fenditton|inform
+SYS|Al Casbah is an outstanding restaurant and it serves mediterranean and middleeastern food.|offer
+USR|i dont care|inform
+SYS|Are you looking for a venue in the central or Fen Ditton area?|select
+USR|fenditton|inform
+SYS|Al Casbah is an outstanding restaurant.|offer
+USR|address and phone number and post code|request
+SYS|Al Casbah, which is in the area with the postcode CB1 2AS, is on 62 Mill Road.|offer
+SYS|Its phone number is 01223579500.|offer
+USR|thank you good bye|bye

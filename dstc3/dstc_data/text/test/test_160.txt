@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in the castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|it should be expensive um|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, Milton Country Park, or Trinity College.|request
+USR|um expensive high end|inform
+SYS|Would you like thai or X food?|select
+USR|castle hill|inform
+SYS|Would you like thai or X food?|select
+USR|thai|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or Girton.|request
+USR|thai|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the Saint Barnabas Press Gallery, or Saint Catharine's College.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Downing College, or the Gallery at twelve A High Street.|request
+USR|no|negate
+SYS|The Wrestlers is an outstanding restaurant, it serves thai food and it's in the expensive price range.|offer
+USR|no that doesnt matter|negate
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|what is the address|request
+SYS|The Wrestlers is located on 337 Newmarket Road.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|thank you goodbye|bye

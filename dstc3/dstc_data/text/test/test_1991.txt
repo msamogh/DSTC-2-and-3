@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|a restaurant in the romsey area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Chinese, or Spanish.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, French, or Italian.|request
+USR|dont care|inform
+SYS|The Royal Standard, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|i dont care|inform
+SYS|The Royal Standard is on 292 Mill Road.|offer
+USR|address|request
+SYS|The Royal Standard is located on 292 Mill Road.|offer
+USR|what type of food|request
+SYS|The Royal Standard serves indian food.|offer
+USR|what type of food|request
+SYS|The Royal Standard serves indian food.|offer
+USR|thank you good bye|bye

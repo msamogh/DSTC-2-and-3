@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a moderately priced restaurant in the trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Gonville and Caius College, or The Fitzwilliam Museum.|request
+USR|anywhere|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, or King's College.|request
+USR|kings college|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fusion, or Indian.|request
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|can i have the address and the price|request
+SYS|What type of food would you like?|request
+SYS|For example, International, Middleeastern, or Vegetarian.|request
+USR|vegetarian|inform
+SYS|There is no restaurant in the Trumpington area and serving vegetarian food.|canthelp
+USR|thank you goodbye|bye

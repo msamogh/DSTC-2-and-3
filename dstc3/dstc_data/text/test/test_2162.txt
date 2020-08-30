@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a pub with a tv and i dont care that care whether children are allowed|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, Great Saint Mary's Church, or Holy Trinity Church.|request
+USR|it doesnt matter anywhere|inform
+SYS|The Baron of Beef, which allows children, is an outstanding pub.|offer
+USR|does it have internet|request
+SYS|The Bakers, which allows children with an internet connection, is an outstanding pub.|offer
+USR|and the phone number|request
+SYS|The Bakers is in the riverside part of town and its phone number is 01223304121.|offer
+SYS|The Bakers allows children.|offer
+SYS|It has an internet connection.|offer
+SYS|It's a great pub.|offer
+USR|and the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|okay thank you goodbye|ack

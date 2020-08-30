@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um can i find a fusion restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, riverside, or Romsey.|request
+USR|uh doesnt matter|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is an outstanding restaurant.|offer
+USR|um its got to be cheap|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|alright whats the address of it|request
+SYS|The Dojo Noodle Bar is on Miller's Yard.|offer
+USR|the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|and uh can i get a price please|request
+SYS|The Dojo Noodle Bar is a great venue.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|alright thank you goodbye|thankyou

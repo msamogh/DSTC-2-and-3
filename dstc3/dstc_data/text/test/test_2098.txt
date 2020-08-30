@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a pub with an internet connection and a television|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a pub|inform
+SYS|The Anchor is a great pub.|offer
+USR|does it have an internet connection|request
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|i dont care|inform
+SYS|The Anchor is a great pub.|offer
+USR|whats the address|request
+SYS|The Anchor is located on Silver Street.|offer
+USR|does it have internet connection|request
+SYS|The Anchor doesn't have any internet connection.|offer
+USR|id like a pub with an internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|what the address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|are children allowed|inform
+SYS|Would you like true children, or you don't care?|select
+USR|thank you goodbye|bye

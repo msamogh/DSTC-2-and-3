@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced pub|inform
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|does it have a tv|request
+SYS|The Alma has a television.|offer
+USR|i need the address|request
+SYS|The Alma is on Russell Court.|offer
+USR|thank you good bye|bye

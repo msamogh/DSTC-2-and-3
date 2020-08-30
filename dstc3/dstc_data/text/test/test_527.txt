@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|im looking for a cheap restaurant and it should be in the fen ditton area|inform
+SYS|The Royal Standard, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|is it in the fen ditton area|confirm
+SYS|The Royal Standard, which serves indian food, is in the Romsey part of town.|offer
+SYS|The price for main courses ranges from 4 pounds 75 to 7 pounds 50.|offer
+SYS|The Royal Standard, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|is it in the fen ditton area|confirm
+SYS|The Royal Standard is in the Romsey part of town.|offer
+SYS|The Royal Standard is an outstanding restaurant.|offer
+USR|is it in the fen ditton area|confirm
+SYS|The Royal Standard is in the Romsey part of town.|offer
+SYS|The Royal Standard is a great restaurant.|offer
+USR|can i get the phone number and the type of foods of the venue|request
+SYS|The phone number of the Royal Standard is 01223902175.|offer
+USR|and the types of foods of the venue|request
+SYS|The Royal Standard is an outstanding restaurant.|offer
+USR|what type of food do they serve there|request
+SYS|Can I help you with anything else?|reqmore
+USR|type of foods at the venue|request
+SYS|The Bakers is a great pub and it's in the cheap price range.|offer
+USR|the type of food of the venue|request
+SYS|I am sorry but there is no information on The Bakers's food.|canthelp.missing_slot_value
+USR|thank you good bye|bye

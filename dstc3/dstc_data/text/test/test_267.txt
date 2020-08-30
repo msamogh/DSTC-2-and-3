@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Newnham, or Romsey area.|request
+USR|fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, the Museum of Archaelogy and Anthropology, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, American, Greek, or Japanese.|request
+USR|i dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|thats right|affirm
+SYS|Would you like a chinese food, or you don't care?|select
+USR|i dont care|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|i want a cheap restaurant in the fen ditton area|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|is it in fen ditton area|confirm
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|what about in the fen ditton area|reqalts
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Fen Ditton area.|expl-conf
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Fen Ditton area.|expl-conf
+USR|yes please|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Fen Ditton area.|expl-conf
+USR|yes|affirm
+SYS|The Milton Park English and Thai Restaurant is a great restaurant, it's in the Fen Ditton part of town and it's in the cheap price range.|offer
+USR|can you please give me the phone number|request
+SYS|The phone number of the Milton Park English and Thai Restaurant is 01223864602.|offer
+USR|and the postcode please|request
+SYS|The Milton Park English and Thai Restaurant is in the area with the postcode CB24 6DD.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an italian restaurant in the castlehill area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a thai venue.|expl-conf
+USR|no im looking for an italian restaurant in the castlehill area|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Girton area.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Girton area.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Trumpington area.|request
+USR|castlehill|inform
+SYS|Caffe Uno, which serves italian food, is a great restaurant.|offer
+USR|castlehill you mother fucking program|inform
+SYS|There is no cafe serving italian food in the moderate price range.|canthelp
+USR|thank you goodbye|bye

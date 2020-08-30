@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|oh can i uh find a italian restaurant uh in a expensive price range|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum of Classical Archaeology, or Trinity College.|request
+USR|oh any location|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Lynne Strover Gallery, or the Regency Gallery.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Museum of Classical Archaeology, or Saint Catharine's College.|request
+USR|i dont care the location|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Clare Hall, or the People's Portraits Exhibition.|request
+USR|no particular area any place|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Ruskin Gallery, or the Saint Barnabas Press Gallery.|request
+USR|i dont care about the location|inform
+SYS|Ask, which serves italian food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|i just want to find a italian restaurant with expensive price range|inform
+SYS|Ask is in the riverside part of town.|offer
+SYS|The price for main courses ranges from 6 pounds 25 to 11 pounds 95 and the price for a glass of wine ranges from 4 pounds 85 to 6 pounds 5.|offer
+USR|oh can i get the address and the postcode|request
+SYS|Ask is located on 12 Bridge Street and it's in the area with the postcode CB2 1UF.|offer
+USR|uh is it a italian restaurant|confirm
+SYS|Ask, which serves italian food, is a great restaurant.|offer
+USR|thank you goodbye|bye

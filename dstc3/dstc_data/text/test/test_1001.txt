@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|i am looking for a moderately priced|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|pub|inform
+SYS|The Anchor, which is in the moderate price range, is a great pub.|offer
+USR|i am looking for a moderately priced pub|inform
+SYS|The Anchor, which is in the moderate price range, is a great pub.|offer
+USR|does it have a tv|request
+SYS|The Anchor has a television.|offer
+USR|does it have a v|null
+SYS|The Anchor is an outstanding pub.|offer
+USR|ah what|null
+SYS|The Anchor is a great pub.|offer
+USR|whats the address phone number|request
+SYS|The Anchor is on Silver Street.|offer
+USR|what is the address|request
+SYS|The Anchor is on Silver Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|are children allowed|inform
+SYS|The Anchor, which allows children, is in the moderate price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, the Lynne Strover Gallery, or the Michaelhouse Centre.|request
+USR|im looking|null
+SYS|What type of food would you like?|request
+SYS|For example, French, Spanish, or Traditional.|request
+USR|im looking of thia restaurant i|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|im looking for a thia restaurant i dont care|inform
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+USR|i dont care|inform
+SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
+USR|its a thia restaurant|inform
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+USR|it serves thia food i|inform
+SYS|The Wrestlers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|is it a thia restaurant|confirm
+SYS|The Wrestlers is an outstanding restaurant and it serves thai food.|offer
+USR|what is the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+USR|what is the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+USR|do you have any others|reqalts
+SYS|The Wrestlers is an outstanding restaurant.|offer
+USR|do you have any other thia restaurants|reqalts
+SYS|The Wrestlers is an outstanding restaurant.|offer
+USR|im looking for another thia restaurant|inform
+SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
+USR|thank you good bye|bye

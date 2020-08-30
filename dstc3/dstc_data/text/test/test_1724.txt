@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese take away, or Turkish.|request
+USR|japanese|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Newnham, or Romsey area.|request
+USR|in the romsey area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Magdalene College, or Sidney Sussex College.|request
+USR|sydney sussex collesge|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Gonville and Caius College, or King's College.|request
+USR|the technology building|inform
+SYS|Yippee Noodle Bar is a great restaurant, it serves chinese take away and japanese food and it's in the moderate price range.|offer
+USR|thank you good bye|bye

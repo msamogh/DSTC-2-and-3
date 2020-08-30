@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a cheap restaurant in the romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, or Greek.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Hughes Hall, or the Michaelhouse Centre.|request
+USR|it doesnt matter|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Fastfood, or French.|request
+USR|no im not|negate
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Seafood, or Spanish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Spanish, or Turkish.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Romsey, or Trumpington area.|request
+USR|it doesnt matter|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|romsey area|inform
+SYS|La Raza is in the central part of town.|offer
+USR|can you give me the name of the restaurant again please|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, King's Hedges, or riverside area.|request
+USR|romsey area|inform
+SYS|The Royal Standard is a great restaurant and it's in the Romsey part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|can you give me an address and a price|request
+SYS|The Royal Standard is located on 292 Mill Road.|offer
+SYS|The price for main courses ranges from 4 pounds 75 to 7 pounds 50.|offer
+USR|thank you good bye|bye

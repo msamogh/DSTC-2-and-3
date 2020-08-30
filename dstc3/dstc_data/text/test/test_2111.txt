@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for a venue with a television?|request
+USR|end of <unk> audio no i m looking for a seafood restaurant|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|Are you looking for a venue that allows children?|request
+USR|an expensive restaurant <unk> audio simultaneous|inform
+SYS|Would you like other or true children?|expl-conf
+USR|no|negate
+SYS|Would you like true children, or you don't care?|select
+USR|and expensive seafood restaurant <unk> audio simultaneous|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|i do not care|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> thank you good bye|bye

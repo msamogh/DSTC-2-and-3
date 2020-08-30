@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes id like to find a cafe food restaurant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Pembroke College, the Ruskin Gallery, or Sheep's Green.|request
+USR|um i dont care about the price|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Hughes Hall, or Little Saint Mary's.|request
+USR|but i want the phone number and area|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Queens' College, the Regency Gallery, or The Fitzwilliam Museum.|request
+USR|please|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Romsey area.|request
+USR|i dont care|inform
+SYS|Carringtons is an outstanding cafe and a great restaurant and it serves cafe food and english food.|offer
+USR|yes can i have the phone number and area please|affirm
+SYS|The phone number of Carringtons is 01223361792.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|thank you good bye|bye

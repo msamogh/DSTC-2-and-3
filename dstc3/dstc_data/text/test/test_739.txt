@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|sniff sound|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|contemporary restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Emmanuel College, or Old Schools.|request
+USR|romsey area|inform
+SYS|The Backstreet Bistro is an outstanding restaurant, it's in the Romsey part of town and it serves contemporary and english food.|offer
+USR|sniff sound|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Downing College, or Old Schools.|request
+USR|phone number|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|<unk> romsey|inform
+SYS|The Backstreet Bistro is a great restaurant.|offer
+SYS|It's in the Romsey part of town.|offer
+SYS|It serves contemporary and english food.|offer
+USR|the price|request
+SYS|The Backstreet Bistro is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|thank you good bye|bye

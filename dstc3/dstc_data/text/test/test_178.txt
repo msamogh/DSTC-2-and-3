@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for|null
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for a vegetarian restaurant|inform
+SYS|The Rainbow Cafe, which serves traditional food, is an outstanding restaurant.|offer
+SYS|It serves vegetarian food.|offer
+USR|im looking for a vegetarian restaurant|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is a great restaurant.|offer
+USR|what is the address|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|what is the address and|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|what area is that|request
+SYS|The Rainbow Cafe is in the Girton part of town.|offer
+USR|you answered all my questions thank you good bye|thankyou

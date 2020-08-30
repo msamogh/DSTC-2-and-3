@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|yes|affirm
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|does it have television|request
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|does the bakers have television|request
+SYS|The Bakers is a great venue.|offer
+USR|tv|inform
+SYS|The Bakers, which has an internet connection and a television, is an outstanding pub.|offer
+USR|are children allowed|inform
+SYS|The Bakers allows children, it has an internet connection and it's an outstanding pub with a television.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|one hundred and in what city|null
+SYS|The Bakers is near the Ruskin Gallery.|offer
+USR|what city|null
+SYS|The Bakers is a great pub.|offer
+USR|in what city|null
+SYS|The Bakers is an outstanding pub.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you goodbye|bye

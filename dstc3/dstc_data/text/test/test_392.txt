@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|can i find a turkish restaurant <unk>|inform
+SYS|The Agora is a great restaurant.|offer
+SYS|It serves turkish food.|offer
+SYS|It's in the expensive price range.|offer
+USR|price range|request
+SYS|The Agora is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|i want to find a turkish restaurant|inform
+SYS|The Agora is a great restaurant, it serves turkish food and it's in the expensive price range.|offer
+USR|in expenso price range|request
+SYS|The Anatolia Restaurant, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i know the address phone number and the postcode|request
+SYS|The Anatolia Restaurant is on 30 Bridge Street, its phone number is 01223902117 and it's in the area with the postcode CB2 1UJ.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 15 pounds 95.|offer
+USR|thank you good bye|bye

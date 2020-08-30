@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a cheap pub|inform
+SYS|The Bakers is an outstanding pub and it's in the cheap price range.|offer
+USR|a pub|inform
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|what is the postcode|request
+SYS|The Bakers is in the area with the postcode CB1 1BG.|offer
+USR|thank you and goodbye|bye

@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|french restaurant should be free|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, The Fitzwilliam Museum, or Wandlebury Country Park.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or New Chesterton.|request
+USR|i dont care|inform
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|i dont care|inform
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|whats the phone number and area|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|and the area|request
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+USR|thank you good bye|bye

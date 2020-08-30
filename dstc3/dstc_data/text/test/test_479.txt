@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Continental, or Turkish.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Museum of Classical Archaeology, or Sidney Sussex College.|request
+USR|trumpington area|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+USR|address|request
+SYS|The Lion and Lamb is on High Street, Milton.|offer
+USR|thank you good bye|bye

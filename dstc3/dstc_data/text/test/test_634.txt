@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a mexican tex mex restaurant and i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Romsey.|request
+USR|it doesnt matter|inform
+SYS|Chiquito is an outstanding restaurant and it serves mexican and tex mex food.|offer
+USR|whats the phone number|request
+SYS|The phone number of Chiquito is 01223400170.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 15 pounds 95.|offer
+USR|what is the postcode of the venue|request
+SYS|Chiquito is in the area with the postcode CB1 7DY.|offer
+USR|thank you good bye|bye

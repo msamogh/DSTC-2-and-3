@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|pub|inform
+SYS|The Baron of Beef is a great pub.|offer
+USR|internet|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|yes|affirm
+SYS|The Baron of Beef is a great pub.|offer
+USR|yes|affirm
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|internet connection|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|true internet connection|inform
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|children|inform
+SYS|Would you like true children, or you don't care?|select
+USR|true children|inform
+SYS|Would you like true children, or you don't care?|select
+USR|<unk> true children|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|<unk> children|inform
+SYS|Would you like true children, or you don't care?|select
+USR|true children|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|dont care|inform
+SYS|The Baron of Beef is a great pub.|offer
+USR|true internet connection|inform
+SYS|The Bakers is a great pub with an internet connection.|offer
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|t true children|inform
+SYS|The Baron of Beef, which allows children, is an outstanding pub.|offer
+SYS|The Baron of Beef is a great pub.|offer
+USR|<unk> thank you good bye|thankyou

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Fastfood, or Middleeastern.|request
+USR|traditional|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, the Museum of Archaelogy and Anthropology, or Sidney Sussex College.|request
+USR|trumpington area|inform
+SYS|The Unicorn Steak and Ale House is a great restaurant, it's in the Trumpington part of town and it serves traditional food.|offer
+USR|address|request
+SYS|The Unicorn Steak and Ale House is on Church Lane, Trumpington.|offer
+USR|phone number|request
+SYS|The phone number of The Unicorn Steak and Ale House is 01223845102.|offer
+USR|price range|request
+SYS|The Unicorn Steak and Ale House is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 50 to 10 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|ya|affirm
+SYS|The Unicorn Steak and Ale House is a great restaurant.|offer
+USR|price range|request
+SYS|The Unicorn Steak and Ale House is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 50 to 10 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|thank you goodbye|bye

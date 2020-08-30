@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|Are you looking for a venue that allows children?|request
+USR|<unk> restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|fusion restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Fastfood, or Turkish.|request
+USR|whispering|null
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Seafood, or Traditional.|request
+USR|fusion|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+SYS|It serves fusion food.|offer
+SYS|It's in the cheap price range.|offer
+USR|fusion <unk>|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|phone number and address|request
+SYS|The Dojo Noodle Bar is on Miller's Yard and its phone number is 01223363471.|offer
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+USR|thank you good bye|bye

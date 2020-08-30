@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a moderately priced|inform
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|restaurant|inform
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or riverside area.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, French, or Thai.|request
+USR|barnwell area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or Newnham area.|request
+USR|french|inform
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|barnwell central|inform
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|ok|ack
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|moderate price range|inform
+SYS|Would you like a french food, or you don't care?|select
+USR|i dont care|inform
+SYS|Yippee Noodle Bar is a great restaurant, it's in the central part of town and it's in the moderate price range.|offer
+USR|i need something in the barnwell area|inform
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|barnwell|inform
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|barnwell|inform
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|thank you goodbye|bye

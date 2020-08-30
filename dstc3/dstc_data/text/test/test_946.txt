@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|off turn it off|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub a pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Trumpington area.|request
+USR|pub with internet connection|inform
+SYS|The Bakers is an outstanding pub with an internet connection.|offer
+USR|any|inform
+SYS|The Bakers is a great pub.|offer
+USR|chesterton|inform
+SYS|There is no pub in the Chesterton area.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|pub with internet connection|inform
+SYS|The Bakers is a great pub with an internet connection.|offer
+USR|a pub with internet connection|inform
+SYS|The Bakers is an outstanding pub with an internet connection.|offer
+USR|yes|affirm
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|thats the one|ack
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|thank you good bye|bye

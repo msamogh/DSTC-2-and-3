@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|<unk> i m looking for a restaurant that serves pub food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Japanese, or Turkish.|request
+USR|im looking for a restaurant|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|id like pub food|inform
+SYS|There is no restaurant in the Trumpington area and serving pub food.|canthelp
+USR|i dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|i dont care|inform
+SYS|Blue Spice is a great restaurant.|offer
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|im looking for a pub food restaurant|inform
+SYS|The Fountain Inn is a great restaurant and it serves pub food.|offer
+USR|im looking for a restaurant|inform
+SYS|The Fountain Inn is an outstanding restaurant and it serves pub food.|offer
+USR|is it in the expensive price range|confirm
+SYS|The Fountain Inn is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|is it in the expensive price range|confirm
+SYS|The Fountain Inn is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|id like to start over please|restart
+SYS|Revolution, which serves pub food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|start over|restart
+SYS|Revolution is an outstanding restaurant, it serves pub food and it's in the expensive price range.|offer
+USR|what is its phone number|request
+SYS|The phone number of Revolution is 01223364895.|offer
+USR|what is its phone number|request
+SYS|The phone number of Revolution is 01223364895.|offer
+USR|what is its post code|request
+SYS|Revolution is in the area with the postcode CB2 3DS.|offer
+USR|what is the post code|request
+SYS|Revolution is in the area with the postcode CB2 3DS.|offer
+USR|thank you good bye|bye

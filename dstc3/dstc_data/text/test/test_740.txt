@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|mediterranean|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Jesus College, or Milton Country Park.|request
+USR|i dont care|inform
+SYS|Nando's Restaurant, Cambridge Leisure Park, which serves mediterranean food, is a great restaurant.|offer
+USR|address|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is located on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
+USR|thank you good bye|bye

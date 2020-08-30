@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or riverside area.|request
+USR|any kind of food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Middleeastern, Seafood, or Thai.|request
+USR|and it should be free|inform
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|any kind of food|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Chinese, or Continental.|request
+USR|any kind of food|inform
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|<unk> phone number|request
+SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is on Michaelhouse, Trinity Street.|offer
+SYS|Its phone number is 01223309147.|offer
+USR|thank you good bye|bye

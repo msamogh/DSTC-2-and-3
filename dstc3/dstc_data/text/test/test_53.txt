@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an american restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, the Lynne Strover Gallery, or Saint Catharine's College.|request
+USR|any area anywhere should be fine|inform

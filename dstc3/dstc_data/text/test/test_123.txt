@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|Carringtons serves cafe food and english food.|offer
+SYS|This place, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
+USR|what is the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|the price range|request
+SYS|Carringtons is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+SYS|Carringtons is a great restaurant.|offer
+USR|yes yes i heard you|affirm
+SYS|Carringtons is in the central part of town.|offer
+USR|thank you goodbye|bye

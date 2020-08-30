@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|free restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Artworks, or the People's Portraits Exhibition.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, French, or Traditional.|request
+USR|i dont care|inform
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|phone number and address please|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a pub or a restaurant?|select
+USR|free restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|im looking for a free restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|i dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|phone number and address please|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+USR|is it a free restaurant|confirm
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|thank you good bye|bye

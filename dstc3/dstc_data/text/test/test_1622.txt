@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a contemporary restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|ah contemporary|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|cheap|inform
+SYS|All Bar One is a great restaurant, it serves contemporary food and it's in the cheap price range.|offer
+USR|cheap|inform
+SYS|All Bar One, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is phone number|request
+SYS|All Bar One, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of All Bar One is 01223371081.|offer
+USR|what is the phone number|request
+SYS|The phone number of All Bar One is 01223371081.|offer
+USR|what are the prices|request
+SYS|All Bar One is in the cheap price range.|offer
+USR|what are the prices|request
+SYS|All Bar One is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 12 pounds 95 and the price for a glass of wine ranges from 2 pounds 85 to 6 pounds 95.|offer
+USR|what are the prices|request
+SYS|All Bar One is in the cheap price range.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 12 pounds 95 and the price for a glass of wine ranges from 2 pounds 85 to 6 pounds 95.|offer
+USR|thank you and goodbye|bye

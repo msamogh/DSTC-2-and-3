@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|an expensive restaurant in the fenditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, French, or Indian.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Regency Gallery, or Saint Catharine's College.|request
+USR|looking for a french restaurant in the river side area|inform
+SYS|The Hotel du Vin, which is in the riverside part of town, is a great restaurant.|offer
+SYS|This place, which serves french food, is in the expensive price range.|offer
+USR|what is the phone number of the venue|request
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+USR|im looking for a cheap pub with internet connection|inform
+SYS|The Hotel du Vin is a great restaurant.|offer
+USR|i want to know the address phone number and area|request
+SYS|The Hotel du Vin is located on 15-19 Trumpington Street and its phone number is 01223227330.|offer
+USR|thank you good bye|bye

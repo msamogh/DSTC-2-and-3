@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant expensive area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or International.|request
+USR|i dont care|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|romsey area|inform
+SYS|The Backstreet Bistro is a great restaurant.|offer
+SYS|It's in the Romsey part of town.|offer
+SYS|It's in the expensive price range.|offer
+USR|address|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street.|offer
+SYS|The Backstreet Bistro is a great restaurant.|offer
+USR|price|request
+SYS|The Backstreet Bistro is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|thank you good|thankyou

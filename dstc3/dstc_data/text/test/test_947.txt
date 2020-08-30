@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|spanish restaurant <unk>|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Fen Ditton area.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or King's Hedges area.|request
+USR|spanish restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a spanish venue.|expl-conf
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Chesterton area.|request
+USR|chesterton|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|ah yes|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|i need the address from a spanish restaurant <unk>|request
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|thank you|thankyou
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|ah yes|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|ah|null
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|thank you good bye|bye

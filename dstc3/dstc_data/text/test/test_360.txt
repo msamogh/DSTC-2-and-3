@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, American, or Mediterranean.|request
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Japanese, or Spanish.|request
+USR|international|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Gallery at twelve A High Street, or Old Schools.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Newnham area.|request
+USR|new|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, the Scott Polar Museum, or Trinity College.|request
+USR|new chesterton|inform
+SYS|There is no restaurant in the New Chesterton area and serving international food.|canthelp
+USR|no|negate
+SYS|There is no restaurant in the New Chesterton area and serving international food.|canthelp
+USR|no chesterton|negate
+SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
+USR|price|request
+SYS|Twenty-four is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|price|request
+SYS|Twenty-four is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+SYS|Twenty-four is a great restaurant.|offer
+SYS|Twenty-four is a great restaurant.|offer
+USR|address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|dress|null
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|telephone|request
+SYS|The phone number of Twenty-four is 01223395800.|offer
+USR|thanks good bye|bye

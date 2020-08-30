@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|tug|null
+SYS|The Baron of Beef is an outstanding pub.|offer
+SYS|The Baron of Beef is a great pub.|offer
+SYS|The Baron of Beef is a great pub.|offer
+SYS|The Baron of Beef is an outstanding pub.|offer
+SYS|The Baron of Beef is on Bridge Street.|offer
+SYS|I can't hear you.|offer
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|does it have internet and tv|request
+SYS|The Baron of Beef doesn't have any internet connection with a television.|offer
+USR|pub with internet connection and tv|inform
+SYS|The Bakers, which has an internet connection with a television, is a great pub.|offer
+USR|address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|price|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+SYS|I can't hear you.|offer
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|Can I help you with anything else?|reqmore
+USR|thank you goodbye|bye

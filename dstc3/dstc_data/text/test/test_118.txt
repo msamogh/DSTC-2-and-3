@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a coffee shop that serves english food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Little Saint Mary's, or Primavera.|request
+USR|no|negate
+SYS|The Cambridge Blue is an outstanding cafe and it serves english food.|offer
+USR|what is the cheap price range please|request
+SYS|The Cambridge Blue is the only cafe in the cheap price range that serves english food.|canthelp
+USR|what is the address|request
+SYS|The Cambridge Blue is located on 24 Regent Street.|offer
+SYS|The price for main courses ranges from 1 pound 20 to 2 pounds 50 and the price for a cappuccino is 1 pound 35.|offer
+USR|thank you goodbye|bye

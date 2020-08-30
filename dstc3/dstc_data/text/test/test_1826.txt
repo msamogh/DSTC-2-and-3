@@ -1,0 +1,45 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cafe|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|spanish restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Fastfood, or Thai.|request
+USR|fresh|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or New Chesterton area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Saint John's College, or Primavera.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or riverside area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Trumpington area.|request
+USR|i dont care|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|trumpington|inform
+SYS|The Oak Bistro is an outstanding restaurant and it's in the Trumpington part of town.|offer
+USR|price range|request
+SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
+USR|cheap|inform
+SYS|There is no restaurant in the Trumpington area in the cheap price range.|canthelp
+USR|cheap|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|what is the price|request
+SYS|La Raza is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|what is the price|request
+SYS|La Raza is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|hum|null
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes|affirm
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|uh mexican restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|cheap|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|well i dont care|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|well expensive price|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|mexican food|inform
+SYS|Would you like a venue with a cheap or expensive price range?|select
+USR|expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Girton area.|request
+USR|i dont care|inform
+SYS|Nanna Mexico, which serves mexican and tex mex food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|phone number|request
+SYS|The phone number of Nanna Mexico is 01223902150.|offer
+SYS|The price for main courses ranges from 5 pounds 35 to 15 pounds 50 and the price for a cappuccino is 2 pounds 95.|offer
+USR|thank you goodbye|bye

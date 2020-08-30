@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um i want to find a restaurant in newnham|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Indian, or Spanish.|request
+USR|indian|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i get the address|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|thank you good bye|bye

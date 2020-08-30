@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|Can I help you with anything else?|reqmore
+USR|restaurant|inform
+SYS|Can I help you with anything else?|reqmore
+USR|traditional|inform
+SYS|The Eagle, which serves traditional food, is an outstanding restaurant.|offer
+USR|restaurant|inform
+SYS|The Eagle, which serves traditional food, is an outstanding restaurant.|offer
+USR|expensive|inform
+SYS|The Granta Bar is an outstanding restaurant, it serves traditional food and it's in the expensive price range.|offer
+USR|expensive|inform
+SYS|The Granta Bar is a great restaurant.|offer
+SYS|This place, which serves traditional food, is in the expensive price range.|offer
+USR|the address|request
+SYS|The Riverside Restaurant is located on University Centre, Granta Place.|offer
+USR|address|request
+SYS|The Riverside Restaurant is located on University Centre, Granta Place.|offer
+USR|area|null
+SYS|The Granta Bar is a great restaurant.|offer
+USR|what area|request
+SYS|The Granta Bar is in the riverside part of town.|offer
+USR|is it expensive|confirm
+SYS|The Riverside Restaurant is in the expensive price range.|offer
+SYS|The Granta Bar is an outstanding restaurant.|offer
+USR|expensive price range|inform
+SYS|The Granta Bar is an outstanding venue.|offer
+SYS|The price for main courses ranges from 14 pounds 95 to 16 pounds 95.|offer
+USR|address|request
+SYS|The Riverside Restaurant is located on University Centre, Granta Place.|offer
+USR|granta bar address|request
+SYS|The Granta Bar is located on University Centre, Granta Place.|offer
+USR|thank you goodbye|bye

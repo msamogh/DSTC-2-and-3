@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|The Bakers is a great pub.|offer
+USR|thai restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or riverside area.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or Newnham area.|request
+USR|castlehill|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Mediterranean, or Thai.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the King's Hedges, New Chesterton, or Newnham area.|request
+USR|thai|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Saint Barnabas Press Gallery, or Saint Catharine's College.|request
+USR|new chesterton|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|no|negate
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|no|negate
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|new chesterton|inform
+SYS|There is no restaurant in the Chesterton area and serving thai food.|canthelp
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|thank you and goodbye|bye

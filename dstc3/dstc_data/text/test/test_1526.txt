@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like an expensive restaurant in the addenbrookes area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Old Schools, or the Scott Polar Museum.|request
+USR|the addenbrookes area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Cafe Jello, or Castle Galleries.|request
+USR|no|negate
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address and phone number|request
+SYS|The Lucky Star is on Unit and its phone number is 01223244277.|offer
+USR|what is the price|request
+SYS|The Lucky Star is an outstanding venue.|offer
+SYS|The price for main courses ranges from 12 pounds 99 to 14 pounds 99.|offer
+USR|thank you good bye|bye

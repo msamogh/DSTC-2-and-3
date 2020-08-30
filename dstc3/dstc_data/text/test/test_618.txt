@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a turkish restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or central area.|request
+USR|not sure|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, King's College, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|The Agora, which serves turkish food, is a great restaurant.|offer
+USR|whats uh the spelling|null
+SYS|The Agora, which serves turkish food, is a great restaurant.|offer
+USR|whats the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|im sorry can you repeat that|repeat
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|and whats the postcode|request
+SYS|The Agora is in the area with the postcode CB2 1SJ.|offer
+USR|whats the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|how do you spell the name of the restaurant|inform
+SYS|The Agora is a great venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|how is it spelled|null
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|The Alma is an outstanding pub.|offer
+USR|thank you goodbye|bye

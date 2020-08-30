@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a cheap italian restaurant|affirm
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|may i have the address|request
+SYS|Clowns is on 54 King Street.|offer
+USR|may i have the phone number and price|request
+SYS|The phone number of Clowns is 01223355711.|offer
+SYS|The price for main courses ranges from 5 pounds to 11 pounds and the price for a cappuccino is 1 pound 50.|offer
+USR|thank you good bye|bye

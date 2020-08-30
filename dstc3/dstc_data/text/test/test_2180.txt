@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Gonville and Caius College, or the Museum of Archaelogy and Anthropology.|request
+USR|no im not|negate
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Mexican and Tex Mex, or Japanese.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or riverside area.|request
+USR|it doesnt matter|inform
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|i dont care about the area|inform
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|shhh|null
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|can i get the phone number and post code of it|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+SYS|It's in the area with the postcode CB2 1SU.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+USR|can i get the telephone number and postal code|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|can i get the telephone number and postal code please|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147 and it's in the area with the postcode CB2 1SU.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|thank you goodbye|bye

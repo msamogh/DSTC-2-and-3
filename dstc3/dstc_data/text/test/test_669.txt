@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for an east asian restaurant uh it should have expensive price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Girton area.|request
+USR|i dont care|inform
+SYS|Shiraz, which serves east asian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|okay uh can you give me its address its phone number and what is its area|ack
+SYS|Shiraz, which is in the riverside part of town, is located on 84 Regent Street.|offer
+SYS|Its phone number is 01223902104.|offer
+SYS|The price for main courses ranges from 9 pounds to 14 pounds 15.|offer
+USR|okay thank you goodbye|ack

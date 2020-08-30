@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a greek restaurant with mod with a moderate price range and i would like an address a phone number and a postcode|request
+SYS|Caffe Uno, which is in the moderate price range, is a great restaurant.|offer
+USR|do they serve greek food|confirm
+SYS|No.|negate
+SYS|Caffe Uno serves italian food.|negate
+USR|im looking for a greek restaurant|inform
+SYS|Caffe Uno, which is in the area with the postcode CB2 1UJ, is located on 32 Bridge Street.|offer
+SYS|Its phone number is 01223314954.|offer
+USR|i need a greek restaurant|inform
+SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|with a moderate price range|inform
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address phone number and postcode|request
+SYS|The Eraina Taverna, which is in the area with the postcode CB2 3QA, is located on 2 Free School Lane.|offer
+SYS|Its phone number is 01223902126.|offer
+USR|what is the postcode|request
+SYS|The Eraina Taverna is in the area with the postcode CB2 3QA.|offer
+USR|thank you good bye|bye

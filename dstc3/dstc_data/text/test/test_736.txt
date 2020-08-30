@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Hughes Hall, or the People's Portraits Exhibition.|request
+USR|the peoples portraits exhibition|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or central area.|request
+USR|central|inform
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|thank you good bye|bye

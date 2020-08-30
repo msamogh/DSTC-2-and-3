@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|lets not go to japan|deny
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for an east asian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|a restaurant east asian|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Holy Trinity Church, or the Whipple Museum.|request
+USR|the price range doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or King's Hedges.|request
+USR|no|negate
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an east asian venue.|expl-conf
+USR|correct|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Magdalene College, or The Fitzwilliam Museum.|request
+USR|no just an east asian restaurant|negate
+SYS|Little Seoul, which serves east asian food, is a great restaurant.|offer
+SYS|Little Seoul is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 90 to 7 pounds 90.|offer
+USR|what is the address and phone number|request
+SYS|Little Seoul is located on 108 Regent Street and its phone number is 01223308681.|offer
+USR|and what area is the venue|request
+SYS|Little Seoul is in the riverside part of town.|offer
+USR|ok great thank you good bye|ack

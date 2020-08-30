@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in the cherry hinton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, pub, or Indian.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Trinity College, or Wandlebury Country Park.|request
+USR|i dont care|inform
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Spice Merchants is on 60 Trumpington Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|what is the price|request
+SYS|Spice Merchants is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95.|offer
+USR|thank you good bye|bye

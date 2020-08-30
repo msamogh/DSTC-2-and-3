@@ -1,0 +1,55 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> in order to get the|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Trumpington area.|request
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|it doesnt matter|inform
+SYS|Can I help you with anything else?|reqmore
+USR|ill need a pub|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|okay um|ack
+SYS|Can I help you with anything else?|reqmore
+USR|allo do they allow children|request
+SYS|The Baron of Beef, which allows children, is a great pub.|offer
+USR|pub|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|do they have internet connection|request
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|do they have internet connection|request
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|i need internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|find another pub|reqalts
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|<unk> do they allow children|request
+SYS|The Bakers, which allows children with an internet connection, is a great pub.|offer
+USR|do they allow children|request
+SYS|The Bakers allows children.|offer
+USR|okay great|ack
+SYS|Can I help you with anything else?|reqmore
+USR|um i need the address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|um|null
+SYS|The Bakers is an outstanding pub.|offer
+USR|what is the price|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|what is the price|request
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|okay|ack
+SYS|The Bakers is a great pub.|offer
+USR|um|null
+SYS|The Bakers is a great pub.|offer
+USR|thank you|thankyou
+SYS|The Bakers is a great pub.|offer
+USR|thank you|thankyou
+SYS|The Bakers is an outstanding pub.|offer
+USR|goodbye thank you|bye

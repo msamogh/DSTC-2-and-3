@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes hello i am looking for a restaurant in the cherry hinton|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the Gallery at twelve A High Street, or Sidney Sussex College.|request
+USR|anywhere|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Fastfood, or Traditional.|request
+USR|anything|inform
+SYS|Sitar Tandoori is an outstanding restaurant and it's in the Cherry Hinton part of town.|offer
+USR|ok can i get the phone number and address|ack
+SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton and its phone number is 01223249955.|offer
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|yes can i get the phone number and address|request
+SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton and its phone number is 01223249955.|offer
+USR|thank you good bye|bye

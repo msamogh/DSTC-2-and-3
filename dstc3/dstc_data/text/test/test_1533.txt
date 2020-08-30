@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like a moderately priced coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Middleeastern, or Vegetarian.|request
+USR|i dont care|inform
+SYS|Carringtons, which is an outstanding cafe and a great restaurant, is in the moderate price range.|offer
+USR|may i have the phone number and type of food|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|what type of food is served|request
+SYS|Carringtons serves cafe food and it serves english food.|offer
+USR|thank you good bye|bye

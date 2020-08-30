@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a french restaurant and it should be in the riverside area|inform
+SYS|The Hotel du Vin, which is in the riverside part of town, is a great restaurant.|offer
+SYS|It serves french food.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+USR|what is the price range|request
+SYS|The Hotel du Vin is in the expensive price range.|offer
+USR|thank you bu bye|bye

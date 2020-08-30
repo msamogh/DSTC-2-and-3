@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+USR|hello|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|id like a restaurant that serves cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Fastfood, or Vegetarian.|request
+USR|pub food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Pembroke College, The Fitzwilliam Museum, or Wandlebury Country Park.|request
+USR|no particular area|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or King's Hedges area.|request
+USR|no particular part of town|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or King's Hedges area.|request
+USR|any part of town|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Spanish, or Traditional.|request
+USR|any part|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|what kind of food does it serve|request
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|what kind of food|request
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|what kind of food does the restaurant serve|request
+SYS|La Raza is an outstanding restaurant.|offer
+USR|i want a pub food restaurant|inform
+SYS|The Fountain Inn, which serves pub food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|that sounds good please give me the address and the phone number|request
+SYS|The Fountain Inn is on 12 Regent Street and its phone number is 01223366540.|offer
+USR|ou good bye|bye
+SYS|The Fountain Inn is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|good bye|bye

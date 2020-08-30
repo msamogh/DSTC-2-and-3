@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a sea food restaurant with expensive price range pricing|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can you give the address and the area of this restaurant|request
+SYS|Loch Fyne is on 37 Trumpington Street.|offer
+SYS|The price for main courses ranges from 9 pounds to 20 pounds.|offer
+USR|<unk> the area of this venue|request
+SYS|Loch Fyne is in the riverside part of town.|offer
+USR|ok thank you good bye|ack

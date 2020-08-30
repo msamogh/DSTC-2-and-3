@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for an expensive restaurant in a castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Saint Barnabas Press Gallery, or the Whipple Museum of the History of Science.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Emmanuel College, or Queens' College.|request
+USR|<unk> castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or Newnham.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or central area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or pub.|request
+SYS|What type of food would you like?|request
+SYS|For example, American, or Italian.|request
+USR|expensive restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, American, or Contemporary.|request
+USR|italian|inform
+SYS|Would you like vegetarian or X food?|select
+USR|italian food <unk>|inform
+SYS|Blue Spice, which is in the expensive price range, is a great restaurant.|offer
+USR|vegetarian|inform
+SYS|There is no restaurant serving vegetarian food in the expensive price range.|canthelp
+SYS|There is no restaurant serving vegetarian food in the expensive price range.|canthelp
+USR|in what area|request
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|<unk> looking for a restaurant in castle hill|inform
+SYS|There is no restaurant serving vegetarian food in the expensive price range.|canthelp
+SYS|Can I help you with anything else?|reqmore
+SYS|There is no restaurant serving vegetarian food in the expensive price range.|canthelp
+USR|i am looking for an expensive restaurant in the castle hill area|inform
+SYS|The Hotel du Vin is a great restaurant and it's in the expensive price range.|offer
+USR|do you have a restaurant in castle hill|inform
+SYS|There is no restaurant serving vegetarian food in the expensive price range.|canthelp
+USR|where is it located|request
+SYS|The Hotel du Vin is located on 15-19 Trumpington Street.|offer
+USR|do you have a restaurant in castle hill|inform
+SYS|Would you like a vegetarian food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a vegetarian food, or you don't care?|select
+USR|thank you good bye|bye

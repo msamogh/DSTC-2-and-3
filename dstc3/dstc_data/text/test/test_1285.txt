@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese takeaway restaurant in the romsey area|inform
+SYS|Kymmoy, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves chinese take away and it serves fusion food.|offer
+USR|ill need the address and the post code of the venue|request
+SYS|Kymmoy is on 52, Mill Road and it's in the area with the postcode CB1 2AS.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im loo|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant im looking for a mexican|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or New Chesterton area.|request
+USR|mexican tex mex restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or New Chesterton.|request
+USR|chesterton is fine uh mexican|inform
+SYS|There is no restaurant in the Chesterton area and serving mexican and tex mex food.|canthelp
+USR|ches|null
+SYS|Can I help you with anything else?|reqmore
+USR|ches chesterton is fine|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+USR|yes mexican tex mex restaurant|affirm
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|and it should have expensive price range|inform
+SYS|Twenty-four is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|and i want another phone number and postcode|request
+SYS|The phone number of Twenty-four is 01223395800 and it's in the area with the postcode CB4 0FN.|offer
+USR|thats fine phone number and post|request
+SYS|There is no pub in the Chesterton area.|canthelp
+USR|got it thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|thank you and goodbye|bye

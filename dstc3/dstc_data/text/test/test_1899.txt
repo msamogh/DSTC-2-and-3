@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for restaurant in new chesterton|affirm
+SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of Twenty-four is 01223395800.|offer
+USR|whats the address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|tank you goodbye|bye

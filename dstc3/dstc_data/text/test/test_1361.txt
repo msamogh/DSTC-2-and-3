@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a turkish restaurant and it should be in the city center area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or riverside area.|request
+USR|it should just be in the city center area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the central area.|expl-conf
+USR|yes|affirm
+SYS|The Agora, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves turkish food.|offer
+USR|i need the address phone number and the price|request
+SYS|The Agora is on 4 King's Parade and its phone number is 01223308448.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|thank you good bye|bye

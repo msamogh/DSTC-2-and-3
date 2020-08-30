@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for middle eastern restaurant|inform
+SYS|Al Casbah is a great restaurant and it serves mediterranean and middleeastern food.|offer
+USR|what is the price range|request
+SYS|Al Casbah is in the moderate price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Al Casbah is 01223579500.|offer
+USR|what is the address|request
+SYS|Al Casbah is on 62 Mill Road.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,50 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|<unk> restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|expensive restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Japanese, or Spanish.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Greek, or Japanese.|request
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or King's Hedges area.|request
+USR|in the addenbrooks area|inform
+SYS|The Lucky Star is an outstanding restaurant, it's in the Addenbrooke's part of town and it's in the expensive price range.|offer
+USR|ad|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or Newnham area.|request
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Newnham area.|request
+USR|<unk> addonbrookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or central area.|request
+USR|i need the address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|addonbookes|inform
+SYS|The Lucky Star is an outstanding restaurant.|offer
+SYS|The Lucky Star is an outstanding restaurant.|offer
+USR|i need th|null
+SYS|The Lucky Star is an outstanding restaurant.|offer
+USR|i need the address phone number and post card|request
+SYS|The Lucky Star is located on Unit and its phone number is 01223244277.|offer
+SYS|The price for main courses ranges from 12 pounds 99 to 14 pounds 99.|offer
+USR|i need the the address phone number and post code|request
+SYS|The Lucky Star, which is in the area with the postcode CB1 7DY, is located on Unit.|offer
+SYS|Its phone number is 01223244277.|offer
+USR|whats the post code|request
+SYS|The Lucky Star is in the area with the postcode CB1 7DY.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|beep|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or Greek.|request
+USR|cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Japanese, or Thai.|request
+USR|i dont care|inform
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Fen Ditton, or Trumpington area.|request
+USR|castle hill area|inform
+SYS|Subway is an outstanding restaurant and it's in the cheap price range.|offer
+USR|address|request
+SYS|Subway is on 40-42 Mill Road.|offer
+USR|phone number|request
+SYS|The phone number of Subway is 01223461323.|offer
+USR|price|request
+SYS|Subway is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 5 pounds 60.|offer
+USR|thank you good bye|bye

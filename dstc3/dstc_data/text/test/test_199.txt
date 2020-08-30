@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant fen ditton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or Newnham area.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Queens' College, or Williams Art and Antiques.|request
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Greek, or International.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Continental, or Seafood.|request
+USR|dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|continental|inform
+SYS|Alimentum is a great restaurant and it serves continental and french food.|offer
+USR|restaurant|inform
+SYS|Alimentum, which serves continental food, is an outstanding restaurant.|offer
+SYS|It serves french food.|offer
+USR|address|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+USR|address|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+USR|phone number|request
+SYS|The phone number of Alimentum is 01223413000.|offer
+USR|postcode|request
+SYS|Alimentum is in the area with the postcode CB2 8PB.|offer
+USR|thank you goodbye|bye

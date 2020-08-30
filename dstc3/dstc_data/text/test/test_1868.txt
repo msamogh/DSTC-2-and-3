@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im trying to find a restaurant in the chesterton area|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Fen Ditton.|request
+USR|any part|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or central area.|request
+USR|central area|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|in the chesterton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Greek, or Thai.|request
+USR|any kind|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Chinese, or Thai.|request
+USR|sorry|null
+SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|whats the post code|request
+SYS|Twenty-four is in the area with the postcode CB4 0FN.|offer
+USR|thank you|thankyou
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye|bye

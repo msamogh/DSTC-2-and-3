@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a pub with an internet connection and tv|inform
+SYS|The Bakers, which has an internet connection and a television, is a great pub.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Churchill College, or Milton Country Park.|request
+SYS|The Bakers is a great pub with an internet connection and a television.|offer
+SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
+USR|no|negate
+SYS|The Bakers is the only pub with an internet connection and with a television.|canthelp
+USR|whats the address and price range|request
+SYS|The Bakers is located on 176 East Road.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|what is the address and price range|request
+SYS|The Bakers is located on 176 East Road.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+SYS|The Bakers is a great pub.|offer
+USR|thank you good bye|bye

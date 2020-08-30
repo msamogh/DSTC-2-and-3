@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh i am looking for a moderately priced restaurant in the girton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, East asian, or Greek.|request
+USR|greek|inform
+SYS|There is no restaurant in the Girton area and serving greek food in the moderate price range.|canthelp
+USR|ok im looking for|ack
+SYS|Would you like a girton area, or you don't care?|select
+USR|i dont care anywhere|inform
+SYS|Would you like a greek food, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|moderately priced range|inform
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|can i please have <unk> of the venue|null
+SYS|Caffe Uno is located on 32 Bridge Street.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

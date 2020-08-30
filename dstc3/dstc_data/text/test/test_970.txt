@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i need the address to the mediterranean restaurant|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or central.|request
+USR|it doesnt matter|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+USR|may i have the address|request
+SYS|Nando's Restaurant, Saint Andrews Street is located on 33-34 Saint Andrews Street.|offer
+USR|thank you good bye|bye

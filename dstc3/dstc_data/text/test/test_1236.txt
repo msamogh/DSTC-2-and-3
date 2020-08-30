@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Corpus Christi, or the Gallery at twelve A High Street.|request
+USR|im looking for a pub|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|im looking for a pub with an internet connection|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or New Chesterton.|request
+USR|im looking for a pub that should have an internet connection and allow children|inform
+SYS|The Bakers, which allows children with an internet connection, is an outstanding pub.|offer
+USR|whats the address phone number and price|request
+SYS|The Bakers is on 176 East Road and its phone number is 01223304121.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|thank you good bye|bye

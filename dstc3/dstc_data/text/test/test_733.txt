@@ -1,0 +1,54 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant <unk>|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|<unk> cheap <unk>|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Castle Hill area.|request
+USR|cheap <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, pub, or Mediterranean.|request
+USR|chinese take away|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese take away|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese take away|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Girton area.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or central area.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Lamma's Land, or Sidney Sussex College.|request
+SYS|The Peking Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|no <unk>|negate
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Peking Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can i have the phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|can i have the phone number <unk>|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|post code|request
+SYS|The Peking Restaurant is in the area with the postcode CB2 8NX.|offer
+SYS|The Peking Restaurant is an outstanding restaurant.|offer
+USR|post code please|request
+SYS|The Peking Restaurant is in the area with the postcode CB2 8NX.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|<unk> i m looking for a coffee shop that serves italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Girton area.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or Romsey area.|request
+USR|i dont care|inform
+SYS|Clowns is an outstanding cafe and a great restaurant and it serves italian food.|offer
+USR|whats the address and price|request
+SYS|Clowns is on 54 King Street and its phone number is 01223355711.|offer
+SYS|The price for main courses ranges from 5 pounds to 11 pounds and the price for a cappuccino is 1 pound 50.|offer
+USR|thank you good bye|bye

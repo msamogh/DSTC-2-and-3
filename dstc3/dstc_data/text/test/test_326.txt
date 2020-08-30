@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a moderately priced pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Romsey area.|request
+USR|a pub|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|arbury|inform
+SYS|The Alma is on Russell Court.|offer
+USR|phone number|request
+SYS|The phone number of The Alma is 01223316722.|offer
+USR|what is the postcode of the venue|request
+SYS|The Alma is in the area with the postcode CB2 1HW.|offer
+USR|are children allowed|inform
+SYS|The Alma allows children and it's an outstanding pub.|offer
+USR|thank you and have a good day|bye
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|thank you and have a good day|bye

@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need an english restaurant and it should have expensive price range|inform
+SYS|The Backstreet Bistro, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It serves english food and it's in the expensive price range.|offer
+USR|great can i have the number and area please|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+SYS|The Backstreet Bistro is a great restaurant.|offer
+SYS|The Backstreet Bistro is a great restaurant, it serves contemporary and english food and it's in the expensive price range.|offer
+SYS|The Backstreet Bistro, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|This place, which serves english food, is in the expensive price range.|offer
+USR|can i have the can i have the number and the area please|request
+SYS|There is no restaurant in the Girton area and serving english food.|canthelp
+USR|can i have the number and area please|request
+SYS|Would you like a girton area, or you don't care?|select
+USR|can i have the phone number|request
+SYS|Would you like a girton area, or you don't care?|select
+USR|phone number|request
+SYS|Would you like a girton area, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like an english food, or you don't care?|select
+USR|i dont care|inform
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|english restaurant|inform
+SYS|Would you like an english food, or you don't care?|select
+USR|address please|request
+SYS|Would you like an english food, or you don't care?|select
+USR|english restaurant and the address|request
+SYS|The Backstreet Bistro is on 2 Sturton Street.|offer
+USR|and post code|request
+SYS|The Backstreet Bistro is in the area with the postcode CB1 2QA.|offer
+USR|very good thank you good bye|bye

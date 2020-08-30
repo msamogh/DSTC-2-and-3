@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a japanese restaurant in the city center area|inform
+SYS|Yippee Noodle Bar, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese take away and japanese food.|offer
+USR|um whats the address|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+USR|um whats the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|um whats the price range|request
+SYS|Yippee Noodle Bar is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|type of venue|request
+SYS|Yippee Noodle Bar is a great restaurant.|offer
+USR|whats the price range|request
+SYS|Yippee Noodle Bar is in the moderate price range.|offer
+USR|thank you goodbye|bye

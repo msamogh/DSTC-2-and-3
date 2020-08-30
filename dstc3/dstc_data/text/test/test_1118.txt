@@ -1,0 +1,45 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a pub with an internet connection and television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or King's Hedges.|request
+USR|castle hill|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|i want an internet connection and a television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Romsey area.|request
+USR|cherry hinton|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|how about castle hill|reqalts
+SYS|Can I help you with anything else?|reqmore
+USR|a pub with an internet connection and television|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|dont care|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|does it have an internet connection|request
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|can i have a pub that has an internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|does it have television|request
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is a great pub.|offer
+USR|does the bakers have a television|request
+SYS|The Bakers is a great pub.|offer
+USR|does it have a television|request
+SYS|Yes.|affirm
+SYS|The Bakers is a great pub.|affirm
+USR|can i have the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|ca can i have the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|can i have the price range|request
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you goodbye|bye

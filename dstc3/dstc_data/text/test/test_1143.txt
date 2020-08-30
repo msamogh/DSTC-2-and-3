@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|i want a|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i want a cheap coffee shop|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or central.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Girton area.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Sidney Sussex College, or Primavera.|request
+USR|i dont care|inform
+SYS|The Cambridge Blue, which is in the cheap price range, is a great cafe.|offer
+USR|what is the address and phone number|request
+SYS|The Cambridge Blue is located on 24 Regent Street.|offer
+SYS|Its phone number is 01223369222.|offer
+USR|thank you goodbye|bye

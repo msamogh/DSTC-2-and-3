@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for an partial|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|im looking for an expensive restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Great Saint Mary's Church, or Saint John's College.|request
+USR|i dont care|inform
+SYS|Blue Spice is an outstanding restaurant, it's in the Girton part of town and it's in the expensive price range.|offer
+USR|expensive restaurant romsey area|inform
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|what about romsey area|reqalts
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|in romsey|inform
+SYS|The Backstreet Bistro is an outstanding restaurant and it's in the Romsey part of town.|offer
+SYS|It's in the expensive price range.|offer
+USR|romsey|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|great could i have the address and phone number and price please|request
+SYS|The Backstreet Bistro is on 2 Sturton Street.|offer
+SYS|Its phone number is 01223306306.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|addrees phone number and price|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street and its phone number is 01223306306.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|thank you goodbye|bye

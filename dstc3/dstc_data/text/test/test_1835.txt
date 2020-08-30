@@ -1,0 +1,70 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Cherry Hinton Water Play, or the Lammas Land Park.|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|fenditton|inform
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a venue that allows children?|request
+SYS|Are you looking for a venue with a television?|request
+USR|i dont car|null
+SYS|Are you looking for a venue with an internet connection?|request
+USR|i dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|<unk> i do nt care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|<unk> restaurant in fe|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, riverside, or Romsey area.|request
+USR|restaurant in fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or Romsey area.|request
+USR|fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Trumpington area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or Trumpington area.|request
+USR|<unk> fen|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Cherry Hinton area.|request
+USR|fenditton|inform
+SYS|There is no restaurant in the Girton area and serving pub food.|canthelp
+USR|<unk> fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|yes <unk>|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|<unk> restaurant|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|The Dojo Noodle Bar is on Miller's Yard.|offer
+USR|what is the address|request
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|what|null
+SYS|Would you like a girton area, or you don't care?|select
+USR|address|request
+SYS|Would you like a girton area, or you don't care?|select

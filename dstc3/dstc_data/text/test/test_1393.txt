@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a coffee shop that serves italian food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Old Schools, or Saint Catharine's College.|request
+USR|no|negate
+SYS|Caffe Nero, which serves italian food, is an outstanding cafe.|offer
+USR|what is the address|request
+SYS|Caffe Nero is on 11 Market Street.|offer
+USR|what is the price|request
+SYS|Caffe Nero is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 3 pounds 85 and the price for a cappuccino is 2 pounds 15.|offer
+USR|thank you good bye|bye

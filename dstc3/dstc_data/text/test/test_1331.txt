@@ -1,0 +1,65 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a continental restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a continental venue.|expl-conf
+USR|um|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a continental venue.|expl-conf
+USR|yes a continental restaurant|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|it doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|um|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i guess moderate|inform
+SYS|There is no restaurant serving continental food in the moderate price range.|canthelp
+USR|um|null
+SYS|Would you like a continental food, or you don't care?|select
+USR|what about the free price range|reqalts
+SYS|Would you like a continental food, or you don't care?|select
+USR|yes i would like a continental food|affirm
+SYS|There is no restaurant serving continental food that is providing services for free.|canthelp
+USR|ok any um places providing continental food for any price|ack
+SYS|Would you like a free price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or New Chesterton area.|request
+USR|um new chesterton area|inform
+SYS|There is no restaurant in the New Chesterton area and serving continental food.|canthelp
+USR|well make it any area then|inform
+SYS|Would you like a continental food, or you don't care?|select
+USR|i would like a continental food continental restaurant|inform
+SYS|Would you like a continental food, or you don't care?|select
+USR|continental food please|inform
+SYS|Would you like a continental food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a continental food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a continental food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a continental food, or you don't care?|select
+USR|i would like a continental food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Girton area.|request
+USR|it doesnt matter|inform
+SYS|Alimentum is a great restaurant and it serves continental and french food.|offer
+USR|um give me the address|request
+SYS|Alimentum is located on 152-154 Hills Road.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|please|null
+SYS|Alimentum is a great restaurant.|offer
+USR|can i have the address|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+USR|um can i get the postcode|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a continental venue.|expl-conf
+USR|no i want the postcode|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a continental venue.|expl-conf
+USR|thank you good bye|bye

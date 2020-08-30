@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant and it should be in the trumpington area|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|i need expensive restaurant in the trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, or Pembroke College.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i get the address phone number and the price of the venue|request
+SYS|The Oak Bistro is on 6 Lensfield Road and its phone number is 01223323361.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|thank you goodbye|bye

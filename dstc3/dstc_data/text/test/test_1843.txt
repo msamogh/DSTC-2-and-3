@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or Romsey area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Ruskin Gallery, or Saint John's College.|request
+USR|i am looking for a moderately|null
+SYS|Are you looking for a venue that allows children?|request
+USR|yes the girton area|affirm
+SYS|There is no pub in the Girton area.|canthelp
+USR|no|negate
+SYS|There is no pub in the Girton area.|canthelp
+USR|im looking for a mod|null
+SYS|There is no pub in the Girton area.|canthelp
+USR|im looking for a moderately priced restaurant in the sh|inform
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a mod|null
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|yes i am looking for a moderately priced restaurant in|affirm
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye <unk>|bye

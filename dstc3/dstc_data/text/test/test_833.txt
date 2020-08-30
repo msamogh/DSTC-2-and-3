@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello|hello
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|newnham|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|The Red Bull is a great restaurant and it's in the Newnham part of town.|offer
+USR|address|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+USR|phone number|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+USR|price of venue|request
+SYS|The Red Bull is an outstanding restaurant.|offer
+USR|newnham area|inform
+SYS|The Red Bull, which is in the Newnham part of town, is an outstanding restaurant.|offer
+USR|thank you good bye|bye
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, King's College, or the Scott Polar Museum.|request
+USR|thank you good bye|bye

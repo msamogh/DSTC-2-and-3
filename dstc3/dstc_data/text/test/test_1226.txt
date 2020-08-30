@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Fen Ditton area.|request
+USR|<unk> moderate|inform
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|moderate|inform
+SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|um <unk>|null
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Bangkok City is 01223354382.|offer
+SYS|Bangkok City is an outstanding restaurant.|offer
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Bangkok City is an outstanding restaurant.|offer
+SYS|Bangkok City serves thai food.|offer
+USR|thank you and goodbye|bye

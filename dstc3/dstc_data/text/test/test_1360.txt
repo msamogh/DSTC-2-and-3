@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a thai restaurant has a moderate price range|inform
+SYS|Would you like thai or X food?|select
+USR|thai food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Broughton House Gallery, or the Ruskin Gallery.|request
+USR|no|negate
+SYS|Bangkok City is an outstanding restaurant and it serves thai food.|offer
+SYS|It's in the moderate price range.|offer
+USR|can i get a phone number and a postcode|request
+SYS|The phone number of Bangkok City is 01223354382 and it's in the area with the postcode CB2 3JX.|offer
+USR|thank you goodbye|bye

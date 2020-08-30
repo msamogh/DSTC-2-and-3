@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|i m looking for a cheap restaurant <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Indian, or International.|request
+USR|looking for a cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Girton area.|request
+USR|a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, International, or Italian.|request
+USR|chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Spanish, or Thai.|request

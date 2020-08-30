@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop coffee shop|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Fen Ditton area.|request
+USR|coffee shop that serves italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or riverside area.|request
+SYS|Caffe Nero is an outstanding cafe and it serves italian food.|offer
+USR|dont care|inform
+SYS|Caffe Nero, which serves italian food, is a great cafe.|offer
+USR|yes thats fine|affirm
+SYS|Caffe Nero is a great cafe and it serves italian food.|offer
+USR|um it sounds great|reqmore
+SYS|Caffe Nero is an outstanding cafe.|offer
+SYS|It serves italian food.|offer
+USR|thats it right there have the phone number phone number and price|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 3 pounds 85 and the price for a cappuccino is 2 pounds 15.|offer
+USR|okay number phone number|ack
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+SYS|Caffe Nero is an outstanding cafe.|offer
+SYS|Caffe Nero, which serves italian food, is a great cafe.|offer
+SYS|Caffe Nero, which serves italian food, is an outstanding cafe.|offer
+USR|okay and uh|ack
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|the price|request

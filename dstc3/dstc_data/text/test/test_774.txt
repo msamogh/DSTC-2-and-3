@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a pub|inform
+SYS|The Bakers is a great pub.|offer
+USR|in romsey|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|uhm what about romsey|reqalts
+SYS|There is no pub in the Romsey area.|canthelp
+USR|ok uhm near by near romsey|ack
+SYS|There is no pub in the Romsey area.|canthelp
+SYS|Would you like a romsey area, or you don't care?|select
+SYS|Would you like a romsey area, or you don't care?|select
+USR|i dont care|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|<unk> romsey area|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|how close is river side to romsey is river side near romsey <unk>|inform
+SYS|The Bakers, which is in the riverside part of town, is a great pub.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|<unk> what s the address fuck this fuck it what s the address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you thank you good bye|bye
+SYS|The Bakers is a great pub.|offer
+USR|thank you good bye thank you|bye

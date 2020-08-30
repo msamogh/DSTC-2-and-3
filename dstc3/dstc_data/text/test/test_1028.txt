@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|what is a cheap restaurant in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or Trumpington area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or New Chesterton area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or central area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or riverside.|request
+USR|fenditton|inform
+SYS|The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town and it's in the cheap price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|what is the address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+USR|thank you good bye|bye

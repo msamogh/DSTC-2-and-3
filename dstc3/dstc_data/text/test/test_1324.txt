@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Fusion, or Seafood.|request
+USR|contemporary|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Romsey area.|request
+USR|i dont care|inform
+SYS|Cotto, which serves contemporary food, is a great restaurant.|offer
+USR|cheap price range|inform
+SYS|Cotto is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds to 16 pounds 50.|offer
+USR|phone number|request
+SYS|The phone number of Cotto is 01223302010.|offer
+USR|thank you good bye|bye

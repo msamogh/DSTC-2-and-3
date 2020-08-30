@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|im looking for a pub|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|<unk> i m looking for a pub and it should have a tv|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|no|negate
+SYS|Are you looking for a venue with an internet connection?|request
+USR|<unk> i do nt care|inform
+SYS|The Bakers, which has a television, is an outstanding pub.|offer
+USR|i dont care|inform
+SYS|The Bakers has a television and it's an outstanding pub.|offer
+SYS|The Bakers, which has a television, is an outstanding pub.|offer
+USR|can you give me the address and post code|request
+SYS|The Bakers, which is in the area with the postcode CB1 1BG, is located on 176 East Road.|offer
+USR|i need the address and the post code|request
+SYS|The Bakers is on 176 East Road and it's in the area with the postcode CB1 1BG.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|indian restaurant in th|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the People's Portraits Exhibition, or Saint Catharine's College.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|indian restaurant and it should be in|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|i dont care|inform
+SYS|Blue Spice, which serves indian food, is a great restaurant.|offer
+USR|i do nt care indian restaurant <unk>|inform
+SYS|Blue Spice is a great restaurant and it serves indian food.|offer
+USR|indian restaurant and it sh|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+USR|girton area|inform
+SYS|Blue Spice, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It serves indian food.|offer
+USR|address and phone number please|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|address phone number|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|thank you and good bye|bye

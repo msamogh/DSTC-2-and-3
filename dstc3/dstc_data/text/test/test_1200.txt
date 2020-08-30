@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> <unk> yup|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a middle eastern restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+SYS|Al Casbah is an outstanding restaurant and it serves mediterranean and middleeastern food.|offer
+SYS|Al Casbah, which serves mediterranean and middleeastern food, is an outstanding restaurant.|offer
+USR|in the romsey area|inform
+SYS|Al Casbah, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves mediterranean and middleeastern food.|offer
+USR|whats the address|request
+SYS|Al Casbah is on 62 Mill Road.|offer
+USR|whats the price range|request
+SYS|Al Casbah is in the moderate price range.|offer
+SYS|The price for main courses ranges from 8 pounds 95 to 12 pounds 95.|offer
+SYS|Al Casbah, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|This place, which serves mediterranean and middleeastern food, is in the moderate price range.|offer
+SYS|Al Casbah, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|This place, which serves mediterranean and middleeastern food, is in the moderate price range.|offer
+USR|thank you good bye|bye

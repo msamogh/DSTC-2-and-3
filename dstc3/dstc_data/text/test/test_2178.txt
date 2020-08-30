@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i am looking for a pub that allows children and has tv|inform
+SYS|The Alma allows children with a television and it's a great pub.|offer
+USR|can you give me the phone number and the postal code|request
+SYS|The phone number of The Alma is 01223316722.|offer
+SYS|It's in the area with the postcode CB2 1HW.|offer
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is a great pub.|offer
+USR|can you give me the phone number and postal code|request
+SYS|The phone number of The Alma is 01223316722 and it's in the area with the postcode CB2 1HW.|offer
+USR|thank you good bye|bye

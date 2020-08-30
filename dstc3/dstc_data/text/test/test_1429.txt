@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant and it should have a cheap price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or King's Hedges area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Girton, or riverside area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cambridge Contemporary Art, or Corpus Christi.|request
+USR|any part of|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Saint John's College, or Trinity College.|request
+USR|no any part of town|negate
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thats correct|affirm
+SYS|La Raza is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|what is the address|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|what is the address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|thank you goodbye|bye

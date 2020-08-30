@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|im looking for the expensive restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|expensive restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cherry Hinton Water Play, or the Saint Barnabas Press Gallery.|request
+USR|trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the People's Portraits Exhibition, or the Whipple Museum of the History of Science.|request
+USR|yes phone number|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Hughes Hall, or Trinity College.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|the price|request
+SYS|The Oak Bistro is on 6 Lensfield Road and its phone number is 01223323361.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|thank you goodbye|bye

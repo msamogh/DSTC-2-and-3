@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or Fen Ditton.|request
+USR|castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Chinese, or Indian.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Fusion, or Traditional.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Drinks and snacks only, or Seafood.|request
+USR|um any expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or riverside area.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Gonville and Caius College, or the Museum of Archaelogy and Anthropology.|request
+USR|no|negate
+SYS|Blue Spice, which is in the expensive price range, is a great restaurant.|offer
+USR|no|negate
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|no castle hill nice restaurant|negate
+SYS|Blue Spice, which is in the expensive price range, is a great restaurant.|offer
+USR|um what is the|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or riverside.|request
+USR|phone number and address|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|thank you good bye|bye

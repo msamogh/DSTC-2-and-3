@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or Fastfood.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, or Sidney Sussex College.|request
+USR|kings hedges area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|kings hedges area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|The Ranch is a great restaurant and it's in the King's Hedges part of town.|offer
+USR|kings hedges area|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is an outstanding restaurant.|offer
+USR|address|request
+SYS|The Ranch is on 100 Histon Road.|offer
+SYS|The Ranch is a great restaurant.|offer
+USR|phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|price|request
+SYS|The Ranch is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|thank you goodbye|bye

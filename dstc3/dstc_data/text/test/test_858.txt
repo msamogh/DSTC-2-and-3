@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap coffee shop in the city center area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|no uh city center area|negate
+SYS|Clowns is a great cafe and an outstanding restaurant, it's in the central part of town and it's in the cheap price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|what type of food|request
+SYS|Clowns serves italian food.|offer
+USR|thank you good bye|bye

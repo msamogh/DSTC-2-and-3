@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i want to find a moderately priced restaurant|affirm
+SYS|What type of food would you like?|request
+SYS|For example, East asian, pub, or Middleeastern.|request
+USR|middle eastern|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|well what about the barnwell area|reqalts
+SYS|Are you looking for a venue in the Barnwell or central area?|select
+USR|barnwell area|inform
+SYS|There is no restaurant in the Barnwell area and serving middleeastern food.|canthelp
+USR|moderately priced restaurant|inform
+SYS|Would you like a middleeastern food, or you don't care?|select
+USR|i dont care|inform
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|and the address|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer
+USR|in the barnwell area|inform
+SYS|The Wheatsheaf is a great restaurant and it's in the Barnwell part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|the phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|the address|request
+SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
+USR|and the type of food|request
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|type of food|request
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|what type of food does they have|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|thank you goodbye|bye

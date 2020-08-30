@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|greek restaurant|inform
+SYS|The Eraina Taverna is a great restaurant and it serves greek food.|offer
+USR|and the price range|request
+SYS|The Eraina Taverna is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 13 pounds 95.|offer
+USR|address|request
+SYS|The Eraina Taverna is located on 2 Free School Lane.|offer
+USR|area|null
+SYS|The Eraina Taverna is an outstanding restaurant.|offer
+USR|what area|request
+SYS|The Eraina Taverna is in the central part of town.|offer
+USR|phone number|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|thank you good bye|bye

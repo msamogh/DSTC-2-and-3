@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese take away restaurant|inform
+SYS|Would you like chinese or X food?|select
+SYS|Would you like chinese or X food?|select
+SYS|Would you like chinese or X food?|select
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|chinese|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|cheap cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, the Regency Gallery, or the Lammas Land Park.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Milton Country Park, or Wandlebury Country Park.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or King's Hedges area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Trumpington area.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Kettle's Yard, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Peking Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Chesterton.|request
+USR|new chesterton|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, the Michaelhouse Centre, or Saint Catharine's College.|request
+USR|i dont care|inform
+SYS|Hakka is an outstanding restaurant and it's in the New Chesterton part of town.|offer
+USR|i dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care|inform
+SYS|Hakka is an outstanding restaurant.|offer
+SYS|It's in the New Chesterton part of town.|offer
+USR|i do not care|inform
+SYS|There is no pub in the New Chesterton area.|canthelp
+USR|i do not care|inform
+SYS|Hakka is the only venue in the New Chesterton area.|canthelp
+USR|thank you good bye|bye

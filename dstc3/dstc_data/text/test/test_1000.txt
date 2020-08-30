@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care about the price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Newnham area.|request
+USR|im looking for an english restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Churchill College, or Little Saint Mary's.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Romsey area.|request
+USR|i am looking for an english restaurant i do not care about the price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or King's Hedges.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Newnham area.|request
+USR|can i|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, riverside, or Romsey area.|request
+USR|im looking for an english|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or Trumpington area.|request
+USR|im looking for an english restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or New Chesterton area.|request
+USR|i am looking for|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or King's Hedges area.|request
+USR|i am looking <unk>|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or New Chesterton.|request
+USR|k <unk>|null
+SYS|Can I help you with anything else?|reqmore
+USR|kings hedges|inform
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a middle eastern restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Churchill College, or Wandlebury Country Park.|request
+USR|wandlebury country park|inform
+SYS|There is no restaurant serving middleeastern food in the cheap price range.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|yes i would like to find a middle eastern restaurant|affirm
+SYS|There is no restaurant serving middleeastern food in the cheap price range.|canthelp
+USR|thank you goodbye|bye

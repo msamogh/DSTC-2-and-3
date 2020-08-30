@@ -1,0 +1,50 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap restaurant in castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or New Chesterton.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or King's Hedges area.|request
+USR|castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Mexican and Tex Mex, or Greek.|request
+USR|area|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Girton area.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or King's Hedges area.|request
+USR|castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, or Middleeastern.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Japanese, or Spanish.|request
+USR|food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or Japanese.|request
+USR|average|null
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Contemporary, or Italian.|request
+USR|contemporary|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Northern european, or Contemporary.|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Italian, or Thai.|request
+USR|contemporary|inform
+SYS|All Bar One, which serves contemporary food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|repeat|repeat
+SYS|All Bar One, which serves contemporary food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|repeat|repeat
+SYS|All Bar One, which serves contemporary food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|address|request
+SYS|All Bar One is located on 36 Saint Andrews Street.|offer
+USR|phone number|request
+SYS|The phone number of All Bar One is 01223371081.|offer
+USR|thank you goodbye|bye

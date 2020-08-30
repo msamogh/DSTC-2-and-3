@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um im looking for a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, the Michaelhouse Centre, or Trinity College.|request
+USR|cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, the Museum of Classical Archaeology, or Old Schools.|request
+USR|cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Kettle's Yard, or Wandlebury Country Park.|request
+USR|uh it should be in cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Greek, or Japanese.|request
+USR|um i would like american food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Museum of Archaelogy and Anthropology, or the Saint Barnabas Press Gallery.|request
+USR|um near cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the Lynne Strover Gallery, or the People's Portraits Exhibition.|request
+USR|cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Milton Country Park, or The Fitzwilliam Museum.|request
+USR|okay uh im looking near cherry hinton area|ack
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Vegetarian.|request
+USR|uh what types of foods area available there|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Fusion, or Turkish.|request
+USR|indian|inform
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It serves indian food and it's in the cheap price range.|offer
+USR|okay what is the address|ack
+SYS|Spice Merchants is on 60 Trumpington Road and it's in the area with the postcode CB2 8EX.|offer
+USR|okay thank you goodbye|ack

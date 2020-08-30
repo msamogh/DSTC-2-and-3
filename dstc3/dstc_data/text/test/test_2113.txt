@@ -1,0 +1,56 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Bakers is a great pub.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|i want a greek restaurant <unk>|inform
+SYS|The Bakers is a great pub.|offer
+USR|i want a greek restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a greek venue.|expl-conf
+USR|<unk> correct|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|<unk> i do nt care|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|i want a greek restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|<unk> i do nt care about the price range|inform
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|<unk> i want a greek restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|<unk> i do nt care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|<unk> any price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Romsey.|request
+USR|any price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Barnwell area.|request
+USR|romsey|inform
+SYS|There is no restaurant in the Romsey area and serving greek food.|canthelp
+USR|<unk> any anywhere|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|<unk> yes|affirm
+SYS|Would you like a romsey area, or you don't care?|select
+SYS|Would you like a greek food, or you don't care?|select
+USR|<unk> i do nt care <unk>|inform
+SYS|The Bakers is located on 176 East Road.|offer
+USR|<unk> greek restaurant please|inform
+SYS|Would you like a greek food, or you don't care?|select
+SYS|There is no restaurant in the Romsey area and serving greek food.|canthelp
+USR|<unk> greek food the phone number please <unk>|request
+SYS|Would you like a romsey area, or you don't care?|select
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|<unk> thank you good bye|bye

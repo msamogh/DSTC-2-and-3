@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a traditional restaurant in the expensive price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Fen Ditton area.|request
+USR|i dont care|inform
+SYS|The Granta Bar, which serves traditional food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Granta Bar is on University Centre, Granta Place.|offer
+SYS|The price for main courses ranges from 14 pounds 95 to 16 pounds 95.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Granta Bar is 01223902174.|offer
+USR|what is the area|request
+SYS|The Granta Bar is in the riverside part of town.|offer
+USR|thank you good bye|bye

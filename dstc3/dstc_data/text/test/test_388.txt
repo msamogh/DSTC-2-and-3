@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for pub food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|english restaurant with a moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or Romsey.|request
+USR|i dont care the location|inform
+SYS|The Lion and Lamb is a great restaurant, it serves pub food and it's in the moderate price range.|offer
+USR|can i get the address the phone number|request
+SYS|The Lion and Lamb is located on High Street, Milton and its phone number is 01223860202.|offer
+USR|and the price of the venue|request
+SYS|The Lion and Lamb is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|can i get the address and phone number|request
+SYS|The Lion and Lamb is located on High Street, Milton and its phone number is 01223860202.|offer
+SYS|The Lion and Lamb is an outstanding restaurant.|offer
+USR|can i get the address|request
+SYS|The Lion and Lamb is on High Street, Milton.|offer
+USR|can i get the phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+SYS|The Lion and Lamb is a great restaurant.|offer
+USR|can i get the phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+USR|thank you good bye|bye

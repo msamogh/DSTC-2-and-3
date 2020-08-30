@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a restaurant in kings hedges i dont care about the price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the King's Hedges, New Chesterton, or riverside area.|request
+USR|kings hedges|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, French, or Italian.|request
+USR|any kind|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|what restaurants are in kings hedges|inform
+SYS|There is no restaurant in the King's Hedges area and serving thai food.|canthelp
+USR|chinese food|inform
+SYS|There is no restaurant in the King's Hedges area and serving chinese food.|canthelp
+USR|italian food|inform
+SYS|There is no restaurant in the King's Hedges area and serving italian food.|canthelp
+SYS|Would you like italian or X food?|select
+USR|yes|affirm
+SYS|There is no restaurant in the King's Hedges area and serving italian food.|canthelp
+USR|traditional food|inform
+SYS|The Eagle, which serves traditional food, is a great restaurant.|offer
+USR|what is the price range|request
+SYS|The Eagle is in the moderate price range.|offer
+USR|ok give me the address|ack
+SYS|The Eagle is located on 8 Benet Street.|offer
+USR|an the phone number|request
+SYS|The phone number of The Eagle is 01223505020.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|<unk> mexican texmex restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|mexican|inform
+SYS|Chiquito is an outstanding restaurant and it serves mexican and tex mex food.|offer
+USR|<unk> mexican restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|texmex|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Girton area.|request
+USR|expensive|inform
+SYS|Chiquito, which serves mexican and tex mex food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the expensive price range.|canthelp
+USR|thank you and good bye|bye

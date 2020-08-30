@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an east asian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Romsey area.|request
+USR|riverside area|inform
+SYS|Little Seoul is a great restaurant, it's in the riverside part of town and it serves east asian food.|offer
+USR|uh can i get the addresss|request
+SYS|Little Seoul is located on 108 Regent Street.|offer
+SYS|The price for main courses ranges from 6 pounds 90 to 7 pounds 90.|offer
+USR|and the phone number|request
+SYS|The phone number of Little Seoul is 01223308681.|offer
+USR|you think the food is cheap there or moderate|request
+SYS|Little Seoul is a great restaurant, it's in the riverside part of town and it serves east asian food.|offer
+USR|okay thank you goodbye|ack

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any kind|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant, it serves cafe food and english food and it's in the moderate price range.|offer
+USR|and the address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|in what area|request
+SYS|Carringtons is in the central part of town.|offer
+USR|<unk> thank you goo|thankyou
+SYS|Can I help you with anything else?|reqmore

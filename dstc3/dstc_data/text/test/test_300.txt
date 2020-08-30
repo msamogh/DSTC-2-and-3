@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes coffee shop|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or riverside area.|request
+USR|in the city|null
+SYS|There is no cafe in the Romsey area.|canthelp
+USR|city center|inform
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|a address|request
+SYS|Cafe Eleven is located on 11 Burleigh Street.|offer
+USR|and the type of food|request
+SYS|Cafe Eleven is a great cafe.|offer
+USR|what type of food|request
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|food|inform
+SYS|Cafe Eleven is a great cafe.|offer
+USR|thank ou|thankyou
+SYS|Would you like a romsey area, or you don't care?|select
+USR|yes romsey area|affirm
+SYS|There is no cafe in the Romsey area.|canthelp
+USR|well thank you good bye|bye
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|thank you good bye|bye

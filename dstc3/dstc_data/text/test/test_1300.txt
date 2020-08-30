@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap fusion restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|cheap cheap very cheap|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|i need the address phone number and price|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard and its phone number is 01223363471.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+USR|address phone number and price of the venue|request
+SYS|The Dojo Noodle Bar is on Miller's Yard.|offer
+SYS|Its phone number is 01223363471.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|thank you goodbye|bye

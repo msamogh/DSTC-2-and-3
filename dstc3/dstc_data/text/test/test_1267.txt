@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a pub with internet please|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Whipple Museum of the History of Science, or Williams Art and Antiques.|request
+USR|oh i dont care|inform
+SYS|The Alma is a great pub.|offer
+USR|ok does it have a tv|ack
+SYS|The Alma has a television.|offer
+USR|ok whats the address please|ack
+SYS|The Alma is located on Russell Court.|offer
+USR|ok thank you good bye|ack

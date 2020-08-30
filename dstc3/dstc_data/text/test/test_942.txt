@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|yes|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|The Alma, which allows children, is in the moderate price range.|offer
+SYS|It's a great pub.|offer
+USR|yes let me have the address|request
+SYS|The Alma is on Russell Court.|offer
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is an outstanding pub.|offer
+USR|you answered all my questions thank you good bye|thankyou
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is a great pub.|offer
+USR|<unk> <unk> good bye|bye
+SYS|The Alma is located on Russell Court.|offer
+SYS|The Alma is an outstanding pub.|offer
+SYS|The Alma is a great pub.|offer
+SYS|The Alma is a great pub.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh im looking for a cheap restaurant in the castlehill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Trumpington area.|request
+USR|in the uh castlehill in area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Japanese, or Seafood.|request
+USR|uh dont care|inform
+SYS|Blue Spice, which is in the expensive price range, is a great restaurant.|offer
+USR|whats the address|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|the type of food|request
+SYS|Blue Spice serves indian food.|offer
+USR|thank you goodbye|bye

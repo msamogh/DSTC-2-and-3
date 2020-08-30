@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|find moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Seafood, or Vegetarian.|request
+USR|seafood|inform
+SYS|There is no restaurant serving seafood.|canthelp
+SYS|There is no restaurant in the moderate price range.|canthelp
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|restaurant|inform
+SYS|Nanna Mexico, which serves mexican and tex mex food, is an outstanding restaurant.|offer
+USR|moderately priced|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|moderately priced restaurant|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|chesterton|inform
+SYS|Twenty-four is an outstanding restaurant and it's in the Chesterton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|phone number|request
+SYS|The phone number of Twenty-four is 01223395800.|offer
+USR|price of the venue|request
+SYS|Twenty-four is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|thank you good bye|bye

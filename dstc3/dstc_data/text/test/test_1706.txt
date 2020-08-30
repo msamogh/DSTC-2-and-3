@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub that allows children and has a television|inform
+SYS|Are you looking for a venue with a television?|request
+USR|a pub|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|a pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|moderate|inform
+SYS|The Anchor allows children and it's in the moderate price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|price|request
+SYS|The Anchor is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 11 pounds and the price for a cheapest pint of beer is 2 pounds 70.|offer
+USR|thank you goodbye|bye

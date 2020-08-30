@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|need a cheap restaurant in the cherry hinton area|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|i dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the cheap price range.|expl-conf
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Greek, or Vegetarian.|request
+USR|i dont care|inform
+SYS|HK Fusion is a great restaurant, it's in the Cherry Hinton part of town and it's in the cheap price range.|offer
+USR|<unk> what is the address and the post code|request
+SYS|HK Fusion, which is in the area with the postcode CB1 1DG, is located on 21 Burleigh Street.|offer
+USR|thank you good bye|bye

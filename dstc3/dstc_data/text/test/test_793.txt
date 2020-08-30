@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|chinese take away restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Technology Museum, or the Museum of Classical Archaeology.|request
+USR|it does not matter|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+USR|um is it in the moderate price range|confirm
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|can i have the address please|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|im sorry could you repeat that|repeat
+SYS|Yippee Noodle Bar is an outstanding restaurant.|offer
+USR|im sure it is can i have the address please|request
+SYS|Yippee Noodle Bar is a great restaurant.|offer
+USR|phone number|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street and its phone number is 01223518111.|offer
+USR|repeat the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|and what area is that|request
+SYS|Yippee Noodle Bar is in the central part of town.|offer
+USR|thank you good bye|bye

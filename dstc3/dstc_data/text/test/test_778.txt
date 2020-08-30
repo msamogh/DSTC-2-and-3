@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a spanish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap <unk>|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Trumpington area.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, the Michaelhouse Centre, or the Whipple Museum of the History of Science.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Museum of Archaelogy and Anthropology, or Wandlebury Country Park.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, King's Hedges, or riverside area.|request
+SYS|Would you like a spanish food, or you don't care?|select
+USR|it doesnt matter|inform
+SYS|Would you like a spanish food, or you don't care?|select
+USR|spanish food cheap|inform
+SYS|Would you like a spanish food, or you don't care?|select
+USR|spanish food cheap|inform
+SYS|Would you like a spanish food, or you don't care?|select
+USR|spanish food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, Romsey, or Trumpington area.|request
+USR|spanish food|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|any|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|no any part cheap food|negate
+SYS|Would you like a chinese food, or you don't care?|select
+USR|spanish food|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|spanish food|inform
+SYS|Would you like a chinese food, or you don't care?|select
+SYS|Would you like a chinese food, or you don't care?|select
+USR|thank you thank you goodbye|bye

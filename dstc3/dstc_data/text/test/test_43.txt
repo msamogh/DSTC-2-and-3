@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|moderately priced restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Girton area.|request
+USR|terton|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Cherry Hinton area.|request
+USR|chesterton area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|chesterton area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Thai, or Turkish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, pub, or Seafood.|request
+USR|any food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, the Gallery at twelve A High Street, or the Scott Polar Museum.|request
+USR|museum|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Romsey area.|request
+USR|chesterton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, King's Hedges, or Romsey area.|request
+USR|chesterton|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|whats the address|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|looking for a free restaurant and it should be in the city center area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Trumpington.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or riverside area.|request
+USR|center area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Girton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or riverside area.|request
+USR|thank you good bye|bye
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|<unk> good bye|bye
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|<unk> yes|affirm
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|<unk> the computer|null
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|<unk> hang the fuck up <unk>|bye
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+SYS|Are you looking for a pub or a restaurant?|select
+USR|thank you good bye|bye
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|thank you good bye|bye

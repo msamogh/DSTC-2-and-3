@@ -1,0 +1,51 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|looking for a moderately priced restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or New Chesterton area.|request
+USR|looking for a moderately priced res|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or riverside.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or central area.|request
+USR|kings hedge|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or riverside area.|request
+USR|kings hedges area|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Are you looking for a pub or a restaurant?|select
+USR|kings hedges ar|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|kings hedges area|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|moderately priced restaurant|inform
+SYS|The Ranch is an outstanding restaurant, it's in the King's Hedges part of town and it's in the moderate price range.|offer
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or riverside.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Girton area.|request
+USR|can i have the address and the|request
+SYS|The Ranch is on 100 Histon Road.|offer
+USR|need the address|request
+SYS|The Ranch is on 100 Histon Road.|offer
+USR|price of|request
+SYS|The Ranch is an outstanding restaurant.|offer
+USR|price of venue|request
+SYS|The Ranch is a great restaurant.|offer
+USR|price of <unk>|request
+SYS|The Ranch is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|price of venue|request
+SYS|The Ranch is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|price of|request
+SYS|The Ranch is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|thank you good bye|bye

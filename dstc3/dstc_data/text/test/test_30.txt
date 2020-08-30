@@ -1,0 +1,48 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Vegetarian.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, American, or Continental.|request
+USR|does not matter|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Contemporary, or Italian.|request
+USR|american|inform
+SYS|There is no restaurant serving american food in the expensive price range.|canthelp
+USR|italian|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, the Michaelhouse Centre, or Primavera.|request
+USR|in the addenbrookes area|inform
+SYS|The Sorrento, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|This place, which serves italian food, is in the expensive price range.|offer
+USR|what is the address and the post code|request
+SYS|The Sorrento, which is in the area with the postcode CB1 7AN, is on 196 Cherry Hinton Road.|offer
+SYS|Its phone number is 01223243533.|offer
+USR|thank you goodbye|bye

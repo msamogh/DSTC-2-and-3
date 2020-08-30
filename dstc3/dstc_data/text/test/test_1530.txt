@@ -1,0 +1,9 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a moderately priced english restaurant|inform
+SYS|Carringtons is a great cafe, it serves cafe food, it serves english food, it's in the moderate price range and it's an outstanding restaurant.|offer
+USR|what is the phone number and postcode|request
+SYS|The phone number of Carringtons is 01223361792 and it's in the area with the postcode CB2 3NZ.|offer
+USR|thank you goodbye|bye

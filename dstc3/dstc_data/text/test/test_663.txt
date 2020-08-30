@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an international restaurant|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|uh what is the address|request
+SYS|Giraffe is located on Christ's Lane.|offer
+USR|uh whats the phone number|request
+SYS|The phone number of Giraffe is 01223300707.|offer
+USR|what was the area of the venue|request
+SYS|Giraffe is in the central part of town.|offer
+USR|alright thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|good bye|bye
+SYS|Giraffe is a great restaurant.|offer
+USR|thank you good bye|bye

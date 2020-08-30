@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, American, or Thai.|request
+USR|dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|cheap|inform
+SYS|Blue Spice is a great restaurant.|offer
+USR|castle hill area|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|in the castle hill area|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|cheap|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, or Holy Trinity Church.|request
+USR|no|negate
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+SYS|The Dojo Noodle Bar is a great restaurant and it's in the cheap price range.|offer
+USR|i need the address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+USR|i need the fo type of food|request
+SYS|The Dojo Noodle Bar serves fusion food.|offer
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+USR|type of food|request
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+USR|type of food|request
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+USR|what type of food|request
+SYS|The Dojo Noodle Bar serves fusion food.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a japanese rest a japanese restaurant in the city center|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Fen Ditton.|request
+USR|city center|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Trumpington area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, New Chesterton, or Trumpington area.|request
+USR|city center|inform
+SYS|Yippee Noodle Bar is a great restaurant, it's in the central part of town and it serves chinese take away and japanese food.|offer
+USR|what is the address|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|what is the price range|request
+SYS|Yippee Noodle Bar is in the moderate price range.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|thank you good bye|bye

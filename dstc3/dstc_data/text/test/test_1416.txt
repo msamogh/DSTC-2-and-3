@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|expensive restaurant in castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, pub, or French.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or riverside area.|request
+USR|castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Italian, or Thai.|request
+USR|italian|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the riverside, Romsey, or Trumpington area.|request
+USR|castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|expensive|inform
+SYS|Ask is a great restaurant, it serves italian food and it's in the expensive price range.|offer
+USR|is it in the castle hill area|confirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Newnham area.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, Magdalene College, or Pembroke College.|request
+USR|no|negate
+SYS|Ask is an outstanding restaurant, it serves italian food and it's in the expensive price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Ask is 01223364917.|offer
+USR|thank you|thankyou
+SYS|Ask is a great restaurant.|offer
+USR|thank you goodbye|bye

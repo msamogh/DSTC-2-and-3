@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|i want to find a free restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, pub, or Italian.|request
+USR|i dont care|inform
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|can i get the address and the postcode|request
+SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is located on Michaelhouse, Trinity Street.|offer
+USR|thank you goodbye|bye

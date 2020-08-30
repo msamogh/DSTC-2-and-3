@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|eep restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or New Chesterton area.|request
+USR|castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or central.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, or the Lammas Land Park.|request
+USR|castle hill area|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|price|request
+SYS|La Raza is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|thank you good bye|bye

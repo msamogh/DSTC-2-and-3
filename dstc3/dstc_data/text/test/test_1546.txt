@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a free restaurant in the city center area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the central area.|expl-conf
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Italian, or Japanese.|request
+USR|i would like a free restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, East asian, or English.|request
+USR|i dont care|inform
+SYS|The Michaelhouse Centre, which is in the central part of town, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|may i have the address and phone number|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+USR|what type of food is served|request
+SYS|The Michaelhouse Centre serves contemporary food.|offer
+USR|thank you good bye|bye

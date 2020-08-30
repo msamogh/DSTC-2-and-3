@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap chine chinese takeaway restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Girton area.|request
+USR|area doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Kettle's Yard, or The Fitzwilliam Museum.|request
+USR|venue venue doesnt matter|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, New Chesterton, or Newnham area.|request
+USR|venue doesnt matter|null
+SYS|The Peking Restaurant is an outstanding restaurant and it serves chinese food.|offer
+SYS|It's in the cheap price range.|offer
+USR|i need to know the phone number and the price|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+SYS|The price for main courses ranges from 3 pounds to 9 pounds.|offer
+USR|thank you goodbye|bye

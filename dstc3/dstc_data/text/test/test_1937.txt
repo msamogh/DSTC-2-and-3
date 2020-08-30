@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, International, or Mediterranean.|request
+USR|in the barnwell area|inform
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer
+USR|phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|type of food|request
+SYS|The Wheatsheaf is an outstanding restaurant.|offer
+USR|type of food|request
+SYS|The Wheatsheaf is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds to 13 pounds and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|what type of food|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|thank you goodbye|bye

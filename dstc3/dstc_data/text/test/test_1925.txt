@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a restaurant in fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Spanish, or Turkish.|request
+USR|italian|inform
+SYS|There is no restaurant in the Fen Ditton area and serving italian food.|canthelp
+USR|turkish|inform
+SYS|There is no restaurant in the Fen Ditton area and serving turkish food.|canthelp
+USR|chinese|inform
+SYS|The J Restaurant, which serves chinese food, is a great restaurant.|offer
+USR|address|request
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds.|offer
+USR|thank you goodbye|bye

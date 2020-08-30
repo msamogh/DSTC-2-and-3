@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Clare Hall, or Little Saint Mary's.|request
+USR|little saint mary|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Saint Barnabas Press Gallery, the Scott Polar Museum, or the Whipple Museum of the History of Science.|request
+USR|history museum of science|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
+USR|riverside area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|i dont care about the location or the venue|inform
+SYS|Caffe Uno is a great restaurant and it's in the riverside part of town.|offer
+USR|i need a middle eastern restaurant|inform
+SYS|There is no restaurant in the riverside area and serving middleeastern food.|canthelp
+USR|okay middle eastern restaurant near a venue|ack
+SYS|Can I help you with anything else?|reqmore
+USR|yes|affirm
+SYS|Al Casbah, which serves mediterranean food, is a great restaurant.|offer
+SYS|It serves middleeastern food.|offer
+USR|may i get the phone number and postcode|request
+SYS|The phone number of Al Casbah is 01223579500 and it's in the area with the postcode CB1 2AS.|offer
+USR|okay thank you goodbye|ack

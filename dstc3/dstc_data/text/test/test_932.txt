@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a cheap restaurant in the fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Fen Ditton.|request
+USR|im looking for a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or East asian.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Saint Catharine's College, or the Scott Polar Museum.|request
+USR|cafe <unk>|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, the Saint Barnabas Press Gallery, or the Scott Polar Museum.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or Newnham.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Vegetarian.|request
+USR|drinks and snacks|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Contemporary, or Thai.|request
+USR|texmex|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|thank you good bye|bye
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|thank you good bye|bye

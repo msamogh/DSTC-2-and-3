@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the romsey area|inform
+SYS|The Royal Standard is an outstanding restaurant and it's in the Romsey part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|do you know the address and what type of food they serve|request
+SYS|The Royal Standard is located on 292 Mill Road and it serves indian food.|offer
+USR|thank you good bye|bye

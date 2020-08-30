@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Trinity College, or Wandlebury Country Park.|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Seafood, or Traditional.|request
+USR|im looking for a a restaurant in the addenbrookes area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, Trinity College, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|The Lucky Star is an outstanding restaurant and it's in the Addenbrooke's part of town.|offer
+USR|moderately priced|inform
+SYS|Nando's Restaurant, Cambridge Leisure Park, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|i need the phone number and post code|request
+SYS|The phone number of Nando's Restaurant, Cambridge Leisure Park is 01223246568 and it's in the area with the postcode CB1 7DY.|offer
+USR|thank you goodbye|bye

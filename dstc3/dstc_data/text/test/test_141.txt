@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap chinese takeaway restaurant|inform
+SYS|Saigon City, which serves chinese take away, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|Saigon City is located on 169 High Street, Chesterton.|offer
+USR|what is the phone number|request
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|The phone number of Saigon City is 01223356555.|offer
+USR|what is the postcode|request
+SYS|Saigon City is in the area with the postcode CB4 1NL.|offer
+USR|thank you goodbye|bye

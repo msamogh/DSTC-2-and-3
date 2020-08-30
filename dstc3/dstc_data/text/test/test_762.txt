@@ -1,0 +1,68 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|pub|inform
+SYS|Are you looking for a venue with a television?|request
+USR|pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|any|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+USR|um any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|doesnt matter|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|doesnt matter|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|The Alma is a great pub.|offer
+USR|no|negate
+SYS|The Alma is an outstanding pub.|offer
+USR|do they allow|null
+SYS|The Alma is a great pub.|offer
+USR|what is the price range|request
+SYS|The Alma is in the moderate price range.|offer
+SYS|The price for main courses ranges from 3 pounds 75 to 8 pounds 95 and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|what is the price range|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|do they allow children|request
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|children|inform
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no i need so|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|i children|inform
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|no|negate
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|yes|affirm
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|yes|affirm
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|yes|affirm
+SYS|Would you like an other or true internet connection?|expl-conf
+USR|true internet|inform
+SYS|Would you like an other television, or you don't care?|expl-conf
+USR|another|null
+SYS|Would you like an other television, or you don't care?|expl-conf
+USR|i dont care|inform
+SYS|The phone number of The Alma is 01223316722 and it's in the moderate price range.|offer
+USR|i dont care|inform

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, King's Hedges, or Romsey area.|request
+USR|im looking for a continental restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Newnham area.|request
+USR|doesnt matter|inform
+SYS|Alimentum, which serves continental and french food, is an outstanding restaurant.|offer
+USR|what are the address and price|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+SYS|There is no restaurant serving continental food in the moderate price range.|canthelp
+USR|i dont care about a price range|inform
+SYS|Can I help you with anything else?|reqmore
+USR|what is a im looking for a continental restaurant|inform
+SYS|Alimentum, which serves continental and french food, is an outstanding restaurant.|offer
+SYS|Alimentum, which serves continental food, is an outstanding restaurant.|offer
+SYS|It serves french food.|offer
+USR|what is the address and price|request
+SYS|Alimentum is located on 152-154 Hills Road.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+SYS|Alimentum is an outstanding restaurant.|offer
+SYS|It serves continental and french food.|offer
+USR|thank you good bye|bye

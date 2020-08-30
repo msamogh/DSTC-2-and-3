@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|im looking for a cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Gonville and Caius College, or the People's Portraits Exhibition.|request
+USR|it should be in the romsey area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, the Regency Gallery, or Trinity College.|request
+USR|no|negate
+SYS|The Royal Standard, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Royal Standard is 01223902175.|offer
+USR|what type of food do they serve|request
+SYS|The Royal Standard serves indian food.|offer
+USR|thank you goodbye|bye

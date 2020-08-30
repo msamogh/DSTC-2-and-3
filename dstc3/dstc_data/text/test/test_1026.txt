@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|whats an east asian restaurant in the riverside area|inform
+SYS|Little Seoul, which is in the riverside part of town, is a great restaurant.|offer
+SYS|It serves east asian food.|offer
+USR|whats the phone number|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|phone number|request
+SYS|The phone number of Little Seoul is 01223308681.|offer
+USR|whats the postcode|request
+SYS|Little Seoul is in the area with the postcode CB2 1DP.|offer
+USR|thank you|thankyou
+SYS|Little Seoul is a great restaurant.|offer
+SYS|It's in the riverside part of town.|offer
+SYS|It serves east asian food.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Italian, or Vegetarian.|request
+USR|italian|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Corpus Christi, or Old Schools.|request
+USR|addenbrookes|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cafe Jello, or the People's Portraits Exhibition.|request
+USR|addenbrookes area|inform
+SYS|The Sorrento, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It serves italian food.|offer
+USR|phone number|request
+SYS|The phone number of The Sorrento is 01223243533.|offer
+USR|postcode of the venue|request
+SYS|The Sorrento is in the area with the postcode CB1 7AN.|offer
+USR|address|request
+SYS|The Sorrento is located on 196 Cherry Hinton Road.|offer
+USR|thank you good bye|bye

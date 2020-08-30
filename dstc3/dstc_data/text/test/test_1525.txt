@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|<unk> chinese restaurant in the addonbrookes area|inform
+SYS|The Lucky Star is a great restaurant, it's in the Addenbrooke's part of town and it serves chinese food.|offer
+USR|may i have the address and phone number|request
+SYS|The Lucky Star is located on Unit and its phone number is 01223244277.|offer
+USR|<unk> what is the address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a traditional restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|im looking for one in the moderate price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, or the Museum of Classical Archaeology.|request
+USR|no i am not|negate
+SYS|The Eagle, which serves traditional food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the eagles address|request
+SYS|The Eagle is located on 8 Benet Street.|offer
+USR|what is its phone number|request
+SYS|The phone number of The Eagle is 01223505020.|offer
+USR|thank you goodbye|bye

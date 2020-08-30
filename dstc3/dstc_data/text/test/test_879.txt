@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yeah hi uh i want to find an internet connection and must have a tv|affirm
+SYS|The Bakers has an internet connection, it has a television and it's a great pub.|offer
+USR|<unk> traffic <unk>|null
+SYS|The Bakers has an internet connection and it's an outstanding pub.|offer
+USR|uh is it have does it have a tv|request
+SYS|Yes.|affirm
+SYS|The Bakers has a television.|affirm
+USR|ok and can i have an address and i want to know whether children are allowed|request
+SYS|I am sorry but there is no information on The Bakers's food.|canthelp.missing_slot_value
+USR|ok thank you good bye|ack

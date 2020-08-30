@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|contemporary|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|thank partial|thankyou
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|thank you goodbye|bye

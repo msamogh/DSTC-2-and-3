@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Indian, or Traditional.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Holy Trinity Church, or the Ruskin Gallery.|request
+USR|newnham|inform
+SYS|The Red Bull is a great restaurant, it's in the Newnham part of town and it's in the moderate price range.|offer
+USR|ok|ack
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|The Red Bull, which is in the Newnham part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye|bye

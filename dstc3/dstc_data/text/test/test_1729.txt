@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|traditional restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Castle Galleries, or the Scott Polar Museum.|request
+USR|no|negate
+SYS|The Riverside Restaurant is a great restaurant.|offer
+SYS|This place, which serves traditional food, is in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Granta Bar is located on University Centre, Granta Place.|offer
+USR|and the postcode|request
+SYS|The Granta Bar is in the area with the postcode CB2 1RU.|offer
+SYS|I can't hear you.|offer
+SYS|The Granta Bar is in the area with the postcode CB2 1RU.|offer
+USR|than|null
+SYS|The Granta Bar is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

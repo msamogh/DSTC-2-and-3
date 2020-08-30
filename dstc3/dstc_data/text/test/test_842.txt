@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for an expensive indian restaurant|inform
+SYS|Blue Spice is an outstanding restaurant, it serves indian food and it's in the expensive price range.|offer
+SYS|Blue Spice is a great restaurant, it serves indian food and it's in the expensive price range.|offer
+SYS|Blue Spice is an outstanding restaurant.|offer
+SYS|It serves indian food.|offer
+SYS|It's in the expensive price range.|offer
+USR|what is the telephone number|request
+SYS|The phone number of Blue Spice is 01223413337.|offer
+USR|what is the area <unk>|request
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|what is the area|request
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|thank you good bye|bye

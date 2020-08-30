@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant and it should be in the kings hedges area|inform
+SYS|The Ranch is a great restaurant, it's in the King's Hedges part of town and it's in the moderate price range.|offer
+USR|whats the address|request
+SYS|The Ranch is on 100 Histon Road.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Ranch is 01223322772.|offer
+USR|whats the post code|request
+SYS|The Ranch, which is in the King's Hedges part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the post code|request
+SYS|The Ranch is in the area with the postcode CB4 3JP.|offer
+USR|thank you good bye|bye

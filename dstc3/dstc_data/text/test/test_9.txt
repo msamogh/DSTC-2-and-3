@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|whistling moron|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for an italian restaurant with an expensive price range|inform
+SYS|The Sorrento is a great restaurant, it serves italian food and it's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Sorrento is located on 196 Cherry Hinton Road.|offer
+SYS|The price for main courses ranges from 9 pounds to 16 pounds 95.|offer
+USR|what is the phone number and post code|request
+SYS|The phone number of The Sorrento is 01223243533.|offer
+SYS|It's in the area with the postcode CB1 7AN.|offer
+USR|thank you goodbye|bye

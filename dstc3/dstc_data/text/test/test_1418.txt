@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, East asian, or Mexican and Tex Mex.|request
+USR|coffee shop|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Spanish, or Traditional.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Saint Catharine's College, or The Fitzwilliam Museum.|request
+USR|girton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, or Indian.|request
+USR|continental|inform
+SYS|There is no cafe serving continental food.|canthelp
+USR|any|inform
+SYS|Can I help you with anything else?|reqmore
+USR|uh coffee shop in girton|inform
+SYS|The Auntie's Tea Shop, which is in the Girton part of town, is an outstanding cafe.|offer
+USR|and whats the address|request
+SYS|The Auntie's Tea Shop is located on 1 Saint Mary's Passage.|offer
+USR|ok thanks good bye|ack

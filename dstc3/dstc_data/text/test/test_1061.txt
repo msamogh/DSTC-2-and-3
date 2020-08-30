@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Fen Ditton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or Romsey.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or New Chesterton.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or riverside area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or New Chesterton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or King's Hedges area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Castle Hill.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or King's Hedges.|request
+USR|thank you goodbye|bye

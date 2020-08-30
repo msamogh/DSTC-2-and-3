@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|east asian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Ruskin Gallery, Sidney Sussex College, or Trinity College.|request
+USR|trinity college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Clare Hall, or Saint Catharine's College.|request
+USR|catharines college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Saint Catharine's College, or Trinity College.|request
+USR|no|negate
+SYS|Shiraz, which serves east asian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|whats the address|request
+SYS|Shiraz is located on 84 Regent Street.|offer
+SYS|The price for main courses ranges from 9 pounds to 14 pounds 15.|offer
+USR|uh whats the phone number|request
+SYS|The phone number of Shiraz is 01223902104.|offer
+USR|okay thank you goodbye|ack

@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a french restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or Trumpington area.|request
+USR|it doesnt matter|inform
+SYS|The Hotel du Vin, which serves french food, is an outstanding restaurant.|offer
+USR|im looking for the price to be|request
+SYS|The Hotel du Vin is an outstanding venue.|offer
+SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
+USR|im looking for a restaurant and it should be free|inform
+SYS|Ta Bouche is a great restaurant, it serves french food and it doesn't charge any entrance fee.|offer
+USR|what is the address|request
+SYS|Ta Bouche is located on 10-15 Market Passage.|offer
+USR|what is the phone number|request
+SYS|The phone number of Ta Bouche is 01223462277.|offer
+USR|what is the price|request
+SYS|Ta Bouche is a great venue.|offer
+SYS|The price for main courses ranges from 5 pounds 45 to 10 pounds 95 and the entrance is free of charge.|offer
+USR|is it free|confirm
+SYS|Ta Bouche doesn't charge any entrance fee.|offer
+USR|thank you good bye|bye

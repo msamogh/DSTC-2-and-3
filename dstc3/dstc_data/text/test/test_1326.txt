@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, English, or Fastfood.|request
+USR|cafe food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|fast food|inform
+SYS|Would you like fastfood or X food?|select
+USR|cheap|inform
+SYS|Would you like fastfood or X food?|select
+USR|cheap|inform
+SYS|Would you like fastfood or X food?|select
+USR|<unk> food|inform
+SYS|Would you like fastfood or X food?|select
+USR|x food|inform
+SYS|Would you like fastfood or X food?|select
+USR|x food|inform
+SYS|The Cambridge Blue, which is in the cheap price range, is a great cafe.|offer
+USR|<unk> food|inform
+SYS|There is no cafe serving fastfood.|canthelp
+USR|phone number|request
+SYS|The Cambridge Blue is located on 24 Regent Street and its phone number is 01223369222.|offer
+USR|phone number|request
+SYS|The phone number of the Cambridge Blue is 01223369222.|offer
+USR|thank you good bye|bye

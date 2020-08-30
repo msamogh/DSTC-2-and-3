@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a cafe|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, the Saint Barnabas Press Gallery, or Williams Art and Antiques.|request
+USR|not really|negate
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Greek, or Seafood.|request
+USR|breakfast|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Trumpington area.|request
+USR|how bout trumpington|inform
+SYS|There is no cafe in the Trumpington area.|canthelp
+USR|how bout cherry hinton|inform
+SYS|Are you looking for a venue in the Cherry Hinton or Trumpington area?|select
+USR|cherry hinton|inform
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|im looking for a cafe|inform
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|london|null
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Japanese, or Vegetarian.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Mediterranean, or Traditional.|request
+USR|traditional|inform
+SYS|There is no cafe serving traditional food.|canthelp
+USR|thank you good bye|bye

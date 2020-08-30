@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a chinese take away restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese chinese restaurant|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury.|request
+USR|i dont care the location|inform
+SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+USR|can i get the address the phone number and the post code|request
+SYS|The J Restaurant, which is in the area with the postcode CB2 1DP, is on 86, Regent Street.|offer
+SYS|Its phone number is 01223307273.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ah cafe in the river side area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Indian, or Japanese.|request
+SYS|There is no cafe in the riverside area.|canthelp
+USR|i want a restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|i am looking for river side a restaurant snacks and drinks|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the riverside area.|expl-conf
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanical Garden* Botanical Gardens, Gonville and Caius College, or Primavera.|request
+USR|river side area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Kettle's Yard, or Williams Art and Antiques.|request
+USR|thank you good bye|bye

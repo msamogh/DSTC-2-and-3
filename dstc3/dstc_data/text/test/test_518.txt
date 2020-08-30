@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a fast food restaurant|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|yep|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Chesterton area.|request
+USR|oh a moderate price range|inform
+SYS|There is no restaurant serving fastfood in the moderate price range.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|ok what about the hi|null
+SYS|Burger King, which serves fastfood, is a great restaurant.|offer
+USR|price range|request
+SYS|Burger King is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|whats the price range there|request
+SYS|Burger King is in the cheap price range.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|ok cool can i get the phone number and the address|ack
+SYS|Burger King is on The Grafton Centre and its phone number is 01223322666.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|can i get the phone number and the address|request
+SYS|Burger King is on The Grafton Centre and its phone number is 01223322666.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|what is a moderately priced east asian restaurant|inform
+SYS|Little Seoul, which serves east asian food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Little Seoul is on 108 Regent Street.|offer
+USR|the phone number|request
+SYS|The phone number of Little Seoul is 01223308681.|offer
+USR|what area is in|request
+SYS|Little Seoul is in the riverside part of town.|offer
+USR|thank you goodbye|bye

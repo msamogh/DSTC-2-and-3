@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|contemporary restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, riverside, or Trumpington area.|request
+USR|i dont care|inform
+SYS|The Doubletree by Hilton, Cambridge Garden House, which serves contemporary food, is an outstanding restaurant.|offer
+USR|chesterton|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|whats the address|request
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|address|request
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|The Doubletree by Hilton, Cambridge Garden House is located on Granta Place, Mill Lane.|offer
+SYS|A cheapest single room is 129 pounds and a cheapest double room is 129 pounds and a cheapest family room is 229 pounds and the price for main courses ranges from 13 pounds 95 to 17 pounds 50.|offer
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It serves contemporary food.|offer
+USR|thank you goodbye|bye

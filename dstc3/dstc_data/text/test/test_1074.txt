@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like a moderately priced coffee shop i dont care what area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Castle Galleries, or Downing College.|request
+USR|i dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the moderate price range.|expl-conf
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the moderate price range.|expl-conf
+USR|correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the moderate price range.|expl-conf
+USR|thank you good bye|bye

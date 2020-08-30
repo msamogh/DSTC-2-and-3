@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|give me the address and area of the venue|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or Newnham area.|request
+USR|i dont care|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|address and|request
+SYS|Carringtons is on 23 Market Street.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|area of the venue|request
+SYS|Carringtons is an outstanding restaurant.|offer
+SYS|Carringtons is an outstanding restaurant.|offer
+USR|address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|area of the venue|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an english venue.|expl-conf
+USR|yes|affirm
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and it serves english food.|offer
+USR|location|null
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for an english restaurant|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or King's Hedges area.|request
+USR|uh|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Holy Trinity Church, or Old Schools.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, or the Museum of Classical Archaeology.|request
+USR|<unk> area|request
+SYS|Carringtons is an outstanding cafe and a great restaurant and it serves cafe food and english food.|offer
+USR|ok can i get the address please|ack
+SYS|Carringtons, which is in the central part of town, is on 23 Market Street.|offer
+USR|and the number phone the phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|ok thank you|ack
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|good bye|bye

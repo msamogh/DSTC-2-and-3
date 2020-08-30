@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a restaurant in kings hedges|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, French, or Seafood.|request
+USR|it doesnt matter|inform
+SYS|The Ranch is an outstanding restaurant.|offer
+SYS|It's in the King's Hedges part of town.|offer
+USR|i need the address and the postcode please|request
+SYS|The Ranch, which is in the area with the postcode CB4 3JP, is located on 100 Histon Road.|offer
+USR|thank you goodbye|bye

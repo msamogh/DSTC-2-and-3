@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop serving italian food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|free|inform
+SYS|There is no cafe that is providing services for free.|canthelp
+SYS|Would you like a free price range, or you don't care?|select
+USR|coffee shop serving i|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or riverside area.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Castle Galleries, or the Museum of Archaelogy and Anthropology.|request
+USR|dont care|inform
+SYS|Would you like an italian food, or you don't care?|select
+USR|dont care|inform
+SYS|Caffe Nero is an outstanding cafe.|offer
+USR|italian|inform
+SYS|Caffe Nero is an outstanding cafe and it serves italian food.|offer
+USR|address|request
+SYS|Caffe Nero is on 11 Market Street.|offer
+USR|phone number|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|thank you good bye|bye

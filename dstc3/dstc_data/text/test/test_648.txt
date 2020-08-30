@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|i am looking for a coffee shop serving any kind of food and it should mm a cheap price range um id like to get the address and phone number of the venue|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Newnham area.|request
+USR|thank you and good bye|bye

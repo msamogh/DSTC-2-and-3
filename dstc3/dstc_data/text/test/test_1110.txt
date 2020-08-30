@@ -1,0 +1,58 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant in castle hill|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|restaurant in castle hill|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or Trumpington area.|request
+USR|cheap|inform
+SYS|Would you like a venue with a cheap or expensive price range?|select
+USR|castle hill|inform
+SYS|Would you like a venue with a cheap or expensive price range?|select
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, New Chesterton, or Trumpington area.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, the Lynne Strover Gallery, or Wandlebury Country Park.|request
+USR|new chester|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|country park|null
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|castle hill|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|castle hill|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|no|negate
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|new chesterton|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|dont care|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
+USR|dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|can i have the address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|can i have the ve postcode|request
+SYS|Twenty-four is in the area with the postcode CB4 0FN.|offer
+USR|thank you goodbye|bye

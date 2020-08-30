@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|american restaurant in city center|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the central area.|expl-conf
+USR|yes|affirm
+SYS|Gourmet Burger , which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves american food.|offer
+USR|can i have the address|request
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+USR|may i have the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or Newnham area.|request
+USR|im looking for a fusion restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or Trumpington area.|request
+USR|a fusion restaurant|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|i dont care about the price range do you have any others|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|do you have the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|is it a restaurant|confirm
+SYS|Yes.|affirm
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|affirm
+USR|what is the address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+USR|thank you good bye|bye

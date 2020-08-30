@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like to find a moderately priced restaurant in the addenbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Italian, or Turkish.|request
+USR|um|null
+SYS|What type of food would you like?|request
+SYS|For example, International, Seafood, or Vegetarian.|request
+USR|its a it doesnt matter|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Chinese.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, Castle Galleries, or Saint John's College.|request
+USR|chinese|inform
+SYS|There is no restaurant in the Addenbrooke's area and serving chinese food in the moderate price range.|canthelp
+USR|okay thank you goodbye|ack

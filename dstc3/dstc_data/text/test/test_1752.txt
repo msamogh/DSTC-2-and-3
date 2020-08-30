@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub it should be in the cheap price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Lynne Strover Gallery, or Pembroke College.|request
+USR|i dont care|inform
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|whats the address|request
+SYS|The Baron of Beef is located on Bridge Street.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|what is the address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|thank you goodbye|bye

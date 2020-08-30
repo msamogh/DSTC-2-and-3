@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap pub|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|um|null
+SYS|Are you looking for a venue with a television?|request
+USR|need a place with tv|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|The Baron of Beef has a television and it's in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|ok phone number|ack
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|thank you good bye|bye

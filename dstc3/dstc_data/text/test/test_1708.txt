@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Trumpington.|request
+USR|city center|inform
+SYS|The Ugly Duckling, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Ugly Duckling is 01223358281.|offer
+USR|price|request
+SYS|The Ugly Duckling is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 10 pounds.|offer
+USR|thank you good bye|bye

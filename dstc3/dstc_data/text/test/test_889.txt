@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|ya i am looking for a chinese restaurant and it should be in the girton area|inform
+SYS|Would you like japanese or X food?|select
+USR|a chinese food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Trumpington area.|request
+USR|im looking for a restaurant uh and uh it should situated in the girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum of Archaelogy and Anthropology, or Williams Art and Antiques.|request
+USR|im trying to find a chinese restaurant and it should be in the girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Artspace, or the Book and Print Gallery.|request
+USR|any <unk> is fine|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate price range|inform
+SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|i need to have the phone number|request
+SYS|The phone number of the J Restaurant is 01223307273.|offer
+USR|and the price range and the address of the venue|request
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds.|offer
+USR|thank you good bye|bye

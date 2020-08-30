@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh i want to find a fast food restaurant and it should have a cheap price range|inform
+SYS|Would you like fastfood or X food?|select
+USR|fast food|inform
+SYS|Burger King is a great restaurant, it serves fastfood and it's in the cheap price range.|offer
+USR|whats the address and price of the venue|request
+SYS|Burger King is located on The Grafton Centre.|offer
+SYS|The price for main courses ranges from 1 pound 99 to 6 pounds 79.|offer
+USR|thank you goodbye|bye

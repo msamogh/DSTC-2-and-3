@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|you know|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+USR|cheap restaurant in addon|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|cheap restaurant in addonbrookes|inform
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+SYS|It's in the Girton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|addonbrookes area|inform
+SYS|The Peking Restaurant, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|<unk> addon|null
+SYS|There is no pub in the Addenbrooke's area.|canthelp
+USR|address <unk>|request
+SYS|The Peking Restaurant is on Unit 3, The Belvedere, Homerton Street.|offer
+USR|address|request
+SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
+USR|phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|thank you good bye|bye

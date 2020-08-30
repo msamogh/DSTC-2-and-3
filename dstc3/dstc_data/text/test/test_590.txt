@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|free restaurant free restaurants|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Spanish.|request
+USR|free restaurants|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, the Michaelhouse Centre, or the Saint Barnabas Press Gallery.|request
+USR|free free|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Castle Hill.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, French, or Fusion.|request
+USR|french|inform
+SYS|Ta Bouche is an outstanding restaurant, it serves french food and it doesn't charge any entrance fee.|offer
+SYS|Ta Bouche, which serves french food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|<unk> thank you goodbye|bye
+SYS|Ta Bouche, which serves french food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|Ta Bouche, which serves french food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|Ta Bouche is a great restaurant, it serves french food and it doesn't charge any entrance fee.|offer
+USR|thank you goodbye|bye

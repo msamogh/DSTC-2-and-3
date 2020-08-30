@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like information for an american restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Clare Hall, or the Museum of Archaelogy and Anthropology.|request
+USR|no|negate
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+USR|may i have the address and phone number|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street and its phone number is 01223312598.|offer
+USR|what area is it in|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+USR|thank you good bye|bye

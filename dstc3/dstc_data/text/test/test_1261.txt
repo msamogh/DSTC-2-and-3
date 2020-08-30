@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|im looking for a moderately price restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, the Regency Gallery, or the Whipple Museum of the History of Science.|request
+USR|uh the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or New Chesterton area.|request
+USR|the the fen ditton area please|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, New Chesterton, or Newnham area.|request
+USR|the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Romsey area.|request
+USR|the fen ditton ar fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, New Chesterton, or riverside area.|request
+USR|fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or New Chesterton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Romsey area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Girton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|the fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or riverside.|request
+USR|thank you goodbye|bye

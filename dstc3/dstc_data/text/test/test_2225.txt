@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Contemporary, or Vegetarian.|request
+USR|pub|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cambridge Contemporary Art, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|in the city center area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, Seafood, or Spanish.|request
+USR|bar|null
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or English.|request
+USR|pub food|inform
+SYS|The Fountain Inn is an outstanding restaurant, it's in the central part of town and it serves pub food.|offer
+USR|in the city center area|inform
+SYS|The Fountain Inn, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+USR|address and post code|request
+SYS|The Fountain Inn is on 12 Regent Street and it's in the area with the postcode CB2 1DB.|offer
+USR|thank you goodbye|bye

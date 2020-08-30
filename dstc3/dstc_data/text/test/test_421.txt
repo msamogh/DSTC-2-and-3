@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced coffee shop|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Arbury.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, American, or Continental.|request
+USR|coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, or Queens' College.|request
+USR|college|null
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Spanish, or Turkish.|request
+USR|dont care|inform
+SYS|The Auntie's Tea Shop is an outstanding cafe and it's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of the Auntie's Tea Shop is 01223315641.|offer
+USR|type of food|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|thank you good bye|bye

@@ -1,0 +1,48 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|cheap coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Fusion, or Thai.|request
+USR|coffee shop|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Trumpington area.|request
+USR|coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, or French.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Trumpington.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Holy Trinity Church, or Saint John's College.|request
+USR|none i want to know the address and price|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Spanish, or Turkish.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, East asian, or Chinese.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Magdalene College, or the Saint Barnabas Press Gallery.|request
+USR|coffee|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, King's College, or the Museum of Archaelogy and Anthropology.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the King's Hedges, riverside, or Trumpington area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or New Chesterton area.|request
+USR|none|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or central.|request
+USR|thank you very much good bye|bye
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, Traditional, or Vegetarian.|request
+USR|thank you very much good bye|bye

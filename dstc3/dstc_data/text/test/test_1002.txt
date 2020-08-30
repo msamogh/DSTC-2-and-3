@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue with no entrance fee.|expl-conf
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|no im looking for a continental re|negate
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|ah continental restaurant|inform
+SYS|There is no restaurant serving continental food that is providing services for free.|canthelp
+USR|ah a restaurant with expensive price|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Saint Catharine's College, or The Fitzwilliam Museum.|request
+USR|a continental restaurant wi|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or King's Hedges area.|request
+USR|no no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Castle Galleries, or Corpus Christi.|request
+USR|i am looking for a continetal restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or New Chesterton.|request
+USR|continental restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, the Ruskin Gallery, or the Whipple Museum of the History of Science.|request
+USR|barnwell|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Michaelhouse Centre, or Lamma's Land.|request
+USR|barnwell|inform
+SYS|There is no restaurant in the Barnwell area in the expensive price range.|canthelp
+USR|barnwell|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|i am looking for a continental|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive price range|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive price range|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive price range|inform
+SYS|There is no restaurant in the Barnwell area and serving continental food.|canthelp
+USR|thank you good bye|bye

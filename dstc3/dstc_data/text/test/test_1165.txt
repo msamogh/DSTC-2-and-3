@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find and expensive restaurant in the trumpington area|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fusion, or Traditional.|request
+USR|traditional|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Thai, or Vegetarian.|request
+USR|international|inform
+SYS|There is no restaurant in the Trumpington area and serving international food.|canthelp
+USR|expensive restaurant in the trumpington area|inform
+SYS|There is no restaurant serving international food in the expensive price range.|canthelp
+USR|restaurant in the trumpington area|inform
+SYS|Would you like an international food, or you don't care?|select
+USR|dont care|inform
+SYS|The Oak Bistro is a great restaurant, it's in the Trumpington part of town and it's in the expensive price range.|offer
+USR|thank you good bye|bye

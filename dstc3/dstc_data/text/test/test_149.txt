@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in fen ditton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or Trumpington area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or New Chesterton area.|request
+USR|the fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Botanical Garden* Botanical Gardens, or Williams Art and Antiques.|request
+USR|nowhere specific|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is a great restaurant.|offer
+USR|what is the address|request
+SYS|The Lion and Lamb is on High Street, Milton.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+USR|thank you good bye|bye

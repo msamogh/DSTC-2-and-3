@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a restaurant|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or riverside area.|request
+USR|in a|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, the Lynne Strover Gallery, or the Saint Barnabas Press Gallery.|request
+USR|anywhere would be fine|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Fusion, or Japanese.|request
+USR|english|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Romsey area.|request
+USR|anywhere <unk>|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|are there any cheap ones|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|uh basically im just looking for a cheap restaurant|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|doesnt have to be anywhere particular|inform
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|alright thank you good bye|thankyou
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|alright|null
+SYS|La Raza is a great restaurant.|offer
+USR|thank you|thankyou
+SYS|La Raza is an outstanding restaurant.|offer
+USR|good bye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|continental restaurant expensive price range|inform
+SYS|Alimentum, which serves continental and french food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|address phone number and postcode|request
+SYS|Alimentum, which is in the area with the postcode CB2 8PB, is located on 152-154 Hills Road.|offer
+SYS|Its phone number is 01223413000.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|thank you goodbye|bye

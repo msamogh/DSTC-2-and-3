@@ -1,0 +1,48 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|free|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurants|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|free|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|good bye|bye
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|free|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|free|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or riverside area.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, Middleeastern, or Traditional.|request
+USR|i dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|i dont care|inform
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Gonville and Caius College, or Jesus College.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, or Churchill College.|request
+USR|dont care|inform
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|address|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
+USR|phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|good bye|bye
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|good bye|bye

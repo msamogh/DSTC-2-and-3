@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a thai restaurant and it should have a moderate price range|inform
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|alright please give me the phone number and the area|request
+SYS|The phone number of Bangkok City is 01223354382.|offer
+USR|and the area please|request
+SYS|Bangkok City is in the central part of town.|offer
+USR|alright thank you good bye|thankyou

@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with wifi|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or King's Hedges area.|request
+USR|doesnt matter|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|does it have internet|request
+SYS|The Alma doesn't have any internet connection.|offer
+USR|i need a pub with internet|inform
+SYS|The Bakers is a great pub with an internet connection.|offer
+USR|and where are they at|request
+SYS|The Bakers has an internet connection and it's a great pub.|offer
+USR|whats their address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|and their phone|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no im looking for the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|and whats their price|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|thank you goodbye|bye

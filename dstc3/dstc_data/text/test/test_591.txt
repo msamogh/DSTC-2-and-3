@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|chinese takeaway restaurant in the city center area|inform
+SYS|Yippee Noodle Bar, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese take away and japanese food.|offer
+USR|chinese takeaway restaurant in the city ceter area|inform
+SYS|Yippee Noodle Bar, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese take away and japanese food.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, Hughes Hall, or Milton Country Park.|request
+USR|thank you goodbye|bye

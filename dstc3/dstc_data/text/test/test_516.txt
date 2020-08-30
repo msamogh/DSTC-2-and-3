@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub and it should have an internet connection and have a tv|inform
+SYS|The Bakers, which has an internet connection and a television, is a great pub.|offer
+USR|ok can i get the phone number please and the price range|ack
+SYS|The phone number of The Bakers is 01223304121.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|good please can i get the phone number and the price range please|request
+SYS|The phone number of The Bakers is 01223304121 and it's in the cheap price range.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|thank you good bye|bye

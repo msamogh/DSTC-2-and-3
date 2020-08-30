@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap pub and it should have an internet connection you want know i want to know the address phone number and area of the venue|request
+SYS|The Bakers is in the cheap price range with an internet connection and it's a great pub.|offer
+USR|yes|affirm
+SYS|The Bakers is located on 176 East Road and its phone number is 01223304121.|offer
+USR|repeat that|repeat
+SYS|The Bakers is an outstanding pub.|offer
+USR|i need the phone number again please|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|does it have an internet connection|request
+SYS|The Bakers has an internet connection.|offer
+USR|um is it cheap|confirm
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|thank you good bye|bye

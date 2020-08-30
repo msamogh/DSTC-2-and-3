@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find an american restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, King's College, or Williams Art and Antiques.|request
+USR|i dont care about the area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Barnwell.|request
+USR|it could be any area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or Newnham area.|request
+USR|it can be any area i dont have any problem with the area it can be any area but i want to find a american restaurant|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|i dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yes i dont care about the location i just want the|affirm
+SYS|The Dojo Noodle Bar is an outstanding restaurant and it serves fusion food.|offer
+USR|venue|null
+SYS|The Dojo Noodle Bar, which serves fusion food, is an outstanding restaurant.|offer
+USR|of american restaurant and the phone number|request
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+USR|can i get the phone number and price of the venue|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|thank you goodbye|bye

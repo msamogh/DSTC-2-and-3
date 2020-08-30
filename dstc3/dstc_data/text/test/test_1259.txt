@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yeah im looking for a cheap pub|affirm
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|is it in the riverside area|confirm
+SYS|The Bakers is a great pub.|offer
+SYS|It's in the riverside part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|okay excellent can you give me the address has a tv|request
+SYS|The Avery has a television and it's in the riverside part of town.|offer
+SYS|It's in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|whats the address please|request
+SYS|The Avery is on 69-73 Regent Street.|offer
+USR|thank you goodbye|bye

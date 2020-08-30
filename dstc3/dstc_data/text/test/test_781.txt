@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a chinese restaurant in city center|inform
+SYS|The Ugly Duckling, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Ugly Duckling is 01223358281.|offer
+USR|what is the postcode|request
+SYS|The Ugly Duckling is in the area with the postcode CB2 1TW.|offer
+SYS|The Ugly Duckling is an outstanding restaurant, it's in the central part of town and it serves chinese food.|offer
+SYS|The Ugly Duckling, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|what is the postcode|request
+SYS|The Ugly Duckling is in the area with the postcode CB2 1TW.|offer
+USR|what is the postcode|request
+SYS|The Ugly Duckling is in the area with the postcode CB2 1TW.|offer
+USR|thank you good bye beep|bye

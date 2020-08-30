@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|traditional restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|doesnt matter|inform
+SYS|The Eagle, which serves traditional food, is an outstanding restaurant.|offer
+USR|is it in the trumpington area|confirm
+SYS|The Eagle is in the central part of town.|offer
+USR|i need a traditional restaurant in the trumpington area|inform
+SYS|The Unicorn Steak and Ale House, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|It serves traditional food.|offer
+USR|what is the address phone number and price range of the venue|request
+SYS|The Unicorn Steak and Ale House is on Church Lane, Trumpington.|offer
+SYS|Its phone number is 01223845102.|offer
+SYS|The price for main courses ranges from 4 pounds 50 to 10 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|what was the address|request
+SYS|The Unicorn Steak and Ale House is on Church Lane, Trumpington.|offer
+USR|thank you goodbye|bye

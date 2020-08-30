@@ -1,0 +1,66 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|a spanish restaurant any price any area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a spanish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i do not care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|moderate|inform
+SYS|There is no restaurant serving spanish food in the moderate price range.|canthelp
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Clare Hall, or the Michaelhouse Centre.|request
+USR|yeah|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or New Chesterton.|request
+USR|any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Gonville and Caius College, or the Ruskin Gallery.|request
+USR|any area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or New Chesterton area.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the People's Portraits Exhibition, or Williams Art and Antiques.|request
+USR|uh spanish restaurant any price any area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or Newnham area.|request
+USR|a spanish restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or central area.|request
+USR|any price|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Castle Galleries, or the Lynne Strover Gallery.|request
+USR|no|negate
+SYS|La Raza, which serves spanish food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|no|negate
+SYS|La Raza is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|what is the address|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|what is the addre|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|thank you goodbye|bye

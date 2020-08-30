@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a coffee in the city center|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care what price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, French, or Seafood.|request
+USR|it does not matter|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or Italian.|request
+USR|i dont care|inform
+SYS|Carringtons, which is an outstanding cafe and a great restaurant, is in the central part of town.|offer
+USR|what type of food does it serve|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|ah what type of food does the venue serve|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|no i want to know what type of food this cafe serves|request
+SYS|Carringtons serves cafe food and english food.|offer
+USR|ok what is the address|ack
+SYS|Carringtons is on 23 Market Street.|offer
+USR|ok thank you good bye|ack

@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant with any price range and any area|inform
+SYS|La Raza is a great restaurant.|offer
+SYS|It serves spanish food.|offer
+USR|ok and the address|ack
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|and the price|request
+SYS|La Raza is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|ok thank you good bye|ack

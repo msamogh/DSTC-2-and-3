@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Thai, or Turkish.|request
+USR|any type of food but it should be in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or riverside area.|request
+USR|fenditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the Museum of Classical Archaeology, or Sidney Sussex College.|request
+USR|no|negate
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|no|negate
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|which area is it|request
+SYS|La Raza, which is in the central part of town, is located on 4-6, The Basement, Rose Crescent.|offer
+USR|which area is the restaurant in|request
+SYS|La Raza is in the central part of town.|offer
+USR|i want a restaurant in the fenditton area|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|i want a restaurant in the fenditton area|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|<unk> fenditton|inform
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can you give me the address|request
+SYS|The Milton Park English and Thai Restaurant is located on Milton Park Golf Course, Ely Road, Milton.|offer
+USR|what is the price range|request
+SYS|The Milton Park English and Thai Restaurant is in the cheap price range.|offer
+USR|and the type of food served there|request
+SYS|The Milton Park English and Thai Restaurant is an outstanding restaurant.|offer
+USR|what type of food is served there|request
+SYS|The phone number of the Milton Park English and Thai Restaurant is 01223864602.|offer
+USR|what is the type of food there|request
+SYS|The Milton Park English and Thai Restaurant serves thai food.|offer
+USR|good bye thank you|bye

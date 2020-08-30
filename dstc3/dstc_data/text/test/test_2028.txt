@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant in trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or French.|request
+USR|i dont care|inform
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|address and phone number|request
+SYS|The Oak Bistro is located on 6 Lensfield Road and its phone number is 01223323361.|offer
+USR|thank you goodbye|bye

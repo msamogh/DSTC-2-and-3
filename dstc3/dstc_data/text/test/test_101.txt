@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an international restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Seafood, or Turkish.|request
+USR|international|inform
+SYS|Giraffe is an outstanding restaurant, it serves international food and it's in the moderate price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Giraffe is 01223300707.|offer
+USR|what is the post code|request
+SYS|Giraffe is in the area with the postcode CB1 1NP.|offer
+USR|thank you good bye|bye

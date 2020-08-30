@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes|affirm
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|ah restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, pub, or International.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Kettle's Yard, or the Lynne Strover Gallery.|request
+USR|the fenditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Fastfood.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or Fastfood.|request
+USR|fast food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Thai, or Traditional.|request
+USR|fast fast food|inform
+SYS|There is no restaurant in the Girton area and serving fastfood.|canthelp
+USR|fast food|inform
+SYS|Would you like a fastfood, or you don't care?|select
+USR|yes fast food|affirm
+SYS|Would you like a fastfood, or you don't care?|select
+USR|fast food|inform
+SYS|There is no restaurant in the Girton area and serving fastfood.|canthelp
+USR|the fenditton area|inform
+SYS|Would you like a girton area, or you don't care?|select
+USR|the fenditton area|inform
+SYS|Would you like a fastfood, or you don't care?|select
+USR|no thank you good bye|negate

@@ -1,0 +1,70 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for a cafe or a restaurant?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|ah|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a thai venue.|expl-conf
+USR|uh restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a thai venue.|expl-conf
+USR|no in the fen ditton area|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|no|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Fastfood, or Middleeastern.|request
+USR|moderately|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, French, or Mediterranean.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Thai, or Traditional.|request
+USR|dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|traditional|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Girton area.|request
+USR|in the fen ditton area|inform
+SYS|The Rainbow Cafe is a great restaurant, it's in the Girton part of town and it serves traditional and vegetarian food.|offer
+SYS|It's in the moderate price range.|offer
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Romsey area.|request
+USR|fen ditton fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or Trumpington area.|request
+USR|the fen ditton|inform
+SYS|There is no restaurant in the Fen Ditton area and serving traditional food.|canthelp
+USR|fen dittn fen ditton|inform
+SYS|Would you like a traditional food, or you don't care?|select
+USR|fen ditton|inform
+SYS|Would you like a traditional food, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a traditional food, or you don't care?|select
+USR|i dont care|inform
+SYS|I am sorry but there is no information on the Rainbow Cafe's internet connection.|canthelp.missing_slot_value
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or King's Hedges area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Trumpington.|request
+USR|area|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or New Chesterton.|request
+USR|fen ditton|inform
+SYS|The Anchor is a great pub and it's in the moderate price range.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+USR|thank you good bye|bye

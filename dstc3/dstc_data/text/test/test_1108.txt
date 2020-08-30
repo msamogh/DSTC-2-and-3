@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|can i have an expensive greek restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|expensive|inform
+SYS|The Varsity, which serves greek food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i have the address|request
+SYS|The Varsity is located on 35 Saint Andrew's Street.|offer
+USR|can i have the phone number|request
+SYS|The phone number of the Varsity is 01223356060.|offer
+USR|may i have the post code|request
+SYS|The Varsity is in the area with the postcode CB2 3AR.|offer
+USR|thank you good bye|bye

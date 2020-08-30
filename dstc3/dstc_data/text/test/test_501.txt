@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a restaurant serving any kind of food|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+USR|and it should be in cherry hinton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|something moderate|inform
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|okay can i get the address|ack
+SYS|The Six Bells, High Saint is on 9 High Saint, Fulbourn.|offer
+USR|and the phone number|request
+SYS|The phone number of The Six Bells, High Saint is 01223880244.|offer
+USR|okay thank you goodbye|ack

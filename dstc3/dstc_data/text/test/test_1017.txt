@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a continental restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, or Spanish.|request
+USR|um it wou in the expensive price range|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|doesnt matter|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|um can i have the phone number|request
+SYS|The phone number of Blue Spice is 01223413337.|offer
+SYS|The price for main courses ranges from 12 pounds 50 to 12 pounds 50.|offer
+USR|a continental restaura|inform
+SYS|Alimentum, which serves continental and french food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what area is it in|request
+SYS|Alimentum is in the Addenbrooke's part of town.|offer
+USR|what area|request
+SYS|Alimentum is in the Addenbrooke's part of town.|offer
+USR|thank you goodbye|bye

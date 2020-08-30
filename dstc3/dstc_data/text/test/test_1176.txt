@@ -1,0 +1,53 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, the Ruskin Gallery, or the Whipple Museum.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, pub, or Thai.|request
+USR|kings hedge|inform
+SYS|The Ranch, which is in the King's Hedges part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|anything|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or Trumpington area.|request
+USR|can you give me the address|request
+SYS|The Ranch is on 100 Histon Road.|offer
+USR|can you give me the address|request
+SYS|The Ranch is located on 100 Histon Road.|offer
+USR|and|null
+SYS|The Ranch is an outstanding restaurant.|offer
+USR|the price in the restaurant|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|the price the cost|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|no|negate
+SYS|The Ranch is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|no|negate
+SYS|The Ranch is a great restaurant.|offer
+USR|what are the timings|null
+SYS|Caffe Uno, which is in the moderate price range, is a great restaurant.|offer
+USR|what are the timings|null
+SYS|Caffe Uno is in the moderate price range.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Newnham, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Castle Hill area.|request
+USR|good bye thank you|bye

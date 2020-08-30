@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for an expensive turkish restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, King's College, or the Lynne Strover Gallery.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Magdalene College, or Sidney Sussex College.|request
+USR|no|negate
+SYS|The Agora, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|yes|affirm
+SYS|The Agora is an outstanding restaurant and it serves turkish food.|offer
+SYS|It's in the expensive price range.|offer
+USR|can you give me an address and phone number|request
+SYS|The Agora is on 4 King's Parade and its phone number is 01223308448.|offer
+USR|can you give me the area of the venue|request
+SYS|The Agora is in the central part of town.|offer
+USR|thank you goodbye|bye

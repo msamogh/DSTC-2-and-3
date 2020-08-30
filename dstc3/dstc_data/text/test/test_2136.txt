@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|a french restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|moderate|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a french venue.|expl-conf
+USR|yes|affirm
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|in the cheap price range|inform
+SYS|There is no restaurant serving french food in the cheap price range.|canthelp
+USR|in the expensive price range|inform
+SYS|Would you like a french food, or you don't care?|select
+USR|french food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or King's Hedges area.|request
+USR|riverside area|inform
+SYS|The Hotel du Vin, which is in the riverside part of town, is a great restaurant.|offer
+SYS|This place, which serves french food, is in the expensive price range.|offer
+USR|may i have the address|request
+SYS|The Hotel du Vin is located on 15-19 Trumpington Street.|offer
+SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
+USR|and the phone number|request
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+USR|thank you good bye|bye

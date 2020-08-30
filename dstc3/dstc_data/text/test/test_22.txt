@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|i need a vegetarian restaurant|inform
+SYS|The Rainbow Cafe is a great restaurant and it serves traditional and vegetarian food.|offer
+USR|what i i dont care about the price range|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is an outstanding restaurant.|offer
+USR|do you know the address and phone number|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+SYS|Its phone number is 01223321551.|offer
+USR|thank you good bye|bye

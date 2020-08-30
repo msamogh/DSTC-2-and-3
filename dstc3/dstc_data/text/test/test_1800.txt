@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cheap restaurant in the girton area|inform
+SYS|The Dojo Noodle Bar is a great restaurant, it's in the Girton part of town and it's in the cheap price range.|offer
+USR|ok can i have the address the phone and the postcode|ack
+SYS|The Dojo Noodle Bar, which is in the area with the postcode CB2 1RQ, is on Miller's Yard.|offer
+SYS|Its phone number is 01223363471.|offer
+USR|thank you good bye|bye

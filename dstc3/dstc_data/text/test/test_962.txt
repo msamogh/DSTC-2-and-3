@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Emmanuel College, or the Michaelhouse Centre.|request
+USR|italian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+SYS|I can't hear you.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare Hall, or Pembroke College.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, Old Schools, or the Scott Polar Museum.|request
+USR|cambridge college|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Christ's College, or Trinity College.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Cherry Hinton area.|request
+USR|let me have an address|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, New Chesterton, or riverside area.|request
+USR|thank you goodbye|bye

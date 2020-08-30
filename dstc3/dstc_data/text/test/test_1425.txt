@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for another terranian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, Magdalene College, or Queens' College.|request
+USR|i dont care|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+USR|it should be in the city center area|inform
+SYS|Nando's Restaurant, Saint Andrews Street is an outstanding restaurant, it's in the central part of town and it serves mediterranean food.|offer
+USR|no i want a different one|negate
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+USR|no|negate
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

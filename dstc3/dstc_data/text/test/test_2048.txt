@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Italian, or Seafood.|request
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, International, or Traditional.|request
+USR|dont care|inform
+SYS|Blue Spice is a great restaurant.|offer
+USR|where is it located|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|restaurant in cherryhinton|inform
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|thank you goo oh what is the phone number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|what is the phone number|request

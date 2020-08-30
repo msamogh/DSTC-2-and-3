@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive romsey area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|expensive|inform
+SYS|The Backstreet Bistro is a great restaurant, it's in the Romsey part of town and it's in the expensive price range.|offer
+USR|address|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street.|offer
+USR|phone number|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|postcode|request
+SYS|The Backstreet Bistro is in the area with the postcode CB1 2QA.|offer
+USR|thank you good bye|bye

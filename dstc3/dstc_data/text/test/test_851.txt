@@ -1,0 +1,55 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|im looking for a restaurant in trumpington|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|I can't hear you.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|do you have a restaurant in trumpington|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mediterranean, or Thai.|request
+USR|expensive|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|thai|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, French, or Traditional.|request
+USR|price range|request
+SYS|What type of food would you like?|request
+SYS|For example, English, Thai, or Traditional.|request
+USR|french food|inform
+SYS|There is no restaurant serving french food in the moderate price range.|canthelp
+USR|english food|inform
+SYS|There is no restaurant in the Trumpington area and serving english food.|canthelp
+USR|do you have a restaurant in trumpington|inform
+SYS|There is no restaurant in the Trumpington area and serving english food.|canthelp
+USR|do you have mexican food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Thai, or Vegetarian.|request
+USR|do you have mexican food in trumpington|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|vegetarian|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|do you have uh cheap price range|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|yeah|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|goodbye|bye

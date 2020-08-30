@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a cheap pub|inform
+SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
+USR|i need the phone number and post code|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+SYS|It's in the area with the postcode CB2 1UF.|offer
+USR|thank you good bye|bye

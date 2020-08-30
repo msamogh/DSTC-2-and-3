@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for an expensive restaurants|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Girton area.|request
+USR|addenbrookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|phone number and post code|request
+SYS|The phone number of the Lucky Star is 01223244277 and it's in the area with the postcode CB1 7DY.|offer
+SYS|There is no restaurant in the Addenbrooke's area and serving fusion food.|canthelp
+USR|what is the address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|what is the address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|thank you goodbye|bye

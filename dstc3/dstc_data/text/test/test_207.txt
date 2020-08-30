@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|mediterranean restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|moderate|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|repeat|repeat
+SYS|Nando's Restaurant, Saint Andrews Street is a great restaurant.|offer
+USR|repeat|repeat
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|repeat|repeat
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|repeat|repeat
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|i want a contemporary restaurant|inform
+SYS|Cotto is a great restaurant and it serves contemporary food.|offer
+SYS|It's in the moderate price range.|offer
+USR|repeat|repeat
+SYS|Can I help you with anything else?|reqmore
+USR|repeat|repeat
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|yes id like a contemporary restaurant|affirm
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|moderate|inform
+SYS|Cotto is an outstanding restaurant.|offer
+SYS|Would you like a venue with a cheap or moderate price range?|select
+USR|moderate|inform
+SYS|Cotto is a great restaurant, it serves contemporary food and it's in the moderate price range.|offer
+SYS|Cotto is located on 183 East Road.|offer
+USR|repeat|repeat
+SYS|Cotto is an outstanding restaurant.|offer
+USR|repeat address|request
+SYS|Cotto is located on 183 East Road.|offer
+USR|phone number|request
+SYS|The phone number of Cotto is 01223302010.|offer
+SYS|Cotto, which serves contemporary food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of Cotto is 01223302010.|offer
+USR|thank you good bye|bye

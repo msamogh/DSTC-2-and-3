@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Bakers is an outstanding pub.|offer
+USR|<unk> restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, or Middleeastern.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Clare College, or Hughes Hall.|request
+USR|moderately|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Barnwell area.|request
+USR|fenditton area|inform
+SYS|Sitar Tandoori is a great restaurant and it's in the Cherry Hinton part of town.|offer
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Seafood, or Spanish.|request
+USR|i dont care|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|address|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+USR|phone number|request
+SYS|The phone number of Sitar Tandoori is 01223249955.|offer
+USR|price of venue|request
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|price of venue|request
+SYS|Sitar Tandoori is a great restaurant and it's in the Cherry Hinton part of town.|offer
+USR|good bye|bye
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|good bye|bye

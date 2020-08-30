@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Magdalene College, or Saint Catharine's College.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|what is its address|request
+SYS|The Oak Bistro is on 6 Lensfield Road.|offer
+SYS|The Oak Bistro is a great restaurant.|offer
+USR|what is its price|request
+SYS|The Oak Bistro is an outstanding venue.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|what is its phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|thank you good bye|bye

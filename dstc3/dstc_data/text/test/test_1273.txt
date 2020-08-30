@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a moderately priced restaurant and it should be in the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Newnham area.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, Churchill College, or Saint Catharine's College.|request
+USR|it doesnt matter but it should be in the fen ditton area|inform
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|uh whats the phone number and the address|request
+SYS|Caffe Uno is located on 32 Bridge Street and its phone number is 01223314954.|offer
+USR|thank you good bye|bye

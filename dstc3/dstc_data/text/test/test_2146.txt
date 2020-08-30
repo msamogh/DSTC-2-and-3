@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an expensive chinese take away restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|expensive|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Downing College, or Wandlebury Country Park.|request
+USR|anywhere|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or Romsey area.|request
+USR|anywhere|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Clare College, or King's College.|request
+USR|church hill college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanical Garden* Botanical Gardens, Little Saint Mary's, or the Saint Barnabas Press Gallery.|request
+USR|the saint barnobus post gallery|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Pembroke College, or Queens' College.|request
+USR|church hill college|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|yes|affirm
+SYS|The Phoenix, which is in the Girton part of town, is a great restaurant.|offer
+SYS|This place, which serves chinese food, is in the expensive price range.|offer
+USR|address|request
+SYS|The Phoenix is located on 20 Green Street, Histon.|offer
+SYS|The price for main courses ranges from 2 pounds 80 to 24 pounds.|offer
+USR|phone number|request
+SYS|The phone number of The Phoenix is 01223233766.|offer
+USR|post code|request
+SYS|The Phoenix is in the area with the postcode CB4 9JA.|offer
+USR|ok thank you good bye|ack

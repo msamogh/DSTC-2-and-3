@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a seafood restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Trumpington.|request
+SYS|There is no restaurant serving seafood in the cheap price range.|canthelp
+USR|i dont care|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+USR|any price|inform
+SYS|Loch Fyne is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 20 pounds.|offer
+USR|what is the price|request
+SYS|Loch Fyne is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 20 pounds.|offer
+USR|what is the address and phone number|request
+SYS|Loch Fyne is on 37 Trumpington Street and its phone number is 01223902103.|offer
+USR|thank you good bye|bye

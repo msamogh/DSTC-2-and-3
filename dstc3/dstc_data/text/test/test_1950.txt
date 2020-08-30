@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a pub with internet connection and a television|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|does it have a television|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or riverside area.|request
+USR|any area with a television|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|does it have a television|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|what is the price|request
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|does it have a television|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you good bye|bye

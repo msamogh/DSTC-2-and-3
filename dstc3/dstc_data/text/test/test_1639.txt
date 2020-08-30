@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ill give you an answer and then give us a feedback|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Jesus College, or Wandlebury Country Park.|request
+USR|no im looking for a middle eastern restaurant|negate
+SYS|Al Casbah, which serves mediterranean and middleeastern food, is a great restaurant.|offer
+USR|ok whats the address phone number and post code|ack
+SYS|Al Casbah, which is in the area with the postcode CB1 2AS, is on 62 Mill Road.|offer
+SYS|Its phone number is 01223579500.|offer
+USR|ok thank you goodbye|ack

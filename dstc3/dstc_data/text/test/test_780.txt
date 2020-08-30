@@ -1,0 +1,51 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a restaurant in addonbrookes|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|cheap|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Chinese, or Italian.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Romsey.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or Trumpington.|request
+USR|addonbrooke|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Girton area.|request
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Newnham area.|request
+USR|addonbrookes|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanical Garden* Botanical Gardens, Cherry Hinton Water Play, or Pembroke College.|request
+USR|no just addonbrookes|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or New Chesterton area.|request
+USR|addonbrookes|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Mexican and Tex Mex, or Italian.|request
+USR|any any|null
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or Continental.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Girton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Newnham, or Trumpington area.|request
+USR|<unk> addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Trumpington area.|request
+USR|addonbrookes area|inform
+SYS|The Peking Restaurant is an outstanding restaurant, it's in the Addenbrooke's part of town and it's in the cheap price range.|offer
+USR|thank you thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

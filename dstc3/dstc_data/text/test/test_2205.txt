@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a moderately priced restaurant in the newnham area|inform
+SYS|The Red Bull is a great restaurant.|offer
+SYS|It's in the Newnham part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+USR|and the price range|request
+SYS|The Red Bull is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 11 pounds 95 and the price for a cappuccino is 1 pound 95 and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|are there any other moderately priced restaurants in the newnham area|reqalts
+SYS|The Red Bull is a great restaurant, it's in the Newnham part of town and it's in the moderate price range.|offer
+USR|do you have any other|reqalts
+SYS|The Red Bull is an outstanding restaurant, it's in the Newnham part of town and it's in the moderate price range.|offer
+USR|in the newnham area|inform
+SYS|The Red Bull is a great restaurant, it's in the Newnham part of town and it's in the moderate price range.|offer
+USR|do you have any other restaurants that are moderately priced in the newnham area|reqalts
+SYS|Are you looking for a venue in the New Chesterton or Newnham area?|select
+USR|yes|affirm
+SYS|The Red Bull, which is in the Newnham part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|do you have anything else|reqalts
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant and it should serve free|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Lamma's Land, or the Whipple Museum of the History of Science.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, American, or Contemporary.|request
+USR|i dont care it should be free|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, the Gallery at twelve A High Street, or the Lynne Strover Gallery.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes a restaurant serving the food for free|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or King's Hedges.|request
+USR|i dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|yes please|affirm
+SYS|The Michaelhouse Centre is a great restaurant and it doesn't charge any entrance fee.|offer
+USR|yes please|affirm
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|can you please give me the phone number and address|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+USR|please give me the phone number and address|request
+SYS|The Michaelhouse Centre doesn't charge any entrance fee.|offer
+USR|thank you good bye|bye

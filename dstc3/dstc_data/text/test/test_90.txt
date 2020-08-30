@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a japanese restaurant in any price range|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+USR|what is the phone number and address|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+SYS|Its phone number is 01223518111.|offer
+USR|thank you good bye|bye

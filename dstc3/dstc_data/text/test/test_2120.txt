@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|pub|inform
+SYS|The Baron of Beef is a great pub.|offer
+SYS|The Baron of Beef is a great pub.|offer
+USR|<unk> internet connection and tv|inform
+SYS|Would you like a true television, or you don't care?|select
+USR|dont care uh|inform
+SYS|The Baron of Beef is a great pub.|offer
+USR|does it have internet connection and tv|request
+SYS|The Baron of Beef has a television and it doesn't have any internet connection.|offer
+USR|<unk> i want a pub with intenet connection and tv <unk> pub with internet connection and tv|inform
+SYS|The Bakers, which has an internet connection, is an outstanding pub with a television.|offer
+USR|thank you goodbye|bye

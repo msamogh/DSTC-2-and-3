@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|cafe|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Fen Ditton area.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Churchill College, or the Ruskin Gallery.|request
+USR|dont care|inform
+SYS|The Cambridge Blue is a great cafe.|offer
+SYS|The Cambridge Blue is a great cafe.|offer
+USR|i need the address and postcode|request
+SYS|The Cambridge Blue, which is in the area with the postcode CB2 1DB, is on 24 Regent Street.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|want to find a pub with an internet connection and a television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or riverside area.|request
+USR|riverside|inform
+SYS|The Avery is an outstanding pub and it's in the riverside part of town.|offer
+USR|then whats the phone number and price|request
+SYS|The phone number of The Avery is 01223323405.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+USR|thank you good bye|bye

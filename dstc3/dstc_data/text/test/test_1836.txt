@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Italian, or Vegetarian.|request
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, or Northern european.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, or Greek.|request
+USR|new chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, French, or Greek.|request
+USR|dont care|inform
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Great Saint Mary's Church, or Lamma's Land.|request
+SYS|Hakka is a great restaurant.|offer
+SYS|It's in the New Chesterton part of town.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|new chesterton|inform
+SYS|Hakka is a great restaurant and it's in the New Chesterton part of town.|offer
+USR|moderate|inform
+SYS|Hakka is an outstanding restaurant, it's in the New Chesterton part of town and it's in the moderate price range.|offer
+USR|moderate price|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Hakka is located on 24 Milton Road.|offer
+USR|what is the address|request
+SYS|Hakka is on 24 Milton Road.|offer
+USR|what is the price range|request
+SYS|Hakka is in the moderate price range.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+SYS|Hakka is a great restaurant.|offer
+USR|what is the price range|request
+SYS|Hakka is in the moderate price range.|offer
+SYS|Hakka is an outstanding restaurant.|offer
+USR|thank you good bye|bye

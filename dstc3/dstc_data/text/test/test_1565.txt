@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking with a im looking for a pub with a television|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|doesnt matter|inform
+SYS|There is no pub in the Girton area.|canthelp
+USR|ah just looking for a pub with a television i dont care where it is|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|and whats the address and phone number|request
+SYS|The Baron of Beef is located on Bridge Street and its phone number is 01223505022.|offer
+USR|and whats the price|request
+SYS|The Baron of Beef is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+USR|thank you good bye|bye

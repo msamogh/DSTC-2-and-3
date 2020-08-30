@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a french restaurant that is free|inform
+SYS|Ta Bouche is an outstanding restaurant.|offer
+SYS|It serves french food.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|i need the address and postcode|request
+SYS|Ta Bouche, which is in the area with the postcode CB2 3PF, is located on 10-15 Market Passage.|offer
+USR|thank you goodbye|bye

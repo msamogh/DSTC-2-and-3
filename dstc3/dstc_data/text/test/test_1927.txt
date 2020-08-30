@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need an italian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Romsey, or Trumpington area.|request
+USR|trumpington|inform
+SYS|There is no restaurant in the Trumpington area and serving italian food.|canthelp
+USR|central|inform
+SYS|Can I help you with anything else?|reqmore
+USR|italian restaurant in the central area|inform
+SYS|Strada, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves italian food.|offer
+USR|phone number|request
+SYS|Strada is on 17 Trinity Street and its phone number is 01223352166.|offer
+USR|thank you goodbye|bye

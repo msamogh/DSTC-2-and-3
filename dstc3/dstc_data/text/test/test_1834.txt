@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coff coffee shop serving italian food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|There is no cafe serving italian food in the moderate price range.|canthelp
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about children and you are looking for a venue.|expl-conf
+USR|i dont care|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|coffee shop serving italian food|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|coffee shop serving italian food|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, or Milton Country Park.|request
+USR|dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an italian venue.|expl-conf
+USR|dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, French, or International.|request
+USR|coffee shop serving italian food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Contemporary, or Greek.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Contemporary, or Seafood.|request
+USR|coffee shop serving italian food|inform
+SYS|Caffe Nero is an outstanding cafe and it serves italian food.|offer
+USR|what is the address|request
+SYS|Caffe Nero is located on 11 Market Street.|offer
+USR|and what is the phone number|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+SYS|Caffe Nero is an outstanding cafe.|offer
+USR|what is the phone number|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|thank you good bye|bye

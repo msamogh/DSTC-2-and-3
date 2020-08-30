@@ -1,0 +1,55 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|<unk> expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Chinese, or English.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Castle Galleries, or Jesus College.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, the Lammas Land Park, or the Whipple Museum of the History of Science.|request
+USR|romsey|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, pub, or Continental.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Milton Country Park, Saint John's College, or Trinity College.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|romsey area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|romsey area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Drinks and snacks only, or Italian.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Chinese, or Mediterranean.|request
+USR|expensive restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a turkish venue.|expl-conf
+USR|mediterranean|inform
+SYS|There is no restaurant serving mediterranean food in the expensive price range.|canthelp
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a mediterranean venue.|expl-conf
+USR|no|negate
+SYS|Would you like a mediterranean food, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Newnham area.|request
+USR|romsey|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|thank you good bye|bye

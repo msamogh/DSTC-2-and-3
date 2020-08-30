@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a french restaurant in the river side area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|french restaurant in the river side area oh|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a greek venue.|expl-conf
+USR|no a french restaurant in the river side area|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|any any price range|inform
+SYS|The Hotel du Vin, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves french food.|offer
+USR|whats the address|request
+SYS|The Hotel du Vin is on 15-19 Trumpington Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+USR|thank you good bye|bye

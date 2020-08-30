@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive texmex restaurant|inform
+SYS|Nanna Mexico, which serves mexican and tex mex food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Gallery at twelve A High Street, or Milton Country Park.|request
+USR|anywhere|inform
+SYS|Nanna Mexico is on 33 Regent Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Nanna Mexico is 01223902150.|offer
+SYS|Nanna Mexico is a great restaurant.|offer
+USR|what is the phone number and price|request
+SYS|The phone number of Nanna Mexico is 01223902150.|offer
+SYS|The price for main courses ranges from 5 pounds 35 to 15 pounds 50 and the price for a cappuccino is 2 pounds 95.|offer
+USR|is it expensive|confirm
+SYS|Nanna Mexico is in the expensive price range.|offer
+SYS|Nanna Mexico is a great restaurant.|offer
+SYS|Nanna Mexico is an outstanding restaurant.|offer
+USR|is it expensive|confirm
+SYS|Nanna Mexico is in the expensive price range.|offer
+USR|<unk> is it e|null
+SYS|Nanna Mexico is an outstanding restaurant.|offer
+USR|thank you good bye|bye

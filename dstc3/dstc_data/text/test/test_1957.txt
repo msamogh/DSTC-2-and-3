@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|looking for a pub that allows children and has a television|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|looking for a pub that allows children and has a television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or riverside.|request
+SYS|The Bakers is a great pub.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|does the bakers allow children|request
+SYS|Can I help you with anything else?|reqmore
+USR|does the bakers allow children|request
+SYS|The Bakers is located on 176 East Road and it's in the area with the postcode CB1 1BG.|offer
+USR|does it have a television|request
+SYS|I am sorry but there is no information on The Bakers's food.|canthelp.missing_slot_value
+USR|phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you good bye|bye

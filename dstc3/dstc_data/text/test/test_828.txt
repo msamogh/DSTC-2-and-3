@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a spanish restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or Romsey area.|request
+USR|a spanish restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, or Great Saint Mary's Church.|request
+USR|any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Cherry Hinton Water Play, or Hughes Hall.|request
+USR|great mary church|inform
+SYS|There is no restaurant serving spanish food that is providing services for free.|canthelp
+USR|thank you good bye|bye

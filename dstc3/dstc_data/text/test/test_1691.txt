@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced pub that has a tv|inform
+SYS|Would you like a true television, or you don't care?|select
+USR|yes|affirm
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|does it have a television|request
+SYS|The Alma is a great pub and its phone number is 01223316722.|offer
+USR|does it have a tv|request
+SYS|The Alma has a television.|offer
+USR|whats the address|request
+SYS|The Alma is located on Russell Court.|offer
+USR|does it have internet|request
+SYS|The Alma doesn't have any internet connection.|offer
+USR|thank you goodbye|bye

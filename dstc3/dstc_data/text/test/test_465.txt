@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, English, or Seafood.|request
+USR|barnwell|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Downing College, or Primavera.|request
+USR|barnwell area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, French, or Fusion.|request
+USR|barnwell|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, Italian, or Japanese.|request
+USR|contemporary|inform
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is a great restaurant.|offer
+USR|french|inform
+SYS|There is no restaurant in the Barnwell area in the cheap price range.|canthelp
+USR|french|inform
+SYS|There is no restaurant in the Barnwell area and serving french food.|canthelp
+SYS|There is no restaurant serving french food in the cheap price range.|canthelp
+USR|barnwell|inform
+SYS|There is no restaurant in the Barnwell area and serving french food.|canthelp
+USR|american|inform
+SYS|There is no restaurant in the Barnwell area and serving american food.|canthelp
+USR|american|inform
+SYS|There is no restaurant in the Barnwell area and serving american food.|canthelp
+SYS|Gourmet Burger  is an outstanding restaurant and it serves american food.|offer
+USR|traditional|inform
+SYS|There is no restaurant serving traditional food in the cheap price range.|canthelp
+USR|address|request
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+USR|phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|address|request
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+USR|thank you good bye|bye

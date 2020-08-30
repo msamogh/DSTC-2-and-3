@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Fen Ditton area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Japanese, or Seafood.|request
+USR|fenditton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or riverside area.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|i dont care|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|fenditton area|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|Blue Spice is a great restaurant.|offer
+USR|address|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|type of food|request
+SYS|Blue Spice is a great restaurant.|offer
+USR|thank you good bye|bye

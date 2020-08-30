@@ -1,0 +1,57 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|turkish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|doesnt matter the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|price range no price range|request
+SYS|Would you like turkish or X food?|select
+SYS|Would you like turkish or X food?|select
+SYS|Would you like turkish or X food?|select
+USR|turkish food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|turkish food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|doesnt matter the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|any price range any price range|inform
+SYS|There is no restaurant serving turkish food in the cheap price range.|canthelp
+USR|any price range|inform
+SYS|There is no restaurant serving turkish food in the cheap price range.|canthelp
+USR|any price range|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|turkish food|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|do nt care <unk>|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|do nt care <unk>|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the People's Portraits Exhibition, or Trinity College.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, Great Saint Mary's Church, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|The Agora is a great restaurant and it serves turkish food.|offer
+USR|no|negate
+SYS|The Agora is a great venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|no|negate
+SYS|The Agora is an outstanding restaurant and it serves turkish food.|offer
+USR|can i have the address|request
+SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
+USR|<unk> i need the address and the post co|request
+SYS|The Agora, which is in the area with the postcode CB2 1SJ, is on 4 King's Parade.|offer
+USR|i need the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|thank you good bye|bye
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a chinese take away|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|and i dont care about the price|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|chinese take away restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, the Folk Museum, or the Museum of Classical Archaeology.|request
+USR|ya|affirm
+SYS|The J Restaurant is a great restaurant and it serves chinese food.|offer
+USR|what is the address|request
+SYS|The J Restaurant is on 86, Regent Street.|offer
+USR|thank you good bye|bye

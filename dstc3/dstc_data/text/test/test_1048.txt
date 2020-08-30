@@ -1,0 +1,47 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|what is an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|what is an|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|what is an english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food.|offer
+SYS|This place, which serves english food, is in the moderate price range.|offer
+USR|expensive|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|what is an english|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|what is an english restaurant|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|what is an english restaurant|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|expensive|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|expensive|inform
+SYS|The Backstreet Bistro is a great restaurant, it serves contemporary and english food and it's in the expensive price range.|offer
+USR|moderate|inform
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and english food and it's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|what is the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|what is the uh a|null
+SYS|Carringtons is a great cafe and an outstanding restaurant and it's in the central part of town.|offer
+USR|what is the area|request
+SYS|Carringtons is in the central part of town.|offer
+USR|thank you goodbye|bye

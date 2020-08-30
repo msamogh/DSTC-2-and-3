@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant in the fen ditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Japanese, or Seafood.|request
+USR|italian|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Downing College, or the Gallery at twelve A High Street.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Cherry Hinton area.|request
+USR|fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Clare Hall, or Jesus College.|request
+USR|no|negate
+SYS|The Sorrento is an outstanding restaurant, it serves italian food and it's in the expensive price range.|offer
+USR|id like to know the address phone number and type of food|request
+SYS|The Sorrento is on 196 Cherry Hinton Road and its phone number is 01223243533.|offer
+SYS|The phone number of The Sorrento is 01223243533.|offer
+USR|id like the address|request
+SYS|The Sorrento is on 196 Cherry Hinton Road.|offer
+USR|thank you good bye|bye

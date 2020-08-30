@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a coffee shop in girton i dont care about the price range i want to know the address phone number and type of food|request
+SYS|The Auntie's Tea Shop is a great cafe and it's in the Girton part of town.|offer
+USR|what is the address phone number and type of food|request
+SYS|The Auntie's Tea Shop is on 1 Saint Mary's Passage and its phone number is 01223315641.|offer
+SYS|The price for main courses ranges from 3 pounds to 8 pounds and the price for a cappuccino is 2 pounds.|offer
+USR|what is the type of food|request
+SYS|The Auntie's Tea Shop serves english food.|offer
+USR|thank you goodbye|bye

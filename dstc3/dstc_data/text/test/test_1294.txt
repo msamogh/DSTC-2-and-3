@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for indian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|an expensive one|inform
+SYS|Blue Spice is a great restaurant and it serves indian food.|offer
+SYS|It's in the expensive price range.|offer
+USR|expensive|inform
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|could i have the address phone number and post code|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way, its phone number is 01223413337 and it's in the area with the postcode CB1 7DY.|offer
+USR|address phone number post code|request
+SYS|Blue Spice, which is in the area with the postcode CB1 7DY, is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|thank you very much goodbye|bye

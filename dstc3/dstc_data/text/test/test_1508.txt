@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a moderately priced coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, Old Schools, or the Saint Barnabas Press Gallery.|request
+USR|i dont care about the area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Girton area.|request
+USR|i dont care about the area|inform
+SYS|Carringtons is an outstanding cafe, it's in the moderate price range and it's a great restaurant.|offer
+USR|whats the phone number and whats the type of food|request
+SYS|Carringtons serves cafe food and english food and its phone number is 01223361792.|offer
+SYS|I can't hear you.|offer
+SYS|Carringtons serves cafe food and english food and its phone number is 01223361792.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Newnham.|request
+USR|i dont care|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|internet and television|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|pub|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, Saint John's College, or Lamma's Land.|request
+USR|no|negate
+SYS|The Alma is an outstanding pub.|offer
+USR|internet connection|inform
+SYS|The Bakers has an internet connection and it's an outstanding pub.|offer
+USR|television|inform
+SYS|The Bakers, which allows children, is a great pub with an internet connection.|offer
+USR|television|inform
+SYS|The Bakers has an internet connection and it's an outstanding pub.|offer
+USR|internet and tv|inform
+SYS|The Bakers, which has an internet connection and a television, is a great pub.|offer
+USR|phone number and area|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you good bye|bye

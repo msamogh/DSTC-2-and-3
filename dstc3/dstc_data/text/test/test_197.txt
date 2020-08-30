@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap chinese restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or King's Hedges area.|request
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|cheap chinese take away restaurant|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|i dont care|inform
+SYS|HK Fusion is an outstanding restaurant, it serves chinese food and it's in the cheap price range.|offer
+USR|phone number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+USR|thank you good bye|bye

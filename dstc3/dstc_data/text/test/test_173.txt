@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a continental restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, King's Hedges, or New Chesterton area.|request
+USR|it doesnt matter|inform
+SYS|Alimentum is an outstanding restaurant and it serves continental and french food.|offer
+USR|what is the price range|request
+SYS|Alimentum is in the expensive price range.|offer
+USR|what are their prices|request
+SYS|Alimentum is an outstanding venue.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|what is the address|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+USR|thank you good bye|bye

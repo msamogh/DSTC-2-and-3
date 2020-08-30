@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a restaurant in the cherry hinton area|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Gallery at twelve A High Street, or Kettle's Yard.|request
+USR|a restaurant in cherry hinton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, the Lynne Strover Gallery, or Primavera.|request
+USR|primavera|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Clare College, or Saint Catharine's College.|request
+USR|saint catharines college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Queens' College, or Wandlebury Country Park.|request
+USR|im looking for a restaurant in cherry hinton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Indian, or Middleeastern.|request
+USR|indian|inform
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It serves indian food.|offer
+USR|may i have the address|request
+SYS|Spice Merchants is located on 60 Trumpington Road.|offer
+USR|may i have the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|may i have the price of venue|request
+SYS|Spice Merchants is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95.|offer
+USR|thank you good bye|bye

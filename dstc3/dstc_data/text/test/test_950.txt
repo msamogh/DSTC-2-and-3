@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|indian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or New Chesterton area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Saint Barnabas Press Gallery, or the Whipple Museum.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, Corpus Christi, or the Museum of Archaelogy and Anthropology.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Hughes Hall, or the Museum of Classical Archaeology.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or New Chesterton.|request
+USR|girton|inform
+SYS|The Curry King, which is in the Girton part of town, is a great restaurant.|offer
+SYS|This place, which serves indian food, is in the moderate price range.|offer
+USR|<unk> the address|request
+SYS|The Curry King is on 5 Jordan's Yard, Bridge Street.|offer
+USR|address <unk> perfect address <unk>|request
+SYS|The Curry King is located on 5 Jordan's Yard, Bridge Street.|offer
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|<unk> thank you good bye thank you good bye|bye
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Newnham, or Trumpington area.|request
+USR|correct thank you good bye <unk>|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or New Chesterton area.|request
+SYS|The Curry King is a great restaurant, it's in the Girton part of town and it serves indian food.|offer
+SYS|It's in the moderate price range.|offer
+USR|ya give me the number|request
+SYS|The phone number of The Curry King is 01223324351.|offer
+USR|the address thank you|request
+SYS|The Curry King is on 5 Jordan's Yard, Bridge Street.|offer
+USR|u good bye|bye

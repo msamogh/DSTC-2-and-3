@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Italian, or Vegetarian.|request
+USR|drinks and snacks|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, the Museum of Archaelogy and Anthropology, or the Scott Polar Museum.|request
+USR|no|negate
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|okay|ack
+SYS|The Fleur is a great restaurant.|offer
+SYS|It serves drinks and snacks.|offer
+USR|can i have the phone number and address|request
+SYS|The Fleur is on 73 Humberstone Road and its phone number is 01223902183.|offer
+USR|repeat|repeat
+SYS|The Fleur is an outstanding restaurant.|offer
+USR|a phone number|request
+SYS|The phone number of The Fleur is 01223902183.|offer
+USR|address|request
+SYS|The Fleur is located on 73 Humberstone Road.|offer
+USR|address|request
+SYS|The Fleur is located on 73 Humberstone Road.|offer
+USR|hammerstone road|null
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|address|request
+SYS|The Fleur is located on 73 Humberstone Road.|offer
+SYS|The Alma is an outstanding pub.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a thai restaurant and it should have a moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or riverside area.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Technology Museum, or Milton Country Park.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Trumpington area.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Newnham area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Romsey area.|request
+USR|it doesnt matter|inform
+SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|ah what is the phone number and the area of the venue|request
+SYS|The phone number of Bangkok City is 01223354382.|offer
+USR|and the area of the venue|request
+SYS|Bangkok City is an outstanding restaurant.|offer
+USR|what area|request
+SYS|Bangkok City is in the central part of town.|offer
+USR|thank you good bye|bye

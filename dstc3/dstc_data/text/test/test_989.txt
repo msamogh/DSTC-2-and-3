@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i am looking for a moderately priced pub in the castlehill area|affirm
+SYS|Are you looking for a venue that allows children?|request
+USR|im looking for a venue that has internet|inform
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|is there moderately|null
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|price range pub in the castlehill area|request
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|a moderate price range pub in the castlehill area|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|no|negate
+SYS|The Anchor, which is in the moderate price range, is a great pub.|offer
+USR|may i have the phone number|request
+SYS|The phone number of The Anchor is 01223353554.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 11 pounds and the price for a cheapest pint of beer is 2 pounds 70.|offer
+USR|does it have internet|request
+SYS|The Anchor doesn't have any internet connection.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a expensive pub food restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Indian, or Japanese.|request
+USR|restaurant with pub food|inform
+SYS|Revolution is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+SYS|It's in the expensive price range.|offer
+USR|pub food|inform
+SYS|Revolution, which serves pub food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address and area|request
+SYS|Revolution is located on 3-7 Downing Street.|offer
+USR|area|null
+SYS|Revolution is an outstanding restaurant.|offer
+SYS|Revolution is a great restaurant.|offer
+USR|what area is the restaurant in|request
+SYS|Revolution is in the central part of town.|offer
+USR|in what area|request
+SYS|Revolution is in the central part of town.|offer
+USR|thank you and good bye|bye

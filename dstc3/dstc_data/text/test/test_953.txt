@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i dont care about the price range any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Indian, or Traditional.|request
+SYS|What type of food would you like?|request
+SYS|For example, French, Greek, or Japanese.|request
+USR|chinese|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central.|request
+USR|japanese|inform
+SYS|Would you like japanese or X food?|select
+USR|newnham|inform
+SYS|Would you like japanese or X food?|select
+USR|newnham japanese|inform
+SYS|There is no restaurant in the Newnham area and serving japanese food.|canthelp
+USR|japanese|inform
+SYS|Would you like a newnham area, or you don't care?|select
+USR|thank you goodbye|bye

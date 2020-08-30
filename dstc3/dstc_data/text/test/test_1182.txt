@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|huh|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a pub|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Little Saint Mary's, or Sidney Sussex College.|request
+USR|looking for a pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, the People's Portraits Exhibition, or Primavera.|request
+USR|it should have an internet connection though|inform
+SYS|The Bakers is a great pub with an internet connection.|offer
+USR|does it allow children|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|does it allow children|request
+SYS|The Baron of Beef allows children and it's an outstanding pub.|offer
+USR|does it have an internet connection|request
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|then give me another option|reqalts
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|i want a pub with internet and which allows children|inform
+SYS|The Bakers, which allows children, is a great pub with an internet connection.|offer
+USR|can you give me the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|and whats the price|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|goodbye thank you|bye

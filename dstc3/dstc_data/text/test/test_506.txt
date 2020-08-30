@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> hello i am looking for a cheap pub|hello
+SYS|The Baron of Beef is a great pub and it's in the cheap price range.|offer
+USR|ok|ack
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Fen Ditton area.|request
+USR|and|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Newnham area.|request
+USR|can i get the phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|yes somewhere in the river side area|affirm
+SYS|The Avery is an outstanding pub and it's in the riverside part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes i am looking for something|affirm
+SYS|The Avery, which is in the riverside part of town, is an outstanding pub.|offer
+SYS|It's in the cheap price range.|offer
+USR|ya whats the phone|affirm
+SYS|The Avery, which is in the riverside part of town, is a great pub.|offer
+SYS|It's in the cheap price range.|offer
+USR|the phone number please|request
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|ok can i get the phone number|ack
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|and the post code of the <unk>|request
+SYS|The Avery is in the area with the postcode CB2 1AB.|offer
+USR|ok thank you good bye|ack

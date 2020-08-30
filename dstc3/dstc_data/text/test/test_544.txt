@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|coffee shop|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or New Chesterton area.|request
+SYS|I can't hear you.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or New Chesterton area.|request
+USR|arbury|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Little Saint Mary's, or Trinity College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or Romsey area.|request
+USR|central|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|coffee shop|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or Girton.|request
+USR|castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or English.|request
+USR|drink|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Newnham, or Trumpington area.|request
+USR|good bye|bye

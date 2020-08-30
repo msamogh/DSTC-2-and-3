@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i would like to know about a restaurant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, King's College, or the Scott Polar Museum.|request
+USR|somewhere <unk>|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|um dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, pub, or Fusion.|request
+USR|snacks|inform
+SYS|The Red Bull is a great restaurant.|offer
+SYS|It's in the Newnham part of town.|offer
+SYS|The Red Bull is an outstanding restaurant.|offer
+USR|romsey area|inform
+SYS|The Red Bull is an outstanding restaurant.|offer
+SYS|It's in the Newnham part of town.|offer
+USR|the romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Seafood, or Vegetarian.|request
+USR|romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Greek, or International.|request
+USR|chinese|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|chinese|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|um|null
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|ok phone number|ack
+SYS|The phone number of The Red Bull is 01223902124.|offer
+USR|address|request
+SYS|The Red Bull is on 11 Barton Road, Newnham.|offer
+USR|and postcode|request
+SYS|The Red Bull is in the area with the postcode CB3 9JZ.|offer
+USR|thank you good bye|bye

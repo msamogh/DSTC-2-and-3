@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Fen Ditton area.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Saint Barnabas Press Gallery, or the Whipple Museum.|request
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, East asian, or Fusion.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Clare College, or the Gallery at twelve A High Street.|request
+USR|no|negate
+SYS|Blue Spice is a great restaurant.|offer
+USR|no|negate
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|address|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|address|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|price|request
+SYS|Blue Spice is a great venue.|offer
+SYS|The price for main courses ranges from 12 pounds 50 to 12 pounds 50.|offer
+USR|price|request
+SYS|Blue Spice is an outstanding venue.|offer
+SYS|The price for main courses ranges from 12 pounds 50 to 12 pounds 50.|offer
+USR|thank you goodbye|bye

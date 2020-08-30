@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a french restaurant free|inform
+SYS|Ta Bouche, which serves french food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|uh what is the address|request
+SYS|Ta Bouche is located on 10-15 Market Passage.|offer
+USR|and the phone number|request
+SYS|The phone number of Ta Bouche is 01223462277.|offer
+USR|and price|request
+SYS|Ta Bouche is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds 45 to 10 pounds 95 and the entrance is free of charge.|offer
+USR|thank you goodbye|bye

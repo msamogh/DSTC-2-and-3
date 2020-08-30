@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|mm english restaurant english restaurant english restaurants|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|english restaurants|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|cheap cheap cheap cheap|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|cheap|inform
+SYS|Would you like an english food, or you don't care?|select
+SYS|Would you like an english food, or you don't care?|select
+USR|thank you goodbye|bye

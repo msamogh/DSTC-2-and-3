@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|need a pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or King's Hedges.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Old Schools, or Queens' College.|request
+USR|doesnt matter|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or New Chesterton.|request
+USR|doesnt matter|inform
+SYS|The Bakers allows children and it's a great pub.|offer
+USR|television|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Christ's College, or Emmanuel College.|request
+USR|i dont care|inform
+SYS|The Bakers, which allows children, is an outstanding pub.|offer
+USR|television|inform
+SYS|The Bakers, which allows children, is a great pub.|offer
+USR|television|inform
+SYS|The Avery, which allows children, is a great pub.|offer
+USR|address|request
+SYS|The Anchor allows children and it's an outstanding pub.|offer
+USR|address|request
+SYS|The Anchor is on Silver Street and its phone number is 01223353554.|offer
+USR|price|request
+SYS|The Anchor is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 11 pounds and the price for a cheapest pint of beer is 2 pounds 70.|offer
+USR|good bye|bye

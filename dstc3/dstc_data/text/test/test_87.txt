@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a thia restaurant i dont care about the price|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a thia restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|doesnt matter|inform
+SYS|The Wrestlers is a great restaurant and it serves thai food.|offer
+USR|what is the address and area|request
+SYS|The Wrestlers is on 337 Newmarket Road and its phone number is 01223566554.|offer
+USR|what is its area|request
+SYS|The Wrestlers is in the riverside part of town.|offer
+USR|thank you good bye|bye

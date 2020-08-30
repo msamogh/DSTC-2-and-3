@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|thai restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, International, or Italian.|request
+USR|thai|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, the Saint Barnabas Press Gallery, or Sidney Sussex College.|request
+USR|no|negate
+SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Bangkok City is 01223354382.|offer
+USR|what is the address|request
+SYS|Bangkok City is on 24 Green Street.|offer
+USR|thank you and good bye|bye

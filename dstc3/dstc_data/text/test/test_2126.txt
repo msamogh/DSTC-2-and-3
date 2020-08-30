@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Romsey area.|request
+USR|<unk> i do nt care|inform
+SYS|The Alma is a great pub.|offer
+USR|television|inform
+SYS|The Alma is a great pub.|offer
+USR|moderately priced|inform
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|does it have a television|request
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|television|inform
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|tv|inform
+SYS|The Alma has a television, it's in the moderate price range and it's a great pub.|offer
+USR|address|request
+SYS|The Alma is on Russell Court.|offer
+USR|post code|request
+SYS|The Alma is in the area with the postcode CB2 1HW.|offer
+USR|good bye|bye

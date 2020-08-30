@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a chinese takeaway restaurant in a cheap price range|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|chinese restaurant|inform
+SYS|The Golden Palace, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number and price of the venue|request
+SYS|The Golden Palace is located on 19 Hatter Street and its phone number is 01284754311.|offer
+SYS|The price for main courses ranges from 2 pounds 20 to 5 pounds 50.|offer
+USR|is it a chinese takeaway restaurant|confirm
+SYS|The Golden Palace, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you goodbye|bye

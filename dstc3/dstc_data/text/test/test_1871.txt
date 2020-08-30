@@ -1,0 +1,52 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for where a restaurant is serving any kind of food for free|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or Girton.|request
+USR|any part of town|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the price for a cappuccino is 1 pound 75 and the entrance is free of charge.|offer
+USR|i need a restaurant that doesnt charge for food|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|im looking for a restaurant that serves a any kind food for free|inform
+SYS|The Michaelhouse Centre is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the price for a cappuccino is 1 pound 75 and the entrance is free of charge.|offer
+USR|whats the address|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|and whats the address|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
+USR|thank you goodbye|bye

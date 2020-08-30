@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|I can't hear you.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|a pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|any any price range must have television|inform
+SYS|There is no pub in the Girton area.|canthelp
+USR|any kind|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|do they have television|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Gonville and Caius College, or the Saint Barnabas Press Gallery.|request
+USR|saint barnabas|inform

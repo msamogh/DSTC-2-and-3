@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Romsey area.|request
+USR|fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or Romsey area.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Great Saint Mary's Church, or the Michaelhouse Centre.|request
+USR|fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or Girton.|request
+USR|girton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or Indian.|request
+USR|it dont matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Girton.|request
+USR|girton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or King's Hedges area.|request
+USR|fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Trumpington.|request
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|thank you goodbye|bye

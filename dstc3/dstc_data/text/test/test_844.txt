@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub that allows children and has a television|inform
+SYS|There is no pub in the Fen Ditton area.|canthelp
+USR|im looking for a pub|inform
+SYS|There is no pub in the Fen Ditton area.|canthelp
+USR|is there anywhere else|null
+SYS|The Bakers, which allows children, is a great pub.|offer
+USR|does it have a television|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|cheap|inform
+SYS|The Bakers, which allows children, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+SYS|The Avery, which allows children, is in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|what is the address|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+USR|what is the address|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|phone number|request
+SYS|The phone number of The Avery is 01223323405.|offer
+SYS|The Avery is a great pub.|offer
+USR|does it have a television|request
+SYS|I am sorry but there is no information on The Avery's food.|canthelp.missing_slot_value
+USR|does it have a tv|request
+SYS|The Avery has a television.|offer
+USR|good bye|bye

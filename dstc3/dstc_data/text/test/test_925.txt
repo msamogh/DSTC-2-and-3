@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant in the new chesterton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, the People's Portraits Exhibition, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address|request
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the price|request
+SYS|The Rainbow Cafe is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|whats the address|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|thank you good bye|bye

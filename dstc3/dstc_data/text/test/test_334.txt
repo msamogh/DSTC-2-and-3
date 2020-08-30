@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+USR|pub|inform
+SYS|Can I help you with anything else?|reqmore
+USR|pub|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|pub|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have an internet connection|request
+SYS|Can I help you with anything else?|reqmore
+USR|yes i need a cheap pub that has an internet connection and i need the phone number and whether or not children are allowed|affirm
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|are children allowed|inform
+SYS|Would you like true children, or you don't care?|select
+USR|i dont care|inform
+SYS|The Bakers is a great pub.|offer
+USR|is it cheap|confirm
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you and have a good day|bye

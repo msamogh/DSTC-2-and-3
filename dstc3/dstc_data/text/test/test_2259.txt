@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a turkish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, or Kettle's Yard.|request
+USR|no|negate
+SYS|The Agora is a great restaurant and it serves turkish food.|offer
+USR|no|negate
+SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
+USR|whats the address|request
+SYS|The Agora is on 4 King's Parade.|offer
+USR|whats the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|whats the price|request
+SYS|The Agora is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|the price|request
+SYS|The Agora is a great venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|thanks bye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a thai restaurant in the city center area|inform
+SYS|Bangkok City, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves thai food.|offer
+USR|im looking for something in the city century area|null
+SYS|Bangkok City is a great restaurant, it's in the central part of town and it serves thai food.|offer
+USR|whats the address|request
+SYS|Bangkok City is on 24 Green Street.|offer
+USR|whats the postcode|request
+SYS|Bangkok City is in the area with the postcode CB2 3JX.|offer
+USR|thank you good bye|bye

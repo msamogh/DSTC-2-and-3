@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a japanese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|uh any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, the People's Portraits Exhibition, or Queens' College.|request
+USR|anything|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Great Saint Mary's Church, or the Whipple Museum of the History of Science.|request
+USR|whats the address|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Trumpington area.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, the Regency Gallery, or Lamma's Land.|request
+USR|just the address|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Christ's College, or Milton Country Park.|request
+USR|no|negate
+SYS|Would you like a japanese food, or you don't care?|select
+USR|japanese|inform
+SYS|Yippee Noodle Bar, which serves chinese take away, is an outstanding restaurant.|offer
+SYS|It serves japanese food and it's in the moderate price range.|offer
+USR|address|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|thank you and goodbye|bye

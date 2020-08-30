@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i need a cafe|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Romsey area.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Magdalene College, or Pembroke College.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|it doesnt matter|inform
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|it doesnt matter|inform
+SYS|Cafe Eleven is a great cafe.|offer
+USR|what is the phone number|request
+SYS|The phone number of Cafe Eleven is 01223369157.|offer
+USR|what is the phone number|request
+SYS|The phone number of Cafe Eleven is 01223369157.|offer
+USR|what area|request
+SYS|I am sorry but there is no information on Cafe Eleven's area.|canthelp.missing_slot_value
+USR|what area is it in|request
+SYS|I am sorry but there is no information on Cafe Eleven's area.|canthelp.missing_slot_value
+USR|what area|request
+SYS|I am sorry but there is no information on Cafe Eleven's area.|canthelp.missing_slot_value
+USR|ok|ack
+SYS|Cafe Eleven is a great cafe.|offer
+USR|thank you good bye|bye

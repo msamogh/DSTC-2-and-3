@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an english restaurant i dont care about the area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Girton area.|request
+USR|anywhere|inform
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and it serves english food.|offer
+USR|thank you good bye|bye

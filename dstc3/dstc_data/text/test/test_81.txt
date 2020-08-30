@@ -1,0 +1,60 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a cheap restaurant in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, Newnham, or Romsey area.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Newnham area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or King's Hedges.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Fen Ditton area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or Trumpington area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or New Chesterton area.|request
+USR|the last one|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Newnham, or riverside area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or Fen Ditton.|request
+USR|how about the fenditton area|reqalts
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|the last one|null
+SYS|The Dojo Noodle Bar is an outstanding restaurant and it's in the cheap price range.|offer
+USR|in the fenditton|inform
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|i want a partial|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Fen Ditton area.|request
+USR|what is the address and phone number and post code|request
+SYS|The Milton Park English and Thai Restaurant is located on Milton Park Golf Course, Ely Road, Milton.|offer
+SYS|Its phone number is 01223864602.|offer
+SYS|It's in the area with the postcode CB24 6DD.|offer
+USR|fenditton|inform
+SYS|The Milton Park English and Thai Restaurant is a great restaurant.|offer
+USR|what is the address and phone number|request
+SYS|The Milton Park English and Thai Restaurant is on Milton Park Golf Course, Ely Road, Milton and its phone number is 01223864602.|offer
+USR|what is the post code|request
+SYS|The Milton Park English and Thai Restaurant is in the area with the postcode CB24 6DD.|offer
+USR|is it in the fenditton area|confirm
+SYS|The Milton Park English and Thai Restaurant is in the Fen Ditton part of town.|offer
+SYS|The Milton Park English and Thai Restaurant is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

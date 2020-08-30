@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Trumpington area.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Milton Country Park, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, New Chesterton, or riverside area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or Newnham area.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Japanese, or Vegetarian.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Fusion, or Mediterranean.|request
+USR|<unk> near|null
+SYS|Al Casbah is an outstanding restaurant, it serves mediterranean and middleeastern food and it's in the moderate price range.|offer
+USR|thank you good bye|bye

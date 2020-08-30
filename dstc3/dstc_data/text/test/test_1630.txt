@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub food restaurant|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|expensive price range|inform
+SYS|Revolution is an outstanding restaurant and it serves pub food.|offer
+SYS|It's in the expensive price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, Romsey, or Trumpington.|request
+USR|what is the address|request
+SYS|Revolution is on 3-7 Downing Street.|offer
+SYS|The price for main courses ranges from 6 pounds 45 to 9 pounds 95 and the price for a cheapest glass of wine is 10 pounds.|offer
+USR|what is the phone number|request
+SYS|The phone number of Revolution is 01223364895.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,49 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cafe|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Sidney Sussex College, or Trinity College.|request
+USR|cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Chinese, or Fastfood.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or Thai.|request
+USR|thai|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Italian, or Turkish.|request
+USR|american|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Fusion, or Greek.|request
+USR|fast food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, French, or Mediterranean.|request
+SYS|What type of food would you like?|request
+SYS|For example, English, French, or Fusion.|request
+SYS|What type of food would you like?|request
+SYS|For example, English, French, or Seafood.|request
+USR|english|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Contemporary, or Spanish.|request
+USR|seafood|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Italian, or Mediterranean.|request
+USR|spanish|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Spanish, or Thai.|request
+USR|mediterranean|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, French, or Seafood.|request
+USR|thank you and goodbye|bye

@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a pub with internet|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Trumpington area.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the internet connection and you are looking for a venue.|expl-conf
+USR|any|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|no i want a pub with inter|negate
+SYS|The Bakers, which has an internet connection, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|i need internet connectio|inform
+SYS|The Bakers, which has an internet connection, is in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|music|null
+SYS|The Bakers, which is an outstanding pub, is in the cheap price range with an internet connection.|offer
+USR|music|null
+SYS|The Bakers is a great pub.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|and the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you goodbye|bye

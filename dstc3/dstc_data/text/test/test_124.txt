@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|a greek restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Newnham area.|request
+USR|a greek restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or New Chesterton area.|request
+USR|barnwell|inform
+SYS|There is no restaurant in the Barnwell area and serving greek food.|canthelp
+SYS|Can I help you with anything else?|reqmore
+USR|new chesterton|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+USR|may i have the address and phone number|request
+SYS|Hakka is located on 24 Milton Road and its phone number is 01223568988.|offer
+USR|may i have the phone number and the address|request
+SYS|Hakka is located on 24 Milton Road and its phone number is 01223568988.|offer
+USR|whats the price range|request
+SYS|Hakka is in the moderate price range.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+USR|what are the prices|request
+SYS|Hakka is in the moderate price range.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+USR|thank you goodbye|bye

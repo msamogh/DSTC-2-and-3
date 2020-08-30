@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a cheap restaurant in the cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, pub, or Traditional.|request
+USR|i dont care|inform
+SYS|Spice Merchants is an outstanding restaurant, it's in the Cherry Hinton part of town and it's in the cheap price range.|offer
+USR|whats the type of food|request
+SYS|Spice Merchants serves indian food.|offer
+USR|whats the address|request
+SYS|Spice Merchants is on 60 Trumpington Road.|offer
+USR|and the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|thank you goodbye|bye

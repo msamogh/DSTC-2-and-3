@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a cheap restaurant uh in the castle hill area|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Emmanuel College, or Kettle's Yard.|request
+USR|no anywhere in castle hill|negate
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|correct|affirm
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|what area is it in|request
+SYS|La Raza is in the central part of town.|offer
+USR|i need something in castle hill|inform
+SYS|La Raza is an outstanding restaurant.|offer
+USR|i need a restaurant in the castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Japanese.|request
+USR|anythings fine|inform
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|is it in the castle hill area|confirm
+SYS|La Raza is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|where is it|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|what area is it in|request
+SYS|La Raza is in the central part of town.|offer
+USR|no i need something in the castle hill area|negate
+SYS|La Raza is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

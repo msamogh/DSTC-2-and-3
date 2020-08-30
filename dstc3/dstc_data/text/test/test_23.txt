@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a moderately priced restaurant in the cherryhinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, French, or International.|request
+USR|doesnt matter|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or King's Hedges area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or New Chesterton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Newnham, or riverside.|request
+SYS|Are you looking for a cafe or a restaurant?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|cherryhinton|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|ch cherryhinton|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|i dont care|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a thai food, or you don't care?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|ya thai food|affirm
+SYS|Would you like a thai food, or you don't care?|select
+USR|i dont care|inform
+SYS|Sitar Tandoori is a great restaurant and it's in the Cherry Hinton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|wheres the phone number and address|request
+SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton and its phone number is 01223249955.|offer
+USR|thank you goodbye|bye

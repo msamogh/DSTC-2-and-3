@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or American.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, International, or Middleeastern.|request
+USR|steak|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|umm expensive|inform
+SYS|The Varsity, which serves greek food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or Trumpington area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, Newnham, or riverside area.|request
+USR|girton|inform
+SYS|The Varsity, which is in the Girton part of town, is a great restaurant.|offer
+SYS|This place, which serves greek food, is in the expensive price range.|offer
+USR|girton|inform
+SYS|The Varsity, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves greek food and it's in the expensive price range.|offer
+USR|can i get the address|request
+SYS|The Varsity is located on 35 Saint Andrew's Street.|offer
+USR|can i get the phone number|request
+SYS|The phone number of the Varsity is 01223356060.|offer
+USR|and what kind of food is it|request
+SYS|The Varsity serves greek food.|offer
+USR|ok|ack
+SYS|The Varsity, which is in the Girton part of town, is a great restaurant.|offer
+SYS|This place, which serves greek food, is in the expensive price range.|offer
+SYS|The Varsity, which is in the Girton part of town, is a great restaurant.|offer
+SYS|This place, which serves greek food, is in the expensive price range.|offer
+USR|thank you good bye|bye

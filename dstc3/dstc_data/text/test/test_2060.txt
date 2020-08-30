@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|The Bakers is a great pub.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for an expensive restaurant in the trumpington area|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|in the trumpington area|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+SYS|Would you like an expensive price range, or you don't care?|select
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive|inform
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|thank you good bye|bye

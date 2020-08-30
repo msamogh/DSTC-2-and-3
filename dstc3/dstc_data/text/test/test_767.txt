@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i do not read the instructions|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the New Chesterton area.|expl-conf
+USR|something else|reqalts
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the New Chesterton area.|expl-conf
+USR|no i want something else|negate
+SYS|Can I help you with anything else?|reqmore
+USR|yes i want a restaurant in the barnwell area|affirm
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant.|offer
+USR|is it moderately priced|confirm
+SYS|The Wheatsheaf is in the moderate price range.|offer
+USR|and what type of food|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|okay uh what is the address|ack
+SYS|The Wheatsheaf is on Stow Road, Stow-Cum-Quy.|offer
+USR|okay thank you goodbye|ack

@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a moderately priced restaurant and it should be in the cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Castle Galleries, or the Regency Gallery.|request
+USR|no|negate
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+USR|what is the phone number|request
+SYS|The phone number of Sitar Tandoori is 01223249955.|offer
+USR|and what type of food|request
+SYS|Sitar Tandoori serves indian food.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,58 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> music|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|hello|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|cheap price range|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the cheap price range.|expl-conf
+USR|i want im looking for a cheap price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Greek.|request
+USR|food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or riverside area.|request
+USR|whats the address and price|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Clare Hall, or Saint John's College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Romsey, or Trumpington area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or Romsey area.|request
+USR|neither none none|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or riverside area.|request
+USR|romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, French, or Fusion.|request
+USR|french|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a french venue.|expl-conf
+USR|cafe food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Mexican and Tex Mex, or pub.|request
+USR|sure|null
+SYS|What type of food would you like?|request
+SYS|For example, American, Greek, or Spanish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Turkish, or Vegetarian.|request
+USR|american|inform
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|chinese|inform
+SYS|Gourmet Burger , which is in the central part of town, is on 43-45 Regent Street.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|do you have a cafe in the river side area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a cafe|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the riverside area.|expl-conf
+USR|correct|affirm
+SYS|There is no cafe in the riverside area.|canthelp
+USR|can i get a restaurant in the river side area|inform
+SYS|There is no cafe that is providing services for free.|canthelp
+USR|a restaurant in river side|inform
+SYS|Caffe Uno, which is in the riverside part of town, is an outstanding restaurant.|offer
+USR|can i get the address the phone number and the price range|request
+SYS|Caffe Uno is on 32 Bridge Street and its phone number is 01223314954.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

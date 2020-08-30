@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i would like a moderatelt prices restaurant in the cherryhinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Indian, or Seafood.|request
+USR|um it doesnt matter|inform
+SYS|The Six Bells, High Saint is an outstanding restaurant, it's in the Cherry Hinton part of town and it's in the moderate price range.|offer
+USR|may i have the phone number and address|request
+SYS|The Six Bells, High Saint is located on 9 High Saint, Fulbourn and its phone number is 01223880244.|offer
+USR|thank you goodbye|bye

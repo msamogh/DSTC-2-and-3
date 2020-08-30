@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|in the cheap price range|inform
+SYS|Would you like chinese or X food?|select
+USR|yes|affirm
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, the Lynne Strover Gallery, or the Saint Barnabas Press Gallery.|request
+USR|chinese|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cambridge Contemporary Art, or Saint John's College.|request
+USR|no|negate
+SYS|The Peking Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes|affirm
+SYS|The Peking Restaurant is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds to 9 pounds.|offer
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|uh|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+SYS|The Peking Restaurant is a great restaurant and it serves chinese food.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes|affirm
+SYS|The Peking Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number for the peking restaurant|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|thank you goodbye|bye

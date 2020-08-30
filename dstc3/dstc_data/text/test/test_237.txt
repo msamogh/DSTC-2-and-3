@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|chinese restaurant in city centre area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|dont care|inform
+SYS|The Jinling Noodle Bar, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|address|request
+SYS|The Jinling Noodle Bar is on 11 Peas Hill.|offer
+USR|phone number|request
+SYS|The phone number of the Jinling Noodle Bar is 01223566188.|offer
+USR|price|request

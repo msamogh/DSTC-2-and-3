@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need a restaurant in chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Greek, or Indian.|request
+USR|american|inform
+SYS|There is no restaurant in the Chesterton area and serving american food.|canthelp
+USR|how about indian|reqalts
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|no|negate
+SYS|There is no restaurant in the Chesterton area and serving indian food.|canthelp
+USR|how bout greek|inform
+SYS|The Eraina Taverna is an outstanding restaurant.|offer
+SYS|It serves greek food.|offer
+USR|is it in the chesterton area|confirm
+SYS|The Eraina Taverna is in the central part of town.|offer
+USR|i need a restaurant in the chesterton area|inform
+SYS|There is no restaurant in the Chesterton area and serving greek food.|canthelp
+USR|are there any restaurants in the chesterton area|inform
+SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer
+USR|whats the address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|and the postal code|request
+SYS|Twenty-four is in the area with the postcode CB4 0FN.|offer
+USR|thank you good bye|bye

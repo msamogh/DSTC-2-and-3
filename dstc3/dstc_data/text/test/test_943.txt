@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|spanish restaurant <unk> spanish restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a spanish venue.|expl-conf
+USR|yes|affirm
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+USR|yes|affirm
+SYS|La Raza is a great restaurant and it serves spanish food.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Holy Trinity Church, or Milton Country Park.|request
+USR|address|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|no|negate
+SYS|La Raza is an outstanding restaurant.|offer
+USR|no|negate
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+USR|address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|thank you good bye|bye

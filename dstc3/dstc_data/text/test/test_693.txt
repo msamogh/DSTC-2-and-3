@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello i am looking for an italian restaurant in a cheap price range|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|ok thank you what is the phone number and post code|ack
+SYS|The phone number of Clowns is 01223355711 and it's in the area with the postcode CB1 1LN.|offer
+SYS|The price for main courses ranges from 5 pounds to 11 pounds and the price for a cappuccino is 1 pound 50.|offer
+USR|ok thank you good bye|ack

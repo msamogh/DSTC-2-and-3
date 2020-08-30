@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a moderately priced restaurant in the cherry hinton area|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Clare College, or Kettle's Yard.|request
+USR|kettles yard|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, International, or Italian.|request
+USR|mexican|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving mexican and tex mex food.|canthelp
+USR|italian food|inform
+SYS|Would you like italian or X food?|select
+USR|italian|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving italian food.|canthelp
+USR|it doesnt matter what type of food|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|a cherry hinton area|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|moderately priced restaurant|inform
+SYS|Sitar Tandoori is a great restaurant, it's in the Cherry Hinton part of town and it's in the moderate price range.|offer
+USR|can i get the phone number and the address|request
+SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton.|offer
+USR|may i have the price please|request
+SYS|Sitar Tandoori is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 9 pounds 95.|offer
+USR|thank you good bye|bye

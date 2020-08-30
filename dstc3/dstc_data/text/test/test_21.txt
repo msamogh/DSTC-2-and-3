@@ -1,0 +1,53 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a cheap spanish restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the Lynne Strover Gallery, or the Saint Barnabas Press Gallery.|request
+USR|the saint gallery|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Clare Hall, or King's College.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Continental, or Mediterranean.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Newnham area.|request
+USR|spanish|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or riverside area.|request
+USR|barnwell|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Mediterranean, or Traditional.|request
+USR|barnwell|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Indian, or Traditional.|request
+USR|spanish|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, or International.|request
+USR|international|inform
+SYS|There is no restaurant serving international food in the cheap price range.|canthelp
+USR|spanish food|inform
+SYS|Would you like an international food, or you don't care?|select
+USR|international|inform
+SYS|Would you like an international food, or you don't care?|select
+USR|international|inform
+SYS|Would you like an international food, or you don't care?|select
+USR|spanish|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap price range|inform
+SYS|La Raza, which serves spanish food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|what is the phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|thank you goodbye|bye

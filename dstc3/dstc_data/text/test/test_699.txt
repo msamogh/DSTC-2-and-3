@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub that allows children and has a television|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap|inform
+SYS|The Baron of Beef allows children, it's in the cheap price range and it's a great pub.|offer
+USR|does it have a television|request
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Baron of Beef is a great pub and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+USR|what is the address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|thank you good bye|bye

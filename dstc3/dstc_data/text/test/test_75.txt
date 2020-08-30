@@ -1,0 +1,49 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|information|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue with an internet connection.|expl-conf
+USR|no|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|im looking for a moderately priced coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, the Museum of Classical Archaeology, or Sheep's Green.|request
+USR|i would like to know the phone number and type of food|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, the Lynne Strover Gallery, or Sidney Sussex College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or Romsey area.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, American, Continental, or Italian.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Newnham area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or Japanese.|request
+USR|i dont care|inform
+SYS|Are you looking for a cafe or a pub?|select
+USR|a coffee shop <unk> talking moderately priced|inform
+SYS|Are you looking for a cafe or a pub?|select
+USR|a cafe moderately priced|inform
+SYS|Are you looking for a cafe or a pub?|select
+USR|a cafe|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, New Chesterton, or Romsey area.|request
+USR|it doesnt matter|inform
+SYS|The Auntie's Tea Shop is a great cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the phone and what time of food do they have|request
+SYS|The Auntie's Tea Shop, which serves english food, is located on 1 Saint Mary's Passage.|offer
+SYS|Its phone number is 01223315641.|offer
+SYS|The Auntie's Tea Shop is an outstanding cafe.|offer
+USR|<unk> talking what is the phone number|request
+SYS|The phone number of the Auntie's Tea Shop is 01223315641.|offer
+USR|what type of food do they have|request
+SYS|The Auntie's Tea Shop serves english food.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Auntie's Tea Shop is 01223315641.|offer
+USR|thank you good bye|bye

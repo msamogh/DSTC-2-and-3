@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Japanese, or Thai.|request
+USR|contemporary|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Downing College, or Trinity College.|request
+USR|no|negate
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|contemporary cuisine|inform
+SYS|Yes.|affirm
+SYS|The Michaelhouse Centre doesn't charge any entrance fee.|affirm
+USR|restaurant|inform
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|how much is the food|request
+SYS|The Michaelhouse Centre is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the price for a cappuccino is 1 pound 75 and the entrance is free of charge.|offer
+USR|okay uh whats the address|ack
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+USR|whats the name of the restaurant|request
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|so the name|request
+SYS|There is no restaurant serving english food that is providing services for free.|canthelp
+USR|okay thank you goodbye|ack

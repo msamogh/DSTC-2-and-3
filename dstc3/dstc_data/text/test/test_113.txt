@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Mediterranean, or Turkish.|request
+USR|turkish|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Romsey.|request
+USR|romsey|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Fen Ditton area.|request
+USR|castle hill|inform
+SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
+SYS|The Agora, which serves turkish food, is a great restaurant.|offer
+USR|is it moderate price|confirm
+SYS|The Agora is in the expensive price range.|offer
+USR|do you have a turkish with moderate|inform
+SYS|196 Meze Bar, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|196 Meze Bar is on 196 Mill Road.|offer
+USR|and the phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+USR|what area|request
+SYS|196 Meze Bar is in the Romsey part of town.|offer
+USR|thank you good bye|bye

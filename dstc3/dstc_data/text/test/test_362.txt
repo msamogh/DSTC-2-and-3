@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Saint Barnabas Press Gallery, or Lamma's Land.|request
+USR|any|inform
+SYS|Can I help you with anything else?|reqmore
+USR|any|inform
+SYS|Can I help you with anything else?|reqmore
+USR|turkish|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, King's College, or Trinity College.|request
+USR|no|negate
+SYS|The Agora is an outstanding restaurant, it serves turkish food and it's in the expensive price range.|offer
+USR|address|request
+SYS|The Agora is on 4 King's Parade.|offer
+USR|area|null
+SYS|The Agora is a great restaurant.|offer
+USR|area|null
+SYS|The Agora is in the central part of town.|offer
+SYS|The Agora is a great restaurant.|offer
+USR|thank you good bye|bye

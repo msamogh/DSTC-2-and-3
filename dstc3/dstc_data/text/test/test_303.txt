@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|oh thats right|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Girton area.|request
+USR|new chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Fastfood, or Turkish.|request
+USR|turkey|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Little Saint Mary's, or The Fitzwilliam Museum.|request
+USR|the new chesterton|inform
+SYS|Hakka is a great restaurant and it's in the New Chesterton part of town.|offer
+USR|address|request
+SYS|What type of food would you like?|request
+SYS|For example, English, Seafood, or Turkish.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Hughes Hall, or Little Saint Mary's.|request
+USR|the address|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Clare Hall, or Little Saint Mary's.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or French.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Seafood, or Thai.|request
+USR|french|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or Mediterranean.|request
+USR|phone number|request
+SYS|The phone number of Hakka is 01223568988.|offer
+USR|and the address|request
+SYS|Hakka is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

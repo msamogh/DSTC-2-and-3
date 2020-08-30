@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|Can I help you with anything else?|reqmore
+USR|international restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Girton.|request
+USR|looking for international restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or riverside area.|request
+USR|doesnt matter|inform
+SYS|Giraffe is an outstanding restaurant and it serves international food.|offer
+USR|i dont care|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|whats the phone number and postcode|request
+SYS|The phone number of Giraffe is 01223300707 and it's in the area with the postcode CB1 1NP.|offer
+USR|does it have a moderate price range|confirm
+SYS|Giraffe is in the moderate price range.|offer
+USR|thank you good bye|bye

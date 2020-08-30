@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant serving any kind of food and it should be free|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Mediterranean.|request
+USR|any type of food but it should be free|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, International, or Italian.|request
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food that is providing services for free.|canthelp
+USR|any restaurant serving any kind of food|inform
+SYS|Would you like a free price range, or you don't care?|select
+USR|and it should be free|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Museum of Archaelogy and Anthropology, or Queens' College.|request
+USR|museum of archaelogy|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Magdalene College, or Primavera.|request
+USR|no|negate
+SYS|The Michaelhouse Centre is a great restaurant and it doesn't charge any entrance fee.|offer
+USR|what is the phone number and address|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+USR|thank you goodbye|bye

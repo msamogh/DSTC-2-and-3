@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in chesterton|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or New Chesterton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, Newnham, or Romsey area.|request
+USR|chesterton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Romsey.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or central area.|request
+USR|chesterton|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, riverside, or Romsey area.|request
+USR|chesterton|inform
+SYS|Can I help you with anything else?|reqmore
+USR|chesterton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|chester|null
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|i dont care about the price|inform
+SYS|Twenty-four is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+SYS|Twenty-four is an outstanding restaurant.|offer
+USR|whats the address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road.|offer
+USR|post code|request
+SYS|Twenty-four is in the area with the postcode CB4 0FN.|offer
+USR|post code|request
+SYS|Twenty-four is in the area with the postcode CB4 0FN.|offer
+USR|thank you goodbye|bye

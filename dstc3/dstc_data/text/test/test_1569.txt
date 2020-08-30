@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im just looking for a cheap pub|inform
+SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
+USR|ah does it have a tv|request
+SYS|The Baron of Beef, which has a television, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|and whats the address|request
+SYS|The Baron of Beef is located on Bridge Street.|offer
+USR|is that the only address|request
+SYS|The Baron of Beef is located on Bridge Street.|offer
+USR|where on bridge street is it located|request
+SYS|The Baron of Beef is a great pub.|offer
+USR|does it have a more specific address|request
+SYS|The Baron of Beef is located on Bridge Street.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|restaurant in romsey|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Kettle's Yard, or the People's Portraits Exhibition.|request
+USR|yard|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, the Saint Barnabas Press Gallery, or Saint John's College.|request
+USR|college|null
+SYS|The Curry Queen, which is in the Romsey part of town, is a great restaurant.|offer
+USR|can i have the address|request
+SYS|The Curry Queen is on 106 Mill Road.|offer
+USR|can i have the phone number|request
+SYS|The phone number of The Curry Queen is 01223350407.|offer
+USR|can i have the postcode|request
+SYS|The Curry Queen is in the area with the postcode CB1 2BD.|offer
+USR|thank you goodbye|bye

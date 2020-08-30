@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with an internet connection and television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Trumpington area.|request
+USR|i dont care|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|does that have an internet connection|request
+SYS|The Alma doesn't have any internet connection.|offer
+USR|i would like to look for another venue|reqalts
+SYS|The Alma is a great pub.|offer
+USR|i would like to look for a pub|inform
+SYS|The Alma is a great pub.|offer
+USR|i would like to look for a different one|reqalts
+SYS|The Alma is an outstanding pub.|offer
+USR|no thank you|negate
+SYS|The Alma is an outstanding pub.|offer
+USR|no|negate
+SYS|The Alma is an outstanding pub.|offer
+USR|i would like to look for a different pub please|reqalts
+SYS|The Alma is an outstanding pub.|offer
+USR|im looking for a pub with an internet connection|inform
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|does it have television|request
+SYS|I am sorry but there is no information on The Bakers's food.|canthelp.missing_slot_value
+USR|does it have a tv|request
+SYS|The Bakers has a television.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|what is the price range|request
+SYS|The Bakers is in the cheap price range.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|thank you|thankyou
+SYS|The Baron of Beef is a great pub and it's in the cheap price range.|offer
+USR|thank you goodbye|bye

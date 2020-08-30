@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for an expensive restaurant in the romsey area|affirm
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|whats the address|request
+SYS|The Backstreet Bistro is on 2 Sturton Street.|offer
+USR|whats the price|request
+SYS|The Backstreet Bistro is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|thank you goodbye|bye

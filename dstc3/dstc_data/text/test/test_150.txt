@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the cherry hinton area|inform
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|HK Fusion is located on 21 Burleigh Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|what type of food do they serve|request
+SYS|HK Fusion serves chinese food.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant with cheap prices|inform
+SYS|La Raza is an outstanding restaurant.|offer
+SYS|It serves spanish food.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|what area is it in|request
+SYS|La Raza is in the central part of town.|offer
+USR|thank you good bye|bye

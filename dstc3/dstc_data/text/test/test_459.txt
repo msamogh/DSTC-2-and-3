@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a vegetarian restaurant in the girton area|inform
+SYS|The Rainbow Cafe is an outstanding restaurant, it's in the Girton part of town and it serves traditional and vegetarian food.|offer
+USR|what is its address|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+USR|what is its phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|what is its postcode|request
+SYS|The Rainbow Cafe is in the area with the postcode CB2 1SJ.|offer
+USR|thank you goodbye|bye

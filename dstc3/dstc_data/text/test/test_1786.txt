@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a greek restaurant in the city center area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Fen Ditton area.|request
+USR|dont care|inform
+SYS|The Eraina Taverna is an outstanding restaurant and it serves greek food.|offer
+USR|address phone number and price|request
+SYS|The Eraina Taverna is located on 2 Free School Lane and its phone number is 01223902126.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 13 pounds 95.|offer
+USR|thank you good bye|bye

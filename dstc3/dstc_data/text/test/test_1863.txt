@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|contemorary restaurant in the romsey area|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It serves contemporary and english food.|offer
+USR|what is the price of the venue|request
+SYS|The Backstreet Bistro is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|thank you good bye|bye

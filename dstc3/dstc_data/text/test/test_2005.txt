@@ -1,0 +1,64 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like to find an expensive restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Downing College, or King's College.|request
+USR|and it should be in the castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, American, or Vegetarian.|request
+USR|an expensive restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, or Kettle's Yard.|request
+USR|french would be fine|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Fen Ditton area.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, Saint Catharine's College, or Wandlebury Country Park.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or central area.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or New Chesterton area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or King's Hedges.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, or the Museum of Archaelogy and Anthropology.|request
+USR|i would like to find an expensive restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum Of Technology, or the Scott Polar Museum.|request
+USR|do you have any french restaurants|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum Of Technology, or Pembroke College.|request
+USR|technology|null
+SYS|The Hotel du Vin is a great restaurant, it serves french food and it's in the expensive price range.|offer
+USR|all saints church|inform
+SYS|The Hotel du Vin is an outstanding restaurant, it serves french food and it's in the expensive price range.|offer
+USR|can i have the phone number and|request
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+USR|postcode|request
+SYS|The Hotel du Vin is in the area with the postcode CB2 1QA.|offer
+USR|for the du vin could i have the <unk>|null
+SYS|The Hotel du Vin is an outstanding restaurant.|offer
+USR|postcode|request
+SYS|The Hotel du Vin is in the area with the postcode CB2 1QA.|offer
+USR|could i have the post code please|request
+SYS|The Hotel du Vin is in the area with the postcode CB2 1QA.|offer
+USR|i|null
+SYS|The Hotel du Vin is an outstanding restaurant.|offer
+USR|and the hotel du vins phone number|request
+SYS|Would you like a french food, or you don't care?|select
+USR|could i have the phone number please|request
+SYS|Would you like a french food, or you don't care?|select
+USR|french food|inform
+SYS|The phone number of the Hotel du Vin is 01223227330.|offer
+SYS|It's in the area with the postcode CB2 1QA.|offer
+USR|french food|inform
+SYS|The Hotel du Vin, which serves french food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|thank you and good bye|bye

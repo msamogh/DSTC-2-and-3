@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> turkish restaurant please|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or riverside area.|request
+USR|sitter cindy ar city area|null
+SYS|The Agora, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves turkish food.|offer
+USR|what is the address|request
+SYS|The Agora is located on 4 King's Parade.|offer
+USR|phone number please|request
+SYS|The phone number of The Agora is 01223308448.|offer
+USR|what are the prices at the agora|request
+SYS|The Agora is on 4 King's Parade.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|thank you good bye|bye

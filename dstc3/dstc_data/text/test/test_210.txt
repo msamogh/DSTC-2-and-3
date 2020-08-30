@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|The Bakers is a great pub.|offer
+USR|phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|internet|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|true internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Milton Country Park, or The Fitzwilliam Museum.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Fusion.|request
+USR|romsey area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Museum of Archaelogy and Anthropology, or Primavera.|request
+USR|romsey area|inform
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|what is the address and price|request
+SYS|La Raza, which is in the central part of town, is on 4-6, The Basement, Rose Crescent.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+SYS|La Raza is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|thank you have a good day|bye

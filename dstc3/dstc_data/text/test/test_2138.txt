@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, American, or Greek.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Clare College, or Holy Trinity Church.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Corpus Christi, or Great Saint Mary's Church.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Trumpington.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or New Chesterton area.|request
+USR|fenditton|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|new chester|inform
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|yes|affirm
+SYS|Blue Spice is an outstanding restaurant.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|Blue Spice is a great restaurant.|offer
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|Blue Spice is an outstanding restaurant.|offer
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|restaurant|inform
+SYS|Blue Spice is an outstanding restaurant.|offer
+SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
+USR|thank you good bye|bye

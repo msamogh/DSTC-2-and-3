@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|expensive restaurant in the trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Kettle's Yard, or the Michaelhouse Centre.|request
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Fusion, or Vegetarian.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Drinks and snacks only, or Mediterranean.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Emmanuel College, or the Saint Barnabas Press Gallery.|request
+USR|garbled expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, Magdalene College, or the Museum of Classical Archaeology.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Greek, or International.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Spanish, or Traditional.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Continental, or Italian.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Middleeastern.|request
+USR|thank you goodbye thank you goodbye thank you goodbye thank you goodbye|bye

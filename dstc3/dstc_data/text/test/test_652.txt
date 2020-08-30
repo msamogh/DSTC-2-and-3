@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a cheap restaurant in the castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Fastfood, or Greek.|request
+USR|uh mexican please|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|uh what kind of food is in the cheap price range|request
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum Of Technology, or Jesus College.|request
+USR|uh jesus college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Fen Ditton.|request
+USR|the castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, Sidney Sussex College, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|no particular venue|negate
+SYS|La Raza serves spanish food.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|and what is the address for that|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,56 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> pub uh with an internet connection and a tv|inform
+SYS|The Bakers has a television.|offer
+SYS|It's in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|that pub has an internet connection too|inform
+SYS|The Bakers, which has an internet connection, is in the cheap price range.|offer
+SYS|It's an outstanding pub.|offer
+USR|can i get the address and um i just want to know if children are allowed or not|request
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|i want the internet connection with tv|inform
+SYS|Would you like a true television, or you don't care?|select
+USR|i want television|inform
+SYS|The phone number of The Bakers is 01223304121, it's located on 176 East Road and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+USR|oh can can i know whether childrens are allowed or not|request
+SYS|Can you please rephrase that?|repeat
+SYS|What type of food would you like?|request
+SYS|For example, pub, Japanese, or Spanish.|request
+USR|are childrens allowed in the pub|request
+SYS|The Bakers, which allows children, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|are childrens|request
+SYS|The Bakers allows children, it's in the cheap price range and it's an outstanding pub.|offer
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|does allow|null
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|does it have interent connection|request
+SYS|The Bakers has an internet connection.|offer
+USR|and tv|inform
+SYS|Would you like a true television, or you don't care?|select
+USR|i would like to have television|inform
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|does it have internet connection|request
+SYS|The Bakers has an internet connection.|offer
+USR|does it have tv television|request
+SYS|The Bakers has a television.|offer
+USR|can i get the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|oh|null
+SYS|The Bakers is a great pub.|offer
+USR|are childrens allowed|request
+SYS|Would you like true children, or you don't care?|select
+USR|a pub|inform
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|childrens are allowed|inform
+SYS|The Bakers is a great pub.|offer
+USR|are children|inform
+SYS|The Bakers is a great pub.|offer
+USR|are childrens allowed in it|request
+SYS|Would you like true children, or you don't care?|select
+USR|want childrens|inform
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|ok thank you good bye|ack

@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese take away restaurant in the in the cheap price range|inform
+SYS|Saigon City is an outstanding restaurant, it serves chinese take away and it's in the cheap price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Saigon City is 01223356555.|offer
+SYS|The price for main courses ranges from 4 pounds 60 to 5 pounds 10.|offer
+USR|whats the post code|request
+SYS|Saigon City is in the area with the postcode CB4 1NL.|offer
+USR|thank you good bye|bye

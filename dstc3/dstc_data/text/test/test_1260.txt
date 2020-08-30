@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a chinese restaurant for take out|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare Hall, or Milton Country Park.|request
+USR|anywhere is fine|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, the Museum of Archaelogy and Anthropology, or the People's Portraits Exhibition.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, King's Hedges, or Newnham area.|request
+USR|i dont|null
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|i dont care|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|chinese food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
+USR|<unk> i do nt care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Saint Catharine's College, or Saint John's College.|request
+USR|i don|null
+SYS|The J Restaurant, which serves chinese food, is a great restaurant.|offer
+USR|i dont care|inform
+SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+USR|ok can i get an address phone number and post code please|ack
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+SYS|Its phone number is 01223307273.|offer
+USR|i need the address phone number and post code please|request
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+SYS|Its phone number is 01223307273.|offer
+USR|thank you good bye|bye

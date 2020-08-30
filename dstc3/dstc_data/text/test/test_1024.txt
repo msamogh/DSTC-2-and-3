@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um could i find a traditional restaurant thats really expensive|inform
+SYS|The Riverside Restaurant, which is in the expensive price range, is a great restaurant.|offer
+SYS|It serves traditional food.|offer
+USR|alright can i get the address and postcode <unk> please|request
+SYS|The Riverside Restaurant, which is in the area with the postcode CB2 1RU, is on University Centre, Granta Place.|offer
+USR|alright thank you good bye|thankyou

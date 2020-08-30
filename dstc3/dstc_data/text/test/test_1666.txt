@@ -1,0 +1,55 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|um moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Japanese, or Spanish.|request
+USR|american|inform
+SYS|The Ranch is an outstanding restaurant, it serves american food and it's in the moderate price range.|offer
+USR|city center area|inform
+SYS|There is no restaurant in the central area and serving american food in the moderate price range.|canthelp
+USR|ah expensive|inform
+SYS|Would you like a central area, or you don't care?|select
+USR|city center|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like an american food, or you don't care?|select
+USR|american|inform
+SYS|Gourmet Burger  is a great restaurant and it's in the central part of town.|offer
+SYS|It serves american food.|offer
+USR|city center area|inform
+SYS|Gourmet Burger , which is in the central part of town, is a great restaurant.|offer
+SYS|It serves american food.|offer
+USR|address and phone number|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street and its phone number is 01223312598.|offer
+SYS|Gourmet Burger  is a great restaurant.|offer
+USR|address and phone number|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street and its phone number is 01223312598.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|address and phone number|request
+SYS|Gourmet Burger  is on 43-45 Regent Street and its phone number is 01223312598.|offer
+USR|address and phone number|request
+SYS|Would you like an american food, or you don't care?|select
+SYS|Would you like an american food, or you don't care?|select
+SYS|Would you like an american food, or you don't care?|select
+USR|american|inform
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+SYS|Its phone number is 01223312598.|offer
+USR|american|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Romsey.|request
+USR|city center|inform
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+USR|phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|ok thank you good bye|ack

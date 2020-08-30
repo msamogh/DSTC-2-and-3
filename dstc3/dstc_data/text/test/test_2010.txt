@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|a cheap restaurant and it should be in the city center area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Museum of Classical Archaeology, or Sidney Sussex College.|request
+USR|sidney sussex college|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, or Indian.|request
+USR|can i get the address and price range on the venue please|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Christ's College, or Holy Trinity Church.|request
+USR|holy trinity church|inform
+SYS|There is no restaurant serving turkish food in the cheap price range.|canthelp
+USR|ok|ack
+SYS|Would you like a turkish food, or you don't care?|select
+USR|ah cheap restaurant th|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|no|negate
+SYS|Would you like a turkish food, or you don't care?|select
+USR|no|negate
+SYS|Would you like a turkish food, or you don't care?|select
+USR|cheap re|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|no|negate
+SYS|Would you like a turkish food, or you don't care?|select
+USR|a chea|null
+SYS|Would you like a turkish food, or you don't care?|select
+USR|no a cheap restaurant|negate
+SYS|Would you like a turkish food, or you don't care?|select
+USR|a cheap restaurant in the th|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|city center|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|city center|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|ya thats fine yes|affirm
+SYS|Would you like a turkish food, or you don't care?|select
+USR|thank you and good bye|bye

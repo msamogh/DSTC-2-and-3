@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes american restaurant|affirm
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant american|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or New Chesterton.|request
+USR|address|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Folk Museum, or Jesus College.|request
+USR|address|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Newnham area.|request
+USR|address|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, or King's College.|request
+USR|american res|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Jesus College, or the Museum of Classical Archaeology.|request
+USR|kings college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, New Chesterton, or Trumpington area.|request
+USR|river side|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Newnham, or riverside area.|request
+USR|trumpington|inform
+SYS|There is no restaurant in the Trumpington area and serving american food.|canthelp
+USR|thank you good bye|bye

@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub in castle hill and it should allow children make sure i get the address phone number and whether it has tv|request
+SYS|The Baron of Beef, which allows children, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+SYS|The phone number of The Baron of Beef is 01223505022.|canthelp.missing_slot_value
+SYS|It's on Bridge Street and I am sorry but there is no information on its area.|canthelp.missing_slot_value
+USR|does it have a tv|request
+SYS|The Baron of Beef, which has a television, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|does it have a tv|request
+SYS|The Baron of Beef has a television.|offer
+USR|thank you and good bye|bye

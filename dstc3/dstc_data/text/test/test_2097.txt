@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with a tv that allows children|inform
+SYS|The Anchor, which allows children, is an outstanding pub.|offer
+SYS|It has a television.|offer
+USR|whats the address and price range|request
+SYS|The Anchor is located on Silver Street.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 11 pounds and the price for a cheapest pint of beer is 2 pounds 70.|offer
+USR|thank you good bye|bye

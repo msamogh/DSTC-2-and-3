@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+USR|fast food restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a seafood venue.|expl-conf
+USR|fast food restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a cafe food venue.|expl-conf
+USR|fast food|inform
+SYS|Burger King is a great restaurant and it serves fastfood.|offer
+USR|fast food|inform
+SYS|Burger King, which serves fastfood, is an outstanding restaurant.|offer
+USR|phone number and postcode|request
+SYS|The phone number of Burger King is 01223322666 and it's in the area with the postcode CB1 1PS.|offer
+USR|phone number|request
+SYS|The phone number of Burger King is 01223322666.|offer
+USR|thank you goodbye|bye

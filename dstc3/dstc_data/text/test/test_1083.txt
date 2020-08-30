@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese take away restaurant moderate price range|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or riverside area.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Pembroke College, Queens' College, or Sidney Sussex College.|request
+USR|whats the phone number address and venue|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, or Queens' College.|request
+USR|i dont care|inform
+SYS|The J Restaurant is an outstanding restaurant, it serves chinese food and it's in the moderate price range.|offer
+USR|i dont care|inform
+SYS|The J Restaurant is on 86, Regent Street and its phone number is 01223307273.|offer
+USR|whats the phone number address and venue|request
+SYS|The J Restaurant is located on 86, Regent Street and its phone number is 01223307273.|offer
+USR|thank you good bye|bye

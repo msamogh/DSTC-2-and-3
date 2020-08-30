@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant which serves drinks and snacks only|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|any price range|inform
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|what is the phone number and price|request
+SYS|The phone number of The Fleur is 01223902183.|offer
+SYS|The price for main courses ranges from 6 pounds 75 to 12 pounds 95 and the price for a cheapest glass of wine is 3 pounds 50.|offer
+USR|thank you goodbye|bye

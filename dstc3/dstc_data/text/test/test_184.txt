@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub food restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+USR|uh moderate|inform
+SYS|The Lion and Lamb is an outstanding restaurant, it serves pub food and it's in the moderate price range.|offer
+USR|whats the phone number and postcode|request
+SYS|The phone number of The Lion and Lamb is 01223860202 and it's in the area with the postcode CB4 6DF.|offer
+USR|thank you goodbye|bye

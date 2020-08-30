@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um i need a restaurant in new chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Contemporary, or International.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for a venue in the Girton or New Chesterton area?|select
+USR|hangup <unk>|null
+SYS|Are you looking for a venue in the Girton or New Chesterton area?|select
+USR|yes chesterton|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Seafood, or Thai.|request
+USR|hangup <unk>|null
+SYS|Twenty-four is a great restaurant and it's in the Chesterton part of town.|offer
+USR|hmm <unk>|null
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, or Italian.|request
+USR|umumum <unk>|null
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, pub, or Continental.|request
+USR|whats the phone number and address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+USR|it doesnt matter|inform
+SYS|Twenty-four is in the moderate price range.|offer
+USR|whats the phone number and address|request
+SYS|Twenty-four is on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+USR|hangup <unk>|null
+SYS|Twenty-four is a great restaurant.|offer
+USR|thank you thank you good bye thank you good bye|bye

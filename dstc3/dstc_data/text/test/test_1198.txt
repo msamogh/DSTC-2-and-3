@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Wheatsheaf is in the Barnwell part of town.|offer
+USR|<unk> i m looking for a thia restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Trumpington.|request
+USR|i dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|dont care|inform
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+USR|i dont care|inform
+SYS|Can I help you with anything else?|reqmore
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a thai venue.|expl-conf
+USR|yes|affirm
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+USR|whats the address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+USR|whats the price|request
+SYS|The Wrestlers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|thank you good bye|bye

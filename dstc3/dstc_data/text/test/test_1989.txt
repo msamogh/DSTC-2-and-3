@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|<unk> cherry hinton|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|dont care cherry hinton area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Pembroke College, or the Saint Barnabas Press Gallery.|request
+USR|cherry hinton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Emmanuel College, or the Gallery at twelve A High Street.|request
+USR|dont care|inform
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|a restaurant|inform
+SYS|HK Fusion is an outstanding restaurant and it's in the Cherry Hinton part of town.|offer
+USR|perfect whats the address|request
+SYS|HK Fusion, which serves chinese food, is located on 21 Burleigh Street.|offer
+USR|post code|request
+SYS|HK Fusion is in the area with the postcode CB1 1DG.|offer
+USR|thank you good bye|bye

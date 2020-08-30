@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want an international restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|it does not matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, Old Schools, or the Ruskin Gallery.|request
+USR|any price|inform
+SYS|Giraffe is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
+USR|any place|inform
+SYS|Giraffe is a great restaurant.|offer
+USR|any place|inform
+SYS|Giraffe is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
+SYS|Giraffe is a great restaurant.|offer
+USR|what is the address|request
+SYS|Giraffe is located on Christ's Lane.|offer
+USR|thank you goodbye|bye

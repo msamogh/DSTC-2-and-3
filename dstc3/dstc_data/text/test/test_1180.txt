@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|info about restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Mexican and Tex Mex, or Fastfood.|request
+USR|any food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or Girton area.|request
+USR|cherry hinton|inform
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|the phone number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|the address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+USR|the postal code|request
+SYS|HK Fusion is in the area with the postcode CB1 1DG.|offer
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+USR|<unk> the postal code|request
+SYS|HK Fusion, which is in the area with the postcode CB1 1DG, is on 21 Burleigh Street.|offer
+USR|good bye thank you|bye

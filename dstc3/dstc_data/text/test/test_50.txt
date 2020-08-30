@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a fusion restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|any price range i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Hughes Hall, or Magdalene College.|request
+USR|no any place|negate
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Aki Teri, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Aki Teri, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|i dont care about the price range|inform
+SYS|Aki Teri, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the phone number and address|request
+SYS|The phone number of Aki Teri is 01223323888.|offer
+SYS|The price for main courses ranges from 8 pounds 80 to 11 pounds 80.|offer
+USR|and whats the address|request
+SYS|Aki Teri is on 3-5 Quayside.|offer
+USR|thank you good bye|bye

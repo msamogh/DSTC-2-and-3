@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|Caffe Uno is an outstanding restaurant and it's in the moderate price range.|offer
+USR|new chesterton area|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of Hakka is 01223568988.|offer
+USR|and the post code|request
+SYS|Hakka is in the area with the postcode CB4 1JY.|offer
+USR|thank you good bye|bye

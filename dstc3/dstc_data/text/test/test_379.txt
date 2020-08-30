@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|uh can i|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|can you giv can i know a pub which has an internet conec|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|i can i know the address and the postcode|request
+SYS|The Bakers is on 176 East Road and it's in the area with the postcode CB1 1BG.|offer
+USR|thank you goodbye|bye

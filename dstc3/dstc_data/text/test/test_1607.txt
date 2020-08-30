@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese take away restaurant in the cheap price range|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|HK Fusion is an outstanding restaurant, it serves chinese food and it's in the cheap price range.|offer
+USR|whats the address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+SYS|The price for main courses ranges from 5 pounds to 8 pounds.|offer
+USR|whats the phone number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|whats the area|request
+SYS|HK Fusion is in the Cherry Hinton part of town.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|does not matter|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant group|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or Romsey area.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or riverside.|request
+USR|barnwell|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or King's Hedges area.|request
+USR|barnwell|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Folk Museum, or Trinity College.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Northern european, or International.|request
+SYS|What type of food would you like?|request
+SYS|For example, Japanese, or Turkish.|request
+USR|international|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|japanese|inform
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the phone number and post code|request
+SYS|The phone number of Giraffe is 01223300707 and it's in the area with the postcode CB1 1NP.|offer
+USR|what is the phone number and post code|request
+SYS|The phone number of Giraffe is 01223300707 and it's in the area with the postcode CB1 1NP.|offer
+USR|thank you goodbye|bye

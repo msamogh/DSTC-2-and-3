@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im going to be in the fen ditton area and im looking for a moderately priced uh restaurant|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|um that doesnt have to be indian any anything that is moderately priced|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|um cheap cheap venue not indian|deny
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an indian venue.|expl-conf
+USR|yes|affirm
+SYS|The Curry House, which serves indian food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|uh great do you have the um the phone number and address|request
+SYS|The Curry House is on 71 Castle Street and its phone number is 01223312569.|offer
+USR|and where is this located|request
+SYS|The Curry House is located on 71 Castle Street.|offer
+USR|thank you goodbye|bye

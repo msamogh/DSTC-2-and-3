@@ -1,0 +1,72 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the cheap price range.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the cheap price range.|expl-conf
+USR|no moderate price range|negate
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|moderate price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Pembroke College, or the People's Portraits Exhibition.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Indian, or Mediterranean.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Romsey area.|request
+USR|fusion|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, East asian, or Middleeastern.|request
+USR|romsey|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Holy Trinity Church, or Saint Catharine's College.|request
+USR|a fusion|inform
+SYS|Can I help you with anything else?|reqmore
+USR|st cathrines college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Little Saint Mary's, or the Saint Barnabas Press Gallery.|request
+USR|no thank you and have good day|negate
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|thank you and have a good day|bye
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|thank you and have good day|bye
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|thank you and have good day|bye
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|thank you and have a good day thank you and have a good day|bye
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|thank you and have a good day thank you and have a good day thank you and have a good day|bye
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Northern european, or Seafood.|request
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Northern european, or Contemporary.|request
+USR|sea food|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a seafood venue.|expl-conf
+USR|contemporary|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a seafood venue.|expl-conf
+USR|yes|affirm
+SYS|There is no restaurant serving seafood in the moderate price range.|canthelp
+USR|yes|affirm
+SYS|There is no restaurant serving seafood in the moderate price range.|canthelp
+USR|thank and have a good day|bye

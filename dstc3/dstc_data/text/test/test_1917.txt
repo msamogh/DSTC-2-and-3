@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a chinese restaurant and it should be in the city centre area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or riverside area.|request
+USR|the central area|inform
+SYS|Charlie Chan, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address|request
+SYS|Charlie Chan is on 14 Regent Street.|offer
+USR|thank you goodbye|bye

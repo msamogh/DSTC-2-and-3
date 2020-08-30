@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a greek restaurant in the expensive price range|request
+SYS|The Varsity, which serves greek food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|can i get the address and the area|request
+SYS|The Varsity is on 35 Saint Andrew's Street.|offer
+SYS|The price for main courses ranges from 9 pounds 95 to 18 pounds 95.|offer
+USR|what area is the venue in|request
+SYS|The Varsity is in the Girton part of town.|offer
+USR|thank you good bye|bye

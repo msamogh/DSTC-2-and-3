@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Blue Spice is a great restaurant.|offer
+USR|in the cherry hinton area|inform
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|address and postcode|request
+SYS|HK Fusion, which is in the area with the postcode CB1 1DG, is on 21 Burleigh Street.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant and it should be in the addenbrookes area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Sidney Sussex College, Williams Art and Antiques, or Primavera.|request
+USR|i dont care|inform
+SYS|The Lucky Star is an outstanding restaurant, it's in the Addenbrooke's part of town and it's in the expensive price range.|offer
+USR|whats the address|request
+SYS|The Lucky Star is on Unit.|offer
+USR|what type of food|request
+SYS|The Lucky Star serves chinese food.|offer
+USR|thank you good bye|bye

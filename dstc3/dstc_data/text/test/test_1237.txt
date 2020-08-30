@@ -1,0 +1,9 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im want to find a vegetarian restaurant|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is a great restaurant.|offer
+USR|whats the address phone number and postcode|request
+SYS|The Rainbow Cafe is on 9a King's Parade, its phone number is 01223321551 and it's in the area with the postcode CB2 1SJ.|offer
+USR|thank you good bye|bye

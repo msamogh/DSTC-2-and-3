@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant serving any kind of food in the fen ditton area|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is a great restaurant.|offer
+USR|whats the address|request
+SYS|The Lion and Lamb is located on High Street, Milton.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+USR|whats the price range|request
+SYS|The Lion and Lamb is in the moderate price range.|offer
+SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|thank you good bye|bye

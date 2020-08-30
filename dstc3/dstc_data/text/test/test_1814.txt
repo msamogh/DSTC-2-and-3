@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or New Chesterton.|request
+USR|girton|inform
+SYS|There is no restaurant in the Girton area and serving chinese food in the cheap price range.|canthelp
+USR|thank you good bye|bye
+SYS|There is no restaurant in the Girton area and serving chinese food in the cheap price range.|canthelp
+USR|good bye|bye

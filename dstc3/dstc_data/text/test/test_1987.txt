@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant in trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Northern european, or French.|request
+USR|whats your suggestion|null
+SYS|There is no restaurant in the Trumpington area in the cheap price range.|canthelp
+USR|uh contemporary|inform
+SYS|Cotto is a great restaurant and it serves contemporary food.|offer
+USR|perfect can i get the address phone number and post code|request
+SYS|Cotto is located on 183 East Road, its phone number is 01223302010 and it's in the area with the postcode CB1 1BG.|offer
+SYS|Cotto is a great restaurant.|offer
+USR|address|request
+SYS|Cotto is located on 183 East Road.|offer
+USR|phone number|request
+SYS|The phone number of Cotto is 01223302010.|offer
+USR|post code|request
+SYS|Cotto is in the area with the postcode CB1 1BG.|offer
+USR|thank you goodbuy|bye

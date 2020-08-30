@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|what is an expensive pub|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|um what is an expensive pub|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|um|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Hughes Hall, or Magdalene College.|request
+USR|what is a pub food restaurant thats expensive|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|okay whats a moderately priced pub food restaurant|ack
+SYS|Can I help you with anything else?|reqmore
+USR|what is a moderately priced pub|inform
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|whats the address|request
+SYS|The Alma is on Russell Court.|canthelp.missing_slot_value
+SYS|I am sorry but there is no information on its area.|canthelp.missing_slot_value
+USR|what is the phone number|request
+SYS|The phone number of The Alma is 01223316722.|offer
+USR|thank you goodbye|bye

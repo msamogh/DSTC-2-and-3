@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like to find a mexican restaurant in addenbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Girton area.|request
+USR|not sure just addenbrookes|inform
+SYS|Chiquito is a great restaurant.|offer
+SYS|It serves mexican and tex mex food.|offer
+USR|ok|ack
+SYS|Chiquito is an outstanding restaurant.|offer
+USR|address phone number|request
+SYS|Chiquito is on Cambridge Leisure Park and its phone number is 01223400170.|offer
+USR|thank you|thankyou
+SYS|Chiquito is an outstanding restaurant and it serves mexican and tex mex food.|offer
+USR|thank you good bye|bye

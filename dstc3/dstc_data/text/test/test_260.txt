@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or New Chesterton.|request
+USR|cheap price range|inform
+SYS|The Fountain Inn is a great restaurant, it serves pub food and it's in the cheap price range.|offer
+SYS|The Fountain Inn is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|address|request
+SYS|The Fountain Inn is located on 12 Regent Street.|offer
+USR|phone number|request
+SYS|The phone number of The Fountain Inn is 01223366540.|offer
+USR|price of the venue|request
+SYS|The Fountain Inn is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|thank you goodbye|bye

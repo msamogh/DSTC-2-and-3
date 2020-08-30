@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a continental restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|moderate|inform
+SYS|There is no restaurant serving continental food in the moderate price range.|canthelp
+SYS|There is no restaurant serving continental food in the moderate price range.|canthelp
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|expensive|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|expensive|inform
+SYS|Would you like a continental food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a continental food, or you don't care?|select
+USR|continental|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|continental|inform
+SYS|Would you like a continental food, or you don't care?|select
+USR|expensive|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|continental|inform
+SYS|Would you like a venue with an expensive or moderate price range?|select
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with an expensive or moderate price range?|select
+SYS|Would you like a venue with an expensive or moderate price range?|select
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|yes|affirm
+SYS|Would you like a venue with an expensive or moderate price range?|select
+SYS|Would you like a venue with an expensive or moderate price range?|select
+USR|expensive|inform

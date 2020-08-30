@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|i want to find an english restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Regency Gallery, or the Whipple Museum of the History of Science.|request
+USR|no|negate
+SYS|Carringtons is a great cafe, it serves cafe food, it serves english food and it's an outstanding restaurant.|offer
+USR|can i get the address and the area of the venue please|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|thank you goodbye|bye

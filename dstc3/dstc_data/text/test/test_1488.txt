@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|yes im looking for a pub food restaurant and it should have cheap price range|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, or Sidney Sussex College.|request
+USR|no|negate
+SYS|The Fountain Inn, which serves pub food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address phone number and the price|request
+SYS|The Fountain Inn is located on 12 Regent Street and its phone number is 01223366540.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|thank you goodbye|bye

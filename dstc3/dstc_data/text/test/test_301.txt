@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, French, or Greek.|request
+USR|mexican|inform
+SYS|Would you like vegetarian or X food?|select
+USR|no|negate
+SYS|Would you like vegetarian or X food?|select
+USR|no|negate
+SYS|Would you like vegetarian or X food?|select
+USR|yes|affirm
+SYS|Would you like vegetarian or X food?|select
+USR|vegetarian|inform
+SYS|The Rainbow Cafe is a great restaurant, it serves traditional and vegetarian food and it's in the moderate price range.|offer
+USR|american restaurant|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+USR|phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|price|request
+SYS|The Rainbow Cafe is a great restaurant.|offer
+USR|price|request
+SYS|The Rainbow Cafe is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|thank you good bye|bye

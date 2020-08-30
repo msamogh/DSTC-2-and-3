@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|static|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|static|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|hi im looking|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|a moderately priced restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, King's College, or the Ruskin Gallery.|request
+USR|moderate price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Drinks and snacks only, or Fusion.|request
+USR|the barnwell area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or New Chesterton area.|request
+USR|a cafe food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or Newnham area.|request
+USR|yeah it should be in the barnwell area|affirm
+SYS|The Wheatsheaf is an outstanding restaurant, it's in the Barnwell part of town and it's in the moderate price range.|offer
+USR|a barnwell area|inform
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok can i get the phone number and price|ack
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+SYS|The price for main courses ranges from 4 pounds to 13 pounds and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|a phone number and price|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+SYS|The price for main courses ranges from 4 pounds to 13 pounds and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|thank you good bye|bye

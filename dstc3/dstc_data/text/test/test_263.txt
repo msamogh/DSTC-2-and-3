@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|contemporary restaurant it should be free|inform
+SYS|The Michaelhouse Centre is a great restaurant, it serves contemporary food and it doesn't charge any entrance fee.|offer
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+SYS|It serves contemporary food.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|<unk> <unk> free|inform
+SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|The Michaelhouse Centre, which serves contemporary food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|address|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+USR|phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|area|null
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+USR|area|null
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|thank you good bye|bye

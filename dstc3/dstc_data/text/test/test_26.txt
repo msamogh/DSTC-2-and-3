@@ -1,0 +1,52 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i need to find a moderately priced in f|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, New Chesterton, or Trumpington area.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Technology Museum, or Williams Art and Antiques.|request
+USR|fendi|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, King's College, or Sidney Sussex College.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, New Chesterton, or riverside area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Newnham area.|request
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a thai venue.|expl-conf
+USR|fenditton|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Newnham area.|request
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, Castle Galleries, or Hughes Hall.|request
+USR|no|negate
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Caffe Uno is a great restaurant and it's in the moderate price range.|offer
+USR|what is the address phone number|request
+SYS|Caffe Uno is located on 32 Bridge Street.|offer
+SYS|Its phone number is 01223314954.|offer
+USR|what is the price of the venue|request
+SYS|Caffe Uno is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

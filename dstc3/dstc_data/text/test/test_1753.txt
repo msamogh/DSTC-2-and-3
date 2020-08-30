@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub in the cherry hinton area|inform
+SYS|There is no pub that is providing services for free.|canthelp
+USR|thats fine|ack
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|i dont care about the price range|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|i dont care about the price range|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|okay thank you|ack
+SYS|The Bakers is an outstanding pub.|offer
+USR|goodbye|bye

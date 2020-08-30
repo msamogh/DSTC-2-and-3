@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, pub, or Fusion.|request
+USR|a greek restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanical Garden* Botanical Gardens, Clare College, or Hughes Hall.|request
+USR|greek|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, Trinity College, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+USR|i need the price range|request
+SYS|The Eraina Taverna is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 13 pounds 95.|offer
+USR|the phone number and postcode of a greek restaurant|request
+SYS|The Varsity, which serves greek food, is a great restaurant.|offer
+USR|what is the phone number and postcode|request
+SYS|The phone number of the Varsity is 01223356060 and it's in the area with the postcode CB2 3AR.|offer
+USR|thank you goodbye|bye

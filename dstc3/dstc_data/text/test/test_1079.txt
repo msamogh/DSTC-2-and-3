@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for an italian restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, Queens' College, or Wandlebury Country Park.|request
+USR|in castle hill|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|in castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Cherry Hinton area.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Book and Print Gallery, or Kettle's Yard.|request
+USR|i dont care|inform
+SYS|Caffe Uno is an outstanding restaurant and it serves italian food.|offer
+USR|and the phone number address and zip code|request
+SYS|Caffe Uno is located on 32 Bridge Street and its phone number is 01223314954.|offer
+USR|may i have the zip code|request
+SYS|Caffe Uno is a great restaurant.|offer
+USR|thank you goodbye|bye

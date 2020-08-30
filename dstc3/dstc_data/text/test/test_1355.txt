@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a chinese takeaway restaurant and it should have cheap prices|inform
+SYS|Saigon City, which serves chinese take away, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you goodbye|bye

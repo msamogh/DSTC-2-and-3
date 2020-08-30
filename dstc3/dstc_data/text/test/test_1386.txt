@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|im looking for an in|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Technology Museum, or the Whipple Museum of the History of Science.|request
+USR|a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Michaelhouse Centre, or Trinity College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or King's Hedges area.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or Chinese.|request
+USR|i dont know|inform
+SYS|Caffe Uno is an outstanding restaurant and it's in the moderate price range.|offer
+USR|international|inform
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address and phone number|request
+SYS|Giraffe is on Christ's Lane.|offer
+SYS|Its phone number is 01223300707.|offer
+USR|what is the address|request
+SYS|Giraffe is on Christ's Lane.|offer
+USR|thank you goodbye|bye

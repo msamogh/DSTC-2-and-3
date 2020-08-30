@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|<unk> i do nt care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i need a mediterranean restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Romsey area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Hughes Hall, or Primavera.|request
+USR|city center|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the central area.|expl-conf
+USR|city center|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It serves mediterranean food.|offer
+USR|yes|affirm
+SYS|Nando's Restaurant, Saint Andrews Street is a great restaurant, it's in the central part of town and it serves mediterranean food.|offer
+USR|mediterranean restaurant|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves mediterranean food.|offer
+USR|phone number and post code|request
+SYS|The phone number of Nando's Restaurant, Saint Andrews Street is 01223327908 and it's in the area with the postcode CB2 3AR.|offer
+USR|thank you good bye|bye

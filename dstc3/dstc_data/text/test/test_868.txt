@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|pub|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|pub|inform
+SYS|The Bakers is a great pub.|offer
+USR|does it have a moderate price range|confirm
+SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
+USR|moderate price range|inform
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|what is the address and phone number|request
+SYS|The Alma is located on Russell Court and its phone number is 01223316722.|offer
+USR|address|request
+SYS|The Alma is located on Russell Court.|offer
+USR|in what area|request
+SYS|I am sorry but there is no information on The Alma's area.|canthelp.missing_slot_value
+USR|what area|request
+SYS|I am sorry but there is no information on The Alma's area.|canthelp.missing_slot_value
+USR|thank you good bye|bye

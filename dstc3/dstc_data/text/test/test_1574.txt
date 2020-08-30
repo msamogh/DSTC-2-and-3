@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a chinese restaurant in the girton area|inform
+SYS|The Phoenix, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|ah whats the address and price range|request
+SYS|The Phoenix is on 20 Green Street, Histon.|offer
+SYS|The price for main courses ranges from 2 pounds 80 to 24 pounds.|offer
+USR|thank you good bye|bye

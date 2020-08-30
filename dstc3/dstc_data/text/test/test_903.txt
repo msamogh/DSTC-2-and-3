@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a pub with internet connection and a tv|inform
+SYS|The Bakers, which has an internet connection, is a great pub with a television.|offer
+USR|are children allowed|inform
+SYS|The Bakers is the only pub with children, with an internet connection and with a television.|canthelp
+USR|whats the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|thank you good bye|bye

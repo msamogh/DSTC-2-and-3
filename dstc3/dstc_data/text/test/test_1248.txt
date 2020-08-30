@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant in the city center|inform
+SYS|La Raza is an outstanding restaurant.|offer
+SYS|It's in the central part of town.|offer
+SYS|It serves spanish food.|offer
+USR|ok id like to know the address the phone number and the post code of the venue|ack
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent, its phone number is 01223464550 and it's in the area with the postcode CB2 3LL.|offer
+USR|thank you good bye|bye

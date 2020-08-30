@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a traditional restaurant with an expensive price range|inform
+SYS|The Riverside Restaurant, which serves traditional food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what is the address and postcode|request
+SYS|The Riverside Restaurant is on University Centre, Granta Place and it's in the area with the postcode CB2 1RU.|offer
+SYS|The price for main courses ranges from 14 pounds 95 to 16 pounds 95.|offer
+USR|thank you good bye|bye

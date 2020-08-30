@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for cafe|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|im looking for a cheap cafe|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare Hall, or Primavera.|request
+USR|any venue|null
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, East asian, or Fusion.|request
+USR|cafe|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Folk Museum, or the Museum of Classical Archaeology.|request
+USR|the museum of classical archaeology|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, the Museum of Archaelogy and Anthropology, or Primavera.|request
+USR|downing college|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|thank you goodbye|bye

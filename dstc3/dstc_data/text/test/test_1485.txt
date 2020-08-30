@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a moderately priced restaurant and it should be in the new chesterton area|affirm
+SYS|Hakka is an outstanding restaurant, it's in the New Chesterton part of town and it's in the moderate price range.|offer
+USR|what is the phone number and price of the venue|request
+SYS|The phone number of Hakka is 01223568988.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+USR|thank you good bye|bye

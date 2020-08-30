@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for an italiant restaurant in the addonbrookes area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|moderate|inform
+SYS|Bella Italia at the Leisure Park is an outstanding restaurant.|offer
+SYS|This place, which serves italian food, is in the Addenbrooke's part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address and price|request
+SYS|Bella Italia at the Leisure Park is located on Cambridge Leisure Park, Clifton Way.|offer
+SYS|The price for main courses ranges from 6 pounds 50 to 14 pounds 75 and the price for a cappuccino is 2 pounds.|offer
+USR|thank you good bye|bye

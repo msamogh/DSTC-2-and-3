@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Newnham, or Romsey area.|request
+USR|newnham|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Newnham area.|expl-conf
+USR|yes|affirm
+SYS|There is no pub in the Newnham area.|canthelp
+USR|another area|null
+SYS|There is no pub in the Newnham area.|canthelp
+USR|romsey area|inform
+SYS|Would you like a newnham area, or you don't care?|select
+USR|what|null
+SYS|Would you like a newnham area, or you don't care?|select
+USR|i dont care|inform
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022 and I am sorry but there is no information on its area.|canthelp.missing_slot_value
+USR|post code|request
+SYS|The Baron of Beef is in the area with the postcode CB2 1UF.|offer
+USR|thank you good bye|bye

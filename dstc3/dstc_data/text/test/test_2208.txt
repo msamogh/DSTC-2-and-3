@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant and it should be in the kings hedge area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the King's Hedges area.|expl-conf
+USR|yes a moderately priced restaurant|affirm
+SYS|The Ranch is an outstanding restaurant.|offer
+SYS|It's in the King's Hedges part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|may i have the address|request
+SYS|The Ranch is located on 100 Histon Road.|offer
+USR|and the price range of the venue|request
+SYS|The Ranch is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 12 pounds 50.|offer
+USR|do you have any other venues in the kings hedge area|reqalts
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|do you have any others|reqalts
+SYS|The J Restaurant is an outstanding restaurant and it's in the moderate price range.|offer
+USR|is it in the kings hedge area|confirm
+SYS|The J Restaurant is in the riverside part of town.|offer
+USR|thank you good bye|bye

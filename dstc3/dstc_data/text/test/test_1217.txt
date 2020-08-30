@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the addonsbrookes area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Fen Ditton.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or King's Hedges area.|request
+USR|in the addonsbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, or Japanese.|request
+USR|it doesnt matter|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes im looking for a moderately priced restaurant in the addonsbrookes area|affirm
+SYS|Nando's Restaurant, Cambridge Leisure Park is an outstanding restaurant.|offer
+SYS|It's in the Addenbrooke's part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok what is the address|ack
+SYS|Nando's Restaurant, Cambridge Leisure Park is on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
+USR|whats the phone number|request
+SYS|The phone number of Nando's Restaurant, Cambridge Leisure Park is 01223246568.|offer
+USR|whats the post code|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is in the area with the postcode CB1 7DY.|offer
+USR|thank you good bye|bye

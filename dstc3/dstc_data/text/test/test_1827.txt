@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|coffee shop serving italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Trumpington area.|request
+USR|i dont care|inform
+SYS|Caffe Nero, which serves italian food, is a great cafe.|offer
+USR|cheap price range|inform
+SYS|Caffe Nero is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 3 pounds 85 and the price for a cappuccino is 2 pounds 15.|offer
+USR|address|request
+SYS|Caffe Nero is located on 11 Market Street.|offer
+USR|phone number|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|whats the area|request
+SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
+USR|what part of town|request
+SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
+SYS|Caffe Nero is a great cafe.|offer
+USR|thank you good bye|bye

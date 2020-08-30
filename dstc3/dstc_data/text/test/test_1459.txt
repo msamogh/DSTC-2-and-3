@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i m looking for a free restaurant in <unk> washington|affirm
+SYS|There is no restaurant in the Barnwell area that is providing services for free.|canthelp
+SYS|There is no restaurant in the Barnwell area and serving fusion food.|canthelp
+USR|no free|negate
+SYS|There is no restaurant serving fusion food that is providing services for free.|canthelp
+USR|is there a free restaurant any where|inform
+SYS|The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+USR|ok is there an address for that|ack
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
+USR|what is their phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|what is their exact address|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+USR|what city|null
+SYS|The Michaelhouse Centre serves contemporary food.|offer
+USR|what city|null
+SYS|The Michaelhouse Centre serves contemporary food.|offer
+USR|what city is the <unk> house in|null
+SYS|The Michaelhouse Centre is a great restaurant.|offer
+USR|thank you good bye|bye

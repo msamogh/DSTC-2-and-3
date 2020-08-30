@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|hi|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|hi i am looking for an|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|hi i am looking for an ex|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|im looking for an expensive restaurant|inform
+SYS|Caffe Nero is a great cafe and it's in the expensive price range.|offer
+USR|hi im looking for an expensive restaurant|hello
+SYS|Caffe Nero is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 3 pounds 85 and the price for a cappuccino is 2 pounds 15.|offer
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Greek, or International.|request
+USR|im looking for an expensive restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Middleeastern, or Thai.|request
+USR|thia food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, the Museum Of Technology, or the Ruskin Gallery.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Christ's College, or Kettle's Yard.|request
+USR|some where at trumpington area|inform
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|is it in trumpington area|confirm
+SYS|Caffe Nero is a great cafe.|offer
+USR|is it in the trumington area|confirm
+SYS|Caffe Nero is a great cafe.|offer
+USR|whats the address please|request
+SYS|Caffe Nero is on 11 Market Street.|offer
+USR|which area|request
+SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
+USR|ok thank you good bye|ack

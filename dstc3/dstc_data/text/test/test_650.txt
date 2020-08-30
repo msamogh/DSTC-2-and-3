@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant that serves only drinks and snacks|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or riverside area.|request
+USR|ah river side area please|inform
+SYS|The Fleur, which is in the riverside part of town, is a great restaurant.|offer
+SYS|It serves drinks and snacks.|offer
+USR|ah does it have a moderate price range|confirm
+SYS|The Fleur is in the moderate price range.|offer
+USR|alright what is the address and phone number of the venue|request
+SYS|The Fleur is located on 73 Humberstone Road and its phone number is 01223902183.|offer
+USR|thank you good bye|bye

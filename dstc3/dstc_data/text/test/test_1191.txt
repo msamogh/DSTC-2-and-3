@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ah a pub that allows children and has a television|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes help me find a pub that has children|affirm
+SYS|The Bakers allows children and it's an outstanding pub.|offer
+USR|with a television|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|does it allow children|request
+SYS|The Bakers allows children.|offer
+USR|does it have a television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is a great pub.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|television tv|inform
+SYS|The Bakers has a television.|offer
+USR|whats the address and phone number|request
+SYS|The Bakers is on 176 East Road and its phone number is 01223304121.|offer
+USR|does it have the internet|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|does it have internet|request
+SYS|The Bakers has an internet connection.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|american food|inform
+SYS|Can I help you with anything else?|reqmore
+USR|american restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or riverside area.|request
+USR|american|inform
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+USR|any part of town|inform
+SYS|Gourmet Burger , which is in the central part of town, is on 43-45 Regent Street.|offer
+SYS|It's in the area with the postcode CB2 1AB.|offer
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes that sounds good can i have the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|thank you good bye|bye

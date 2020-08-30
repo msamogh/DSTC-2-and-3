@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|moderately priced|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, American, or Mediterranean.|request
+USR|fen ditton area|inform
+SYS|Can I help you with anything else?|reqmore
+USR|fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, the Museum of Archaelogy and Anthropology, or Queens' College.|request
+USR|fen ditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Northern european, or Indian.|request
+USR|area|null
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fusion, or Seafood.|request
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|fen ditton area|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|moderate|inform
+SYS|There is no restaurant in the Girton area and serving mexican and tex mex food.|canthelp
+USR|fen ditton|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|fen ditton area|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|i dont care|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|The Rainbow Cafe is located on 9a King's Parade.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|thank you good bye|bye

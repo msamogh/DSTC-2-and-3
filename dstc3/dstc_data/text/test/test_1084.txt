@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i want to find a free restaurant and it should be in the city center area|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Sheep's Green, or The Fitzwilliam Museum.|request
+USR|uh no address uh it should be in the city center erea anywhere i dont care|inform
+SYS|The Michaelhouse Centre, which is in the central part of town, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|can i have the address and the phone number please and the price of the venue|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the price for a cappuccino is 1 pound 75 and the entrance is free of charge.|offer
+USR|thank you goodbye|bye

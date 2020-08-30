@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|greek restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, the Museum of Classical Archaeology, or Saint John's College.|request
+USR|no|negate
+SYS|The Eraina Taverna is an outstanding restaurant and it serves greek food.|offer
+USR|address|request
+SYS|The Eraina Taverna is on 2 Free School Lane.|offer
+USR|phone number|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|postcode|request
+SYS|The Eraina Taverna is in the area with the postcode CB2 3QA.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the People's Portraits Exhibition, Queens' College, or Sidney Sussex College.|request
+USR|do not care|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|looking for a thai restaurant|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|another area then|null
+SYS|Would you like a girton area, or you don't care?|select
+USR|dont care|inform
+SYS|The Wrestlers is a great restaurant, it serves thai food and it's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Wrestlers, which is in the riverside part of town, is on 337 Newmarket Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Wrestlers is 01223566554.|offer
+USR|what is the postal code|request
+SYS|The Wrestlers is in the area with the postcode CB5 8JE.|offer
+SYS|The Wrestlers is a great restaurant.|offer
+USR|thank you goodbye|bye
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|thank you goodbye|bye

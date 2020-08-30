@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a cheap chinese take away restaurant|affirm
+SYS|Saigon City, which serves chinese take away, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|may i get the address|request
+SYS|Saigon City is on 169 High Street, Chesterton.|offer
+USR|may i have the phone number|request
+SYS|The phone number of Saigon City is 01223356555.|offer
+USR|may i get the postal code of the venue|request
+SYS|Saigon City is in the area with the postcode CB4 1NL.|offer
+USR|thank you good bye|bye

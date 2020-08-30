@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi uh im looking for a seafood restaurant and i dont care about the price range|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|uh seafood restaurant|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+USR|can i have the address and the postcode of the venue|request
+SYS|Loch Fyne, which serves seafood, is an outstanding restaurant.|offer
+USR|the address and postcode|request
+SYS|Loch Fyne, which is in the area with the postcode CB2 1QY, is located on 37 Trumpington Street.|offer
+USR|uh thank you goodbye|bye
+SYS|Loch Fyne is an outstanding restaurant.|offer
+USR|uh thank you goodbye|bye

@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant in the cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Fusion, or Turkish.|request
+USR|any kind address and postcode of the venue|request
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|mexican|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving mexican and tex mex food.|canthelp
+USR|restaurants in cherry hinton area|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving mexican and tex mex food.|canthelp
+USR|food type|request
+SYS|There is no restaurant in the Cherry Hinton area and serving mexican and tex mex food.|canthelp
+USR|next type of food cherry hinton area|reqalts
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+USR|address|request
+SYS|The Six Bells, High Saint, which is in the area with the postcode CB1 5DH, is on 9 High Saint, Fulbourn.|offer
+USR|postcode|request
+SYS|The Six Bells, High Saint is in the area with the postcode CB1 5DH.|offer
+USR|thank you good bye|bye

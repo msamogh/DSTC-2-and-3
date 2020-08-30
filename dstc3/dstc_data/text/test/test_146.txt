@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a cheap coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, Traditional, Turkish, or Vegetarian.|request
+USR|it doesnt matter|inform
+SYS|Clowns is an outstanding cafe and a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the phone number|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|what is the post code|request
+SYS|Clowns is in the area with the postcode CB1 1LN.|offer
+USR|thank you good bye|bye

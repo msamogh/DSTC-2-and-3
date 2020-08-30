@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a pub food restaurant and it should have moderate price range|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or riverside.|request
+USR|i dont care|inform
+SYS|The Lion and Lamb, which serves pub food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|can i get the address and the phone number|request
+SYS|The Lion and Lamb is on High Street, Milton and its phone number is 01223860202.|offer
+USR|alright thank you good bye|thankyou
+SYS|The Lion and Lamb, which serves pub food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|alright thank you good bye|thankyou

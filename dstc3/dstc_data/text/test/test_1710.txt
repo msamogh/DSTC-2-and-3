@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|cheap restaurant in addenbrookes|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Contemporary, or Traditional.|request
+USR|dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Chinese, or Indian.|request
+USR|dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or Thai.|request
+USR|in addenbrookes|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Cambridge Contemporary Art, or the Museum Of Technology.|request
+USR|addenbrookes area|inform
+SYS|The Peking Restaurant is a great restaurant, it's in the Addenbrooke's part of town and it's in the cheap price range.|offer
+USR|whats the address and phone number|request
+SYS|The Peking Restaurant is on Unit 3, The Belvedere, Homerton Street and its phone number is 01223902166.|offer
+USR|thank you good bye|bye

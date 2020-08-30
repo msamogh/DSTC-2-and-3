@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Cafe Jello, or the People's Portraits Exhibition.|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|<unk> no i need a french restaruant|negate
+SYS|There is no pub that is providing services for free.|canthelp
+USR|im looking for a french restaurant in the addensbrookes area|inform
+SYS|Can I help you with anything else?|reqmore
+USR|restaurants in the addonsbookes area|inform
+SYS|There is no pub in the Addenbrooke's area.|canthelp
+USR|do you have any restaurants|inform
+SYS|Can I help you with anything else?|reqmore
+USR|restaurants in the addonsbookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|The Lucky Star is an outstanding restaurant and it's in the Addenbrooke's part of town.|offer
+USR|may i have the phone number|request
+SYS|The phone number of the Lucky Star is 01223244277.|offer
+USR|is it a french restaurant|confirm
+SYS|The Lucky Star, which serves chinese food, is a great restaurant.|offer
+USR|do you have french restaurants in the addonbrookes area|inform
+SYS|Alimentum is an outstanding restaurant and it's in the Addenbrooke's part of town.|offer
+SYS|It serves continental and french food.|offer
+USR|is it a french restaurant|confirm
+SYS|Alimentum is an outstanding restaurant, it serves continental food and it serves french food.|offer
+USR|do you have a french restaurant in the addonbrooke area|inform
+SYS|Alimentum, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It serves continental and french food.|offer
+USR|do you have any others|reqalts
+SYS|There is no restaurant serving french food in the cheap price range.|canthelp
+USR|any price range|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes um a french restaurant any price range in the addonbrooke area|affirm
+SYS|Alimentum is a great restaurant, it's in the Addenbrooke's part of town and it serves continental and french food.|offer
+USR|may i have the postal code|request
+SYS|Alimentum is an outstanding restaurant, it's in the Addenbrooke's part of town and it serves continental and french food.|offer
+USR|may i have the post code|request
+SYS|Alimentum is in the area with the postcode CB2 8PB.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese takeaway restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese take away venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Queens' College, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is an outstanding restaurant.|offer
+USR|what is the post code|request
+SYS|Yippee Noodle Bar is in the area with the postcode CB1 1LH.|offer
+USR|what is the address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+USR|thank you good bye|bye

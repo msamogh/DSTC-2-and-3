@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an italian restaurant expensive please|inform
+SYS|The Wrestlers is an outstanding restaurant, it serves thai food and it's in the expensive price range.|offer
+USR|italian food|inform
+SYS|The Sorrento, which serves italian food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address and the phone number|request
+SYS|The Sorrento is on 196 Cherry Hinton Road and its phone number is 01223243533.|offer
+USR|okay thank you goodbye|ack

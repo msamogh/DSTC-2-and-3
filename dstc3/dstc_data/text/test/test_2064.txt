@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cafe|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|do not care|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, International, or Italian.|request
+USR|cafe|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, Jesus College, or the Regency Gallery.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, New Chesterton, or riverside area.|request
+USR|do not care|inform
+SYS|What type of food would you like?|request
+SYS|For example, International, Mediterranean, or Seafood.|request
+USR|do not care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, King's Hedges, or Romsey area.|request
+USR|international cafe|inform
+SYS|There is no cafe serving international food.|canthelp
+USR|do not care|inform
+SYS|There is no cafe serving international food.|canthelp
+USR|american cafe|inform
+SYS|There is no cafe serving american food.|canthelp
+USR|what kind of food does a cafe serve|request
+SYS|There is no cafe serving american food.|canthelp
+USR|um|null
+SYS|Would you like an american food, or you don't care?|select
+USR|cafe|inform
+SYS|Would you like an american food, or you don't care?|select
+USR|a cafe food restaurant male voice talking over last word|inform
+SYS|Would you like american or X food?|select
+USR|thank you good bye|bye

@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i am looking for an american restaurant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the People's Portraits Exhibition, the Saint Barnabas Press Gallery, or Wandlebury Country Park.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Milton Country Park, the Museum of Classical Archaeology, or the Scott Polar Museum.|request
+USR|dont care|inform
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|dont care|inform
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+USR|whats the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+SYS|Gourmet Burger  is a great restaurant.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|whats the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+USR|whats the address|request
+SYS|Gourmet Burger  is on 43-45 Regent Street.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|whats the area|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|whats the area|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+USR|thank you good bye|bye

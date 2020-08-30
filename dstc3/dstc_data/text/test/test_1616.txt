@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|cheap price range please|inform
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|okay no entrance fee|ack
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|no entrance fee please|inform
+SYS|Would you like a venue with a cheap pricerange or with no entrance fee?|select
+USR|no entrance free fee|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|looking for a restaurant takeaway restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or King's Hedges.|request
+USR|central|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Museum of Classical Archaeology, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or Newnham area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Japanese, or Middleeastern.|request
+USR|chinese|inform
+SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
+USR|thanks goodbye|bye

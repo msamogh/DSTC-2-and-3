@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for an expensive restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Hughes Hall, or the Museum of Classical Archaeology.|request
+USR|in the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Trumpington.|request
+USR|fen ditton|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|thank you good bye|bye

@@ -1,0 +1,50 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi i am looking for a pub|hello
+SYS|Are you looking for a venue that allows children?|request
+USR|no|negate
+SYS|Are you looking for a venue with an internet connection?|request
+USR|but it should have an internet connection|inform
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|da does it have a television too|request
+SYS|The Bakers is an outstanding pub with an internet connection.|offer
+USR|and television|inform
+SYS|The Bakers is an outstanding pub with an internet connection.|offer
+USR|what about television|request
+SYS|The Bakers is the only pub with an internet connection.|canthelp
+USR|ok can i get the address|ack
+SYS|The Bakers is located on 176 East Road.|offer
+USR|and the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|are children allowed in|inform
+SYS|The Bakers allows children, it has an internet connection and it's an outstanding pub.|offer
+USR|ok|ack
+SYS|Can I help you with anything else?|reqmore
+USR|what about television|request
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> does it have television|request
+SYS|The Bakers is a great pub, it's in the cheap price range and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|ok <unk> television|null
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|no i want to know if there is television in that pub|negate
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for a pub that have television|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for a pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a fusion venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|hi im looking for a pub|hello
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|hello im looking for a pub|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|dont you have internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|ok|ack
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

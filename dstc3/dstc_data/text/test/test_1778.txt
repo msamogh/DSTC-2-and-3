@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an east asian restaurant that should be expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Downing College, or the Museum of Archaelogy and Anthropology.|request
+USR|im looking for an east asian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Romsey area.|request
+USR|any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Kettle's Yard, or Pembroke College.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Great Saint Mary's Church, or Sheep's Green.|request
+USR|east asian restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Little Saint Mary's, or Wandlebury Country Park.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Kettle's Yard, or the Museum of Classical Archaeology.|request
+USR|east asian|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Cambridge Contemporary Art, or Saint Catharine's College.|request
+USR|kettles yard|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Byard Art, or Milton Country Park.|request
+USR|kettles yard|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Archaelogy and Anthropology, the People's Portraits Exhibition, or Wandlebury Country Park.|request
+USR|thank you goodbye|bye

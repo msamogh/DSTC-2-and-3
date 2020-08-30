@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub in the fen ditton area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|im looking for a pub in the fen ditton area|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|is it in the fen ditton area|confirm
+SYS|I am sorry but there is no information on The Alma's area.|canthelp.missing_slot_value
+USR|the fen ditton area|inform
+SYS|There is no pub in the Fen Ditton area.|canthelp
+USR|ok thank you good bye|ack

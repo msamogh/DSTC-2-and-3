@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello im looking for a moderately priced coffee shop|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or riverside area.|request
+USR|i dont care|inform
+SYS|Cafe Eleven is an outstanding cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok what is the phone number and what kind of food unintlligible venue|ack
+SYS|Cafe Eleven serves english food and its phone number is 01223369157.|offer
+USR|ok thank you good bye|ack

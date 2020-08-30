@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|are there any pubs near riverside|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about children and you are looking for a venue.|expl-conf
+USR|uh yeah a pub near riverside please|affirm
+SYS|The Avery, which is in the riverside part of town, is an outstanding pub.|offer
+USR|ok can i get the phone number and address please|ack
+SYS|The Avery is on 69-73 Regent Street.|offer
+SYS|Its phone number is 01223323405.|offer
+USR|yeah could you repeat that|affirm
+SYS|The Avery is located on 69-73 Regent Street and its phone number is 01223323405.|offer
+USR|ok thanks good bye|ack

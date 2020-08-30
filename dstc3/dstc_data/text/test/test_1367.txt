@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a restaurant in fenditton and i dont care about the price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or New Chesterton area.|request
+USR|it just needs to be in fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Greek, or Japanese.|request
+USR|any kind|inform
+SYS|There is no restaurant in the Girton area and serving french food.|canthelp
+USR|thank you good bye|bye

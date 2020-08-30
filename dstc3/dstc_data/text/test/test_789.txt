@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|continental restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the University Botanic Gardens, or Williams Art and Antiques.|request
+USR|a continental restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Clare Hall, or King's College.|request
+USR|no|negate
+SYS|Alimentum is an outstanding restaurant, it serves continental and french food and it's in the expensive price range.|offer
+USR|what is the address phone number and postcode|request
+SYS|Alimentum is located on 152-154 Hills Road, its phone number is 01223413000 and it's in the area with the postcode CB2 8PB.|offer
+USR|thank you good bye|bye

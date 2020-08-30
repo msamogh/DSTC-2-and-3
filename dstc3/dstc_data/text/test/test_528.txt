@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i want find a chinese restaurant and it should be in the cherry hinton area|inform
+SYS|HK Fusion is an outstanding restaurant, it's in the Cherry Hinton part of town and it serves chinese food.|offer
+USR|can i get the address the phone number and the post code please|request
+SYS|HK Fusion, which is in the area with the postcode CB1 1DG, is on 21 Burleigh Street.|offer
+SYS|Its phone number is 01223355909.|offer
+USR|<unk> thank you good bye|thankyou

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i m looking for a restaurant in romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Japanese, or Spanish.|request
+USR|american|inform
+SYS|There is no restaurant in the Romsey area and serving american food.|canthelp
+USR|<unk> i m looking for a cheap restaurant|inform
+SYS|Gourmet Burger  is an outstanding restaurant, it serves american food and it's in the cheap price range.|offer
+USR|<unk> can i have the phone number and post code|request
+SYS|The phone number of Gourmet Burger  is 01223312598 and it's in the area with the postcode CB2 1AB.|offer
+USR|thank you good bye|bye

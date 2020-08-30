@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i m looking for a restaurant in new chesterton|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fastfood, or Mediterranean.|request
+USR|ah i dont care any restaurant in chesterton|inform
+SYS|Twenty-four is a great restaurant.|offer
+SYS|It's in the Chesterton part of town.|offer
+USR|that sounds good whats the phone number and post code|request
+SYS|The phone number of Twenty-four is 01223395800 and it's in the area with the postcode CB4 0FN.|offer
+USR|thank you good bye|bye

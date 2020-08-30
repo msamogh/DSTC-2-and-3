@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|italian restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, the Ruskin Gallery, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|is it expensive|confirm
+SYS|No.|negate
+SYS|Caffe Uno is in the moderate price range.|negate
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|im looking for an expensive italian restaurant|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe.|offer
+SYS|This place, which is a great restaurant, is in the cheap price range.|offer
+USR|im looking for an expensive italian restaurant|inform
+SYS|The Sorrento, which serves italian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+SYS|Would you like a venue with a cheap or expensive price range?|select
+USR|expensive|inform
+SYS|The Sorrento, which serves italian food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+SYS|The Sorrento is an outstanding restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Sorrento is 01223243533.|offer
+SYS|The price for main courses ranges from 9 pounds to 16 pounds 95.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Sorrento is 01223243533.|offer
+USR|thank you good bye|bye

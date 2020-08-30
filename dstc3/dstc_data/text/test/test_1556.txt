@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the addenbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, International, or Spanish.|request
+USR|uh it doesnt matter as long as its moderately priced|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Hughes Hall, Little Saint Mary's, or Saint John's College.|request
+USR|uh no|negate
+SYS|Nando's Restaurant, Cambridge Leisure Park, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|uh what is some of the prices|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 12 pounds 45.|offer
+USR|and what is the address|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
+USR|okay thank you goodbye|ack

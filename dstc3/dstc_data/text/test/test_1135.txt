@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a moderately priced restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or New Chesterton area.|request
+USR|a moderately priced restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or Newnham.|request
+USR|barnwell|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, the People's Portraits Exhibition, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Indian, or Traditional.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or King's Hedges area.|request
+USR|any food|inform
+SYS|Caffe Uno is an outstanding restaurant and it's in the moderate price range.|offer
+USR|barnwell|inform
+SYS|The Wheatsheaf is a great restaurant, it's in the Barnwell part of town and it's in the moderate price range.|offer
+USR|wh what is the address and phone number|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy and its phone number is 01223812196.|offer
+SYS|Caffe Uno is a great restaurant and it's in the moderate price range.|offer
+USR|thank|thankyou

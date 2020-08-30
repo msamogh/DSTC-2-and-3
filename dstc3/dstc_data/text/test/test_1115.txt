@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ringing <unk>|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|thia restaurant in the moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or riverside area.|request
+USR|cherry hinton|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving thai food.|canthelp
+USR|how bout another area|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a thai food, or you don't care?|select
+USR|thia food|inform
+SYS|Bangkok City, which serves thai food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|may i have the address please|request
+SYS|Bangkok City is located on 24 Green Street.|offer
+USR|may i have the phone number please|request
+SYS|The phone number of Bangkok City is 01223354382.|offer
+USR|may i have the price please|request
+SYS|Bangkok City is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 50 to 13 pounds 90.|offer
+USR|thank you good bye|bye

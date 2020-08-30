@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|traditional restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, riverside, or Romsey area.|request
+USR|a traditional restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Downing College, or Great Saint Mary's Church.|request
+USR|dont care|inform
+SYS|The Granta Bar, which is in the expensive price range, is a great restaurant.|offer
+SYS|It serves traditional food.|offer
+USR|no|negate
+SYS|The Granta Bar is a great restaurant, it serves traditional food and it's in the expensive price range.|offer
+USR|what is the address|request
+SYS|The Granta Bar is located on University Centre, Granta Place.|offer
+USR|what is the postal code|request
+SYS|The Granta Bar is in the area with the postcode CB2 1RU.|offer
+USR|what is the address|request
+SYS|The Granta Bar is located on University Centre, Granta Place.|offer
+USR|thank you good bye|bye

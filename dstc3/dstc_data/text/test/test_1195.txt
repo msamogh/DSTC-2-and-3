@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a restaurant in barnwell|inform
+SYS|The Wheatsheaf is a great restaurant and it's in the Barnwell part of town.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Romsey.|request
+USR|great whats the phone number and type of food|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|what type of food is it|request
+SYS|The Wheatsheaf serves traditional food.|offer
+USR|alright thank you good bye|thankyou

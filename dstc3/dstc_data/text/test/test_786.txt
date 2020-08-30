@@ -1,0 +1,70 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|uh um|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|cheap restaurants|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Middleeastern, or Traditional.|request
+USR|cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, the Lynne Strover Gallery, or the Scott Polar Museum.|request
+USR|um any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, the Michaelhouse Centre, or Trinity College.|request
+USR|castle area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or riverside area.|request
+USR|castle area|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, English, or Seafood.|request
+USR|the castle area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Vegetarian.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Castle Galleries, or Milton Country Park.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, King's College, or Wandlebury Country Park.|request
+USR|no no|negate
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|no|negate
+SYS|La Raza, which is near Cambridge Contemporary Art and near Castle Galleries, is in the central part of town.|offer
+USR|is it in the castle area|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or New Chesterton area.|request
+USR|what is the address and phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|the castle area|inform
+SYS|La Raza is an outstanding restaurant.|offer
+USR|yes castle hill|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|is it in castle hill|confirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, the Museum of Archaelogy and Anthropology, or the People's Portraits Exhibition.|request
+USR|castle hill|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|no|negate
+SYS|La Raza is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|no|negate
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|is it in castle hill|confirm
+SYS|La Raza is on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|uh nevermind whats the address and phone number|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|alright thank you goodbye|thankyou
+SYS|La Raza is an outstanding restaurant.|offer
+USR|thank you thank you|thankyou
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|thank you good bye|bye

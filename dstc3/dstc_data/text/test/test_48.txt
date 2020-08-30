@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a place to eat|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Churchill College, or Clare College.|request
+USR|im looking in a area of addenbrookes|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Indian, or Middleeastern.|request
+USR|any kind of food but with expensive restaurant|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|uh whats the phone number and the address of the venue|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way and its phone number is 01223413337.|offer
+USR|thank you goodbye|bye
+SYS|Blue Spice is an outstanding restaurant.|offer
+SYS|I can't hear you.|offer
+SYS|Blue Spice is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

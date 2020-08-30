@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Magdalene College, or Old Schools.|request
+USR|col magdalene college|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, French, or Greek.|request
+USR|french|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, the Lynne Strover Gallery, or Trinity College.|request
+USR|trinity college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Fen Ditton.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Fen Ditton, or King's Hedges area.|request
+USR|fen ditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|The Hotel du Vin is an outstanding restaurant.|offer
+SYS|It serves french food.|offer
+SYS|It's in the expensive price range.|offer
+SYS|The Hotel du Vin is an outstanding venue.|offer
+SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
+USR|address|request
+SYS|The Hotel du Vin is on 15-19 Trumpington Street.|offer
+SYS|The Hotel du Vin is an outstanding restaurant.|offer
+SYS|The Hotel du Vin is an outstanding restaurant.|offer
+SYS|The Hotel du Vin is a great restaurant.|offer
+SYS|The Hotel du Vin is an outstanding restaurant, it serves french food and it's in the expensive price range.|offer
+USR|address|request
+SYS|The Hotel du Vin is located on 15-19 Trumpington Street.|offer
+USR|thank you goodbye|bye

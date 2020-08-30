@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant in the cherry hinton area|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|may i have the address please|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|may i have the address please|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+USR|what is the type of food|request
+SYS|Sitar Tandoori serves indian food.|offer
+SYS|Sitar Tandoori is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an american restaurant any price range any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Michaelhouse Centre, or the Ruskin Gallery.|request
+USR|anywhere|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Clare Hall, or Jesus College.|request
+USR|anywhere|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or New Chesterton area.|request
+USR|any part of town|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or Girton.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or riverside area.|request
+USR|fenditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, the Museum of Classical Archaeology, or the People's Portraits Exhibition.|request
+USR|fenditton|inform
+SYS|Would you like an american food, or you don't care?|select
+USR|anywhere|inform
+SYS|Would you like an american food, or you don't care?|select
+USR|american|inform
+SYS|Gourmet Burger  is a great restaurant and it serves american food.|offer
+USR|american food|inform
+SYS|Gourmet Burger  is on 43-45 Regent Street and its phone number is 01223312598.|offer
+USR|and the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+USR|and the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|and the price range|request
+SYS|Gourmet Burger  is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|ok thank you good bye|ack

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap coffee shop|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, English, or Japanese.|request
+USR|any kind|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Newnham, or riverside.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artspace, the Museum Of Technology, or Hughes Hall.|request
+USR|no|negate
+SYS|The Cambridge Blue, which is in the cheap price range, is an outstanding cafe.|offer
+USR|what is the phone number and postcode|request
+SYS|The phone number of the Cambridge Blue is 01223369222 and it's in the area with the postcode CB2 1DB.|offer
+USR|thank you goodbye|bye

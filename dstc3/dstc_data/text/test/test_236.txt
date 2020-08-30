@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|cheap restaurant in girton area|inform
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+SYS|It's in the Girton part of town.|offer
+SYS|It's in the cheap price range.|offer
+USR|address|request
+SYS|The Dojo Noodle Bar is on Miller's Yard.|offer
+USR|price|request
+SYS|The Dojo Noodle Bar is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a contemporary restaurant in the girton area|inform
+SYS|Graffiti is a great restaurant, it's in the Girton part of town and it serves contemporary food.|offer
+USR|whats the address|request
+SYS|Graffiti is located on Hotel Felix, Whitehouse Lane, Huntingdon Road.|offer
+USR|whats the postcode|request
+SYS|Graffiti is in the area with the postcode CB3 0LX.|offer
+USR|thank you goodbye|bye

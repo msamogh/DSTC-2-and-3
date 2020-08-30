@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|yeah uh i want to find a pub food restaurant and it should be in the romsey area|inform
+SYS|The Kingston Arms, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+USR|ok i need to know the address and the phone number|ack
+SYS|The phone number of The Kingston Arms is 01223319414.|offer
+USR|the address please|request
+SYS|The Kingston Arms is on 33 Kingston Street.|offer
+USR|thank you good bye|bye

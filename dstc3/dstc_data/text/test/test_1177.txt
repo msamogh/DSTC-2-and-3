@@ -1,0 +1,44 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Emmanuel College, or Trinity College.|request
+USR|cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Old Schools, the Ruskin Gallery, or the Whipple Museum of the History of Science.|request
+USR|city center|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Hughes Hall, or Milton Country Park.|request
+USR|city center|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Indian.|request
+USR|city center|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, or Greek.|request
+USR|anything|inform
+SYS|La Raza is a great restaurant, it's in the central part of town and it's in the cheap price range.|offer
+USR|anything|inform
+SYS|The Kohinoor is an outstanding restaurant and it's in the cheap price range.|offer
+USR|give me the address|request
+SYS|The Kohinoor is located on 74 Mill Road.|offer
+USR|give me the address|request
+SYS|The Kohinoor is on 74 Mill Road.|offer
+USR|mm|null
+SYS|The Kohinoor is an outstanding restaurant.|offer
+USR|give me the phone number|request
+SYS|The phone number of The Kohinoor is 01223361435.|offer
+USR|the phone number|request
+SYS|The phone number of The Kohinoor is 01223361435.|offer
+USR|the type of food does it serve|request
+SYS|The phone number of The Kohinoor is 01223361435.|offer
+USR|what type of food|request
+SYS|The Kohinoor serves indian food.|offer
+USR|what is the food available|request
+SYS|The Kohinoor is a great restaurant.|offer
+USR|goodbye thank you|bye

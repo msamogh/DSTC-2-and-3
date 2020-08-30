@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a mediterranean restaurant in the moderate price range|inform
+SYS|Nando's Restaurant, Saint Andrews Street, which serves mediterranean food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address|request
+SYS|Nando's Restaurant, Saint Andrews Street is located on 33-34 Saint Andrews Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of Nando's Restaurant, Saint Andrews Street is 01223327908.|offer
+USR|whats the postcode|request
+SYS|Nando's Restaurant, Saint Andrews Street is in the area with the postcode CB2 3AR.|offer
+USR|thank you good bye|bye

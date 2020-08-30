@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a french restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|cheap|inform
+SYS|There is no restaurant serving french food in the cheap price range.|canthelp
+USR|im looking for a french restaurant|inform
+SYS|Ta Bouche, which serves french food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|im looking for a french restaurant in the addenbrookes area|inform
+SYS|Alimentum is an outstanding restaurant, it's in the Addenbrooke's part of town and it serves continental and french food.|offer
+USR|whats the phone number and post code|request
+SYS|The phone number of Alimentum is 01223413000.|offer
+SYS|It's in the area with the postcode CB2 8PB.|offer
+USR|thank you goodbye|bye

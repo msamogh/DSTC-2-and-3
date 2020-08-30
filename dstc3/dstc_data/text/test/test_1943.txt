@@ -1,0 +1,67 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|moderately priced rest|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, or Old Schools.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, Milton Country Park, or Saint John's College.|request
+USR|barnwell area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or riverside area.|request
+USR|barnwell area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Christ's College, or Pembroke College.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Spanish, or Turkish.|request
+USR|moderately priced any|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Thai, or Vegetarian.|request
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, Middleeastern, or Spanish.|request
+USR|any type|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, riverside, or Trumpington area.|request
+USR|barnwell area|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, International, or Mediterranean.|request
+USR|any type|null
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Traditional, or Turkish.|request
+USR|any type|null
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Middleeastern, or Seafood.|request
+USR|any type moderately priced|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or central area.|request
+USR|barnwell area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, International, or Thai.|request
+USR|any type|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Trumpington area.|request
+USR|barnwell|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Italian, or Japanese.|request
+USR|any type|null
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Indian, or Seafood.|request
+USR|any type|null
+SYS|Bangkok City, which serves thai food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|Bangkok City is in the central part of town and its phone number is 01223354382.|offer
+SYS|The price for main courses ranges from 7 pounds 50 to 13 pounds 90.|offer
+USR|postcode|request
+SYS|Bangkok City is in the area with the postcode CB2 3JX.|offer
+USR|thank you goodbye|bye

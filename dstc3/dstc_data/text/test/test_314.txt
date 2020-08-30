@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes i am looking for a restaurant|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Castle Hill area.|request
+USR|moderately|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Clare College, or Gonville and Caius College.|request
+USR|the addonbrookes area|inform
+SYS|Nando's Restaurant, Cambridge Leisure Park is a great restaurant.|offer
+SYS|It's in the Addenbrooke's part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|the address|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is located on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
+USR|the phone number|request
+SYS|The phone number of Nando's Restaurant, Cambridge Leisure Park is 01223246568.|offer
+USR|and the price|request
+SYS|Nando's Restaurant, Cambridge Leisure Park is an outstanding venue.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 12 pounds 45.|offer
+USR|thank you good bye|bye

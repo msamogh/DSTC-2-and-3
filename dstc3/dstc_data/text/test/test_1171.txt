@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant in the trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, or the Saint Barnabas Press Gallery.|request
+USR|i dont care|inform
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|thank you and good bye|bye

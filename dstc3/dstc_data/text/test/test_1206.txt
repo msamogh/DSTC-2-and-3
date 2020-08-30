@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|The Alma is an outstanding pub.|offer
+USR|restaurant|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Northern european, or Thai.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or King's Hedges.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Traditional, or Turkish.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Old Schools, or Queens' College.|request
+USR|thank you goodbye|bye

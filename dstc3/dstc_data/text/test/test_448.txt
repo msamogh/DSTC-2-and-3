@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a pub with an internet connection and a tv|inform
+SYS|The Bakers has an internet connection and a television and it's an outstanding pub.|offer
+USR|what is its phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|what is its address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Trumpington area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Cambridge Contemporary Art, or Corpus Christi.|request
+USR|i am looking for a moderately priced restaurant and it should be in the|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Chesterton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Romsey area.|request
+USR|im looking in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or New Chesterton area.|request
+USR|hinton|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or riverside area.|request
+USR|im looking in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Romsey area.|request
+USR|<unk> in the fenditton area|inform
+SYS|The Auntie's Tea Shop, which is in the Girton part of town, is a great cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|im looking for a moderately priced restaurant and it should be in the fenditton area|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address and type of food|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|what type of food <unk>|request
+SYS|The Rainbow Cafe serves traditional and vegetarian food.|offer
+USR|thank you good bye|bye

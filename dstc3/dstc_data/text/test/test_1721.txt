@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a cheap pub with television|inform
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|a cheap pub with|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|cheap pub with television|inform
+SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
+USR|does it have a television|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or Trumpington area.|request
+USR|no i want a cheap pub with tv|negate
+SYS|The Avery has a television, it's in the cheap price range and it's a great pub.|offer
+USR|can i have the address|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+SYS|It's in the riverside part of town.|offer
+USR|<unk> and what are the prices|request
+SYS|The Avery is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+USR|thank you good bye|bye

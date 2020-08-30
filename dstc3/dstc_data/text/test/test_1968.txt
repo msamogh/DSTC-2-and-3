@@ -1,0 +1,63 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the romsey area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Cambridge Contemporary Art, or the Lynne Strover Gallery.|request
+USR|the romsey area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or Thai.|request
+USR|any type of food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Greek, or Turkish.|request
+USR|any type|null
+SYS|What type of food would you like?|request
+SYS|For example, pub, Italian, or Vegetarian.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Chinese, or Continental.|request
+USR|continental|inform
+SYS|What type of food would you like?|request
+SYS|For example, Turkish, or Vegetarian.|request
+USR|continental|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, French, or Traditional.|request
+USR|northern european|inform
+SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
+SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
+USR|mexican|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|romsey|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|fast food|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|fast food|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|fast food|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap|inform
+SYS|There is no restaurant in the Romsey area and serving fastfood.|canthelp
+USR|cheap|inform
+SYS|There is no restaurant in the Romsey area and serving fastfood.|canthelp
+SYS|Would you like a fastfood, or you don't care?|select
+USR|northern european|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|romsey|inform
+SYS|There is no restaurant in the Romsey area and serving northern european food.|canthelp
+SYS|Would you like a northern european food, or you don't care?|select
+USR|italian|inform
+SYS|Would you like italian or X food?|select
+USR|italian|inform
+SYS|There is no restaurant in the Romsey area and serving italian food in the cheap price range.|canthelp
+USR|chinese|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|romsey|inform
+SYS|Would you like italian or X food?|select
+USR|chinese|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+SYS|There is no restaurant in the Romsey area.|canthelp
+SYS|There is no restaurant serving chinese food.|canthelp
+USR|thank you good bye|bye

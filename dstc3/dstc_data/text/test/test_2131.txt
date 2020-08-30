@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for cheap restaurant and it should be in the cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Greek, or Thai.|request
+USR|i need the address phone number|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, or the Whipple Museum.|request
+USR|cherry hinton|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, French, or Spanish.|request
+USR|any restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Middleeastern, or Spanish.|request
+USR|low priced|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Greek, or Vegetarian.|request
+USR|vegetarian|inform
+SYS|There is no restaurant serving vegetarian food in the cheap price range.|canthelp
+USR|greek|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|a cheap price range|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving greek food.|canthelp
+USR|traditional|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|i need the cherry hinton area|inform
+SYS|There is no restaurant serving traditional food in the cheap price range.|canthelp
+USR|ok thank you good bye|ack

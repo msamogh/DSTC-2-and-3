@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|it is a fusion restaurant i dont care what price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, New Chesterton, or Romsey area.|request
+USR|i dont care|inform
+SYS|The Dojo Noodle Bar is a great restaurant and it serves fusion food.|offer
+USR|i dont care|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is an outstanding restaurant.|offer
+USR|<unk> have the phone number and address|request
+SYS|The Dojo Noodle Bar, which is in the cheap price range, is on Miller's Yard.|offer
+SYS|Its phone number is 01223363471.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|thank you good bye|bye

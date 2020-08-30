@@ -1,0 +1,57 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cheap restaurant and it should be in castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Fen Ditton, or Romsey area.|request
+USR|i want to find a cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Pembroke College, or Saint Catharine's College.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Seafood, or Thai.|request
+USR|in castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Romsey area.|request
+USR|i dont care|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|in the castle hill area|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|is it|null
+SYS|What type of food would you like?|request
+SYS|For example, French, International, or Thai.|request
+USR|is it in the castle hill area|confirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, Old Schools, or The Fitzwilliam Museum.|request
+USR|any type of food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Jesus College, or the Saint Barnabas Press Gallery.|request
+USR|yes im looking for a particular place|affirm
+SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
+SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
+USR|yes|affirm
+SYS|Blue Spice is a great restaurant.|offer
+USR|im looking fo|null
+SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
+USR|im looking for a|null
+SYS|Caffe Uno is a great restaurant.|offer
+USR|im looking for a cheap restaurant|inform
+SYS|There is no restaurant serving japanese food in the cheap price range.|canthelp
+USR|im looking for cheap restaurant meals|inform
+SYS|The Dojo Noodle Bar, which is in the cheap price range, is a great restaurant.|offer
+SYS|Would you like a japanese food, or you don't care?|select
+USR|i dont care|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|i want to find a cheap restaurant|inform
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|and it should be in castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Michaelhouse Centre, or Wandlebury Country Park.|request
+USR|yes near castle hill area|affirm
+SYS|La Raza is a great restaurant and it's in the cheap price range.|offer
+USR|is near castle hill area|confirm
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|is near castle hill area|confirm
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|thank you good bye|bye

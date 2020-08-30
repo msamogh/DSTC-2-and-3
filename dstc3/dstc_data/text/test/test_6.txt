@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the girton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Emmanuel College, or the Scott Polar Museum.|request
+USR|im looking for a moderately priced restaurant in the girton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, International, or Traditional.|request
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Fusion, or Greek.|request
+USR|international|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Magdalene College, the People's Portraits Exhibition, or Saint John's College.|request
+USR|im looking for a moderately priced restaurant and it should be girton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Seafood, or Vegetarian.|request
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Greek, or Turkish.|request
+USR|international|inform
+SYS|There is no restaurant in the Girton area and serving international food.|canthelp
+SYS|There is no restaurant in the Girton area and serving greek food in the moderate price range.|canthelp
+SYS|Would you like international or X food?|select
+USR|thank you goodbye|bye

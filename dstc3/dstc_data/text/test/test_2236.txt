@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> restaurant <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, American, or Traditional.|request
+USR|american|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Italian, or Middleeastern.|request
+USR|italian|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Fusion, or Mediterranean.|request
+USR|fusion|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or Trumpington area.|request

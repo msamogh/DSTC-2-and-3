@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant in newnham|inform
+SYS|The Red Bull is an outstanding restaurant.|offer
+SYS|It's in the Newnham part of town.|offer
+USR|address|request
+SYS|The Red Bull is on 11 Barton Road, Newnham.|offer
+USR|phone number|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+USR|postcode|request
+SYS|The Red Bull is in the area with the postcode CB3 9JZ.|offer
+SYS|The Red Bull is an outstanding restaurant.|offer
+USR|thank you good bye|bye

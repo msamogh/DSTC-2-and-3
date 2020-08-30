@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about children and you are looking for a venue.|expl-conf
+USR|expensive restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Northern european, or Seafood.|request
+USR|i dont care|inform
+SYS|Can I help you with anything else?|reqmore
+USR|venue|null
+SYS|There is no restaurant in the Newnham area in the expensive price range.|canthelp
+USR|in the trumpington area|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|expensive|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, Clare Hall, or Queens' College.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|address and price|request
+SYS|The Oak Bistro is located on 6 Lensfield Road.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|thank you good bye|bye

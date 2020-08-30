@@ -1,0 +1,49 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Newnham, or Trumpington area.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Trumpington area.|request
+USR|the whats the phone number|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or New Chesterton area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Little Saint Mary's, or the Regency Gallery.|request
+USR|addenbrookes|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Cherry Hinton, or central area.|request
+USR|new chesterton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, riverside, or Romsey area.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or riverside.|request
+USR|new ches|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or New Chesterton area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Chesterton area.|request
+USR|arbury area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or New Chesterton area.|request
+USR|thanks goodbye|bye
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Fen Ditton area.|request
+USR|thank you bye|bye
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or Romsey area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or riverside area.|request
+USR|thank you and goodbye|bye

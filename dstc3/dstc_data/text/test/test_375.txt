@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|oh i want to find a vegetarian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|uh i dont care about the price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or Girton area.|request
+USR|i dont care about the location|inform
+SYS|The Dojo Noodle Bar, which serves fusion food, is a great restaurant.|offer
+USR|i want to find a vegetarian restaurant|inform
+SYS|Would you like seafood or X food?|select
+USR|vegetarian food|inform
+SYS|Loch Fyne is a great restaurant and it serves seafood.|offer
+USR|i want to find a vegetarian restaurant|inform
+SYS|Loch Fyne, which serves seafood, is an outstanding restaurant.|offer
+USR|i want to find a restaurant which serves vegetarian food|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+USR|i dont want any non vegetarian restaurant i just want one vegetarian restaurant|inform
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+USR|ok just find a vegetarian restaurant a part from non vegetarian restaurants|ack
+SYS|Loch Fyne, which serves seafood, is an outstanding restaurant.|offer
+USR|oh can i find any vegetarian restaurant|inform
+SYS|Would you like a girton area, or you don't care?|select
+USR|i dont care|inform
+SYS|Loch Fyne is an outstanding restaurant and it serves seafood.|offer
+USR|you know can i get the address phone number an area code|request
+SYS|Loch Fyne is on 37 Trumpington Street and its phone number is 01223902103.|offer
+USR|ok thank you and goodbye|ack

@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in new chesterton i dont care about the price|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Contemporary, or Continental.|request
+USR|contemporary|inform
+SYS|There is no restaurant in the New Chesterton area and serving contemporary food.|canthelp
+USR|do you have another restaurant in the new chesterton area|inform
+SYS|There is no restaurant in the New Chesterton area and serving contemporary food.|canthelp
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Chinese, or Contemporary.|request
+USR|what is the phone number and address|request
+SYS|Hakka is located on 24 Milton Road.|offer
+SYS|Its phone number is 01223568988.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+USR|chinese|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|thank you goodbye|bye

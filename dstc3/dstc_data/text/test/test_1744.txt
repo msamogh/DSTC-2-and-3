@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cafe|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, the Michaelhouse Centre, or Sidney Sussex College.|request
+USR|sidney sussex college|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Continental, or Seafood.|request
+USR|cafe food|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Spanish, or Traditional.|request
+USR|cafe food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or Turkish.|request
+USR|italian|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|Clowns is on 54 King Street.|offer
+USR|what is the postcode|request
+SYS|Clowns is in the area with the postcode CB1 1LN.|offer
+USR|thank you goodbye|bye

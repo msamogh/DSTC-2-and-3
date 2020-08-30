@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|uhm yes im looking for a pub fo|affirm
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|a pub|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a pub venue.|expl-conf
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, French, or International.|request
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, pub, Greek, or Seafood.|request
+USR|it doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|pub|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|cheap|inform
+SYS|The Bakers, which is in the cheap price range, is a great pub.|offer
+USR|cheap price range|inform
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|may i get the address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|may i get the area of the venue|request
+SYS|The Bakers is in the riverside part of town.|offer
+USR|thank you good bye|bye

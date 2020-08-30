@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a cheap restaurant in girton|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|a restaurant|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|a restaurant|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|is it in girton|confirm
+SYS|The Dojo Noodle Bar is in the Girton part of town.|offer
+USR|what is the phone number and what kind of food|request
+SYS|The Dojo Noodle Bar serves fusion food and its phone number is 01223363471.|offer
+SYS|The Dojo Noodle Bar is an outstanding restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what type of food|request
+SYS|The Dojo Noodle Bar serves fusion food.|offer
+USR|what type of food|request
+SYS|The Dojo Noodle Bar serves fusion food.|offer
+USR|thank you good bye|bye

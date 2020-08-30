@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|<unk> texmex restaurant in <unk>|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Chinese, or English.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Clare College, or Holy Trinity Church.|request
+USR|mexican|inform
+SYS|Chiquito, which serves mexican and tex mex food, is an outstanding restaurant.|offer
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Romsey.|request
+USR|address phone number <unk>|request
+SYS|Chiquito is located on Cambridge Leisure Park.|offer
+USR|addonbrookes|inform
+SYS|Chiquito is an outstanding restaurant.|offer
+USR|addonbrookes|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or riverside area.|request
+USR|addonbrookes|inform
+SYS|Chiquito is an outstanding restaurant.|offer
+USR|addonbrookes|inform
+SYS|Chiquito is a great restaurant.|offer
+USR|what is the address|request
+SYS|Chiquito is a great restaurant.|offer
+USR|address phone number and price|request
+SYS|Chiquito is a great restaurant.|offer
+USR|address phone number and price|request
+SYS|Chiquito is on Cambridge Leisure Park.|offer
+USR|thank you and have good day|bye

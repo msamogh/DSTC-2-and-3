@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a vegetarian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or King's Hedges area.|request
+USR|any|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is an outstanding restaurant.|offer
+USR|what area|request
+SYS|The Rainbow Cafe is in the Girton part of town.|offer
+USR|ok what is the address and phone number|ack
+SYS|The Rainbow Cafe is on 9a King's Parade and its phone number is 01223321551.|offer
+SYS|The Rainbow Cafe is a great restaurant.|offer
+USR|what is the address and phone number|request
+SYS|The Rainbow Cafe is located on 9a King's Parade and its phone number is 01223321551.|offer
+USR|thank you goodbye|bye

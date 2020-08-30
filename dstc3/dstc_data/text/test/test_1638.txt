@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Bakers is an outstanding pub.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|partial|null
+SYS|The Bakers is an outstanding pub.|offer
+USR|i want to find a moderately partial|inform
+SYS|The Bakers is a great pub.|offer
+USR|i want to find|null
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|i want to find a moderately|null
+SYS|The Bakers is a great pub.|offer
+USR|i want to find a moderately priced|inform
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a moderately priced restaurant it should be in the chesterton area|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|chester chesterton area|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok may i have the phone number and address|ack
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+USR|and the address|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road.|offer
+USR|ok thank you goodbye|ack

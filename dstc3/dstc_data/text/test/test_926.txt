@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an italian restaurant in the castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Fen Ditton.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the People's Portraits Exhibition, the Ruskin Gallery, or Wandlebury Country Park.|request
+USR|no|negate
+SYS|Caffe Uno, which serves italian food, is a great restaurant.|offer
+USR|no|negate
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of Caffe Uno is 01223314954.|offer
+USR|whats the postcode|request
+SYS|Caffe Uno is in the area with the postcode CB2 1UJ.|offer
+USR|whats the address|request
+SYS|Caffe Uno is an outstanding restaurant.|offer
+USR|thank you good bye|bye

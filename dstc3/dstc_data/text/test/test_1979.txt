@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a coffee shop serving english food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Girton, or riverside area.|request
+USR|any area|inform
+SYS|Cafe Eleven is a great cafe and it serves english food.|offer
+USR|what is the address|request
+SYS|Cafe Eleven is located on 11 Burleigh Street.|offer
+USR|what is the price range|request
+SYS|Cafe Eleven is in the moderate price range.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 6 pounds and the price for a cappuccino is 1 pound 75.|offer
+USR|is there another coffee shop in the cheap price range|reqalts
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|is there another coffee shop in the cheap price range|reqalts
+SYS|Cafe Eleven is an outstanding cafe.|offer
+USR|i want a cheap coffee shop|inform
+SYS|The Cambridge Blue, which serves english food, is a great cafe.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address please|request
+SYS|The Cambridge Blue is on 24 Regent Street.|offer
+SYS|The price for main courses ranges from 1 pound 20 to 2 pounds 50 and the price for a cappuccino is 1 pound 35.|offer
+USR|thank you goodbye|bye

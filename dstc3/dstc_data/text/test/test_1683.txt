@@ -1,0 +1,9 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a fast food restaurant|inform
+SYS|Burger King is a great restaurant and it serves fastfood.|offer
+USR|ok i need the phone number and the postcode|ack
+SYS|The phone number of Burger King is 01223322666 and it's in the area with the postcode CB1 1PS.|offer
+USR|ok thank you good bye|ack

@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a traditional restaurant please|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Little Saint Mary's, or Queens' College.|request
+USR|anywhere|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Newnham, or Romsey area.|request
+USR|anywhere is fine|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or Newnham area.|request
+USR|anywhere is fine|inform

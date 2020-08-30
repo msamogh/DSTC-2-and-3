@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|turkish restaurant moderate price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, American, or Fusion.|request
+USR|turkish|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Romsey area.|request
+USR|i dont care|inform
+SYS|196 Meze Bar is a great restaurant and it serves turkish food.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+USR|price|request
+SYS|196 Meze Bar is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds to 12 pounds 50 and the price for a cheapest glass of wine is 2 pounds 90 and the price for a cappuccino is 1 pound 80.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a cheap american restaurant|inform
+SYS|Gourmet Burger , which serves american food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what area is it in|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+USR|what is the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|what is the phone number may i have the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|thank you goodbye|bye

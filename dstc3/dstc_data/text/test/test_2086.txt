@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant in any area and id like to know the address and phone number please|request
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|that sound good uh could you tell me the address and phone number please|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street and its phone number is 01223309147.|offer
+USR|uh thank you goodbye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in barnwell|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Fusion, or Traditional.|request
+USR|it doesnt matter|inform
+SYS|The Wheatsheaf, which is in the Barnwell part of town, is a great restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|what is the post code|request
+SYS|The Wheatsheaf is in the area with the postcode CB5 9AD.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,52 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|any price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Japanese, or Mediterranean.|request
+USR|any type of food|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Downing College, or Kettle's Yard.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+SYS|Are you looking for a pub or a restaurant?|select
+USR|yes|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or New Chesterton.|request
+USR|yesd|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Hughes Hall, or the Michaelhouse Centre.|request
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|no|negate
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|any price|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|any price range|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|any price range|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|any price range|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|thank you goodbye|bye

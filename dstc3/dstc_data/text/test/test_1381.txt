@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Great Saint Mary's Church, or Primavera.|request
+USR|no im not|negate
+SYS|Cafe Eleven, which is in the moderate price range, is an outstanding cafe.|offer
+USR|can i get the phone number and the postcode|request
+SYS|The phone number of Cafe Eleven is 01223369157.|offer
+SYS|It's in the area with the postcode CB1 1DG.|offer
+USR|thank you goodbye|bye

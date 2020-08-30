@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> humming sound|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+SYS|I can't hear you.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i <unk> humming sound|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|thank you good bye|bye
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|good bye|bye

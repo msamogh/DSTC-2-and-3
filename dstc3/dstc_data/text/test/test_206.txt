@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like a restaurant in trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Continental, or Thai.|request
+USR|contemporary|inform
+SYS|The Oak Bistro is a great restaurant, it's in the Trumpington part of town and it serves contemporary food.|offer
+USR|repeat|repeat
+SYS|The Oak Bistro is a great restaurant.|offer
+USR|repeat|repeat
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+SYS|It serves contemporary food.|offer
+USR|repeat|repeat
+SYS|The Oak Bistro serves contemporary food.|offer
+USR|address|request
+SYS|The Oak Bistro is located on 6 Lensfield Road.|offer
+USR|phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|repeat|repeat
+SYS|The Oak Bistro is a great restaurant, it's in the Trumpington part of town and it serves contemporary food.|offer
+USR|address|request
+SYS|The Oak Bistro is on 6 Lensfield Road.|offer
+USR|phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|thank you good bye|bye

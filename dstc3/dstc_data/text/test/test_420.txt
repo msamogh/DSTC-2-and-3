@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|pub food cheap price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, King's Hedges, or New Chesterton area.|request
+USR|dont care|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+USR|postcode|request
+SYS|The Baron of Beef is in the area with the postcode CB2 1UF.|offer
+USR|thank you good bye|bye

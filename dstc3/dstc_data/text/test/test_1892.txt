@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in the castlehill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, American, or Mediterranean.|request
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Corpus Christi, or The Fitzwilliam Museum.|request
+USR|dont care|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|whats the address|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent.|offer
+USR|whats the phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|whats the price|request

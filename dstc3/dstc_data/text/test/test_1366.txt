@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|i need to find a restaurant unintelligable i dont care about the price|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fastfood, or Seafood.|request
+USR|any kind|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i do not care about price|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, Italian, or Japanese.|request
+USR|any kind|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Scott Polar Museum, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or riverside area.|request
+USR|i just need to find a restaurant in chesterton|inform
+SYS|There is no restaurant in the Chesterton area and serving french food.|canthelp
+USR|thank you goodbye|bye

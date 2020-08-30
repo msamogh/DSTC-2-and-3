@@ -1,0 +1,22 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a drinks and snacks|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|is in the riverside area|inform
+SYS|The Fleur is a great restaurant.|offer
+USR|um what is the address|request
+SYS|The Fleur is on 73 Humberstone Road.|offer
+SYS|The Fleur is a great restaurant.|offer
+USR|have the address phone number and price range|request
+SYS|The Fleur is located on 73 Humberstone Road and its phone number is 01223902183.|offer
+SYS|The price for main courses ranges from 6 pounds 75 to 12 pounds 95 and the price for a cheapest glass of wine is 3 pounds 50.|offer
+USR|thank you good bye|bye

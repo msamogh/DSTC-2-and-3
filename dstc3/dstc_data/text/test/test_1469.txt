@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a traditional restaurant with moderate price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Emmanuel College, or Hughes Hall.|request
+USR|no|negate
+SYS|The Eagle, which serves traditional food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address|request
+SYS|The Eagle is on 8 Benet Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Eagle is 01223505020.|offer
+USR|whats the post code of the venue|request
+SYS|The Eagle is in the area with the postcode CB2 3QN.|offer
+USR|thank you goodbye|bye

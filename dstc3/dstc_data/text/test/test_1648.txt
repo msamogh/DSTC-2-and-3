@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an expensive restaurant in the trumpington area|inform
+SYS|The Oak Bistro is an outstanding restaurant, it's in the Trumpington part of town and it's in the expensive price range.|offer
+USR|what is the address and postcode|request
+SYS|The Oak Bistro is located on 6 Lensfield Road.|offer
+SYS|It's in the area with the postcode CB2 1EG.|offer
+USR|ok thank you good bye|ack

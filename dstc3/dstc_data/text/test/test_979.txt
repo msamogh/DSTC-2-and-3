@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a cheap restaurant in the castle hill area|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Greek, or Indian.|request
+USR|it does not matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or King's Hedges area.|request
+USR|it does not matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or King's Hedges area.|request
+USR|king hedges area|inform
+SYS|There is no restaurant in the King's Hedges area in the cheap price range.|canthelp
+USR|what other areas do you have|reqalts
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|a castle hill area|inform
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|i would lik to find a cheap restaurant in the castle hill area|inform
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|i would like to find a cheap restaurant|inform
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|in the castle hill area|inform
+SYS|Would you like a king's hedges area, or you don't care?|select
+USR|thank you good bye|bye

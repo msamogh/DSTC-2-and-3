@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+SYS|Loch Fyne, which serves seafood, is an outstanding restaurant.|offer
+USR|moderately priced|inform
+SYS|Loch Fyne is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 20 pounds.|offer
+USR|cherry hilton area|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving seafood.|canthelp
+USR|restaurant in the cherry hinton area moderately priced|inform
+SYS|Would you like a seafood, or you don't care?|select
+USR|address and type of food|request
+SYS|Would you like a seafood, or you don't care?|select
+USR|doesnt matter|inform
+SYS|Loch Fyne is on 37 Trumpington Street.|offer
+USR|cherry hilton area|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|address and food|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+USR|type of food|request
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|hello|hello
+SYS|Sitar Tandoori is an outstanding restaurant.|offer
+USR|thank you good bye|bye

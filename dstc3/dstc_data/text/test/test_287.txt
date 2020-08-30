@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|humming|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Magdalene College, or the Saint Barnabas Press Gallery.|request
+USR|fast food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Castle Hill.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, riverside, or Trumpington area.|request
+USR|trumpington area|inform
+SYS|There is no restaurant in the Trumpington area and serving fastfood.|canthelp
+USR|cambridge area|null
+SYS|There is no restaurant in the Trumpington area and serving fastfood.|canthelp
+USR|thank you bye bye|bye

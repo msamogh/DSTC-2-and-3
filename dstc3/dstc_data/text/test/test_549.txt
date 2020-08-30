@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a fusion restaurant with a cheap price range|inform
+SYS|The Dojo Noodle Bar is an outstanding restaurant, it serves fusion food and it's in the cheap price range.|offer
+USR|can i have the address and the location of that er the location of thea area|request
+SYS|The Dojo Noodle Bar is on Miller's Yard.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|what area is the address located in|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard and it's in the Girton part of town.|offer
+USR|thank you good bye|bye

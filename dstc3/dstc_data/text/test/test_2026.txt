@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|an italian restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an italian venue.|expl-conf
+USR|italian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|yes|affirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, or The Fitzwilliam Museum.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, Hughes Hall, or Williams Art and Antiques.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or Trumpington area.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, King's Hedges, or Romsey area.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or New Chesterton area.|request
+USR|castle hill area|inform
+SYS|Would you like an italian food, or you don't care?|select
+USR|italian food in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or New Chesterton.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|address phone number and price|request
+SYS|Caffe Uno is located on 32 Bridge Street and its phone number is 01223314954.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|thank you good bye|bye

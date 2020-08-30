@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|international restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Artworks, or the Museum of Classical Archaeology.|request
+USR|museum|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Kettle's Yard, or King's College.|request
+USR|kings college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Little Saint Mary's, or the Michaelhouse Centre.|request
+USR|no|negate
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Giraffe is on Christ's Lane.|offer
+USR|thank you good bye|bye

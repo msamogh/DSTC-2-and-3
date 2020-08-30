@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|chinese|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|chinese|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, the Book and Print Gallery, or the Saint Barnabas Press Gallery.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Book and Print Gallery, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|HK Fusion, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|no|negate
+SYS|HK Fusion, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+SYS|HK Fusion, which serves chinese food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|number|request
+SYS|HK Fusion is an outstanding restaurant.|offer
+USR|address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+USR|address|request
+SYS|HK Fusion is located on 21 Burleigh Street.|offer
+USR|address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+USR|thank you good bye|bye

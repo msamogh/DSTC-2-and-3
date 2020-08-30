@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find an american restaurant with a cheap price range|request
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|Gourmet Burger  is located on 43-45 Regent Street.|offer
+SYS|The price for main courses ranges from 3 pounds 95 to 8 pounds 45.|offer
+USR|<unk> what is the area|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+SYS|Gourmet Burger  is a great restaurant.|offer
+USR|what is the area|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+SYS|Gourmet Burger  is a great restaurant.|offer
+USR|thank you good bye|bye

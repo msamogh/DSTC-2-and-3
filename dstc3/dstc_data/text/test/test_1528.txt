@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yellingbackground|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|im looking for a cheap restaurant in the city center area|inform
+SYS|La Raza, which is in the central part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|may i have the address and phone number|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+SYS|Its phone number is 01223464550.|offer
+USR|what is the price range|request
+SYS|La Raza is in the cheap price range.|offer
+USR|thank you good bye|bye

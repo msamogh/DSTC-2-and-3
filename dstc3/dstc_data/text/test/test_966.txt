@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese, or Mediterranean.|request
+USR|italian|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Romsey.|request
+USR|any|inform
+SYS|Clowns is a great cafe and it serves italian food.|offer
+SYS|It's an outstanding restaurant.|offer
+USR|any part of town is fine|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+USR|ok address|ack
+SYS|Clowns is located on 54 King Street.|offer
+USR|address|request
+SYS|Clowns is located on 54 King Street.|offer
+USR|phone number|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|phone number|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|alright thank you goodbye|thankyou

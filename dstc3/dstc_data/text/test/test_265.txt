@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a coffee shope|hello
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Corpus Christi, or Sidney Sussex College.|request
+USR|serving any kind of food|inform
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|do you have something else|reqalts
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|im looking for a coffee shop|inform
+SYS|There is no cafe in the Cherry Hinton area.|canthelp
+USR|in any area|inform
+SYS|There is no cafe serving indian food.|canthelp
+USR|any kind of food what about any kind of food|reqalts
+SYS|Carringtons is an outstanding cafe and a great restaurant.|offer
+USR|it should have a moderate price range|inform
+SYS|Carringtons, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
+USR|can i get the phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+SYS|Carringtons is a great restaurant.|offer
+USR|ok give me the phone number|ack
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|and the post code please|request
+SYS|Carringtons is in the area with the postcode CB2 3NZ.|offer
+USR|thank you good bye|bye

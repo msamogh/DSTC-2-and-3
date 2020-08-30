@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+SYS|Are you looking for a venue with a television?|request
+USR|moderate|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no|negate
+SYS|Are you looking for a venue that allows children?|request
+USR|no|negate
+SYS|Are you looking for a pub or a restaurant?|select
+USR|no|negate
+SYS|Are you looking for a pub or a restaurant?|select
+USR|im looking for a|null
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, or Fusion.|request
+USR|any food|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|thank you goodbye|bye

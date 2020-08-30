@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a pub|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|uhhh|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Trumpington area.|request
+USR|maybe inbetween|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, Lamma's Land, or The Fitzwilliam Museum.|request
+USR|uhh the fitzwilliam museum|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|it doesnt matter|inform
+SYS|There is no pub in the Newnham area.|canthelp
+USR|uh anywhere then|inform
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|do they allow children|request
+SYS|The Baron of Beef, which allows children, is an outstanding pub.|offer
+USR|ya what what is the address|affirm
+SYS|The Baron of Beef is located on Bridge Street.|offer
+USR|thank you goodbye|bye

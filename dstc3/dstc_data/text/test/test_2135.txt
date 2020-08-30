@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like a cheap pub|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|and the post code|request
+SYS|The Baron of Beef is in the area with the postcode CB2 1UF.|offer
+USR|do they allow children|request
+SYS|The Baron of Beef allows children.|offer
+USR|i dont want children|inform
+SYS|The Baron of Beef, which is in the cheap price range, is a great pub.|offer
+USR|is there a pub with no children|inform
+SYS|The Baron of Beef allows children and it's an outstanding pub.|offer
+USR|no i want a cheap pub with no children|negate
+SYS|The Baron of Beef, which allows children, is in the cheap price range.|offer
+SYS|It's a great pub.|offer
+USR|i want a different pub|reqalts
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|jolly good is there a different pub|reqalts
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|your just a one string ukulele arent you|null
+SYS|The Baron of Beef is a great pub and it's in the cheap price range.|offer
+USR|i want an expensive pub|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|i want a moderate pub|inform
+SYS|The Anchor is a great pub and it's in the moderate price range.|offer
+USR|do they allow children|request
+SYS|The phone number of The Anchor is 01223353554, it allows children and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+USR|whats the post code|request
+SYS|The Anchor is in the area with the postcode CB3 9EL.|offer
+USR|thank you good bye|bye

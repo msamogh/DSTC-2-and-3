@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a fast food restaurant in the cheap price range|inform
+SYS|HK Fusion, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+SYS|The price for main courses ranges from 5 pounds to 8 pounds.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|greek restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or riverside area.|request
+USR|river side|inform
+SYS|There is no restaurant in the riverside area and serving greek food.|canthelp
+USR|barnwell|inform
+SYS|Would you like a riverside area, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like a greek food, or you don't care?|select
+USR|greek|inform
+SYS|The Eraina Taverna is a great restaurant and it serves greek food.|offer
+USR|phone number|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|area|null
+SYS|The Eraina Taverna is an outstanding restaurant.|offer
+USR|area|null
+SYS|The Eraina Taverna is a great restaurant.|offer
+USR|thank you good bye|bye

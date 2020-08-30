@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cafe food restaurant|inform
+SYS|Would you like a seafood, or you don't care?|select
+USR|i dont care|inform
+SYS|Ta Bouche is a great restaurant and it doesn't charge any entrance fee.|offer
+USR|can i have the phone number and what area its in|request
+SYS|Ta Bouche is in the central part of town and its phone number is 01223462277.|offer
+USR|thank you good bye|bye

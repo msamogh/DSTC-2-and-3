@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with an internet connection and allows children|inform
+SYS|There is no pub in the Barnwell area.|canthelp
+USR|im looking for a pub with internet connection that allows children|inform
+SYS|There is no pub in the Barnwell area.|canthelp
+USR|im looking for a pub that has internet connection|inform
+SYS|Would you like a barnwell area, or you don't care?|select
+USR|i dont care|inform
+SYS|The Bakers, which allows children, is an outstanding pub with an internet connection.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|what is the area of the venue|request
+SYS|The Bakers is in the riverside part of town.|offer
+USR|thank you goodbye|bye

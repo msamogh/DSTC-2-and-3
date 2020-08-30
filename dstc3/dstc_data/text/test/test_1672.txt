@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a restaurant in chesterton|inform
+SYS|Twenty-four is an outstanding restaurant and it's in the Chesterton part of town.|offer
+USR|i need the address phone number and post code|request
+SYS|Twenty-four, which is in the area with the postcode CB4 0FN, is located on 24 Cambridge Science Park, Milton Road.|offer
+SYS|Its phone number is 01223395800.|offer
+USR|thank you good bye|bye

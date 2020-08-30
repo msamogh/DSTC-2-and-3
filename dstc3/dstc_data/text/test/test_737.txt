@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|drinks restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or New Chesterton area.|request
+USR|new chesterton|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or central area.|request
+USR|address|request
+SYS|Hakka is on 24 Milton Road.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|no thank you|negate
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|Hakka is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

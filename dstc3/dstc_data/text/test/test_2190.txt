@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a pub food restaurant in the fen ditton area|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|im looking for the fen ditton area|inform
+SYS|There is no restaurant in the Girton area and serving pub food.|canthelp
+USR|what about in fen ditton|reqalts
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Contemporary, or Turkish.|request
+USR|pub food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Girton.|request
+USR|fen denton|inform
+SYS|There is no restaurant in the Girton area and serving pub food.|canthelp
+USR|fen ditton|inform
+SYS|The Red Bull is an outstanding restaurant and it's in the Newnham part of town.|offer
+USR|could you please give me the address and postal code|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 11 pounds 95 and the price for a cappuccino is 1 pound 95 and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|thank you good bye|bye

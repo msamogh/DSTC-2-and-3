@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im looking for a japanese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|it doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, Downing College, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+USR|i dont care|inform
+SYS|Yippee Noodle Bar is a great restaurant and it serves chinese take away and japanese food.|offer
+USR|okay can i have the phone number|ack
+SYS|The phone number of Yippee Noodle Bar is 01223518111 and it's in the moderate price range.|offer
+USR|okay than and what is the average price|ack
+SYS|Yippee Noodle Bar is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 30 to 11 pounds 40.|offer
+USR|okay thank you goodbye|ack

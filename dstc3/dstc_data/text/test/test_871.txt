@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find an expensive seafood restaurant|inform
+SYS|Loch Fyne, which serves seafood, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what is the address and phone number|request
+SYS|Loch Fyne is located on 37 Trumpington Street and its phone number is 01223902103.|offer
+USR|what is the cost|request
+SYS|Loch Fyne is in the riverside part of town.|offer
+USR|how much does it cost|request
+SYS|Loch Fyne, which serves seafood, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|thank you goodbye|bye

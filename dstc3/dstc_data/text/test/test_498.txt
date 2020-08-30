@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a free restaurant|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or King's Hedges.|request
+USR|uh the city centre area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Christ's College, or Queens' College.|request
+USR|i think anywhere can do|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yeah can i get the free restaurant|affirm
+SYS|What type of food would you like?|request
+SYS|For example, American, Indian, or Mediterranean.|request
+USR|in the city centre area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Milton Country Park, The Fitzwilliam Museum, or Trinity College.|request
+USR|uh ch expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese, or Italian.|request
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Mediterranean, or Traditional.|request
+USR|chinese food|inform
+SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
+SYS|There is no restaurant serving chinese food that is providing services for free.|canthelp
+USR|uh|null
+SYS|Would you like a free price range, or you don't care?|select
+USR|thank you goodbye|bye

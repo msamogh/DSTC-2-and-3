@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cheap pub with a television|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Baron of Beef is an outstanding pub and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+USR|do you have the address and phone number|request
+SYS|The Baron of Beef is located on Bridge Street and its phone number is 01223505022.|offer
+USR|does it have internet|request
+SYS|The Baron of Beef doesn't have any internet connection.|offer
+USR|<unk> <unk> does it have a television|request
+SYS|The Baron of Beef is a great pub.|offer
+USR|does it have tv|request
+SYS|The Baron of Beef has a television.|offer
+USR|thank you good bye|bye

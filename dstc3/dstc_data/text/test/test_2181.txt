@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a mediterranean restaurant in the city center area|inform
+SYS|Nando's Restaurant, Saint Andrews Street is an outstanding restaurant, it's in the central part of town and it serves mediterranean food.|offer
+USR|can you give me its address phone number and the price range of the food there|request
+SYS|Nando's Restaurant, Saint Andrews Street is on 33-34 Saint Andrews Street and its phone number is 01223327908.|offer
+SYS|The price for main courses ranges from 3 pounds 50 to 12 pounds 45.|offer
+USR|ok thank you good bye|ack

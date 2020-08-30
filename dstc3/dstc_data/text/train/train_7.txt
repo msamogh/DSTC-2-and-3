@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a pub that has a internet connection and allows children|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|it does not matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or New Chesterton.|request
+USR|it does not matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, or Milton Country Park.|request
+USR|no|negate
+SYS|The Bakers, which allows children, is an outstanding pub.|offer
+USR|can i have the address phone number and postcode|request
+SYS|The Bakers, which is in the area with the postcode CB1 1BG, is located on 176 East Road.|offer
+SYS|Its phone number is 01223304121.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,45 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|i m looking for a moderately priced restaurant in <unk>|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|good restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Mediterranean, or Traditional.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Mediterranean, or Seafood.|request
+USR|any type of food but it should be in the barnwell area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, pub, or Fastfood.|request
+USR|any type of food but it should be in the barnwell|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+USR|moderately priced|inform
+SYS|The Lion and Lamb has a television and it serves pub food.|offer
+SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|no im looking for a more|negate
+SYS|The Lion and Lamb is a great restaurant.|offer
+USR|i m looking <unk>|null
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is a great restaurant.|offer
+USR|barnwell area|inform
+SYS|Would you like english or X food?|select
+USR|english food|inform
+SYS|There is no restaurant in the Fen Ditton area and serving english food.|canthelp
+USR|any type food|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant.|offer
+SYS|It serves cafe food and english food.|offer
+USR|it is a moderately priced|inform
+SYS|Carringtons is in the moderate price range.|offer
+USR|what is the address phone number and postcode|request
+SYS|Carringtons, which is in the area with the postcode CB2 3NZ, is on 23 Market Street.|offer
+SYS|Its phone number is 01223361792.|offer
+USR|whats the postcode|request
+SYS|Carringtons is in the area with the postcode CB2 3NZ.|offer
+SYS|Carringtons is an outstanding restaurant.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i m looking for a contemporary restaurant in the romsey area <unk> <unk>|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It serves contemporary and english food.|offer
+USR|im looking for a contemporary restaurant in the|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves contemporary and english food.|offer
+USR|what is the phone number and postal code|request
+SYS|The phone number of the Backstreet Bistro is 01223306306 and it's in the area with the postcode CB1 2QA.|offer
+SYS|The Backstreet Bistro is a great restaurant.|offer
+USR|what is the phone number <unk> <unk>|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|what is the postal code|request
+SYS|The Backstreet Bistro is in the area with the postcode CB1 2QA.|offer
+USR|thank you good bye|bye

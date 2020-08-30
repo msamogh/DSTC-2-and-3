@@ -1,0 +1,54 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care about the price range im looking for a cafe|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a cafe|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|any price range|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the price range and you are looking for a venue.|expl-conf
+USR|im looking for a cafe|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the price range.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|im looking for a cafe|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the price range and you are looking for a venue.|expl-conf
+USR|im looking for a cafe food restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a cafe food venue.|expl-conf
+USR|thats correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a cafe food venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the price range.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the price range and you are looking for a venue.|expl-conf
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Japanese.|request
+USR|im looking for a cafe food restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Hughes Hall, or Milton Country Park.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Fen Ditton area.|request
+USR|any food|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|im looking for a cafe food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Fen Ditton, or Romsey area.|request
+USR|any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, the Michaelhouse Centre, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|what is the phone number and price|request
+SYS|Carringtons is on 23 Market Street and its phone number is 01223361792.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|thank you goodbye|bye

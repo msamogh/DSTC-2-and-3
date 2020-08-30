@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a japanese restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, The Fitzwilliam Museum, or Primavera.|request
+USR|im looking in the riverside area|inform
+SYS|Teri-Aki, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves japanese food.|offer
+USR|what are its prices|request
+SYS|Teri-Aki is near the Folk Museum and near Magdalene College.|offer
+SYS|The price for main courses ranges from 2 pounds 80 to 11 pounds 80 and the price for a glass of wine ranges from 3 pounds 80 to 5 pounds 80.|offer
+USR|what is its telephone number|request
+SYS|The phone number of Teri-Aki is 01223882288.|offer
+USR|what is teriakis address|request
+SYS|Teri-Aki, which is in the riverside part of town, is on 6-8 Quayside.|offer
+USR|thank you goodbye|bye

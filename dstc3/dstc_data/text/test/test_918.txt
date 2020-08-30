@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes an english restaurant in the expensive price range|affirm
+SYS|The Backstreet Bistro is a great restaurant, it serves contemporary and english food and it's in the expensive price range.|offer
+USR|in what area|request
+SYS|The Backstreet Bistro is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds 95 to 14 pounds 25.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Backstreet Bistro is 01223306306.|offer
+USR|whats the area|request
+SYS|The Backstreet Bistro is in the Romsey part of town.|offer
+USR|thank you good bye|bye

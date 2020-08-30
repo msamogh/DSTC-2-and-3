@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like a chinese takeaway restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or King's Hedges area.|request
+USR|i dont care|inform
+SYS|The J Restaurant, which serves chinese food, is a great restaurant.|offer
+USR|is it a takeaway restaurant|confirm
+SYS|The J Restaurant is a great restaurant.|offer
+USR|does it have takeaway|confirm
+SYS|The J Restaurant is an outstanding restaurant.|offer
+USR|id like a chinese takeaway restaurant|inform
+SYS|The J Restaurant, which serves chinese food, is an outstanding restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of the J Restaurant is 01223307273.|offer
+USR|and the address|request
+SYS|The J Restaurant is on 86, Regent Street.|offer
+USR|thank you goodbye|bye

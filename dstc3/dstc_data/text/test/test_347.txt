@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for a restaurant that serves cafe food that is cheap|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant that serves cafe food|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant|inform
+SYS|Subway, which serves cafe food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|id like to know their phone number and area|request
+SYS|The phone number of Subway is 01223461323.|offer
+USR|what area is it in|request
+SYS|Subway is in the riverside part of town.|offer
+USR|alright thank you good bye|thankyou

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|price range indian restaurant|request
+SYS|Blue Spice, which serves indian food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|phone number and area code|request
+SYS|The phone number of Blue Spice is 01223413337.|offer
+SYS|The price for main courses ranges from 12 pounds 50 to 12 pounds 50.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,49 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Seafood, or Traditional.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Thai, or Turkish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, International, or Traditional.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Cherry Hinton Water Play, or Magdalene College.|request
+USR|traditional|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Downing College, or The Fitzwilliam Museum.|request
+USR|inintelligible|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, Saint Catharine's College, or Lamma's Land.|request
+USR|trumpington|inform
+SYS|Blue Spice is a great restaurant.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, the Museum Of Technology, or the Regency Gallery.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or Trumpington area.|request
+SYS|Blue Spice is in the Girton part of town.|offer
+USR|trumpington|inform
+SYS|The Oak Bistro is an outstanding restaurant and it's in the Trumpington part of town.|offer
+USR|what is the address|request
+SYS|The Oak Bistro is on 6 Lensfield Road.|offer
+SYS|The Oak Bistro is an outstanding restaurant.|offer
+SYS|The Oak Bistro, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Oak Bistro is on 6 Lensfield Road.|offer
+USR|what is the address|request
+SYS|The Oak Bistro is on 6 Lensfield Road.|offer
+USR|whats the phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|thank you good bye|bye
+SYS|The Oak Bistro is an outstanding restaurant.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in newnham|inform
+SYS|The Red Bull is an outstanding restaurant and it's in the Newnham part of town.|offer
+USR|what is the phone number and the price|request
+SYS|The phone number of The Red Bull is 01223902124.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 11 pounds 95 and the price for a cappuccino is 1 pound 95 and the price for a cheapest pint of beer is 2 pounds 65.|offer
+USR|thank you goodbye|bye

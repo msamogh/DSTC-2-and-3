@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Trumpington area.|request
+USR|dont care|inform
+SYS|La Raza is an outstanding restaurant and it serves spanish food.|offer
+USR|i need the address and phone number|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|english restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|Carringtons, which serves cafe food, is an outstanding cafe.|offer
+SYS|This place, which serves english food, is in the moderate price range.|offer
+SYS|It's a great restaurant.|offer
+SYS|Carringtons serves cafe food and english food.|offer
+SYS|This place, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
+USR|uhm ya|null
+SYS|Carringtons serves cafe food and english food.|offer
+SYS|This place, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
+USR|address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an english venue.|expl-conf
+USR|yes|affirm
+SYS|Carringtons serves cafe food and english food.|offer
+SYS|This place, which is a great cafe and an outstanding restaurant, is in the moderate price range.|offer
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and english food and it's in the moderate price range.|offer
+SYS|Carringtons is a great cafe and an outstanding restaurant, it serves cafe food and english food and it's in the moderate price range.|offer
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+SYS|I can't hear you.|offer
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|code|null
+SYS|Carringtons is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

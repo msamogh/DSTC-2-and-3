@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant and it should be in the chesterton area|inform
+SYS|There is no restaurant in the Chesterton area in the cheap price range.|canthelp
+USR|what about moderately priced|reqalts
+SYS|Twenty-four is an outstanding restaurant and it's in the Chesterton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|is this in the new chesterton|confirm
+SYS|Twenty-four is in the Chesterton part of town.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|alright uh what about a moderately priced restaurant in new chesterton area|reqalts
+SYS|Twenty-four is a great restaurant.|offer
+USR|giv can you please give me the address and the postcode|request
+SYS|Twenty-four, which is in the area with the postcode CB4 0FN, is on 24 Cambridge Science Park, Milton Road.|offer
+USR|thank you goodbye|bye

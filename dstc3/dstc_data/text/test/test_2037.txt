@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|The Bakers is an outstanding pub.|offer
+USR|<unk> noise0|null
+SYS|Can I help you with anything else?|reqmore
+SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
+USR|cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or Romsey area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Museum of Archaelogy and Anthropology, or Primavera.|request
+USR|castle hill|inform
+SYS|La Raza is an outstanding restaurant and it's in the cheap price range.|offer
+USR|<unk> <unk> i m doing this|null
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Greek, or Middleeastern.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or Trumpington.|request
+USR|address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent and it's in the central part of town.|offer
+USR|phone number ok thank you|request
+SYS|The phone number of La Raza is 01223464550.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, riverside, or Trumpington area.|request
+USR|what is the address|request
+SYS|The Baron of Beef is an outstanding pub and it's in the cheap price range.|offer
+USR|castle hill area|inform
+SYS|The Baron of Beef is located on Bridge Street and I am sorry but there is no information on its area.|canthelp.missing_slot_value
+USR|k address please|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+SYS|The Baron of Beef is a great pub.|offer
+USR|phone number|request
+SYS|The phone number of The Baron of Beef is 01223505022.|offer
+USR|price|request
+SYS|The Baron of Beef is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+USR|price|request
+SYS|The Baron of Beef is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|thank <unk> <unk>|thankyou
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Jesus College, or the Saint Barnabas Press Gallery.|request
+USR|thank you good bye|bye

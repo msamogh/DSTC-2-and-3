@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like an expensive restaurant in the fen ditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Hughes Hall, or Jesus College.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or riverside area.|request
+USR|the fen ditton area|inform
+SYS|The Riverside Restaurant is an outstanding restaurant.|offer
+SYS|It's in the Fen Ditton part of town.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address and phone number|request
+SYS|The Riverside Restaurant is located on Cambridge Regional College, Newmarket Road and its phone number is 01223418997.|offer
+USR|what is the price|request
+SYS|The Riverside Restaurant is a great venue.|offer
+SYS|The price for main courses ranges from 21 pounds 95 to 25 pounds 95.|offer
+USR|thank you goodbye|bye

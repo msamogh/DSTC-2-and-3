@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free restaurant in any area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, the Gallery at twelve A High Street, or Williams Art and Antiques.|request
+USR|anywhere|inform
+SYS|What type of food would you like?|request
+SYS|For example, Spanish, Traditional, or Turkish.|request
+USR|free restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, or Fusion.|request
+USR|fast food|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, International, or Middleeastern.|request
+USR|english|inform
+SYS|There is no restaurant serving english food that is providing services for free.|canthelp
+USR|search again|repeat
+SYS|Ta Bouche is an outstanding restaurant and it doesn't charge any entrance fee.|offer
+SYS|Would you like vegetarian or X food?|select
+USR|vegetarian|inform
+SYS|There is no restaurant serving vegetarian food that is providing services for free.|canthelp
+USR|do you have a free restaurant|inform
+SYS|There is no restaurant serving vegetarian food that is providing services for free.|canthelp
+USR|what esle do you have|reqalts
+SYS|Would you like a vegetarian food, or you don't care?|select
+USR|no|negate
+SYS|There is no restaurant serving vegetarian food that is providing services for free.|canthelp
+USR|no|negate
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|do you have mexican food|inform
+SYS|There is no restaurant serving mexican and tex mex food that is providing services for free.|canthelp
+USR|what else do you have|reqalts
+SYS|Nanna Mexico is an outstanding restaurant and it serves mexican and tex mex food.|offer
+USR|what is the price|request
+SYS|Nanna Mexico is a great venue.|offer
+SYS|The price for main courses ranges from 5 pounds 35 to 15 pounds 50 and the price for a cappuccino is 2 pounds 95.|offer
+SYS|Nanna Mexico is a great restaurant.|offer
+SYS|There is no restaurant serving mexican and tex mex food that is providing services for free.|canthelp
+USR|thank you good bye|bye

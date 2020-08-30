@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|girton moderate|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|coffee shop|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Girton area.|expl-conf
+USR|yes|affirm
+SYS|The Auntie's Tea Shop, which is in the Girton part of town, is an outstanding cafe.|offer
+SYS|It's in the moderate price range.|offer
+USR|address|request
+SYS|The Auntie's Tea Shop is on 1 Saint Mary's Passage.|offer
+USR|type of food|request
+SYS|The Auntie's Tea Shop is a great cafe.|offer
+USR|type of food|request
+SYS|The Auntie's Tea Shop is an outstanding cafe.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Girton, or Romsey area.|request
+USR|any part of town|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Garden, the Lynne Strover Gallery, or Milton Country Park.|request
+USR|no|negate
+SYS|The Fountain Inn, which serves pub food, is a great restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Fountain Inn is 01223366540.|offer
+SYS|The Fountain Inn is a great restaurant.|offer
+SYS|It serves pub food.|offer
+USR|what is price of the venue|request
+SYS|The Fountain Inn is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95 and the price for a glass of wine ranges from 3 pounds to 4 pounds 50 and the price for a cheapest pint of beer is 2 pounds.|offer
+USR|thank you goodbye|bye

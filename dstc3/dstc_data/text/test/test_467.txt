@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|chinese takeif away restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese take away venue.|expl-conf
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, King's Hedges, or riverside area.|request
+USR|romsey area|inform
+SYS|Kymmoy is a great restaurant, it's in the Romsey part of town, it serves chinese take away and it serves fusion food.|offer
+USR|phone number|request
+SYS|The phone number of the Kymmoy Noodle Bar is 01223311911.|offer
+USR|price|request
+SYS|The Kymmoy Noodle Bar is an outstanding venue.|offer
+SYS|The price for main courses ranges from 7 pounds 10 to 9 pounds 70.|offer
+USR|thank you goodbye|bye

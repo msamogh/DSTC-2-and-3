@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a restaurant in cherry hinton|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|ah it doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|any price range|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Gonville and Caius College, or Hughes Hall.|request
+USR|ah something near cherry hinton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, or Continental.|request
+USR|ah continental|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving continental food.|canthelp
+USR|ah mexican|inform
+SYS|Would you like a cherry hinton area, or you don't care?|select
+USR|cherry hinton|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving mexican and tex mex food.|canthelp
+USR|ah id like a pizza place in cherry hinton|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|dont care|inform
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+USR|can i get the phone number for that restaurant|request
+SYS|The phone number of Sitar Tandoori is 01223249955.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 9 pounds 95.|offer
+USR|and what kind of food|request
+SYS|Sitar Tandoori serves indian food.|offer
+USR|thank you good bye|bye

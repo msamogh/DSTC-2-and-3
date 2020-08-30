@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a fusion restaurant in the riverside area|inform
+SYS|Aki Teri, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves fusion food.|offer
+USR|whats the address|request
+SYS|Aki Teri is on 3-5 Quayside.|offer
+USR|whats the phone number|request
+SYS|The phone number of Aki Teri is 01223323888.|offer
+USR|whats the postcode|request
+SYS|Aki Teri is in the area with the postcode CB5 8AB.|offer
+USR|thank you good bye|bye

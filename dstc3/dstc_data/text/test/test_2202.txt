@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the romsey area|inform
+SYS|The Kohinoor, which is in the Romsey part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|could you given me the address and the prices|request
+SYS|The Kohinoor is on 74 Mill Road.|offer
+USR|please give me uh price range|request
+SYS|The Kohinoor is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 50 to 8 pounds 15.|offer
+USR|thank you goodbye|bye

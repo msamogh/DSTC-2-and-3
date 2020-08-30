@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Thai, or Vegetarian.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Romsey area.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, Old Schools, or the Whipple Museum.|request
+USR|i dont care|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Continental, or French.|request
+USR|moderate|inform
+SYS|Caffe Uno is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|middle eastern|inform
+SYS|Al Casbah, which serves mediterranean and middleeastern food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of Al Casbah is 01223579500.|offer
+USR|phone number|request
+SYS|The phone number of Al Casbah is 01223579500.|offer
+USR|address|request
+SYS|Al Casbah is located on 62 Mill Road.|offer
+USR|address|request
+SYS|Al Casbah is located on 62 Mill Road.|offer
+USR|thank you good bye|bye

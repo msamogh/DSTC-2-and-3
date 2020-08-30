@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello uh im looking for a cheap restaurant and it should be in the area of uh city centre|hello
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, American, or International.|request
+USR|uh american food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, Romsey, or Trumpington area.|request
+USR|uh city centre area|inform
+SYS|The Fountain Inn, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves pub food and it's in the cheap price range.|offer
+USR|uh can i have the phone number and postcode|request
+SYS|The Fountain Inn is in the area with the postcode CB2 1DB.|offer
+USR|the phone number|request
+SYS|The phone number of The Fountain Inn is 01223366540.|offer
+USR|uh thank you goodbye|bye

@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like an expensive restaurant in the romsey area|inform
+SYS|The Backstreet Bistro, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|may i have the address and phone number|request
+SYS|The Backstreet Bistro is located on 2 Sturton Street and its phone number is 01223306306.|offer
+USR|what type of food is served|request
+SYS|The Backstreet Bistro serves contemporary and english food.|offer
+USR|thank you good bye|bye

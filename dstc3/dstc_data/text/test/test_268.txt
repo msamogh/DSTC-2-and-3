@@ -1,0 +1,40 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Fen Ditton area.|request
+USR|trumpington|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Japanese, or Traditional.|request
+USR|italian|inform
+SYS|There is no restaurant in the Trumpington area and serving italian food.|canthelp
+USR|what about chinese|reqalts
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|trumpington area|inform
+SYS|Would you like an italian food, or you don't care?|select
+USR|i dont care|inform
+SYS|The Unicorn Steak and Ale House, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or King's Hedges.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or Trumpington area.|request
+USR|<unk> address|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, King's Hedges, or Newnham area.|request
+USR|trumpington|inform
+SYS|The Unicorn Steak and Ale House, which is in the Trumpington part of town, is an outstanding restaurant.|offer
+USR|address please|request
+SYS|The Unicorn Steak and Ale House is located on Church Lane, Trumpington.|offer
+USR|type of food|request
+SYS|The Unicorn Steak and Ale House is a great restaurant.|offer
+USR|thank you goodbye|bye

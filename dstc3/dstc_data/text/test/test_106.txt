@@ -1,0 +1,48 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|new chesterton area|inform
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Cherry Hinton.|request
+USR|what is the address|request
+SYS|Hakka is on 24 Milton Road.|offer
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|new chesterton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a chinese venue.|expl-conf
+USR|new chesterton|inform
+SYS|Would you like a chinese food, or you don't care?|select
+SYS|Would you like a chinese food, or you don't care?|select
+USR|new|null
+SYS|Would you like a chinese food, or you don't care?|select
+USR|new chesterton area|inform
+SYS|Would you like a chinese food, or you don't care?|select
+USR|dont care|inform
+SYS|Hakka is a great restaurant and it's in the New Chesterton part of town.|offer
+USR|dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Romsey, or Trumpington area.|request
+USR|what is the address|request
+SYS|Hakka is located on 24 Milton Road.|offer
+SYS|Hakka is a great restaurant.|offer
+USR|new chesterton|inform
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+USR|new chesterton|inform
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+USR|what is the address|request
+SYS|Hakka is on 24 Milton Road.|offer
+USR|what is the address|request
+SYS|Hakka is on 24 Milton Road.|offer
+USR|what is the post code|request
+SYS|Hakka is in the area with the postcode CB4 1JY.|offer
+USR|what is the post code|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|thank you goodbye|bye

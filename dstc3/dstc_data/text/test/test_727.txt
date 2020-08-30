@@ -1,0 +1,56 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced pub with a television|inform
+SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
+USR|does it have a television|request
+SYS|The phone number of The Alma is 01223316722 and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+SYS|The Alma is an outstanding pub.|offer
+USR|start over|restart
+SYS|The Alma is a great pub.|offer
+USR|im looking for a moderately|null
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|moderately priced pub with a television|inform
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|television|inform
+SYS|The Alma is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The phone number of The Alma is 01223316722.|offer
+USR|does it have a television|request
+SYS|The Alma is a great pub.|offer
+USR|cool does it have a television|request
+SYS|The Alma, which is in the moderate price range, is an outstanding pub.|offer
+USR|with a television|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a pub|inform
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|with a television and a moderate price range|inform
+SYS|The Alma is in the moderate price range.|offer
+USR|how about a television|reqalts
+SYS|The Alma is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 75 to 8 pounds 95 and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|does it have a television|request
+SYS|The Alma is an outstanding pub.|offer
+USR|with a television|inform
+SYS|Can I help you with anything else?|reqmore
+USR|sigh <unk>|null
+SYS|Can I help you with anything else?|reqmore
+USR|yes|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|yes|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|um|null
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a|null
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a pub with a television|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|looking for a pub with a television|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|with a television|inform
+SYS|Caffe Uno serves italian food and it's in the moderate price range.|offer
+USR|thank you good bye|bye

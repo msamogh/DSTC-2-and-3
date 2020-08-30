@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|mexican tex mex restaurant in the expensive price range|inform
+SYS|Nanna Mexico is a great restaurant.|offer
+SYS|It serves mexican and tex mex food.|offer
+SYS|It's in the expensive price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Nanna Mexico is 01223902150.|offer
+SYS|The price for main courses ranges from 5 pounds 35 to 15 pounds 50 and the price for a cappuccino is 2 pounds 95.|offer
+USR|whats the postcode|request
+SYS|Nanna Mexico is in the area with the postcode CB2 1AB.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|free <unk>|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, riverside, or Romsey area.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Gonville and Caius College, or the People's Portraits Exhibition.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Museum of Classical Archaeology, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Mediterranean, or Middleeastern.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or New Chesterton area.|request
+USR|french|inform
+SYS|Ta Bouche, which serves french food, is a great restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|Ta Bouche, which serves french food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+SYS|Ta Bouche, which serves french food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|thank you goodbye|bye

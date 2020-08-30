@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|cafe in the fenditton area|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or Japanese.|request
+USR|moderately|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, Mediterranean, or Middleeastern.|request
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, pub, or Chinese.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese, or Continental.|request
+USR|moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, Fastfood, or Greek.|request
+USR|mexican|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, French, or Japanese.|request
+USR|mexican|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, French, or Japanese.|request
+USR|american|inform
+SYS|The Ranch, which serves american food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|japanese|inform
+SYS|Would you like japanese or X food?|select
+USR|no is it in fenditton|negate
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|in the fenditton area|inform
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

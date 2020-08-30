@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a cheap restaurant|hello
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall.|request
+USR|yes im looking for something in romsey area|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Romsey area.|expl-conf
+USR|romsey area yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Contemporary, or Vegetarian.|request
+USR|chinese food|inform
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|oh and what about mexican food|reqalts
+SYS|There is no restaurant in the Romsey area and serving chinese food.|canthelp
+USR|and mexican food|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|ya i would like the romsey area|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|and i want|null
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|ah what about asian food|reqalts
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|cheap price range|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|please|null
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|mexican|inform
+SYS|There is no restaurant serving mexican and tex mex food in the cheap price range.|canthelp
+USR|ok|ack
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

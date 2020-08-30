@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|fusion restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Gonville and Caius College, or Williams Art and Antiques.|request
+USR|no|negate
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+SYS|It serves fusion food.|offer
+USR|moderate price range|inform
+SYS|Aki Teri, which serves fusion food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|moderate price range|inform
+SYS|Aki Teri, which serves fusion food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number and price|request
+SYS|The phone number of Aki Teri is 01223323888.|offer
+SYS|The price for main courses ranges from 8 pounds 80 to 11 pounds 80.|offer
+USR|phone number|request
+SYS|The phone number of Aki Teri is 01223323888.|offer
+USR|thank you good bye|bye

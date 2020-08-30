@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|fenditton looking for a restaurant in fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Chinese, or English.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, the Michaelhouse Centre, or Sidney Sussex College.|request
+USR|dont care dont care|inform
+SYS|The Lion and Lamb is an outstanding restaurant and it's in the Fen Ditton part of town.|offer
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Contemporary, or Spanish.|request
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+USR|any restaurant in fenditton|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+USR|american|inform
+SYS|Blue Spice is an outstanding restaurant and it's in the Girton part of town.|offer
+USR|perfect let me have the address and phone number|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+SYS|Its phone number is 01223413337.|offer
+USR|while your at it post code|request
+SYS|Blue Spice is in the area with the postcode CB1 7DY.|offer
+USR|address|request
+SYS|Blue Spice is located on Unit F1, Cambridge Leisure Park, Clifton Way.|offer
+USR|thank you good bye|bye

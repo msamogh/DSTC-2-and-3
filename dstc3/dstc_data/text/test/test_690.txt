@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um hi im looking for an east asian restaurant in an expensive price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or central.|request
+USR|i dont care|inform
+SYS|Shiraz is an outstanding restaurant, it serves east asian food and it's in the expensive price range.|offer
+USR|okay what is the address and phone number and the area of the venue|ack
+SYS|Shiraz is located on 84 Regent Street and its phone number is 01223902104.|offer
+SYS|The price for main courses ranges from 9 pounds to 14 pounds 15.|offer
+USR|okay thank you goodbye|ack

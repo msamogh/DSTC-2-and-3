@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|in new chesterton|inform
+SYS|Hakka is a great restaurant and it's in the New Chesterton part of town.|offer
+USR|phone number|request
+SYS|The phone number of Hakka is 01223568988.|offer
+USR|address|request
+SYS|Hakka is located on 24 Milton Road.|offer
+USR|thank you good bye|bye

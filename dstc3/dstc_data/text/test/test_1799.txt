@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|i wa i want to find a mexican tex mex restaurant in addenbrookes area|inform
+SYS|Chiquito is an outstanding restaurant, it's in the Addenbrooke's part of town and it serves mexican and tex mex food.|offer
+USR|great can i have the address|request
+SYS|Chiquito is located on Cambridge Leisure Park.|offer
+USR|can i have the address|request
+SYS|Chiquito is located on Cambridge Leisure Park.|offer
+USR|okay and the phone number|ack
+SYS|Chiquito is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 15 pounds 95.|offer
+USR|okay and what is the phone number|ack
+SYS|Chiquito, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It serves mexican and tex mex food.|offer
+USR|okay and what is the phone number|ack
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a mexican and tex mex venue.|expl-conf
+USR|yes i would like the phone number please|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a mexican and tex mex venue.|expl-conf
+USR|yes|affirm
+SYS|The phone number of Chiquito is 01223400170.|offer
+USR|okay thank you goodbye|ack

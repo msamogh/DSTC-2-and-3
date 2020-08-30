@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|can i find a shop uh coffee shop which serves italian food|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|and i dont care of the location|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Downing College, Great Saint Mary's Church, or Williams Art and Antiques.|request
+USR|i dont care about the area|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+USR|i want to find a coffee shop which serves italian food|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|and i dont care about the area|inform
+SYS|Clowns, which serves italian food, is an outstanding cafe and a great restaurant.|offer
+USR|can i get the address the phone number of the|request
+SYS|The phone number of Clowns is 01223355711.|offer
+USR|coffee shop|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|im looking for a coffee shop|inform
+SYS|Clowns, which serves italian food, is a great cafe and an outstanding restaurant.|offer
+USR|which serves italian food|inform
+SYS|Clowns is a great cafe and an outstanding restaurant.|offer
+SYS|It serves italian food.|offer
+USR|uh can i get the address and the phone number|request
+SYS|Clowns is on 54 King Street and its phone number is 01223355711.|offer
+USR|thank you good bye|bye

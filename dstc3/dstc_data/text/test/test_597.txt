@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a pub with internet connection|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|a pub with internet connection|inform
+SYS|The Bakers has an internet connection and it's an outstanding pub.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Queens' College, or the Whipple Museum of the History of Science.|request
+USR|thank you goodbye|bye

@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i havent asked a question yet|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Newnham, or Trumpington area.|request
+USR|looking for a chinese restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, the Museum of Archaelogy and Anthropology, or the Ruskin Gallery.|request
+USR|city center area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Jesus College, King's College, or the Lynne Strover Gallery.|request
+USR|no|negate
+SYS|The J Restaurant is an outstanding restaurant and it serves chinese food.|offer
+USR|is it in the city center area|confirm
+SYS|The J Restaurant is in the riverside part of town.|offer
+USR|is it in the city center area|confirm
+SYS|The J Restaurant is in the riverside part of town.|offer
+USR|whats the address|request
+SYS|The J Restaurant is located on 86, Regent Street.|offer
+USR|whats the phone number|request
+SYS|The phone number of the J Restaurant is 01223307273.|offer
+USR|im looking for a chinese restaurant|inform
+SYS|The J Restaurant is an outstanding restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|is it in the city center area|confirm
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|thank you good bye|bye

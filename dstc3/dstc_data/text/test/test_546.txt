@@ -1,0 +1,42 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|spanish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|cheap|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the cheap price range.|expl-conf
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Fastfood, or Greek.|request
+USR|spanish|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Cafe Jello, or the Ruskin Gallery.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Romsey, or Trumpington area.|request
+USR|none|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, Castle Hill, or Fen Ditton.|request
+USR|none|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or Romsey area.|request
+USR|none|null
+SYS|What type of food would you like?|request
+SYS|For example, East asian, French, or Japanese.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, New Chesterton, or Trumpington area.|request
+USR|spanish|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|castle hill|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for an english venue.|expl-conf
+USR|goodbye|bye

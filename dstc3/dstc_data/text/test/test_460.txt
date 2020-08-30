@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|um <unk>|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i am looking for a restaurant that serves pub|inform
+SYS|196 Meze Bar, which is in the Romsey part of town, is an outstanding restaurant.|offer
+USR|i am looking for a restaurant that serves pub food|inform
+SYS|There is no restaurant in the Romsey area and serving thai food.|canthelp
+USR|lets start over please|restart
+SYS|The Royal Standard, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|Would you like a thai food, or you don't care?|select
+USR|no i would like pub food|negate
+SYS|The Kingston Arms, which is in the Romsey part of town, is a great restaurant.|offer
+SYS|It serves pub food.|offer
+USR|what is its price range|request
+SYS|The Kingston Arms is in the cheap price range.|offer
+USR|what is its phone number|request
+SYS|The phone number of The Kingston Arms is 01223319414.|offer
+USR|what is its address|request
+SYS|The Kingston Arms is located on 33 Kingston Street.|offer
+USR|thank you goodbye|bye

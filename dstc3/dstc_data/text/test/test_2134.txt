@@ -1,0 +1,68 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an italian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, or The Fitzwilliam Museum.|request
+USR|the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Trumpington area.|request
+USR|the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, riverside, or Trumpington area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, New Chesterton, or Newnham area.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Churchill College, or Saint Catharine's College.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, New Chesterton, or Newnham area.|request
+USR|in the castle hill area|inform
+SYS|Would you like an italian food, or you don't care?|select
+USR|italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Newnham area.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Queens' College, or Saint John's College.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, Downing College, or Sidney Sussex College.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare Hall, or Trinity College.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Little Saint Mary's, or the Museum of Classical Archaeology.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, the Saint Barnabas Press Gallery, or Williams Art and Antiques.|request
+USR|castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Great Saint Mary's Church, or Saint Catharine's College.|request
+USR|castle hill|inform
+SYS|Would you like an italian food, or you don't care?|select
+USR|i would like italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Chesterton area.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Christ's College, or Corpus Christi.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Castle Hill.|request
+USR|castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, the Gallery at twelve A High Street, or the Ruskin Gallery.|request
+USR|you just said castle hill|inform
+SYS|Would you like seafood or X food?|select
+USR|italian food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Romsey, or Trumpington area.|request
+USR|thank you good bye|bye

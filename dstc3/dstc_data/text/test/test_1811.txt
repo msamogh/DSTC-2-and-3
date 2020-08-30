@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for somewhere to have a drink and a snack|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, King's Hedges, or New Chesterton area.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Saint John's College, or Williams Art and Antiques.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, American, or Contemporary.|request
+USR|drinks and snacks only|inform
+SYS|The Fleur is a great restaurant and it serves drinks and snacks.|offer
+USR|may i have the address|request
+SYS|The Fleur is located on 73 Humberstone Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Fleur is 01223902183.|offer
+USR|thank you goodbye|bye

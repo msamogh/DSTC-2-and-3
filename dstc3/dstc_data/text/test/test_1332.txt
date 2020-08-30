@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to go to a contemporary restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Contemporary, or Middleeastern.|request
+USR|contemporary|inform
+SYS|Blue Spice, which is in the Girton part of town, is a great restaurant.|offer
+USR|um is it free|confirm
+SYS|Blue Spice is in the expensive price range.|offer
+USR|im looking for a contemporary restaurant thats free|inform
+SYS|Graffiti, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves contemporary food.|offer
+USR|is it free|confirm
+SYS|No.|negate
+SYS|Graffiti is in the expensive price range.|negate
+USR|are there any contemporary restaurants that are free|inform
+SYS|There is no restaurant in the Girton area that is providing services for free.|canthelp
+USR|thank you goodbye|bye

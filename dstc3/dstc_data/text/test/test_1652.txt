@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a middle east|inform
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a middle eastern|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|um for a middle eastern restaurant|inform
+SYS|There is no restaurant in the central area and serving middleeastern food.|canthelp
+USR|restaurant|inform
+SYS|Al Casbah is an outstanding restaurant and it serves mediterranean and middleeastern food.|offer
+USR|i dont care about the area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, the Museum of Classical Archaeology, or Pembroke College.|request
+USR|what is the address and price of the venue|request
+SYS|Al Casbah is on 62 Mill Road.|offer
+SYS|The price for main courses ranges from 8 pounds 95 to 12 pounds 95.|offer
+USR|no|negate
+SYS|Al Casbah is an outstanding restaurant.|offer
+USR|na|negate
+SYS|Al Casbah is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|Al Casbah is on 62 Mill Road.|offer
+USR|what is the address|request
+SYS|Al Casbah is on 62 Mill Road.|offer
+USR|what is the price|request
+SYS|Al Casbah is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds 95 to 12 pounds 95.|offer
+USR|what is the price|request
+SYS|Al Casbah is a great venue.|offer
+SYS|The price for main courses ranges from 8 pounds 95 to 12 pounds 95.|offer
+USR|ok thank you goodbye|ack

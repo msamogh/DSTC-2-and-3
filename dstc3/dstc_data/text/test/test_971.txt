@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a japanese restaurant|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or New Chesterton area.|request
+USR|addenbrookes|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or riverside area.|request
+USR|addenbrookes|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanical Garden* Botanical Gardens, the Michaelhouse Centre, or Saint Catharine's College.|request
+USR|i need a japanese restaurant in the addenbrookes area and i need the phone number and address of the venue|request
+SYS|There is no restaurant in the Addenbrooke's area and serving japanese food.|canthelp
+USR|may i have another venue|reqalts
+SYS|There is no restaurant in the Addenbrooke's area and serving japanese food.|canthelp
+USR|what other area do you have available|reqalts
+SYS|There is no restaurant in the Addenbrooke's area and serving japanese food.|canthelp
+USR|do you have a japanese restaurant in the riverside area|inform
+SYS|Teri-Aki, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves japanese food.|offer
+USR|may i have the phone number|request
+SYS|Teri-Aki is located on 6-8 Quayside and its phone number is 01223882288.|offer
+USR|thank you goodbye|bye

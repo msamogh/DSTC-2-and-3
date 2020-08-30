@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castle hill area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, or the Museum of Archaelogy and Anthropology.|request
+USR|castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or Newnham area.|request
+USR|cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Northern european, or Fastfood.|request
+USR|fast food|inform
+SYS|Burger King, which serves fastfood, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|yes|affirm
+SYS|Burger King, which serves fastfood, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|address and phone number please|request
+SYS|Burger King is on The Grafton Centre.|offer
+SYS|Its phone number is 01223322666.|offer
+USR|address please|request
+SYS|Burger King is located on The Grafton Centre.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|ah hi ah i am looking for a thia restaurant|hello
+SYS|Would you like thai or X food?|select
+USR|and it should be in the expensive price range|inform
+SYS|Would you like thai or X food?|select
+USR|a thai food|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, the Museum of Archaelogy and Anthropology, or Wandlebury Country Park.|request
+USR|im looking for a thai restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Jesus College, or Sheep's Green.|request
+USR|a country park|null
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> college|null
+SYS|Can I help you with anything else?|reqmore
+USR|ah im looking for a thai restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Milton Country Park, Lamma's Land, or Trinity College.|request
+USR|im looking for a thai restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or riverside area.|request
+USR|ah in the trinity college|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Kettle's Yard, or the People's Portraits Exhibition.|request
+USR|a castle hill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Saint Catharine's College, or Williams Art and Antiques.|request
+USR|thank you good bye|bye

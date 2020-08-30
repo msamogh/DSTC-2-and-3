@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|thai restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|i dont care|inform
+SYS|The Wrestlers is a great restaurant and it serves thai food.|offer
+USR|address|request
+SYS|The Wrestlers is on 337 Newmarket Road.|offer
+USR|phone number|request
+SYS|The phone number of The Wrestlers is 01223566554.|offer
+USR|price|request
+SYS|The Wrestlers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub in the moderate price range|inform
+SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
+USR|may i have the phone number and the prices|request
+SYS|The phone number of The Alma is 01223316722.|offer
+SYS|The price for main courses ranges from 3 pounds 75 to 8 pounds 95 and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|thank you good bye|bye

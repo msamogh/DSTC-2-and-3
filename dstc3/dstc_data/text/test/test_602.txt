@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|greek restaurant the city centre|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|greek restaurant in the city centre|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|greek restaurant in the city|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|greek restaurant in the city area|inform
+SYS|There is no restaurant in the Chesterton area and serving greek food.|canthelp
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Chesterton area.|expl-conf
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Chesterton area.|expl-conf
+USR|thank you goodbye|bye

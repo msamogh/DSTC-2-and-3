@@ -1,0 +1,45 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or riverside area.|request
+USR|fen ditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Queens' College, or the Regency Gallery.|request
+USR|fen ditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, English, or French.|request
+USR|moderately priced|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|repeat|repeat
+SYS|There is no pub in the Girton area.|canthelp
+USR|restaurant in fen ditton|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|There is no pub in the Fen Ditton area.|canthelp
+USR|restaurant in fen ditton area|inform
+SYS|The Lion and Lamb, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+SYS|There is no pub in the Fen Ditton area.|canthelp
+USR|phone number|request
+SYS|Can I help you with anything else?|reqmore
+USR|the lion and the lamb|inform
+SYS|The Lion and Lamb is in the Fen Ditton part of town and its phone number is 01223860202.|offer
+USR|phone number|request
+SYS|The phone number of The Lion and Lamb is 01223860202.|offer
+USR|type of food of lion and lamb|request
+SYS|The Alma is an outstanding pub and it's in the moderate price range.|offer
+USR|type of food of lion and lamb|request
+SYS|The Alma is a great pub and it's in the moderate price range.|offer
+USR|the lion and lamb|inform
+SYS|There is no pub in the Newnham area.|canthelp
+USR|the lion and lamb type of food|inform
+SYS|Can I help you with anything else?|reqmore
+USR|thank you goodbye|bye

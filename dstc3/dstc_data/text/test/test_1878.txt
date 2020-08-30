@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a moderately priced restaurant in the new chesterton area|affirm
+SYS|Hakka is an outstanding restaurant, it's in the New Chesterton part of town and it's in the moderate price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Hakka is 01223568988.|offer
+USR|and whats the postcode|request
+SYS|Hakka is in the area with the postcode CB4 1JY.|offer
+USR|thank you bu bye|bye

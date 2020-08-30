@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the fenditton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Fen Ditton, or New Chesterton area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or Trumpington area.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or Romsey area.|request
+USR|area|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, New Chesterton, or riverside.|request
+USR|fenditton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, or Turkish.|request
+USR|doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, King's College, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|The Six Bells, High Saint is a great restaurant and it's in the Cherry Hinton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what part of town is it in|request
+SYS|The Six Bells, High Saint is an outstanding restaurant, it's in the Cherry Hinton part of town and it's in the moderate price range.|offer
+USR|im looking in the fenditton area|inform
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|th|null
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye|bye

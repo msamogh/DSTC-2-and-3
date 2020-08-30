@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub food restaurant in the cheery cherry hinton area|inform
+SYS|The Six Bells, High Saint, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It serves pub food.|offer
+USR|whats the address|request
+SYS|The Six Bells, High Saint is on 9 High Saint, Fulbourn.|offer
+USR|whats the price range|request
+SYS|The Six Bells, High Saint is an outstanding venue.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds and the price for a cheapest pint of beer is 2 pounds 90.|offer
+USR|thank you good bye|bye

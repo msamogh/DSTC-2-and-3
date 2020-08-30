@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> find me a restraurant in the <unk> area|inform
+SYS|The Wheatsheaf is a great restaurant and it's in the Barnwell part of town.|offer
+USR|whats the address|request
+SYS|The Wheatsheaf is located on Stow Road, Stow-Cum-Quy.|offer
+USR|whats the phone number|request
+SYS|The phone number of the Wheatsheaf is 01223812196.|offer
+USR|whats the price range|request
+SYS|The Wheatsheaf is in the moderate price range.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, Queens' College, or the Regency Gallery.|request
+USR|it doesnt matter|inform
+SYS|The Unicorn Steak and Ale House is a great restaurant, it's in the Trumpington part of town and it's in the moderate price range.|offer
+USR|may i have the address phone number and type of food|request
+SYS|The Unicorn Steak and Ale House is on Church Lane, Trumpington and its phone number is 01223845102.|offer
+USR|what type of foo food do they serve|request
+SYS|The Unicorn Steak and Ale House serves traditional food.|offer
+USR|thank you goodbye|bye

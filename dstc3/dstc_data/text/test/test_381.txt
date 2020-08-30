@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|oh um <unk> riverside area|inform
+SYS|The Avery, which is in the riverside part of town, is an outstanding pub.|offer
+USR|and i dont care about the childrens wether childrens are allowed are not|inform
+SYS|The Avery, which is in the riverside part of town, is an outstanding pub.|offer
+USR|oh can i get the address and the price range|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+USR|thank you goodbye|bye

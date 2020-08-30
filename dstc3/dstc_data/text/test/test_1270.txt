@@ -1,0 +1,58 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Queens' College, or the Regency Gallery.|request
+SYS|Are you looking for a venue with a television?|request
+USR|new chesterton area|inform
+SYS|There is no pub in the Chesterton area.|canthelp
+USR|new chesterton area restaurant in the new chesterton ar|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, or French.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Japanese, Thai, or Turkish.|request
+USR|any kind|inform
+SYS|Would you like italian or X food?|select
+USR|turkish|inform
+SYS|There is no restaurant in the Chesterton area and serving turkish food.|canthelp
+USR|turkish|inform
+SYS|There is no restaurant in the Chesterton area and serving turkish food.|canthelp
+SYS|The Agora, which serves turkish food, is an outstanding restaurant.|offer
+USR|thai|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+SYS|Would you like a chesterton area, or you don't care?|select
+SYS|Would you like a chesterton area, or you don't care?|select
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|thai|inform
+SYS|The Agora is an outstanding venue.|offer
+SYS|The price for main courses ranges from 9 pounds to 11 pounds 50 and the price for a cappuccino is 2 pounds 25.|offer
+USR|new chesterton area thai food|inform
+SYS|No.|negate
+SYS|The Agora is in the central part of town and it serves turkish food.|negate
+SYS|The Agora is a great restaurant.|offer
+SYS|Would you like a turkish food, or you don't care?|select
+USR|new ch|null
+SYS|The Agora is an outstanding restaurant.|offer
+SYS|The Agora is an outstanding restaurant.|offer
+USR|new chesterton area restaurant food|inform
+SYS|There is no restaurant in the New Chesterton area and serving turkish food.|canthelp
+USR|im looking for a restaurant in|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+USR|thai food|inform
+SYS|There is no restaurant in the New Chesterton area and serving thai food.|canthelp
+USR|what is|null
+SYS|Hakka is the only restaurant in the New Chesterton area.|canthelp
+USR|what restaurants are in the thai|inform
+SYS|The Wrestlers, which serves thai food, is an outstanding restaurant.|offer
+USR|what is its phone number|request
+SYS|The phone number of The Wrestlers is 01223566554.|offer
+USR|new chesterton area any food|inform
+SYS|There is no restaurant in the New Chesterton area in the cheap price range.|canthelp
+USR|what is the postcode|request
+SYS|The Wrestlers is in the area with the postcode CB5 8JE.|offer
+USR|thank you|thankyou
+SYS|The Wrestlers is a great restaurant.|offer

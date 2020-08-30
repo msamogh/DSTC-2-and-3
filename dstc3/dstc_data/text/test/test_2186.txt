@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a northern european restaurant in the cheap price range|inform
+SYS|Polonia is a great restaurant, it serves northern european food and it's in the cheap price range.|offer
+USR|can you give me an address phone number and price range|request
+SYS|Polonia is on 231 Chesterton Road.|offer
+SYS|Its phone number is 01223902138.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 7 pounds 50.|offer
+USR|thank you goodbye|bye

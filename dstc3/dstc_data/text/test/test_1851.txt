@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a vegetarian restaurant uh i really dont care where in any price|inform
+SYS|The Rainbow Cafe is an outstanding restaurant, it serves traditional food and it serves vegetarian food.|offer
+USR|uh can i get the phone number|request
+SYS|The Rainbow Cafe is in the Girton part of town and its phone number is 01223321551.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|uh thank you good bye|bye

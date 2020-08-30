@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, moderate.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|a pub|inform
+SYS|Are you looking for a venue with a television?|request
+USR|a pub|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Castle Galleries, or Old Schools.|request
+USR|yes|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or central area.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Castle Galleries, Clare College, or Hughes Hall.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or King's Hedges area.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Cherry Hinton area.|request
+USR|it doesnt matter|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|it doesnt matter|inform
+SYS|The Baron of Beef, which is in the cheap price range, is an outstanding pub.|offer
+USR|what is the address and phone number|request
+SYS|The Baron of Beef is on Bridge Street and its phone number is 01223505022.|offer
+USR|does it have an address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a spanish restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, central, or Trumpington area.|request
+USR|uh i dont care|inform
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+USR|im looking for something in the cheap price range|inform
+SYS|La Tasca, which serves spanish food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|ok may i have the address|ack
+SYS|La Tasca is located on 14-16 Bridge Street.|offer
+SYS|The price for main courses ranges from 5 pounds to 10 pounds and the price for a cheapest glass of wine is 2 pounds 50.|offer
+USR|thank you good bye|bye

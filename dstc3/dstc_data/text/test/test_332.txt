@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|<unk> a pub|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the television.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|it should have a tv|inform
+SYS|Are you looking for a venue that allows children?|request
+USR|yes|affirm
+SYS|The Baron of Beef, which allows children, is in the cheap price range.|offer
+SYS|This place, which has a television, is an outstanding pub.|offer
+USR|address phone number|request
+SYS|The Baron of Beef is located on Bridge Street and its phone number is 01223505022.|offer
+SYS|The Baron of Beef is an outstanding pub.|offer
+USR|thank you and have a good day|bye
+SYS|Can I help you with anything else?|reqmore
+USR|no thank you and have a good day|negate

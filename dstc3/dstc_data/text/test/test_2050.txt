@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|pub with internet connection|inform
+SYS|The Bakers has an internet connection and it's a great pub.|offer
+USR|what is the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|what is the postal code|request
+SYS|The Bakers is in the area with the postcode CB1 1BG.|offer
+USR|thank thank you goodbye|bye

@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a pub|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Holy Trinity Church, or The Fitzwilliam Museum.|request
+USR|that riverside area|inform
+SYS|The Avery, which is in the riverside part of town, is an outstanding pub.|offer
+USR|could i have the phone number please|request
+SYS|The phone number of The Avery is 01223323405.|offer
+USR|and how about the address|request
+SYS|The Avery is on 69-73 Regent Street.|offer
+USR|thank you goodbye|bye

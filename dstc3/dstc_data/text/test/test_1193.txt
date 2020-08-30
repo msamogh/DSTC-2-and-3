@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a chinese restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Girton area.|request
+USR|the new chesterton area|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes new chesterton|affirm
+SYS|There is no restaurant in the New Chesterton area in the cheap price range.|canthelp
+USR|chinese|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|dont dont care chinese in the new chesterton area|inform
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|whats the phone number and price|request
+SYS|The phone number of Hakka is 01223568988.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+SYS|Hakka is a great restaurant.|offer
+USR|whats the price|request
+SYS|Hakka is an outstanding venue.|offer
+SYS|The price for main courses ranges from 5 pounds to 13 pounds.|offer
+USR|thank you good bye|bye
+SYS|Hakka is an outstanding restaurant.|offer
+USR|thank you good bye|bye

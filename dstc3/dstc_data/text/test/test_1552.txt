@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for expense uh continental restaurant|inform
+SYS|Alimentum, which serves continental and french food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what was the name of the restaurant again|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, the Technology Museum, or Cherry Hinton Water Play.|request
+USR|uh no i just wanted the the first restaurant that you mentioned|negate
+SYS|Alimentum, which serves continental and french food, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|uh was the address and the phone number|request
+SYS|Alimentum is on 152-154 Hills Road and its phone number is 01223413000.|offer
+USR|me and what are the prices|request
+SYS|Alimentum is a great venue.|offer
+SYS|The price for main courses ranges from 17 pounds 50 to 21 pounds and the price for a glass of wine ranges from 6 pounds 50 to 10 pounds 50.|offer
+USR|ok thank you goodbye|ack

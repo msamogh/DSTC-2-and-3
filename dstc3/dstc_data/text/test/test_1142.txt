@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want a fusion restaurant in the moderate price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Old Schools, or Trinity College.|request
+USR|no|negate
+SYS|Aki Teri, which serves fusion food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|what is the address and area|request
+SYS|Aki Teri is on 3-5 Quayside.|offer
+USR|what is the area|request
+SYS|Aki Teri is in the riverside part of town.|offer
+USR|thank you good bye|bye

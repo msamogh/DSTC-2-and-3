@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the city center area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Castle Galleries, or Churchill College.|request
+USR|no|negate
+SYS|La Raza is a great restaurant, it's in the central part of town and it's in the cheap price range.|offer
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Girton, or Romsey area.|request
+USR|can i get the addresss phone number and the price|request
+SYS|La Raza is located on 4-6, The Basement, Rose Crescent and its phone number is 01223464550.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|i get|null
+SYS|Can I help you with anything else?|reqmore
+USR|thank you goodbye|bye

@@ -1,0 +1,56 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|cheap|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Barnwell.|request
+USR|fen ditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Continental, or Middleeastern.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Chesterton, or Girton area.|request
+USR|fen ditton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cambridge Contemporary Art, the Technology Museum, or the Lynne Strover Gallery.|request
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, riverside, or Romsey.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or riverside area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, French, or Italian.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Fen Ditton, or Romsey area.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, Newnham, or riverside area.|request
+USR|fen ditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Middleeastern, or Turkish.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Addenbrooke's, or Castle Hill.|request
+USR|any type|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or Newnham.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Fen Ditton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Girton, or New Chesterton area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, New Chesterton, or Newnham area.|request
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or King's Hedges area.|request
+USR|goodbye thank you|bye

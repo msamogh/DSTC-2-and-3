@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap take away restaurant i dont care about the price|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a cheap exuse me im looking for a chinese take away restaurant i dont care about the price|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes im loooking for a chinese take away restaurant i dont care about the price|inform
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for chinese take away restaurant|inform
+SYS|Would you like chinese or X food?|select
+USR|chinese|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|i dont care about the price|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|i am looking for a chinese take away take away restaurant i dont care about the price|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the location and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|The J Restaurant is an outstanding restaurant and it serves chinese food.|offer
+USR|may i have the address phone number|request
+SYS|The J Restaurant is located on 86, Regent Street and its phone number is 01223307273.|offer
+SYS|The price for main courses ranges from 8 pounds to 12 pounds.|offer
+USR|and area of the venue|request
+SYS|The J Restaurant is an outstanding restaurant.|offer
+USR|may i have the address and phone number|request
+SYS|The J Restaurant is located on 86, Regent Street and its phone number is 01223307273.|offer
+USR|may i have the area of the venue|request
+SYS|The J Restaurant is in the riverside part of town.|offer
+USR|thank you good bye|bye

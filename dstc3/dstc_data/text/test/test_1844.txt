@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|<unk> i am looking for a thia restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|im looking for a thia and it should be in the river side area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|any|inform
+SYS|Would you like thai or X food?|select
+USR|moderate|inform
+SYS|Would you like thai or X food?|select
+USR|what|null
+SYS|Would you like thai or X food?|select
+USR|thia|inform
+SYS|Mai Thai, which is in the riverside part of town, is an outstanding restaurant.|offer
+SYS|It serves thai food and it's in the moderate price range.|offer
+USR|im looking for a thia restaurant|inform
+SYS|Mai Thai is on Hobbs Pavilion, Park Terrace.|offer
+SYS|Mai Thai is in the riverside part of town.|offer
+SYS|Mai Thai is an outstanding restaurant.|offer
+USR|<unk> what is it|null
+SYS|Mai Thai is located on Hobbs Pavilion, Park Terrace.|offer
+USR|<unk> what is the phone number|request
+SYS|The phone number of Mai Thai is 01223367480.|offer
+USR|what is the phone number|request
+SYS|The phone number of Mai Thai is 01223367480.|offer
+USR|what is the price range|request
+SYS|Mai Thai is in the moderate price range.|offer
+SYS|Would you like a thai food, or you don't care?|select
+USR|what is the price range <unk>|request
+SYS|Would you like a thai food, or you don't care?|select
+USR|thank you good bye|bye

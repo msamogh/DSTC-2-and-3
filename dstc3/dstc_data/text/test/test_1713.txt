@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Cherry Hinton, or New Chesterton.|request
+SYS|What type of food would you like?|request
+SYS|For example, Greek, Italian, or Japanese.|request
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Continental, or Japanese.|request
+USR|american|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, central, or Girton area.|request
+USR|dont care|inform
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, or King's College.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Gonville and Caius College, or the People's Portraits Exhibition.|request
+USR|no|negate
+SYS|Gourmet Burger  is an outstanding restaurant and it serves american food.|offer
+USR|cheap|inform
+SYS|Gourmet Burger  is an outstanding restaurant, it serves american food and it's in the cheap price range.|offer
+USR|<unk> cheap|inform
+SYS|Gourmet Burger  is a great restaurant.|offer
+SYS|It serves american food.|offer
+SYS|It's in the cheap price range.|offer
+USR|phone number and area|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|area|null
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|area|null
+SYS|Gourmet Burger  is a great restaurant.|offer
+USR|area|null
+SYS|Gourmet Burger  is a great restaurant.|offer
+USR|what area|request
+SYS|Gourmet Burger  is in the central part of town.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i need to find a cheap restaurant in the addonbrookes|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, or Italian.|request
+USR|cheap|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Chinese, or Fastfood.|request
+USR|less expensive|deny
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, English, or Seafood.|request
+USR|less expensive|deny
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|english|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, International, or Spanish.|request
+USR|address|request
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|english|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|phone number|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|post code|request
+SYS|La Raza is in the area with the postcode CB2 3LL.|offer
+USR|post code|request
+SYS|La Raza is in the area with the postcode CB2 3LL.|offer
+USR|thank you good bye|bye

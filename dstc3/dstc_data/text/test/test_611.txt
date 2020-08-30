@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|<unk> spanish restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Greek, or Turkish.|request
+USR|spanish restaurant <unk> spanish restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, American, or Greek.|request
+SYS|What type of food would you like?|request
+SYS|For example, English, French, or Vegetarian.|request
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Middleeastern, or Traditional.|request
+USR|spanish restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Japanese.|request
+USR|spanish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|<unk> sp|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Michaelhouse Centre, Old Schools, or Lamma's Land.|request
+USR|s s spanish restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Churchill College, or the Museum of Archaelogy and Anthropology.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or Newnham.|request
+USR|<unk> no <unk>|negate
+SYS|There is no restaurant serving spanish food that is providing services for free.|canthelp
+USR|thank you good bye|bye

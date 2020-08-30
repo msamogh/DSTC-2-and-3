@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|moderate moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Clare College, or Corpus Christi.|request
+USR|moderately priced|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Pembroke College, or the Saint Barnabas Press Gallery.|request
+USR|chesterton|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|chesterton|inform
+SYS|Twenty-four, which is in the Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|need to near chesterton please|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|chesterton|inform
+SYS|Twenty-four is a great restaurant.|offer
+SYS|It's in the Chesterton part of town.|offer
+SYS|It's in the moderate price range.|offer
+SYS|Twenty-four is an outstanding restaurant, it's in the Chesterton part of town and it's in the moderate price range.|offer
+USR|may i have the phone number and address please|request
+SYS|Twenty-four is located on 24 Cambridge Science Park, Milton Road and its phone number is 01223395800.|offer
+USR|thank you good bye|bye

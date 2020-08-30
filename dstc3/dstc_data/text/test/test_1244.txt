@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a traditional restaurant in the expensive price range|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or Romsey area.|request
+USR|it doesnt matter|inform
+SYS|The Royal Cambridge Hotel, which serves traditional food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|ok can you get get me the address and post code|ack
+SYS|The Royal Cambridge Hotel, which is in the area with the postcode CB2 1PY, is on Trumpington Street.|offer
+SYS|A single room ranges from 91 pounds and to 98 pounds and a cheapest double room is 108 pounds and a family room ranges from 135 pounds and to 169 pounds and the price for main courses ranges from 12 pounds to 18 pounds.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in trumpington|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|it doesnt matter|inform
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Japanese, or Seafood.|request
+USR|seafood|inform
+SYS|There is no restaurant in the Trumpington area and serving seafood.|canthelp
+USR|continental|inform
+SYS|There is no restaurant in the Trumpington area and serving continental food.|canthelp
+USR|it doesnt matter|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|yes the trumpington area|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a continental venue.|expl-conf
+USR|no it doesnt matter|negate

@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|Can I help you with anything else?|reqmore
+USR|an italian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Newnham area.|request
+USR|an italian restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, King's College, or the Museum of Archaelogy and Anthropology.|request
+USR|dont care|inform
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|dont care|inform
+SYS|Caffe Uno, which serves italian food, is an outstanding restaurant.|offer
+USR|expensive price range|inform
+SYS|Caffe Uno is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|expensive price range|inform
+SYS|Caffe Uno is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 16 pounds 95 and the price for a glass of wine ranges from 3 pounds 25 to 6 pounds 50.|offer
+USR|expensive|inform
+SYS|Caffe Uno is an outstanding restaurant.|offer
+USR|i want to find an expensive|inform
+SYS|Ask, which serves italian food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|i want to find an expensive italian restaurant|inform
+SYS|Ask, which serves italian food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|ok i need the address|ack
+SYS|Ask is on 12 Bridge Street.|offer
+USR|i need the address and|request
+SYS|Ask is on 12 Bridge Street.|offer
+USR|i need the phone number|request
+SYS|The phone number of Ask is 01223364917.|offer
+USR|phone number|request
+SYS|The phone number of Ask is 01223364917.|offer
+USR|thank you goodbye|bye

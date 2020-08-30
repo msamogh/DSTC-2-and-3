@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in trumpington i dont care about the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, Fusion, or Seafood.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Christ's College, or the Museum of Archaelogy and Anthropology.|request
+USR|no just in trumpington|negate
+SYS|The Oak Bistro is a great restaurant and it's in the Trumpington part of town.|offer
+USR|may i have the address and what type of food|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+SYS|Are you looking for a pub or a restaurant?|select
+USR|i need the address|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant in trumpington|inform
+SYS|The Oak Bistro, which serves contemporary food, is on 6 Lensfield Road.|offer
+USR|and what type of food|request
+SYS|The Oak Bistro serves contemporary food.|offer
+USR|and is it in trumpington|confirm
+SYS|The Oak Bistro is in the Trumpington part of town.|offer
+SYS|The Oak Bistro is an outstanding restaurant.|offer
+USR|is it in trumpington|confirm
+SYS|The Oak Bistro is in the Trumpington part of town.|offer
+USR|ok thank you good bye|ack

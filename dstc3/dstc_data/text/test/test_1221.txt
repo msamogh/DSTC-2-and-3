@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with a television|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, Newnham, or riverside area.|request
+USR|it doesnt matter|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|ok what does it have a television|request
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is a great pub.|offer
+USR|does this pub have a television|inform
+SYS|Yes.|affirm
+SYS|The Bakers is an outstanding pub.|affirm
+USR|and it has a television|inform
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|whats the address|request
+SYS|The Bakers is located on 176 East Road.|offer
+USR|whats the price|request
+SYS|The Bakers is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|and this pub have a television|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|does this pub have a tv|inform
+SYS|The Bakers is an outstanding pub with a television.|offer
+USR|thank you good bye|bye

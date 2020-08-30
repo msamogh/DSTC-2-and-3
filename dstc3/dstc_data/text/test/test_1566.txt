@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|looking for a continental restaurant|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|continental restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|expensive|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|expensive|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Romsey area.|request
+USR|doesnt matter|inform
+SYS|Alimentum, which serves continental food, is an outstanding restaurant.|offer
+SYS|It serves french food and it's in the expensive price range.|offer
+USR|ah whats the phone number and area|request
+SYS|The phone number of Alimentum is 01223413000.|offer
+USR|and whats the area|request
+SYS|Alimentum is in the Addenbrooke's part of town.|offer
+USR|thank you good bye|bye

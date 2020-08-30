@@ -1,0 +1,38 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for a cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, French, or Traditional.|request
+USR|traditional|inform
+SYS|There is no cafe serving traditional food.|canthelp
+USR|snacks|inform
+SYS|There is no cafe serving traditional food.|canthelp
+USR|ah i am looking for a cafe for snacks|inform
+SYS|There is no cafe serving drinks and snacks.|canthelp
+USR|im looking for a cafe food restaurant|inform
+SYS|There is no cafe serving drinks and snacks.|canthelp
+USR|im looking for a cafe|inform
+SYS|The Cambridge Blue is a great cafe.|offer
+USR|im looking for french food|inform
+SYS|Can I help you with anything else?|reqmore
+USR|uh ya id like id like a cafe|inform
+SYS|Can I help you with anything else?|reqmore
+USR|a cafe|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes i am looking for a cafe|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|a cafe|inform
+SYS|Can I help you with anything else?|reqmore
+USR|yes please|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|yes please|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|ya i am looking for a cafe to eat at|inform
+SYS|Can I help you with anything else?|reqmore
+USR|i think your broken|null
+SYS|Can I help you with anything else?|reqmore
+USR|yes i am trying to find a cafe|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|thank you good bye|bye

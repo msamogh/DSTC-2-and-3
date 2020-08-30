@@ -1,0 +1,27 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+USR|expensive|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Fastfood, or Thai.|request
+USR|thai|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Continental, or Middleeastern.|request
+USR|continental|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Trinity College, or the Whipple Museum of the History of Science.|request
+USR|addenbrookes|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, riverside, or Romsey area.|request
+USR|addenbrookes area|inform
+SYS|Alimentum, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It serves continental and french food and it's in the expensive price range.|offer
+USR|address|request
+SYS|Alimentum is on 152-154 Hills Road.|offer
+USR|phone number|request
+SYS|The phone number of Alimentum is 01223413000.|offer
+USR|thank you goodbye|bye

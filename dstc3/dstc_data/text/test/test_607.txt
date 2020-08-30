@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant in the fen ditton area restaurant in the fen ditton area|inform
+SYS|Are you looking for a venue in the Fen Ditton or Girton area?|select
+USR|restaurant in the fen ditton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|restaurant in the fen ditton|inform
+SYS|Twenty-four is an outstanding restaurant and it's in the Chesterton part of town.|offer
+SYS|Are you looking for a venue in the Chesterton or Fen Ditton area?|select
+SYS|Are you looking for a venue in the Chesterton or Fen Ditton area?|select
+USR|fen ditton|inform
+SYS|Twenty-four is an outstanding restaurant.|offer
+USR|fen ditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Cherry Hinton, or Newnham area.|request
+SYS|Are you looking for a venue in the Chesterton or Girton area?|select
+USR|thank you good bye|bye

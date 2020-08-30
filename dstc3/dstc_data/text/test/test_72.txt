@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the television and you are looking for a venue.|expl-conf
+USR|a pub <unk>|inform
+SYS|The Bakers is a great pub.|offer
+SYS|The Bakers is a great pub.|offer
+USR|cherry hinton area|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|cherry hinton area|inform
+SYS|There is no pub in the Cherry Hinton area.|canthelp
+USR|<unk> restaurant in the cherry hinton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Corpus Christi, or Great Saint Mary's Church.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, pub, or Middleeastern.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Corpus Christi, or the Lammas Land Park.|request
+USR|no|negate
+SYS|Sitar Tandoori, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|<unk> any restaurant in the cherry hinton area|inform
+SYS|Sitar Tandoori is a great restaurant, it's in the Cherry Hinton part of town and it's in the moderate price range.|offer
+USR|i need the address and post code|request
+SYS|Sitar Tandoori is located on 43 High Street, Cherry Hinton.|offer
+SYS|It's in the area with the postcode CB1 9HX.|offer
+SYS|Sitar Tandoori is a great restaurant.|offer
+USR|thats fine whats the address|request
+SYS|Sitar Tandoori is on 43 High Street, Cherry Hinton.|offer
+USR|thank you good bye|bye

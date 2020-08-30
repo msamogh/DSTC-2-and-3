@@ -1,0 +1,58 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|a restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|cheap|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|free|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|a restaurant|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|a fast food restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Clare College, or Primavera.|request
+USR|i dont care about the area|inform
+SYS|La Raza, which serves spanish food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|no not spanish food no fast food|inform
+SYS|La Raza is on 4-6, The Basement, Rose Crescent.|offer
+USR|im looking for a fast food restaurant|inform
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|im looking for a fast food restaurant|inform
+SYS|La Raza, which serves spanish food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|fast food|inform
+SYS|La Raza, which serves spanish food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|not spanish food not spanish food fast|deny
+SYS|What type of food would you like?|request
+SYS|For example, English, Fastfood, or Fusion.|request
+USR|food|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Greek, or International.|request
+USR|fast food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, or American.|request
+USR|american|inform
+SYS|Gourmet Burger , which serves american food, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|yawn <unk>|null
+SYS|Gourmet Burger  is an outstanding restaurant.|offer
+USR|whats the phone number|request
+SYS|The phone number of Gourmet Burger  is 01223312598.|offer
+USR|thank you good bye|bye

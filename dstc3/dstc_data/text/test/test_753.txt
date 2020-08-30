@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|expensive restaurant in the trumington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, Little Saint Mary's, or the Whipple Museum.|request
+USR|trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the University Botanic Gardens, or the Regency Gallery.|request
+USR|yes|affirm
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, International, or Mediterranean.|request
+USR|trumpington area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, Holy Trinity Church, or the Museum of Classical Archaeology.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Queens' College, or Wandlebury Country Park.|request
+USR|yes trumpington|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, the Book and Print Gallery, or Magdalene College.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, the Lynne Strover Gallery, or Sheep's Green.|request
+USR|thank you good bye|bye

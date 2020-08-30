@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Japanese, or Spanish.|request
+USR|um i want a cheap restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Whipple Museum of the History of Science, or Williams Art and Antiques.|request
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+SYS|La Raza is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|um im looking for a restaurant|inform
+SYS|La Raza, which is in the cheap price range, is an outstanding restaurant.|offer
+USR|is that in the addenbrookes area|confirm
+SYS|The Peking Restaurant is an outstanding restaurant, it's in the Addenbrooke's part of town and it's in the cheap price range.|offer
+USR|id like it in the addenbrookes area|inform
+SYS|The Peking Restaurant, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|um what is the address|request
+SYS|The Peking Restaurant is on Unit 3, The Belvedere, Homerton Street.|offer
+USR|what is the address|request
+SYS|The Peking Restaurant is on Unit 3, The Belvedere, Homerton Street.|offer
+USR|and what is the postcode|request
+SYS|The Peking Restaurant is in the area with the postcode CB2 8NX.|offer
+USR|what is the postcode|request
+SYS|The Peking Restaurant is in the area with the postcode CB2 8NX.|offer
+USR|thank you good bye|bye

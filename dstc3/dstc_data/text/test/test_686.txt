@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello ah can you please help me to find the address and post code of a free restaurant|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, King's College, or Little Saint Mary's.|request
+USR|i dont care|inform
+SYS|The Michaelhouse Centre is a great restaurant and it doesn't charge any entrance fee.|offer
+USR|ok what is the address phone number and post code of the venue|ack
+SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is located on Michaelhouse, Trinity Street.|offer
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|ok what is the address and phone number of the venue|ack
+SYS|The Michaelhouse Centre, which is in the area with the postcode CB2 1SU, is on Michaelhouse, Trinity Street.|offer
+SYS|The Michaelhouse Centre is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Michaelhouse Centre is located on Michaelhouse, Trinity Street.|offer
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.|offer
+USR|ok|ack
+SYS|The Michaelhouse Centre, which doesn't charge any entrance fee, is a great restaurant.|offer
+USR|what is the post code of the venue|request
+SYS|The Michaelhouse Centre is in the area with the postcode CB2 1SU.|offer
+USR|what is the|null
+SYS|The Michaelhouse Centre serves contemporary food.|offer
+USR|post code|request
+SYS|The Michaelhouse Centre serves contemporary food.|offer
+USR|what is the post code|request
+SYS|The Michaelhouse Centre is in the area with the postcode CB2 1SU.|offer
+USR|ok thank you good bye|ack

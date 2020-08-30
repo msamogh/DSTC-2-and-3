@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|an international restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, King's Hedges, or New Chesterton area.|request
+USR|new chesterton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Kettle's Yard, or Primavera.|request
+USR|no|negate
+SYS|Hakka, which is in the New Chesterton part of town, is a great restaurant.|offer
+USR|address phone number and area code|request
+SYS|Hakka is located on 24 Milton Road and its phone number is 01223568988.|offer
+USR|thank you good bye|bye

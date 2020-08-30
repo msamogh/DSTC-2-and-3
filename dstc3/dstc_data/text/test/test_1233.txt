@@ -1,0 +1,39 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castlehill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or King's Hedges area.|request
+USR|castlehill|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Hughes Hall, or Wandlebury Country Park.|request
+USR|ch cheap|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Cherry Hinton Water Play, or Hughes Hall.|request
+SYS|What type of food would you like?|request
+SYS|For example, Continental, Greek, or Middleeastern.|request
+USR|castlehill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Newnham, or riverside area.|request
+USR|castlehill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, East asian, or English.|request
+USR|caastlehill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, American, or Turkish.|request
+USR|<unk> english|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+SYS|Would you like an english food, or you don't care?|select
+USR|english|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Trumpington.|request
+USR|cheap|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|castlehill|inform
+SYS|Would you like an english food, or you don't care?|select
+USR|castlehill|inform
+SYS|Would you like an english food, or you don't care?|select
+USR|thank you goodbye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an english restaurant|inform
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or riverside area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Castle Hill, or Girton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or Trumpington.|request
+USR|trumpington|inform
+SYS|There is no restaurant in the Trumpington area and serving english food.|canthelp
+USR|how about another area|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like a trumpington area, or you don't care?|select
+USR|i dont care|inform
+SYS|Would you like an english food, or you don't care?|select
+USR|english|inform
+SYS|Carringtons is an outstanding cafe and a great restaurant, it serves cafe food and it serves english food.|offer
+USR|can i have the address|request
+SYS|Carringtons is on 23 Market Street.|offer
+USR|can i have their phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|how about the price|request
+SYS|Carringtons is a great venue.|offer
+SYS|The price for main courses ranges from 4 pounds 25 to 6 pounds 25 and the price for a cappuccino is 1 pound 95.|offer
+USR|thank you goodbye|bye

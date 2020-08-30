@@ -1,0 +1,46 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|can i have a restaurant in newnham|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|can i have a restaurant in newnham|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any kind|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Kettle's Yard, or the Michaelhouse Centre.|request
+USR|emmanuel college|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Romsey, or Trumpington area.|request
+USR|chesterton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Twenty-four, which is in the Chesterton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|can i have the phone|request
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food and you are looking for a venue.|expl-conf
+USR|thats correct|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the food.|expl-conf
+SYS|You are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|Twenty-four is an outstanding venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 15 pounds.|offer
+USR|can i have the phone number|request
+SYS|The phone number of Twenty-four is 01223395800.|offer
+USR|thank you good bye|bye

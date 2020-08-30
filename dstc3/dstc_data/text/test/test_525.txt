@@ -1,0 +1,36 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|Are you looking for a cafe or a pub?|select
+SYS|Are you looking for a cafe or a pub?|select
+USR|i want to fine a restaurant i|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i want to fine a restaurant in trumpington|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Indian, or Mediterranean.|request
+USR|i do nt care <unk>|inform
+SYS|The Unicorn Steak and Ale House is a great restaurant and it's in the Trumpington part of town.|offer
+USR|fusion food|inform
+SYS|The phone number of The Unicorn Steak and Ale House is 01223845102.|offer
+USR|can i get the phone number the address and the post code please|request
+SYS|The Unicorn Steak and Ale House is located on Church Lane, Trumpington, its phone number is 01223845102 and it's in the area with the postcode CB2 2LA.|offer
+USR|and the post code|request
+SYS|The Unicorn Steak and Ale House is in the area with the postcode CB2 2LA.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi im looking for a cheap restaurant|hello
+SYS|What type of food would you like?|request
+SYS|For example, East asian, pub, or Turkish.|request
+USR|turkish|inform
+SYS|There is no restaurant serving turkish food in the cheap price range.|canthelp
+USR|um|null
+SYS|There is no restaurant serving turkish food in the cheap price range.|canthelp
+USR|ok so i want something moderate|ack
+SYS|196 Meze Bar, which serves turkish food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|is it in the addenbrookes area|confirm
+SYS|196 Meze Bar is in the Romsey part of town.|offer
+USR|ok can i get an address|ack
+SYS|196 Meze Bar is located on 196 Mill Road.|offer
+SYS|The price for main courses ranges from 10 pounds to 12 pounds 50 and the price for a cheapest glass of wine is 2 pounds 90 and the price for a cappuccino is 1 pound 80.|offer
+USR|uh ok do you have something else|reqalts
+SYS|196 Meze Bar, which serves turkish food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|ok give me the address and the phone number|ack
+SYS|196 Meze Bar is located on 196 Mill Road and its phone number is 01223410519.|offer
+USR|thank you and good bye|bye

@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Romsey area.|request
+USR|no preference|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a french venue.|expl-conf
+USR|no|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free, or moderate.|request
+USR|any|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Girton, King's Hedges, or riverside area.|request
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Greek.|request
+USR|cafe food|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or New Chesterton area.|request
+USR|any|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, the People's Portraits Exhibition, or Primavera.|request
+USR|no|negate
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|the address|request
+SYS|Carringtons is located on 23 Market Street.|offer
+USR|phone number|request
+SYS|The phone number of Carringtons is 01223361792.|offer
+USR|good bye thank you|bye

@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|im looking for a cheap pub that has tv|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Newnham area.|request
+USR|im looking for a cheap pub that has a tv|inform
+SYS|The Bakers has a television, it's in the cheap price range and it's an outstanding pub.|offer
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, the People's Portraits Exhibition, or Primavera.|request
+USR|it doesnt matter|inform
+SYS|The Bakers, which is a great pub, is in the cheap price range with a television.|offer
+USR|no it doesnt matter|negate

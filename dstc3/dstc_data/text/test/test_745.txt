@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i am looking for mexican|inform
+SYS|Are you looking for a cafe or a restaurant?|select
+USR|restaurant expensive|inform
+SYS|Nanna Mexico is an outstanding restaurant.|offer
+SYS|It serves mexican and tex mex food.|offer
+SYS|It's in the expensive price range.|offer
+USR|address and phone number|request
+SYS|Nanna Mexico is on 33 Regent Street and its phone number is 01223902150.|offer
+USR|thank you good bye|bye

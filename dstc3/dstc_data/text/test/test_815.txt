@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant in the trumpington area|inform
+SYS|The Unicorn Steak and Ale House, which is in the Trumpington part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|can i have the phone number and price|request
+SYS|The phone number of The Unicorn Steak and Ale House is 01223845102.|offer
+SYS|The price for main courses ranges from 4 pounds 50 to 10 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|thank you goodbye|bye

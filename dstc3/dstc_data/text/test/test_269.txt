@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a restaurant that sells drinks and snacks only|inform
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|it should have a moderate price range|inform
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|you please give me the address and the area|request
+SYS|The Fleur is located on 73 Humberstone Road.|offer
+USR|in which area|request
+SYS|The Fleur is in the riverside part of town.|offer
+USR|thank you goodbye|bye

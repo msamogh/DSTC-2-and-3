@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|<unk> ah hi i am looking for an|hello
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|im loo|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a restaurant.|request
+USR|im looking for a restaurant in castle hill area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|it shall be an expensive restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or Japanese.|request
+USR|i would like an indian food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, International, or Seafood.|request
+USR|and i would like to have some drinks|null
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Mexican and Tex Mex, or Continental.|request
+USR|a continental|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House, Corpus Christi, or the People's Portraits Exhibition.|request
+USR|ya it shall be around castle hill area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, or Middleeastern.|request
+USR|a middle eastern|inform
+SYS|There is no restaurant serving middleeastern food in the expensive price range.|canthelp
+SYS|There is no restaurant serving middleeastern food in the expensive price range.|canthelp
+SYS|I can't hear you.|canthelp
+SYS|There is no restaurant serving middleeastern food in the expensive price range.|canthelp
+USR|ok thank you good bye ok thank you good bye|ack
+SYS|Would you like an expensive price range, or you don't care?|select

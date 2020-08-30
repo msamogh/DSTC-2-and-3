@@ -1,0 +1,13 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want to find a cheap restaurant and it should be in the fen ditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, central, or New Chesterton area.|request
+USR|uh the fen ditton area|inform
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|uh what is the address and the postcode|request
+SYS|The Milton Park English and Thai Restaurant, which is in the area with the postcode CB24 6DD, is located on Milton Park Golf Course, Ely Road, Milton.|offer
+USR|thank you good bye|bye

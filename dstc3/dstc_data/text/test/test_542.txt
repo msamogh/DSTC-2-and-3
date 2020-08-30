@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Girton area.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, English, or Spanish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, English, or Mediterranean.|request
+USR|vegetarian|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, Sidney Sussex College, or Primavera.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, the People's Portraits Exhibition, or the Ruskin Gallery.|request
+USR|hello|hello
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is a great restaurant.|offer
+USR|phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+SYS|The Rainbow Cafe is a great restaurant.|offer
+USR|price|request
+SYS|The Rainbow Cafe is a great venue.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+SYS|The Rainbow Cafe is a great restaurant.|offer
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or King's Hedges area.|request
+USR|thank you good bye|bye

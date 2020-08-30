@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|im looking for a restaurant in newnham|inform
+SYS|The Red Bull is a great restaurant and it's in the Newnham part of town.|offer
+USR|newnham|inform
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+USR|can i get the address and the type of food that they sell|request
+SYS|The Red Bull is located on 11 Barton Road, Newnham.|offer
+USR|what type of food do they sell|request
+SYS|The Red Bull serves italian food.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i want a cheap restaurant in the addenbrooks area|inform
+SYS|The Peking Restaurant is a great restaurant, it's in the Addenbrooke's part of town and it's in the cheap price range.|offer
+USR|whats the address|request
+SYS|The Peking Restaurant is located on Unit 3, The Belvedere, Homerton Street.|offer
+USR|and the phone number|request
+SYS|The phone number of the Peking Restaurant is 01223902166.|offer
+USR|thank you goodbye|bye

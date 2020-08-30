@@ -1,0 +1,59 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive.|request
+SYS|Are you looking for a pub or a restaurant?|select
+SYS|Are you looking for a pub or a restaurant?|select
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|texmex restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|moderate|inform
+SYS|There is no restaurant serving mexican and tex mex food in the moderate price range.|canthelp
+USR|<unk> moderate|inform
+SYS|Would you like a moderate price range, or you don't care?|select
+SYS|Would you like a moderate price range, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|mextex|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Cherry Hinton, or Girton area.|request
+USR|mexican texmex|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Regency Gallery, the Ruskin Gallery, or Sidney Sussex College.|request
+USR|addenbrookes|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Regency Gallery, or Williams Art and Antiques.|request
+USR|no addenbrookes|negate
+SYS|Nanna Mexico is a great restaurant and it serves mexican and tex mex food.|offer
+SYS|Nanna Mexico is in the expensive price range.|offer
+USR|what is the address|request
+SYS|Nanna Mexico is on 33 Regent Street.|offer
+USR|and the post code|request
+SYS|Nanna Mexico is in the area with the postcode CB2 1AB.|offer
+SYS|Nanna Mexico is an outstanding restaurant.|offer
+USR|what is the post code|request
+SYS|Nanna Mexico is in the area with the postcode CB2 1AB.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|no|negate
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|no thank you goodbye|negate
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+SYS|Would you like a mexican and tex mex food, or you don't care?|select
+USR|thank you goodbye|bye

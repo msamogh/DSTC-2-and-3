@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a greek restaurant i dont care about the price range|inform
+SYS|The Eraina Taverna is a great restaurant and it serves greek food.|offer
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a greek venue.|expl-conf
+SYS|Can I help you with anything else?|reqmore
+USR|correct|affirm
+SYS|Can I help you with anything else?|reqmore
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, King's Hedges, or Romsey area.|request
+USR|i dont care about the price range|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, Contemporary, or Middleeastern.|request
+USR|it doesnt matter|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|im looking for a greek restaurant|inform
+SYS|The Eraina Taverna is an outstanding restaurant and it serves greek food.|offer
+USR|im looking for a greek restaurant|inform
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+USR|<unk> what is the phone number and post code|request
+SYS|The phone number of the Eraina Taverna is 01223902126 and it's in the area with the postcode CB2 3QA.|offer
+USR|thank you good bye|bye

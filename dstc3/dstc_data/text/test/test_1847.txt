@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a pub and id like an internet connection|inform
+SYS|The Bakers, which has an internet connection, is an outstanding pub.|offer
+USR|a pub|inform
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|you|null
+SYS|The Bakers, which has an internet connection, is a great pub.|offer
+USR|uhh|null
+SYS|The Bakers is a great pub with an internet connection.|offer
+USR|you have their address|request
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a pub with a address|request
+SYS|The Baron of Beef is a great pub.|offer
+USR|do you have an address|request
+SYS|The Baron of Beef is on Bridge Street.|offer
+USR|and whats the price range|request
+SYS|The Baron of Beef is in the cheap price range.|offer
+SYS|The price for main courses ranges from 4 pounds 99 to 7 pounds 99 and the price for a cheapest pint of beer is 2 pounds 55.|offer
+USR|uh thank you uh goodbye|bye

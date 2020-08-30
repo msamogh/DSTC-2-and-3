@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|i would like to find a pub and it should a tv|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|no uh tv|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+USR|doesnt matter|inform
+SYS|The Alma, which has a television, is a great pub.|offer
+USR|whats the phone number and does it have internet|request
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|uh can you repeat that|repeat
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|a true internet connection|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|uh i would like a true internet connection|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|i want to find a pub and it should have a tv|inform
+SYS|Would you like a true internet connection, or you don't care?|select
+USR|thank you goodbye|bye

@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Barnwell, or Romsey area.|request
+USR|im looking for a cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Chinese, or Continental.|request
+USR|it doesnt matter|inform
+SYS|The Cambridge Blue is a great cafe.|offer
+USR|what is the phone number and address|request
+SYS|The Cambridge Blue is on 24 Regent Street and its phone number is 01223369222.|offer
+USR|thank you goodbye|bye

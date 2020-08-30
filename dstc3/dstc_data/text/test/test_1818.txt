@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a free contemporary restaurant|inform
+SYS|The Michaelhouse Centre, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It doesn't charge any entrance fee.|offer
+USR|what is the address|request
+SYS|The Michaelhouse Centre is on Michaelhouse, Trinity Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Michaelhouse Centre is 01223309147.|offer
+USR|what is the price|request
+SYS|The Michaelhouse Centre is a great venue.|offer
+SYS|The price for main courses ranges from 3 pounds 30 to 8 pounds 95 and the price for a cappuccino is 1 pound 75 and the entrance is free of charge.|offer
+USR|thank you goodbye|bye

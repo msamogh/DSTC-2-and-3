@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced japanese restaurant|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the address and area of the venue|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+SYS|Yippee Noodle Bar is an outstanding restaurant.|offer
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Botanic Gardens, the Gallery at twelve A High Street, or Sheep's Green.|request
+USR|whats the address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|no whats the address of the restaurant|negate
+SYS|Teri-Aki is a great restaurant and it serves japanese food.|offer
+SYS|It's in the moderate price range.|offer
+USR|what area is it in|request
+SYS|Teri-Aki, which is in the riverside part of town, is on 6-8 Quayside.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,32 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|id like to find a moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, French, Spanish, or Traditional.|request
+USR|any|inform
+SYS|What type of food would you like?|request
+SYS|For example, pub, English, or Turkish.|request
+USR|turkish|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Corpus Christi, Pembroke College, or Primavera.|request
+USR|the new chesterton area|inform
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|yes|affirm
+SYS|Are you looking for a venue in the Chesterton or New Chesterton area?|select
+USR|new chesterton|inform
+SYS|There is no restaurant in the New Chesterton area and serving turkish food.|canthelp
+USR|i would like to find a moderately priced restaurant in the new chesterton area|inform
+SYS|There is no restaurant in the New Chesterton area and serving turkish food.|canthelp
+USR|i would like to find traditional food in the new chesterton area|inform
+SYS|There is no restaurant in the New Chesterton area and serving traditional food.|canthelp
+USR|may i restart|restart
+SYS|There is no restaurant in the New Chesterton area and serving traditional food.|canthelp
+USR|may i try a different selection|reqalts
+SYS|Would you like a new chesterton area, or you don't care?|select
+USR|new chesterton area|inform
+SYS|Would you like traditional or X food?|select
+USR|x foods|null
+SYS|Would you like traditional or X food?|select
+USR|thank you goodbye|bye

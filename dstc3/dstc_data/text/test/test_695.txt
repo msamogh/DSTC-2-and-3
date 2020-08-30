@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello i am looking for a moderately priced restaurant in the newnham area|hello
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|okay what is the address and phone number of the restaurant|ack
+SYS|The Red Bull is the only restaurant in the Newnham area in the moderate price range.|canthelp
+USR|what is the address of the restaurant|request
+SYS|The Red Bull is on 11 Barton Road, Newnham.|offer
+SYS|Its phone number is 01223902124.|offer
+USR|okay thank you goodbye|ack
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+SYS|The Red Bull, which is in the Newnham part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|okay thank you goodbye|ack

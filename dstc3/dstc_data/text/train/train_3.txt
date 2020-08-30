@@ -1,0 +1,31 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Northern european, Fusion, or International.|request
+USR|fenditton|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, or Turkish.|request
+USR|turkish|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Cherry Hinton Water Play, or Clare College.|request
+USR|fenditton area|inform
+SYS|There is no restaurant in the Girton area and serving turkish food.|canthelp
+USR|fenditton|inform
+SYS|There is no restaurant in the Girton area and serving turkish food.|canthelp
+USR|moderately priced restaurant|inform
+SYS|Would you like a turkish food, or you don't care?|select
+USR|dont care|inform
+SYS|Would you like a girton area, or you don't care?|select
+USR|fenditton area|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|type of food|request
+SYS|The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|food|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you good bye|bye

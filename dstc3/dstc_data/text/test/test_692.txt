@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello i am looking for a restaurant in the new chesterton|hello
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+USR|ok can you get me the phone number and the what type of food <unk>|ack
+SYS|The phone number of Hakka is 01223568988.|offer
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care what price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Little Saint Mary's, the Saint Barnabas Press Gallery, or Primavera.|request
+USR|i dont care what venue|inform
+SYS|Blue Spice is a great restaurant and it's in the Girton part of town.|offer
+USR|ok ah what is the phone number and what type of food <unk>|ack
+SYS|Blue Spice serves indian food and its phone number is 01223413337.|offer
+USR|ok thank you good bye|ack

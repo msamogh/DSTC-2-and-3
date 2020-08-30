@@ -1,0 +1,9 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hello i am looking for a restaurant uh that sells only drinks and snacks|hello
+SYS|The Fleur, which serves drinks and snacks, is a great restaurant.|offer
+USR|ok what is the address and phone number of the restaurant|ack
+SYS|The Fleur is located on 73 Humberstone Road and its phone number is 01223902183.|offer
+USR|ok thank you good bye|ack

@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Old Schools, or the Ruskin Gallery.|request
+USR|an expensive restaurant and it should be in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or New Chesterton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Fen Ditton, or King's Hedges area.|request
+USR|castle hill|inform
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+SYS|Blue Spice, which is in the expensive price range, is an outstanding restaurant.|offer
+USR|castle hill|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|can you please give me the phone number|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way and its phone number is 01223413337.|offer
+USR|expensive|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|can you please give me the type of food it serves|request
+SYS|Can I help you with anything else?|reqmore
+SYS|Can I help you with anything else?|reqmore
+USR|yes can you please give me the type of food it serves|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|expensive restaurant in the castle hill area|inform
+SYS|Blue Spice is a great restaurant and it's in the expensive price range.|offer
+SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what area is that in|request
+SYS|The Wrestlers is in the riverside part of town.|offer
+USR|can you please give me something in castle hill area|inform
+SYS|There is no restaurant in the Girton area and serving thai food.|canthelp
+USR|expensive restaurant in castle hill area|inform
+SYS|Blue Spice, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|is it in the castle hill area|confirm
+SYS|Blue Spice is an outstanding restaurant, it's in the Girton part of town and it's in the expensive price range.|offer
+USR|can you please give me the phone number and type of food it serves|request
+SYS|The phone number of Blue Spice is 01223413337.|offer
+USR|the type of food please|request
+SYS|Blue Spice serves indian food.|offer
+USR|thank you goodbye|bye

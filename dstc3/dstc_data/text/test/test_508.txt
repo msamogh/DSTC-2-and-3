@@ -1,0 +1,43 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|hi am looking for a cheap restaurant|hello
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, central, or Trumpington area.|request
+USR|and it should be in the fenditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, the Folk Museum, or Saint John's College.|request
+USR|it should be in the fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Girton, or King's Hedges area.|request
+USR|fenditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare College, or Milton Country Park.|request
+USR|fenditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Milton Country Park, Saint Catharine's College, or Williams Art and Antiques.|request
+USR|fenditton area please|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, All Saints Church, Churchill College, or Clare Hall.|request
+USR|near fenditton area|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare College, the Museum of Archaelogy and Anthropology, or the Ruskin Gallery.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Girton area.|request
+USR|fenditton area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, riverside, or Romsey area.|request
+USR|fenditton area|inform
+SYS|Would you like an indian food, or you don't care?|select
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, Jesus College, or Sidney Sussex College.|request
+USR|fenditton area|inform
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|can i get the phone number please|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|and the address|request
+SYS|Spice Merchants is located on 60 Trumpington Road.|offer
+USR|ok thank you good bye|ack

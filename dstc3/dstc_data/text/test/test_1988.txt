@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|moderate|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|turkish restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|moderate|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Emmanuel College, or Sidney Sussex College.|request
+USR|um no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Trumpington area.|request
+USR|dont care|inform
+SYS|196 Meze Bar, which serves turkish food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|great phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+SYS|196 Meze Bar is a great restaurant.|offer
+USR|phone number|request
+SYS|The phone number of 196 Meze Bar is 01223410519.|offer
+USR|and whats the price|request
+SYS|196 Meze Bar is a great venue.|offer
+SYS|The price for main courses ranges from 10 pounds to 12 pounds 50 and the price for a cheapest glass of wine is 2 pounds 90 and the price for a cappuccino is 1 pound 80.|offer
+USR|thank you goodbye|bye

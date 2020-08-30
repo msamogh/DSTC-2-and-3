@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an international restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Artworks, Downing College, or Pembroke College.|request
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+USR|no|negate
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Trumpington area.|request
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|do not care mommy|inform
+SYS|Giraffe is an outstanding restaurant and it serves international food.|offer
+USR|<unk> is it in the moderate price range|confirm
+SYS|Giraffe is a great restaurant, it serves international food and it's in the moderate price range.|offer
+USR|<unk> is it in the moderate price range|confirm
+SYS|Giraffe is in the moderate price range.|offer
+SYS|Giraffe is a great restaurant.|offer
+USR|let me up|null
+SYS|Giraffe is a great restaurant.|offer
+USR|what is the phone number|request
+SYS|The phone number of Giraffe is 01223300707.|offer
+USR|<unk> karin go|null
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|what is the postal code|request
+SYS|Giraffe is in the area with the postcode CB1 1NP.|offer
+USR|what is the postal code|request
+SYS|Giraffe is in the area with the postcode CB1 1NP.|offer
+USR|<unk> is it in the moderate price range|confirm
+SYS|Caffe Uno, which is in the moderate price range, is a great restaurant.|offer
+SYS|Caffe Uno, which is in the moderate price range, is an outstanding restaurant.|offer
+USR|thank you good bye|bye

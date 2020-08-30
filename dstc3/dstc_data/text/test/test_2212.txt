@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+USR|a restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Girton, or King's Hedges area.|request
+USR|the addenbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Italian, or Thai.|request
+USR|the addenbrookes area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, Romsey, or Trumpington area.|request
+USR|an expensive restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, riverside, or Romsey area.|request
+USR|the addenbrookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|the addenbrookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|the addenbrookes area|inform
+SYS|The Lucky Star, which is in the Addenbrooke's part of town, is an outstanding restaurant.|offer
+SYS|It's in the expensive price range.|offer
+USR|what type of food does it serve|request
+SYS|The Lucky Star serves chinese food.|offer
+USR|what type of food does the venue serve|request

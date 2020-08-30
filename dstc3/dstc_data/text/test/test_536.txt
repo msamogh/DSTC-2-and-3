@@ -1,0 +1,21 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|im looking for an expensive restaurant and it should be in the castle hill area|inform
+SYS|There is no restaurant in the Chesterton area in the expensive price range.|canthelp
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|in the castle hill area|inform
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|no it should be in caslte hill area|negate
+SYS|There is no restaurant in the Chesterton area in the expensive price range.|canthelp
+USR|ok is there any expensive restaurant available|ack
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|ok can you give me the phone number and the address|ack
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|chesterton area|inform
+SYS|There is no restaurant in the Chesterton area in the expensive price range.|canthelp
+SYS|Would you like a chesterton area, or you don't care?|select
+USR|thank you good bye|bye

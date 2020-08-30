@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|moderately priced pub that allows children|inform
+SYS|Are you looking for a venue with an internet connection?|request
+USR|i dont care|inform
+SYS|Are you looking for a venue with a television?|request
+USR|i dont care|inform
+SYS|Are you looking for a venue with a television?|request
+USR|yes|affirm
+SYS|The Anchor allows children, it's in the moderate price range and it's an outstanding pub.|offer
+USR|whats the address|request
+SYS|The Anchor is on Silver Street.|offer
+USR|thank you good bye|bye

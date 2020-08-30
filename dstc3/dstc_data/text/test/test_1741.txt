@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for a pub with a tv|inform
+SYS|The Bakers, which is in the cheap price range, is an outstanding pub.|offer
+USR|does it have a tv|request
+SYS|The Bakers has a television.|offer
+USR|uh whats the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|whats the price range|request
+SYS|The Bakers is in the cheap price range.|offer
+USR|thank you good bye|bye

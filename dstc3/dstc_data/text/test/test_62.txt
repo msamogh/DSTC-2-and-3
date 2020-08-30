@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum Of Technology, Saint Catharine's College, or Saint John's College.|request
+USR|<unk> i am looking for a cafe food restaurant|inform
+SYS|There is no restaurant serving cafe food in the expensive price range.|canthelp
+USR|i am looking for a cafe food restaurant|inform
+SYS|Subway, which serves cafe food, is a great restaurant.|offer
+USR|and i dont care about the area|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|ya|affirm
+SYS|There is no restaurant serving cafe food in the expensive price range.|canthelp
+USR|i do nt care about the price range <unk>|inform
+SYS|Carringtons is a great cafe and an outstanding restaurant and it serves cafe food and english food.|offer
+USR|what is the phone number and address|request
+SYS|Carringtons is on 23 Market Street and its phone number is 01223361792.|offer
+USR|thank you good bye <unk>|bye
+SYS|Carringtons is an outstanding restaurant.|offer

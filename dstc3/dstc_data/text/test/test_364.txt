@@ -1,0 +1,50 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|coffee shop|inform
+SYS|Can I help you with anything else?|reqmore
+USR|coffee shop|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Pembroke College, the Saint Barnabas Press Gallery, or the Whipple Museum.|request
+USR|cafe|inform
+SYS|What type of food would you like?|request
+SYS|For example, Drinks and snacks only, Northern european, or Turkish.|request
+USR|no|negate
+SYS|What type of food would you like?|request
+SYS|For example, American, English, or Japanese.|request
+USR|no|negate
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Michaelhouse Centre, or The Fitzwilliam Museum.|request
+USR|no|negate
+SYS|The Cambridge Blue is an outstanding cafe.|offer
+USR|no|negate
+SYS|The Cambridge Blue is an outstanding cafe.|offer
+USR|price|request
+SYS|The Cambridge Blue is located on 24 Regent Street.|offer
+SYS|The price for main courses ranges from 1 pound 20 to 2 pounds 50 and the price for a cappuccino is 1 pound 35.|offer
+USR|price|request
+SYS|The Cambridge Blue is an outstanding venue.|offer
+SYS|The price for main courses ranges from 1 pound 20 to 2 pounds 50 and the price for a cappuccino is 1 pound 35.|offer
+USR|moderate|inform
+SYS|Cafe Eleven, which is in the moderate price range, is a great cafe.|offer
+USR|address|request
+SYS|Cafe Eleven is located on 11 Burleigh Street.|offer
+USR|address|request
+SYS|Cafe Eleven is located on 11 Burleigh Street.|offer
+USR|price|request
+SYS|Cafe Eleven is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 6 pounds and the price for a cappuccino is 1 pound 75.|offer
+SYS|Cafe Eleven is a great cafe.|offer
+USR|price|request
+SYS|Cafe Eleven is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 50 to 6 pounds and the price for a cappuccino is 1 pound 75.|offer
+USR|telephone|request
+SYS|The phone number of Cafe Eleven is 01223369157.|offer
+USR|telephone|request
+SYS|The phone number of Cafe Eleven is 01223369157.|offer
+USR|thank you good bye|bye

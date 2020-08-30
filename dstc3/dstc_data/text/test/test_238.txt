@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|um im looking for an international restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, pub, or Fastfood.|request
+USR|international|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|yes|affirm
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+USR|giraffe|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the University Botanic Gardens, King's College, or Saint John's College.|request
+USR|saint johns college|inform
+SYS|Giraffe is an outstanding restaurant and it serves international food.|offer
+USR|okay|ack
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|thank you goodbye|bye

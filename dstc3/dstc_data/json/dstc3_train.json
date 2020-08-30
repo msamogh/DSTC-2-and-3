@@ -1,0 +1,2252 @@
+{
+    "dataset": "train",
+    "num_dialogues": 11,
+    "dialogues": [
+        {
+            "dialogue_id": "train_1",
+            "num_utterances": 60,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub food cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a pub or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "food": "pub food",
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Let me confirm.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You are looking for a venue in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "yes",
+                    "ap_label": "",
+                    "da_label": "affirm"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub food restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Would you like a cherry hinton area, or you don't care?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "food": "pub food",
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "type": "restaurant",
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a pub or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "type": "restaurant",
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of price range are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, cheap.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "cheap",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "pricerange": "cheap"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Northern european, Continental, or Italian.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "pricerange": "cheap"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Let me confirm.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You don't care about children and you are looking for a venue.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "yes",
+                    "ap_label": "",
+                    "da_label": "affirm"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub food cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "food": "pub food",
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub food restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Would you like a cherry hinton area, or you don't care?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "food": "pub food",
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a pub or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "resaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Would you like a cherry hinton area, or you don't care?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "cherry hinton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, pub, English, or Fastfood.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "area": "cherry hinton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a pub or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Cambridge Contemporary Art, the Gallery at twelve A High Street, or Williams Art and Antiques.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "williams art and antiques",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "williams art and antiques"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, the Broughton House Gallery, Downing College, or Old Schools.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "williams art and antiques"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "old schools",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "old schools"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, All Saints Church, Holy Trinity Church, or Kettle's Yard.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "old schools"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "all saints church",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "all saints church"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Chinese take away, Drinks and snacks only, or English.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "near": "all saints church"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "pub",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no pub in the Cherry Hinton area.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you good bye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-1b2e5ec297-20110401_181200",
+                "db_type": "find restaurant",
+                "task": "You want to find a pub food restaurant and it should be in the Cherry Hinton area. Make sure you get the address and postcode of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_2",
+            "num_utterances": 25,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of price range are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, cheap, expensive, or moderate.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "middle eastern restaurant dont care about the price range",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of price range are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "middle eastern",
+                        "type": "restaurant",
+                        "pricerange": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, expensive, free, or moderate.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "middle eastern",
+                        "type": "restaurant",
+                        "pricerange": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "moderate",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "pricerange": "moderate"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Cafe food, English, or Japanese.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "pricerange": "moderate"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "middle eastern",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Let me confirm.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "food": "middle eastern"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You are looking for a middleeastern venue.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "food": "middle eastern"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "middle eastern",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Let me confirm.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "food": "middle eastern"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You are looking for a venue in the central area.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "food": "middle eastern"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the address and phone number and price of the venue",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Let me confirm.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "slot": "price"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You are looking for a venue in the central area.",
+                    "ap_label": "",
+                    "da_label": "expl-conf",
+                    "slots": {
+                        "slot": "price"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "yes",
+                    "ap_label": "",
+                    "da_label": "affirm"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no restaurant in the central area and serving middleeastern food.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you and have a good day",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-25b918bb11-20110409_203115",
+                "db_type": "find restaurant",
+                "task": "You want to find a Middle Eastern restaurant. You don't care about the price range. You want to know the address, phone number, and price of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_3",
+            "num_utterances": 31,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "moderately priced restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant",
+                        "pricerange": "moderate"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Northern european, Fusion, or International.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant",
+                        "pricerange": "moderate"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "fenditton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What type of food would you like?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Drinks and snacks only, or Turkish.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "turkish",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "turkish"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Cafe Jello, Cherry Hinton Water Play, or Clare College.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "turkish"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "fenditton area",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no restaurant in the Girton area and serving turkish food.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "fenditton",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "There is no restaurant in the Girton area and serving turkish food.",
+                    "ap_label": "",
+                    "da_label": "canthelp",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "moderately priced restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Would you like a turkish food, or you don't care?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "type": "restaurant",
+                        "pricerange": "moderate"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "dont care",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Would you like a girton area, or you don't care?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "fenditton area",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "It's in the moderate price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "area": "fen ditton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "type of food",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Rainbow Cafe, which is in the Girton part of town, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "food"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "It's in the moderate price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "food"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "food",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "It's in the moderate price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you good bye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-2b33584283-20110408_082919",
+                "db_type": "find restaurant",
+                "task": "You are looking for a moderately priced restaurant and it should be in the Fenditton area. Make sure you get the address and type of food of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_4",
+            "num_utterances": 14,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a thai restaurant",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What part of town do you have in mind?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "thai",
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, something in the Cherry Hinton, King's Hedges, or riverside area.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "food": "thai",
+                        "type": "restaurant"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "riverside",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Wrestlers is a great restaurant and it's in the riverside part of town.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "area": "riverside"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "It serves thai food.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "area": "riverside"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "can i get a price and an address",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Wrestlers is located on 337 Newmarket Road.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "addr"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "addr"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-35bf63fedf-20110409_200949",
+                "db_type": "find restaurant",
+                "task": "You want to find a Thai restaurant. You don't care about the price range. You want to know the address and price.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_5",
+            "num_utterances": 12,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "yes im looking for an expensive greek restaurant",
+                    "ap_label": "",
+                    "da_label": "affirm"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Varsity, which serves greek food, is a great restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "food": "greek",
+                        "type": "restaurant",
+                        "pricerange": "expensive"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "It's in the expensive price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "food": "greek",
+                        "type": "restaurant",
+                        "pricerange": "expensive"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "may i get the address and phone number",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Varsity is located on 35 Saint Andrew's Street and its phone number is 01223356060.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "phone"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "may i have the post code",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Varsity is in the area with the postcode CB2 3AR.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "postcode"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you good bye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-5eb067b9d1-20110403_225642",
+                "db_type": "find restaurant",
+                "task": "You are looking for a Greek restaurant and it should have expensive pricerange. Make sure you get the address, phone number, and postcode of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_6",
+            "num_utterances": 11,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of venue are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, a cafe, or a restaurant.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "contemporary",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a cafe or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {
+                        "food": "contemporary"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank partial",
+                    "ap_label": "",
+                    "da_label": "thankyou"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for a cafe or a restaurant?",
+                    "ap_label": "",
+                    "da_label": "select",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-5f16b907a3-20110403_070243",
+                "db_type": "find restaurant",
+                "task": "You are looking for a contemporary restaurant and it should be in the Chesterton area. Make sure you get the phone number and address.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_7",
+            "num_utterances": 19,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i need to find a pub that has a internet connection and allows children",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of price range are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "pub",
+                        "childrenallowed": "true",
+                        "hasinternet": "true"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, cheap, expensive, or moderate.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "pub",
+                        "childrenallowed": "true",
+                        "hasinternet": "true"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "it does not matter",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What part of town do you have in mind?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Arbury, or New Chesterton.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "it does not matter",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Little Saint Mary's, or Milton Country Park.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "no",
+                    "ap_label": "",
+                    "da_label": "negate"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers, which allows children, is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "can i have the address phone number and postcode",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers, which is in the area with the postcode CB1 1BG, is located on 176 East Road.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "postcode"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Its phone number is 01223304121.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "postcode"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-9c07f3169a-20110406_023333",
+                "db_type": "find restaurant",
+                "task": "You want to find a pub and it should have an internet connection and allow children. Make sure you get the address, phone number, and postcode of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_8",
+            "num_utterances": 30,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of venue are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, a cafe.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of venue are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, a cafe, or a pub.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a restaurant in the new chesterton area",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "restaurant",
+                        "area": "new chesterton"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a restaurant serving any kind of food in the new ches",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "restaurant",
+                        "food": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the address and price range",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is located on 24 Milton Road.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The price for main courses ranges from 5 pounds to 13 pounds.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the address and price range",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is located on 24 Milton Road.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The price for main courses ranges from 5 pounds to 13 pounds.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the price range",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is in the moderate price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The price for main courses ranges from 5 pounds to 13 pounds.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is a great restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is a great restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the price range",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is in the moderate price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the p",
+                    "ap_label": "",
+                    "da_label": "null"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Hakka is an outstanding venue.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The price for main courses ranges from 5 pounds to 13 pounds.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-a17f39c830-20110403_151025",
+                "db_type": "find restaurant",
+                "task": "You want to find a restaurant serving any kind of food and it should be in the New Chesterton area. You want to know the address and price range.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_9",
+            "num_utterances": 37,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a pub with an internet connection and television",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What part of town do you have in mind?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "pub",
+                        "hasinternet": "true",
+                        "hastv": "true"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, something in the Arbury, Barnwell, or Trumpington area.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "pub",
+                        "hasinternet": "true",
+                        "hastv": "true"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i dont care",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "does that have an internet connection",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma doesn't have any internet connection.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "hasinternet"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i would like to look for another venue",
+                    "ap_label": "",
+                    "da_label": "reqalts"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is a great pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i would like to look for a pub",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is a great pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i would like to look for a different one",
+                    "ap_label": "",
+                    "da_label": "reqalts"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "no thank you",
+                    "ap_label": "",
+                    "da_label": "negate"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "no",
+                    "ap_label": "",
+                    "da_label": "negate"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i would like to look for a different pub please",
+                    "ap_label": "",
+                    "da_label": "reqalts"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Alma is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "pub"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a pub with an internet connection",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers, which has an internet connection, is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "pub",
+                        "hasinternet": "true"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "does it have television",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "I am sorry but there is no information on The Bakers's food.",
+                    "ap_label": "",
+                    "da_label": "canthelp.missing_slot_value",
+                    "slots": {
+                        "slot": "hastv"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "does it have a tv",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers has a television.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "hastv"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the address",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is located on 176 East Road.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "addr"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what is the price range",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is in the cheap price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "pricerange"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you",
+                    "ap_label": "",
+                    "da_label": "thankyou"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Baron of Beef is a great pub and it's in the cheap price range.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-d619946669-20110410_012819",
+                "db_type": "find restaurant",
+                "task": "You are looking for a pub and it should have an internet connection and have TV. You want to know the address and price range of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_10",
+            "num_utterances": 15,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "im looking for a pub that has internet connection and allows children",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers, which allows children, is a great pub with an internet connection.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "type": "pub",
+                        "childrenallowed": "true",
+                        "hasinternet": "true"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "can you give the address phone number and the area",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is located on 176 East Road and its phone number is 01223304121.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "area"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what area is it located in",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is in the riverside part of town.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "area"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is an outstanding pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is a great pub.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "what area is it in",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Bakers is in the riverside part of town.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "area"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i thank you goodbye",
+                    "ap_label": "",
+                    "da_label": "thankyou"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-f85df9c772-20110411_061229",
+                "db_type": "find restaurant",
+                "task": "You are looking for a pub and it should have an internet connection and allow children. You want to know the address, phone number, and area of the venue.",
+                "items": []
+            }
+        },
+        {
+            "dialogue_id": "train_11",
+            "num_utterances": 26,
+            "utterances": [
+                {
+                    "speaker": "SYS",
+                    "text": "Thank you for calling the Cambridge Information system.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Your call will be recorded for research purposes.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "How may I help you?",
+                    "ap_label": "",
+                    "da_label": "welcomemsg",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What kind of venue are you looking for?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, a pub, or a restaurant.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "a restaurant food for free",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "Are you looking for somewhere near a particular venue?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant",
+                        "pricerange": "free"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, Great Saint Mary's Church, Pembroke College, or Saint John's College.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {
+                        "type": "restaurant",
+                        "pricerange": "free"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "no",
+                    "ap_label": "",
+                    "da_label": "negate"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "What part of town do you have in mind?",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "For example, something in the Cherry Hinton, central, or Trumpington area.",
+                    "ap_label": "",
+                    "da_label": "request",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i dont care",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Michaelhouse Centre is an outstanding restaurant and it doesn't charge any entrance fee.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {}
+                },
+                {
+                    "speaker": "USR",
+                    "text": "i dont care i dont have a preference",
+                    "ap_label": "",
+                    "da_label": "inform"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Michaelhouse Centre, which doesn't charge any entrance fee, is an outstanding restaurant.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "this": "dontcare"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "whats the phone number",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The phone number of the Michaelhouse Centre is 01223309147.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "phone"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "phone number",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The phone number of the Michaelhouse Centre is 01223309147.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "phone"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "<unk> the address",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Michaelhouse Centre is on Michaelhouse, Trinity Street.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "addr"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "the address",
+                    "ap_label": "",
+                    "da_label": "request"
+                },
+                {
+                    "speaker": "SYS",
+                    "text": "The Michaelhouse Centre is located on Michaelhouse, Trinity Street.",
+                    "ap_label": "",
+                    "da_label": "offer",
+                    "slots": {
+                        "slot": "addr"
+                    }
+                },
+                {
+                    "speaker": "USR",
+                    "text": "thank you good bye",
+                    "ap_label": "",
+                    "da_label": "bye"
+                }
+            ],
+            "scenario": {
+                "db_id": "voip-ffc7e922bc-20110415_032457",
+                "db_type": "find restaurant",
+                "task": "You are looking for a restaurant serving any kind of food and it should be free. Make sure you get the phone number and address.",
+                "items": []
+            }
+        }
+    ]
+}

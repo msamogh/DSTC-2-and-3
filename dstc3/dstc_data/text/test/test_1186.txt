@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|ah international restaurant <unk>|inform
+SYS|There is no restaurant serving international food that is providing services for free.|canthelp
+USR|i want ah international restaurant in the moderate range|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|can you give me the address and the price|request
+SYS|Giraffe is on Christ's Lane.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
+USR|what is the postal code|request
+SYS|Giraffe is in the area with the postcode CB1 1NP.|offer
+USR|good bye thank you|bye

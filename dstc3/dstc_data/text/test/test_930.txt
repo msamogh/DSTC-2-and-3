@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for food|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|moderate|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, English, or French.|request
+USR|chinese|inform
+SYS|The J Restaurant, which serves chinese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|chinese|inform
+SYS|The J Restaurant is a great restaurant, it serves chinese food and it's in the moderate price range.|offer
+USR|give me information|null
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, Clare College, or the Gallery at twelve A High Street.|request
+USR|the gallery at twelve and hide|inform
+SYS|The J Restaurant is an outstanding restaurant, it serves chinese food and it's in the moderate price range.|offer
+USR|thats all i need|bye
+SYS|The phone number of the J Restaurant is 01223307273.|offer
+USR|thank you good <unk>|thankyou

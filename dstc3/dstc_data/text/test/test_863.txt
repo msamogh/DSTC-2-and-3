@@ -1,0 +1,41 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a cheap restaurant in cherry hinton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Greek, or Traditional.|request
+USR|traditional|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving traditional food.|canthelp
+USR|do you have a greek restaurant|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|yes|affirm
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+USR|what is the address|request
+SYS|The Eraina Taverna is on 2 Free School Lane.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|what type of food|request
+SYS|The Eraina Taverna serves greek food.|offer
+USR|in what area|request
+SYS|The Eraina Taverna is in the central part of town.|offer
+USR|do you have one in cherry hinton area|inform
+SYS|There is no restaurant in the Cherry Hinton area and serving greek food.|canthelp
+USR|do you have a restaurant in the cherry hinton area|inform
+SYS|Can I help you with anything else?|reqmore
+SYS|HK Fusion is an outstanding restaurant and it's in the Cherry Hinton part of town.|offer
+SYS|HK Fusion is a great restaurant and it's in the Cherry Hinton part of town.|offer
+USR|what is the address|request
+SYS|HK Fusion is on 21 Burleigh Street.|offer
+USR|what is the address and phone number|request
+SYS|HK Fusion is located on 21 Burleigh Street and its phone number is 01223355909.|offer
+USR|phnne number|request
+SYS|The phone number of HK Fusion is 01223355909.|offer
+USR|what type of food|request
+SYS|HK Fusion serves chinese food.|offer
+USR|type of food|request
+SYS|HK Fusion is an outstanding restaurant.|offer
+USR|thank you good bye|bye

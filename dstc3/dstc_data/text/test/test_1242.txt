@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for vegetarian restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, central, or Girton area.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Drinks and snacks only, or Japanese.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, Milton Country Park, or Trinity College.|request
+USR|no|negate
+SYS|Blue Spice is a great restaurant.|offer
+USR|whats the address and phone number|request
+SYS|Blue Spice is on Unit F1, Cambridge Leisure Park, Clifton Way and its phone number is 01223413337.|offer
+USR|thank you good bye|bye

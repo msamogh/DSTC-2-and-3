@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub with a television|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a tv|request
+SYS|The Bakers has a television.|offer
+USR|does it have internet connection|request
+SYS|The Bakers has an internet connection.|offer
+USR|what is the address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|what is the price range|request
+SYS|The Bakers is in the cheap price range.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|what is the phone number|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|thank you goodbye|bye

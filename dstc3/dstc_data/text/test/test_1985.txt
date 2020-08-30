@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|vegetarian restaurant|inform
+SYS|The Rainbow Cafe, which serves traditional and vegetarian food, is a great restaurant.|offer
+USR|dont care|inform
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+SYS|It serves traditional and vegetarian food.|offer
+USR|perfect can i have the address and phone number|request
+SYS|The Rainbow Cafe is on 9a King's Parade and its phone number is 01223321551.|offer
+USR|address phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|address|request
+SYS|The Rainbow Cafe is an outstanding restaurant, it serves traditional food and it serves vegetarian food.|offer
+USR|address|request
+SYS|The Rainbow Cafe is a great restaurant.|offer
+SYS|It serves traditional and vegetarian food.|offer
+USR|address whats the address|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+USR|thank you goodbye|bye

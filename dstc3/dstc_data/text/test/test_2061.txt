@@ -1,0 +1,35 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cheap restaurant in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Newnham, or riverside area.|request
+USR|castle hill|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese, Seafood, or Vegetarian.|request
+USR|do not care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cafe Jello, the Botanical Garden* Botanical Gardens, or Primavera.|request
+USR|do not care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Arbury, or Newnham area.|request
+USR|the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Girton, or Trumpington.|request
+USR|the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, New Chesterton, or Newnham area.|request
+USR|im looking for something in the castle hill area|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, Newnham, or Trumpington area.|request
+USR|im looking for a cheap restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the New Chesterton, Newnham, or Trumpington area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Girton, or Trumpington area.|request
+USR|area|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Barnwell, or Castle Hill area.|request
+USR|thank you goodbye|bye

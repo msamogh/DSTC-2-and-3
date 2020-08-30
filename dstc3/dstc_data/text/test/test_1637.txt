@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a thai restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Trumpington area.|request
+USR|i dont care about that area|inform
+SYS|The Wrestlers, which serves thai food, is a great restaurant.|offer
+USR|is it in the expensive range|confirm
+SYS|Yes.|affirm
+SYS|The Wrestlers is in the expensive price range.|affirm
+USR|may i have the address and price|request
+SYS|The Wrestlers is located on 337 Newmarket Road.|offer
+SYS|The price for main courses ranges from 8 pounds 50 to 9 pounds 70 and the price for a cheapest pint of beer is 3 pounds 30.|offer
+USR|ok thank you goodbye|ack

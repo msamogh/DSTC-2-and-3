@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking in the fenditton area for a restaruant in the moderate price range|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, central, or Trumpington.|request
+USR|fenditton|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Fen Ditton, or Girton area.|request
+USR|fenditton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You don't care about the area and you are looking for a venue.|expl-conf
+USR|no im looking for a moderately priced restaurant in the fenditton area|negate
+SYS|The Lion and Lamb is a great restaurant and it's in the Fen Ditton part of town.|offer
+SYS|It's in the moderate price range.|offer
+USR|what sort of food does it serve|request
+SYS|The Lion and Lamb serves pub food.|offer
+USR|id like its address please|request
+SYS|The Lion and Lamb is located on High Street, Milton.|offer
+USR|what are its prices|request
+SYS|The Lion and Lamb is a great venue.|offer
+SYS|The price for main courses ranges from 5 pounds to 15 pounds and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|is it a restaurant|confirm
+SYS|The Lion and Lamb is an outstanding restaurant.|offer
+USR|thank you good bye|bye

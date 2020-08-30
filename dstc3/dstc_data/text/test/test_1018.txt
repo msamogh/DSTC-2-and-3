@@ -1,0 +1,37 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|im looking for a greek restaurant and i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i dont care|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|greek restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Arbury, or Barnwell.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Byard Art, the Book and Print Gallery, or Queens' College.|request
+USR|i dont care about the price range|inform
+SYS|The Eraina Taverna, which serves greek food, is a great restaurant.|offer
+USR|no|negate
+SYS|The Eraina Taverna, which serves greek food, is an outstanding restaurant.|offer
+USR|whats the phone number and the area|request
+SYS|The phone number of the Eraina Taverna is 01223902126.|offer
+USR|and what area is it in|request
+SYS|The Eraina Taverna is in the central part of town.|offer
+SYS|The Eraina Taverna is a great restaurant.|offer
+USR|what is the area of the venue|request
+SYS|The Eraina Taverna is in the central part of town.|offer
+USR|thank you good bye|bye

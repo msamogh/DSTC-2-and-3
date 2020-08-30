@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|a pub|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, central, or Fen Ditton area.|request
+USR|im looking for a pub in|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Kettle's Yard, Milton Country Park, or Saint Catharine's College.|request
+USR|castle hill side|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Castle Hill, or Newnham area.|request
+USR|music any|null
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Clare Hall, Holy Trinity Church, or the Whipple Museum.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|either one any|null
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Newnham, riverside, or Trumpington area.|request
+USR|cheap|inform
+SYS|The Avery is a great pub and it's in the cheap price range.|offer
+USR|trumpington|inform
+SYS|There is no pub in the Trumpington area.|canthelp
+USR|address|request
+SYS|The Avery is located on 69-73 Regent Street.|offer
+USR|uh|null
+SYS|The Avery is an outstanding pub.|offer
+USR|thank you goodbye|bye

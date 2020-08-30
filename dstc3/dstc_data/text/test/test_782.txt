@@ -1,0 +1,58 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|hello|hello
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|hello|hello
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or moderate.|request
+USR|um restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care|inform
+SYS|What type of food would you like?|request
+SYS|For example, Chinese take away, pub, or English.|request
+USR|cherry hinton|inform
+SYS|What type of food would you like?|request
+SYS|For example, East asian, Mediterranean, or Vegetarian.|request
+USR|i dont care it doesnt matter|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|it doesnt matter|inform
+SYS|Are you looking for a pub or a restaurant?|select
+USR|a restaurant in cherry hinto|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Book and Print Gallery, the Folk Museum, or the Regency Gallery.|request
+USR|a restaurant in cherry hinton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Technology Museum, the Scott Polar Museum, or The Fitzwilliam Museum.|request
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Little Saint Mary's, or the Saint Barnabas Press Gallery.|request
+USR|cherry hinton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, Clare College, or Saint Catharine's College.|request
+USR|no cherry hinton|negate
+SYS|Spice Merchants is an outstanding restaurant.|offer
+SYS|It's in the Cherry Hinton part of town.|offer
+USR|no no|negate
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|no|negate
+SYS|Spice Merchants, which is in the Cherry Hinton part of town, is an outstanding restaurant.|offer
+USR|and what is the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|what is the phone number|request
+SYS|The phone number of Spice Merchants is 01223843436.|offer
+USR|well thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> <unk> thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|no thank you good bye|negate
+SYS|Spice Merchants is a great restaurant.|offer
+USR|no thank you good bye|negate

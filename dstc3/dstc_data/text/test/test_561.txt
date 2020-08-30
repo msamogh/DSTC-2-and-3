@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a cafe that serves food|inform
+SYS|What type of food would you like?|request
+SYS|For example, Fusion, Greek, or Thai.|request
+USR|it doesnt matter|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, King's Hedges, or Newnham area.|request
+USR|it doesnt matter|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Clare College, or the Scott Polar Museum.|request
+USR|it doesnt matter|inform
+SYS|Caffe Nero is a great cafe.|offer
+USR|could i get the phone number and the area|request
+SYS|The phone number of Caffe Nero is 01223307728.|offer
+USR|and i need the area|request
+SYS|I am sorry but there is no information on Caffe Nero's area.|canthelp.missing_slot_value
+USR|alright thank you goodbye|thankyou

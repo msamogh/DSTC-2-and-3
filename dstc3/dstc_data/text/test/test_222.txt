@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|a pub with a television|inform
+SYS|There is no pub in the Romsey area.|canthelp
+USR|pub with television|inform
+SYS|Would you like a romsey area, or you don't care?|select
+USR|dont care|inform
+SYS|The Bakers is a great pub.|offer
+USR|television|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|television|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The Bakers is in the riverside part of town.|offer
+SYS|The Bakers is an outstanding pub.|offer
+USR|television|inform
+SYS|The Bakers is an outstanding pub.|offer
+USR|does it have a television|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|address|request
+SYS|The Bakers is on 176 East Road.|offer
+USR|television|inform
+SYS|The Bakers is in the riverside part of town.|offer
+USR|does it have a television|request
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|goodbye|bye

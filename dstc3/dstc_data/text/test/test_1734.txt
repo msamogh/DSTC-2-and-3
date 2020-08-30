@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe.|request
+USR|im looking for a cheap restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, American, Contemporary, or Italian.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Mediterranean, or Turkish.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, Contemporary, or Japanese.|request
+USR|contemporary|inform
+SYS|All Bar One, which serves contemporary food, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|is it in the fen ditton area|confirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Christ's College, the Gallery at twelve A High Street, or Gonville and Caius College.|request
+USR|fen ditton area|inform
+SYS|All Bar One is the only restaurant in the cheap price range that serves contemporary food.|canthelp
+USR|what is the phone number|request
+SYS|The phone number of All Bar One is 01223371081.|offer
+USR|what is the address|request
+SYS|All Bar One is on 36 Saint Andrews Street.|offer
+USR|thank you good bye|bye

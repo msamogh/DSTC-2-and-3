@@ -1,0 +1,63 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a middle eastern restaurant i dont care about the price|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|middle eastern restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Indian, or Turkish.|request
+SYS|What type of food would you like?|request
+SYS|For example, Italian, or Thai.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Chesterton, Girton, or King's Hedges area.|request
+USR|middle eastern|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Middleeastern, or Spanish.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Barnwell, or Fen Ditton.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, King's Hedges, or New Chesterton.|request
+USR|middle eastern|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, King's Hedges, or Newnham area.|request
+USR|anywhere|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the central, Fen Ditton, or New Chesterton area.|request
+USR|where|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Addenbrooke's, Chesterton, or Newnham area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or New Chesterton area.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Chesterton, or New Chesterton area.|request
+USR|central|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or Girton area.|request
+USR|castle hill|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, New Chesterton, or riverside area.|request
+USR|the address|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, Fen Ditton, or riverside.|request
+USR|river side|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|i dont care about the price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, free, or moderate.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|ah expensive|inform
+SYS|The Hotel du Vin is a great restaurant, it's in the riverside part of town and it's in the expensive price range.|offer
+SYS|The Hotel du Vin is on 15-19 Trumpington Street.|offer
+SYS|The price for main courses ranges from 17 pounds to 25 pounds.|offer
+USR|address|request
+SYS|The Hotel du Vin is located on 15-19 Trumpington Street.|offer
+USR|thank you good bye|bye

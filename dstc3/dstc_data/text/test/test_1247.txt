@@ -1,0 +1,10 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|yes im looking for a cheap restaurant in fen ditton area|affirm
+SYS|The Milton Park English and Thai Restaurant, which is in the Fen Ditton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|great can i get the phone number and the address please|request
+SYS|The Milton Park English and Thai Restaurant is on Milton Park Golf Course, Ely Road, Milton and its phone number is 01223864602.|offer
+USR|okay great thank you goodbye|ack

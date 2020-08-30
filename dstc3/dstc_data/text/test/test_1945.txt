@@ -1,0 +1,16 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|lookings for an american restaurant|inform
+SYS|There is no restaurant in the Girton area and serving american food.|canthelp
+USR|looking for cheap price range|inform
+SYS|La Raza, which is in the cheap price range, is a great restaurant.|offer
+USR|american restaurants with a cheap price range|inform
+SYS|La Raza is a great venue.|offer
+SYS|The price for main courses ranges from 1 pound 95 to 13 pounds 95 and the entrance for adults is 4 pounds.|offer
+USR|phone number an area please|request
+SYS|The phone number of La Raza is 01223464550.|offer
+USR|what area|request
+SYS|La Raza is in the central part of town.|offer
+USR|ok thank you goodbye|ack

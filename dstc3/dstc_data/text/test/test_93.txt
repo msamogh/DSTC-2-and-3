@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an indian restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|i dont care|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Emmanuel College, Lamma's Land, or The Fitzwilliam Museum.|request
+USR|im looking for something in the cherry hinton area|inform
+SYS|Spice Merchants is an outstanding restaurant, it's in the Cherry Hinton part of town and it serves indian food.|offer
+USR|ah may i have the address|request
+SYS|Spice Merchants is on 60 Trumpington Road.|offer
+USR|and may i have the price range|request
+SYS|Spice Merchants is an outstanding venue.|offer
+SYS|The price for main courses ranges from 4 pounds 95 to 7 pounds 95.|offer
+USR|thank you good bye|bye

@@ -1,0 +1,33 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, a pub, or a restaurant.|request
+USR|expensive|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Broughton House Gallery, Cherry Hinton Water Play, or Christ's College.|request
+USR|restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, English, Seafood, or Traditional.|request
+USR|addonbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Mexican and Tex Mex, Chinese, or English.|request
+USR|mediterranean|inform
+SYS|There is no restaurant serving mediterranean food in the expensive price range.|canthelp
+USR|mediterranean|inform
+SYS|There is no restaurant serving mediterranean food in the expensive price range.|canthelp
+USR|moderate|inform
+SYS|Would you like an expensive price range, or you don't care?|select
+USR|moderately price range|inform
+SYS|Nando's Restaurant, Cambridge Leisure Park is a great restaurant and it's in the Addenbrooke's part of town.|offer
+SYS|This place, which serves mediterranean food, is in the moderate price range.|offer
+USR|thank you good bye|bye

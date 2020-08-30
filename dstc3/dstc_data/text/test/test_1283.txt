@@ -1,0 +1,20 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|that has tv|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Churchill College, Downing College, or the Whipple Museum of the History of Science.|request
+USR|cambridge college|null
+SYS|The Bakers, which has a television, is a great pub.|offer
+USR|are children allowed|inform
+SYS|The Avery, which allows children, is an outstanding pub with a television.|offer
+USR|ill need the telephone number and the price|request
+SYS|The phone number of The Avery is 01223323405.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+SYS|I can't hear you.|offer
+SYS|The phone number of The Avery is 01223323405.|offer
+SYS|The price for main courses ranges from 4 pounds 49 to 7 pounds 49 and the price for a cheapest glass of wine is 3 pounds 30 and the price for a cheapest pint of beer is 2 pounds 40.|offer
+USR|thank you goodbye|bye

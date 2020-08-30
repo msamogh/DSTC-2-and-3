@@ -1,0 +1,18 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a fast food restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, Chesterton, or riverside.|request
+USR|do not care|inform
+SYS|There is no restaurant in the Girton area and serving fastfood.|canthelp
+USR|do not care|inform
+SYS|Blue Spice, which is in the Girton part of town, is an outstanding restaurant.|offer
+USR|im looking for a fast food restaurant|inform
+SYS|There is no restaurant in the Girton area and serving fastfood.|canthelp
+USR|pick a different area|reqalts
+SYS|Can I help you with anything else?|reqmore
+USR|im looking for a fast food restaurant|inform
+SYS|There is no restaurant in the Girton area and serving fastfood.|canthelp
+USR|thank you goodbye|bye

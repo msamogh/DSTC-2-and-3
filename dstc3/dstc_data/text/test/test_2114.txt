@@ -1,0 +1,26 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Museum of Classical Archaeology, Saint John's College, or Primavera.|request
+USR|i would like a vegetarian restaurant in the girton area <unk>|inform
+SYS|There is no pub in the Girton area.|canthelp
+USR|no in the girton area|negate
+SYS|What kind of price range are you looking for?|request
+SYS|For example, free.|request
+USR|<unk> i m looking for a vegetarian restaurant <unk>|inform
+SYS|The Rainbow Cafe, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It serves traditional and vegetarian food.|offer
+USR|price range doesnt matter a vegetarian restaurant|inform
+SYS|The Rainbow Cafe is the only restaurant in the Girton area that serves vegetarian food.|canthelp
+USR|what s its address <unk>|request
+SYS|The Rainbow Cafe is on 9a King's Parade.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+SYS|The Rainbow Cafe is a great restaurant.|offer
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+USR|whats its phone number|request
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|wh <unk>|null
+SYS|The Rainbow Cafe is an outstanding restaurant.|offer
+USR|thank you good bye|bye

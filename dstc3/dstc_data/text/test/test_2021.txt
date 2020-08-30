@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Castle Hill, Cherry Hinton, or riverside area.|request
+USR|should be in the addenbrookes area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Cafe food, English, or Seafood.|request
+USR|english|inform
+SYS|There is no restaurant in the Addenbrooke's area and serving english food.|canthelp
+USR|seafoood|inform
+SYS|Would you like seafood or X food?|select
+USR|seafood|inform
+SYS|There is no restaurant in the Addenbrooke's area and serving seafood.|canthelp
+USR|a moderately priced restaurant|inform
+SYS|Would you like an addenbrooke's area, or you don't care?|select
+USR|addenbrookes area moderately priced restaurant|inform
+SYS|There is no restaurant in the Addenbrooke's area and serving seafood.|canthelp
+USR|i dont care|inform
+SYS|Would you like a seafood, or you don't care?|select
+USR|i dont care|inform
+SYS|Nando's Restaurant, Cambridge Leisure Park, which is in the Addenbrooke's part of town, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|great address and postcode please|request
+SYS|Nando's Restaurant, Cambridge Leisure Park, which is in the area with the postcode CB1 7DY, is located on Unit G5, Cambridge Leisure Park, Clifton Way.|offer
+USR|thank you good bye|bye

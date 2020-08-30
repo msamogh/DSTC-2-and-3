@@ -1,0 +1,28 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|<unk> i m looking for a restaurant in new chesterton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Gallery at twelve A High Street, The Fitzwilliam Museum, or the Whipple Museum of the History of Science.|request
+SYS|What type of food would you like?|request
+SYS|For example, Fastfood, or Spanish.|request
+USR|new chesterton|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Great Saint Mary's Church, Magdalene College, or Saint Catharine's College.|request
+USR|it doesnt matter|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|im looking for an restaurant in new chesterton|inform
+SYS|There is no restaurant in the New Chesterton area in the cheap price range.|canthelp
+USR|i dont care|inform
+SYS|Hakka is a great restaurant and it's in the New Chesterton part of town.|offer
+USR|then how bout moderate|inform
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|may i get the phone number and address|request
+SYS|Hakka is on 24 Milton Road and its phone number is 01223568988.|offer
+USR|phone number and restaurant address|request
+SYS|Hakka, which is in the New Chesterton part of town, is an outstanding restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|thank you and good bye|bye

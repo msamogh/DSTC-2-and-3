@@ -1,0 +1,23 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+USR|i want to find a traditional restaurant that has a moderate price|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or King's Hedges area.|request
+USR|im looking for a traditional restaurant with a moderate price|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or riverside area.|request
+USR|i dont care about the area|inform
+SYS|The Eagle is a great restaurant, it serves traditional food and it's in the moderate price range.|offer
+USR|i dont care about part of town|inform
+SYS|The Eagle, which serves traditional food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|great may i have the address and price of the venue|request
+SYS|The Eagle is located on 8 Benet Street.|offer
+SYS|The price for main courses ranges from 5 pounds 95 to 12 pounds 95 and the price for a cheapest glass of wine is 3 pounds 50 and the price for a cheapest pint of beer is 3 pounds.|offer
+USR|may i have the address|request
+SYS|The Eagle is on 8 Benet Street.|offer
+USR|okay thank you goodbye|ack

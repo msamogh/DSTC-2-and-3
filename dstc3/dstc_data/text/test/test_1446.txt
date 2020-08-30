@@ -1,0 +1,15 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a restaurant in the cherry hinton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or moderate.|request
+USR|any kind of price range|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Lynne Strover Gallery, the Regency Gallery, or the Saint Barnabas Press Gallery.|request
+USR|no|negate
+SYS|Sitar Tandoori is a great restaurant and it's in the Cherry Hinton part of town.|offer
+USR|what is the address and postcode|request
+SYS|Sitar Tandoori, which is in the area with the postcode CB1 9HX, is located on 43 High Street, Cherry Hinton.|offer
+USR|thank you good bye|bye

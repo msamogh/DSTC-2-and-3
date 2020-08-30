@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|Can I help you with anything else?|reqmore
+USR|an international restaurant|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Cherry Hinton, Chesterton, or Newnham area.|request
+USR|yes looking for an international restaurant|affirm
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Holy Trinity Church, Milton Country Park, or Saint Catharine's College.|request
+USR|dont care|inform
+SYS|Giraffe, which serves international food, is an outstanding restaurant.|offer
+USR|i dont care|inform
+SYS|Giraffe is a great restaurant.|offer
+USR|whats the address and price|request
+SYS|Giraffe is on Christ's Lane.|offer
+SYS|The price for main courses ranges from 6 pounds 95 to 14 pounds 95 and the price for a cappuccino is 2 pounds 10.|offer
+USR|well take a restaurant in the|inform
+SYS|Giraffe is an outstanding restaurant and it serves international food.|offer
+SYS|Giraffe, which serves international food, is a great restaurant.|offer
+USR|thank you goodbye|bye

@@ -1,0 +1,29 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|a japanese restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, free, or moderate.|request
+USR|any|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|any kind|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or free.|request
+USR|moderate moderate moderate moderate|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Girton, or Newnham area.|request
+USR|dont care|inform
+SYS|Yippee Noodle Bar, which serves chinese take away and japanese food, is a great restaurant.|offer
+SYS|It's in the moderate price range.|offer
+USR|whats the phone number|request
+SYS|The phone number of Yippee Noodle Bar is 01223518111.|offer
+SYS|Yippee Noodle Bar is a great restaurant.|offer
+USR|and the address please|request
+SYS|Yippee Noodle Bar is located on 7-9 King Street.|offer
+USR|what is the address|request
+SYS|Yippee Noodle Bar is on 7-9 King Street.|offer
+USR|thank you|thankyou
+SYS|Can I help you with anything else?|reqmore
+USR|good bye|bye

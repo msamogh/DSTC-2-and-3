@@ -1,0 +1,19 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im trying to find a vegetarian restaurant and i dont care regarding the price range|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|yeah i dont care regarding the price range|affirm
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Arbury, Castle Hill, or New Chesterton area.|request
+USR|yeah any part of the town|affirm
+SYS|The Rainbow Cafe, which serves traditional food, is a great restaurant.|offer
+SYS|It serves vegetarian food.|offer
+USR|can i have the address phone number and the postcode|request
+SYS|The phone number of the Rainbow Cafe is 01223321551 and it's in the area with the postcode CB2 1SJ.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|the address of the restaurant|request
+SYS|The Rainbow Cafe is the only restaurant that serves vegetarian food.|canthelp
+USR|uh thank you goodbye|bye

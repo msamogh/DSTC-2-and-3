@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for an indian restaurant in the girton area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|any price|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, expensive, or free.|request
+USR|cheap|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is an outstanding restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|what is the address|request
+SYS|The Dojo Noodle Bar is located on Miller's Yard.|offer
+SYS|The price for main courses ranges from 5 pounds 70 to 7 pounds.|offer
+USR|what is the phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+SYS|The Dojo Noodle Bar is a great restaurant.|offer
+USR|may i have the telephone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|phone number|request
+SYS|The phone number of the Dojo Noodle Bar is 01223363471.|offer
+USR|thank you good bye|bye

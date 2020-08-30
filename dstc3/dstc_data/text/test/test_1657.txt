@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a pub that has internet and television|inform
+SYS|The Bakers has an internet connection and it's an outstanding pub.|offer
+USR|does it have a tv|request
+SYS|The Bakers, which has an internet connection with a television, is an outstanding pub.|offer
+USR|and whats their average price|request
+SYS|The Alma has a television, it's in the moderate price range and it's an outstanding pub.|offer
+USR|does it have an internet connection|request
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|i didnt ask for a moderate price range i need a pub with internet and tv|inform
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|try another price range|inform
+SYS|There is no pub with an internet connection in the moderate price range.|canthelp
+USR|thank you goodbye|bye

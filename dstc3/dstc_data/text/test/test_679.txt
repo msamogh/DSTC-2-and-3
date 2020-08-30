@@ -1,0 +1,24 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|im looking for a pub in the riverside area and it should have a television|inform
+SYS|There is no pub in the expensive price range.|canthelp
+USR|im sorry im looking for a pub in the riverside area and it should have tv|inform
+SYS|The Avery, which is in the riverside part of town, is a great pub.|offer
+USR|uh does it have a tv|request
+SYS|The Avery has a television.|offer
+USR|okay uh whether it has internet|ack
+SYS|The Avery doesn't have any internet connection.|offer
+USR|im sorry whether it has internet|request
+SYS|The Bakers is in the riverside part of town with an internet connection and it's a great pub.|offer
+USR|okay um can you give me its phone number|ack
+SYS|The phone number of The Bakers is 01223304121.|offer
+USR|okay thank you so much have a good day bye bye|ack
+SYS|The Bakers is a great venue.|offer
+SYS|The price for main courses ranges from 6 pounds to 8 pounds 49 and the price for a cheapest pint of beer is 2 pounds 25.|offer
+USR|thank you|thankyou
+SYS|The Bakers is a great pub.|offer
+USR|thank you goodbye|bye

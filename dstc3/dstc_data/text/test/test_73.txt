@@ -1,0 +1,30 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a restaurant.|request
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Barnwell, Chesterton, or King's Hedges area.|request
+USR|<unk> a restaurant|inform
+SYS|What type of food would you like?|request
+SYS|For example, Indian, Seafood, or Turkish.|request
+USR|<unk> cherry hinton|inform
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Cherry Hinton area.|expl-conf
+USR|yes|affirm
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Cherry Hinton area.|expl-conf
+USR|i need th know the address phone number and price|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a venue in the Cherry Hinton area.|expl-conf
+SYS|Can I help you with anything else?|reqmore
+USR|yes <unk>|affirm
+SYS|Can I help you with anything else?|reqmore
+USR|<unk> i need the address an|request
+SYS|Can I help you with anything else?|reqmore
+USR|i need a restaurant in the cherry hinton area|inform
+SYS|HK Fusion, which is in the Cherry Hinton part of town, is a great restaurant.|offer
+USR|thank you good bye|bye

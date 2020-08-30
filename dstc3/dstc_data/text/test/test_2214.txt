@@ -1,0 +1,25 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a cafe, or a pub.|request
+USR|restaurant|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or free.|request
+USR|i dont care|inform
+SYS|What part of town do you have in mind?|request
+SYS|For example, something in the Fen Ditton, King's Hedges, or New Chesterton area.|request
+USR|i don trumpington|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, the Folk Museum, Churchill College, or King's College.|request
+USR|no|negate
+SYS|The Oak Bistro, which is in the Trumpington part of town, is a great restaurant.|offer
+USR|address|request
+SYS|The Oak Bistro is located on 6 Lensfield Road.|offer
+USR|phone number|request
+SYS|The phone number of The Oak Bistro is 01223323361.|offer
+USR|price|request
+SYS|The Oak Bistro is an outstanding venue.|offer
+SYS|The price for main courses ranges from 11 pounds 50 to 17 pounds 75.|offer
+USR|thank you goodbye|bye

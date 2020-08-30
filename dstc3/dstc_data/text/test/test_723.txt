@@ -1,0 +1,17 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a chinese restaurant in the city centre area|inform
+SYS|What kind of price range are you looking for?|request
+SYS|For example, cheap, or expensive.|request
+USR|i dont care|inform
+SYS|Charlie Chan, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+SYS|Charlie Chan, which is in the central part of town, is a great restaurant.|offer
+SYS|It serves chinese food.|offer
+USR|what is the address|request
+SYS|Charlie Chan is located on 14 Regent Street.|offer
+USR|what is the phone number|request
+SYS|The phone number of Charlie Chan is 01223902114.|offer
+USR|thank you goodbye|bye

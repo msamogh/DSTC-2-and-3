@@ -1,0 +1,12 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a vegetarian restaurant in any area|inform
+SYS|The Rainbow Cafe is a great restaurant and it serves traditional and vegetarian food.|offer
+USR|ok and whats the price range|ack
+SYS|The Rainbow Cafe is in the moderate price range.|offer
+SYS|The price for main courses ranges from 7 pounds 95 to 10 pounds 95 and the price for a cappuccino is 1 pound 75.|offer
+USR|ok whats the phone number|ack
+SYS|The phone number of the Rainbow Cafe is 01223321551.|offer
+USR|ok thank you good bye|ack

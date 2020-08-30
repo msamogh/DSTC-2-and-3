@@ -1,0 +1,14 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|coffee shop serving english food with cheap price range|inform
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+SYS|There is no restaurant serving english food in the cheap price range.|canthelp
+USR|thank you good bye|bye
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like an english food, or you don't care?|select
+USR|yes|affirm
+SYS|Would you like a cheap price range, or you don't care?|select
+USR|thank you good bye|bye

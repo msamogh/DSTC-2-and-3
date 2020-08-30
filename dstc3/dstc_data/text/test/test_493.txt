@@ -1,0 +1,34 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|restaurant|inform
+SYS|What kind of venue are you looking for?|request
+SYS|For example, a pub, or a restaurant.|request
+USR|bump restaurant|inform
+SYS|Are you looking for somewhere near a particular venue?|request
+SYS|For example, Cherry Hinton Water Play, Gonville and Caius College, or the Michaelhouse Centre.|request
+USR|girton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Contemporary, English, or Fusion.|request
+USR|girton area|inform
+SYS|What type of food would you like?|request
+SYS|For example, Italian, Japanese, or Vegetarian.|request
+USR|i dont care|inform
+SYS|Blue Spice, which is in the Girton part of town, is a great restaurant.|offer
+USR|number|request
+SYS|What kind of price range are you looking for?|request
+SYS|For example, expensive, or moderate.|request
+USR|cheap|inform
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|number|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a restaurant.|expl-conf
+USR|yes|affirm
+SYS|The Dojo Noodle Bar, which is in the Girton part of town, is a great restaurant.|offer
+SYS|It's in the cheap price range.|offer
+USR|phone number|request
+SYS|Let me confirm.|expl-conf
+SYS|You are looking for a restaurant.|expl-conf
+USR|thank you good bye|bye

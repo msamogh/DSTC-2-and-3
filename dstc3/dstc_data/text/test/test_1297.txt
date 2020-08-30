@@ -1,0 +1,11 @@
+SYS|Thank you for calling the Cambridge Information system.|welcomemsg
+SYS|Your call will be recorded for research purposes.|welcomemsg
+SYS|You may ask for information about a place to eat, such as a restaurant, a pub, or a cafe.|welcomemsg
+SYS|How may I help you?|welcomemsg
+USR|im looking for a moderately priced pub and it should have a television make sure you get the address|request
+SYS|The Alma, which is in the moderate price range, is a great pub.|offer
+USR|does it have a television|request
+SYS|The Alma is located on Russell Court and I am sorry but there is no information on its food.|canthelp.missing_slot_value
+USR|how about the television tv|reqalts
+SYS|The Alma, which is a great pub, is in the moderate price range with a television.|offer
+USR|thank you good bye|bye
